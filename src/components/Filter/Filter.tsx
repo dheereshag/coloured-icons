@@ -5,6 +5,49 @@ import { Dropdown } from ".";
 import { IconList, Modal } from "@/components/Icon";
 import { icons, categories } from "@/constants";
 import { SearchContext } from "@/context/SearchContextProvider";
+import {
+  FaIcons, // All
+  FaPalette, // Art and Music
+  FaCar, // Automobile
+  FaShirt, // Clothing and Apparel
+  FaGraduationCap, // Education
+  FaSackDollar, // Financial Services
+  FaBowlFood, // Food and Beverage
+  FaPrescriptionBottle, // Pharmaceuticals
+  FaHashtag, // Social Media
+  FaMicrochip, // Technology
+  FaPlane, // Travel and Tourism
+} from "react-icons/fa6";
+
+const getCategoryIcon = (categoryName: string) => {
+  const margin = "mr-2";
+  switch (categoryName.toLowerCase()) {
+    case "all":
+      return <FaIcons className={margin} />;
+    case "art and music":
+      return <FaPalette className={margin} />;
+    case "automobile":
+      return <FaCar className={margin} />;
+    case "clothing and apparel":
+      return <FaShirt className={margin} />;
+    case "education":
+      return <FaGraduationCap className={margin} />;
+    case "financial services":
+      return <FaSackDollar className={margin} />;
+    case "food and beverage":
+      return <FaBowlFood className={margin} />;
+    case "pharmaceuticals":
+      return <FaPrescriptionBottle className={margin} />;
+    case "social media":
+      return <FaHashtag className={margin} />;
+    case "technology":
+      return <FaMicrochip className={margin} />;
+    case "travel and tourism":
+      return <FaPlane className={margin} />;
+    default:
+      return null;
+  }
+};
 
 const Filter = () => {
   const [selectedCategory, setSelectedCategory] = useState<Category>(
@@ -38,6 +81,7 @@ const Filter = () => {
             }`}
             onClick={() => handleCategoryChange(category)}
           >
+            {getCategoryIcon(category.name)}
             {category.name}
           </button>
         ))}
@@ -46,6 +90,7 @@ const Filter = () => {
         <Dropdown
           categories={categories}
           onCategoryChange={handleCategoryChange}
+          getCategoryIcon={getCategoryIcon}
         />
       </div>
       <div className="flex-1">

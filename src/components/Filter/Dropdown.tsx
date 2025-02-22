@@ -23,11 +23,13 @@ import { useState } from "react";
 interface DropdownProps {
   categories: Category[];
   onCategoryChange?: (category: Category) => void;
+  getCategoryIcon: (categoryName: string) => React.ReactNode;
 }
 
 const Dropdown: React.FC<DropdownProps> = ({
   categories,
   onCategoryChange,
+  getCategoryIcon,
 }) => {
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState("");
@@ -41,9 +43,12 @@ const Dropdown: React.FC<DropdownProps> = ({
           aria-expanded={open}
           className="w-full justify-between"
         >
-          {value
-            ? categories.find((category) => category.name === value)?.name
-            : "Select category..."}
+          <span className="flex items-center">
+            {value && getCategoryIcon(value)}
+            {value
+              ? categories.find((category) => category.name === value)?.name
+              : "Select category..."}
+          </span>
           <LuChevronsUpDown className="opacity-50" />
         </Button>
       </PopoverTrigger>
@@ -68,7 +73,10 @@ const Dropdown: React.FC<DropdownProps> = ({
                     setOpen(false);
                   }}
                 >
-                  {category.name}
+                  <span className="flex items-center">
+                    {getCategoryIcon(category.name)}
+                    {category.name}
+                  </span>
                   <IoCheckmark
                     className={cn(
                       "ml-auto",
