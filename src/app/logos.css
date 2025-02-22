@@ -1075,6 +1075,15 @@
   content: url("../../public/logos/technology/access/access.svg");
 }
 
+.ci-adonis,
+.ci-adonis-dark,
+.ci-adonis-light,
+.ci-adonisjs,
+.ci-adonisjs-dark,
+.ci-adonisjs-light {
+  content: url("../../public/logos/technology/adonisjs/adonisjs.svg");
+}
+
 .ci-alan-horizontal,
 .ci-alan-horizontal-dark,
 .ci-alan-horizontal-light,
@@ -1099,6 +1108,45 @@
   content: url("../../public/logos/technology/alan/alan.svg");
 }
 
+.ci-algolia-horizontal,
+.ci-algolia-horizontal-dark,
+.ci-algolia-horizontal-light,
+.ci-algolia-inline,
+.ci-algolia-inline-dark,
+.ci-algolia-inline-light {
+  content: url("../../public/logos/technology/algolia/algolia-horizontal.svg");
+}
+
+.ci-algolia,
+.ci-algolia-dark,
+.ci-algolia-light {
+  content: url("../../public/logos/technology/algolia/algolia.svg");
+}
+
+.ci-alpine-horizontal,
+.ci-alpine-horizontal-dark,
+.ci-alpine-horizontal-light,
+.ci-alpine-inline,
+.ci-alpine-inline-dark,
+.ci-alpine-inline-light,
+.ci-alpinejs-horizontal,
+.ci-alpinejs-horizontal-dark,
+.ci-alpinejs-horizontal-light,
+.ci-alpinejs-inline,
+.ci-alpinejs-inline-dark,
+.ci-alpinejs-inline-light {
+  content: url("../../public/logos/technology/alpinejs/alpinejs-horizontal.svg");
+}
+
+.ci-alpine,
+.ci-alpine-dark,
+.ci-alpine-light,
+.ci-alpinejs,
+.ci-alpinejs-dark,
+.ci-alpinejs-light {
+  content: url("../../public/logos/technology/alpinejs/alpinejs.svg");
+}
+
 .ci-amazon-stacked-light,
 .ci-amazon-vertical-light {
   content: url("../../public/logos/technology/amazon/amazon-vertical-light.svg");
@@ -1117,16 +1165,133 @@
   content: url("../../public/logos/technology/amazon/amazon.svg");
 }
 
+.ci-anaconda,
+.ci-anaconda-dark,
+.ci-anaconda-light {
+  content: url("../../public/logos/technology/anaconda/anaconda.svg");
+}
+
+.ci-android,
+.ci-android-dark,
+.ci-android-light {
+  content: url("../../public/logos/technology/android/android.svg");
+}
+
 .ci-angular,
 .ci-angular-dark,
 .ci-angular-light {
   content: url("../../public/logos/technology/angular/angular.svg");
 }
 
+.ci-anthropic-light {
+  content: url("../../public/logos/technology/anthropic/anthropic-light.svg");
+}
+
+.ci-anthropic-wordmark-light {
+  content: url("../../public/logos/technology/anthropic/anthropic-wordmark-light.svg");
+}
+
+.ci-anthropic-wordmark,
+.ci-anthropic-wordmark-dark {
+  content: url("../../public/logos/technology/anthropic/anthropic-wordmark.svg");
+}
+
+.ci-anthropic,
+.ci-anthropic-dark {
+  content: url("../../public/logos/technology/anthropic/anthropic.svg");
+}
+
+.ci-apache,
+.ci-apache-dark,
+.ci-apache-light {
+  content: url("../../public/logos/technology/apache/apache.svg");
+}
+
 .ci-apple,
 .ci-apple-dark,
 .ci-apple-light {
   content: url("../../public/logos/technology/apple/apple.svg");
+}
+
+.ci-appwrite-horizontal-light,
+.ci-appwrite-inline-light {
+  content: url("../../public/logos/technology/appwrite/appwrite-horizontal-light.svg");
+}
+
+.ci-appwrite-horizontal,
+.ci-appwrite-horizontal-dark,
+.ci-appwrite-inline,
+.ci-appwrite-inline-dark {
+  content: url("../../public/logos/technology/appwrite/appwrite-horizontal.svg");
+}
+
+.ci-appwrite,
+.ci-appwrite-dark,
+.ci-appwrite-light {
+  content: url("../../public/logos/technology/appwrite/appwrite.svg");
+}
+
+.ci-arc,
+.ci-arc-dark,
+.ci-arc-light {
+  content: url("../../public/logos/technology/arc/arc.svg");
+}
+
+.ci-astro-horizontal-light,
+.ci-astro-inline-light {
+  content: url("../../public/logos/technology/astro/astro-horizontal-light.svg");
+}
+
+.ci-astro-horizontal,
+.ci-astro-horizontal-dark,
+.ci-astro-inline,
+.ci-astro-inline-dark {
+  content: url("../../public/logos/technology/astro/astro-horizontal.svg");
+}
+
+.ci-astro-light {
+  content: url("../../public/logos/technology/astro/astro-light.svg");
+}
+
+.ci-astro,
+.ci-astro-dark {
+  content: url("../../public/logos/technology/astro/astro.svg");
+}
+
+.ci-atlassian-horizontal,
+.ci-atlassian-horizontal-dark,
+.ci-atlassian-horizontal-light,
+.ci-atlassian-inline,
+.ci-atlassian-inline-dark,
+.ci-atlassian-inline-light {
+  content: url("../../public/logos/technology/atlassian/atlassian-horizontal.svg");
+}
+
+.ci-atlassian,
+.ci-atlassian-dark,
+.ci-atlassian-light {
+  content: url("../../public/logos/technology/atlassian/atlassian.svg");
+}
+
+.ci-atom,
+.ci-atom-dark,
+.ci-atom-light {
+  content: url("../../public/logos/technology/atom/atom.svg");
+}
+
+.ci-auth0,
+.ci-auth0-dark,
+.ci-auth0-light {
+  content: url("../../public/logos/technology/auth0/auth0.svg");
+}
+
+.ci-ava,
+.ci-ava-dark,
+.ci-ava-light,
+.ci-avajs,
+.ci-avajs-dark,
+.ci-avajs-light {
+  content: url("../../public/logos/technology/avajs/avajs.svg");
 }
 
 .ci-aws-light {
@@ -1136,6 +1301,21 @@
 .ci-aws,
 .ci-aws-dark {
   content: url("../../public/logos/technology/aws/aws.svg");
+}
+
+.ci-axure-wordmark-light {
+  content: url("../../public/logos/technology/axure/axure-wordmark-light.svg");
+}
+
+.ci-axure-wordmark,
+.ci-axure-wordmark-dark {
+  content: url("../../public/logos/technology/axure/axure-wordmark.svg");
+}
+
+.ci-axure,
+.ci-axure-dark,
+.ci-axure-light {
+  content: url("../../public/logos/technology/axure/axure.svg");
 }
 
 .ci-azure,
@@ -1150,16 +1330,301 @@
   content: url("../../public/logos/technology/azure/azure2.svg");
 }
 
+.ci-babel,
+.ci-babel-dark,
+.ci-babel-light {
+  content: url("../../public/logos/technology/babel/babel.svg");
+}
+
+.ci-backbone-horizontal,
+.ci-backbone-horizontal-dark,
+.ci-backbone-horizontal-light,
+.ci-backbone-inline,
+.ci-backbone-inline-dark,
+.ci-backbone-inline-light,
+.ci-backbonejs-horizontal,
+.ci-backbonejs-horizontal-dark,
+.ci-backbonejs-horizontal-light,
+.ci-backbonejs-inline,
+.ci-backbonejs-inline-dark,
+.ci-backbonejs-inline-light {
+  content: url("../../public/logos/technology/backbonejs/backbonejs-horizontal.svg");
+}
+
+.ci-backbone,
+.ci-backbone-dark,
+.ci-backbone-light,
+.ci-backbonejs,
+.ci-backbonejs-dark,
+.ci-backbonejs-light {
+  content: url("../../public/logos/technology/backbonejs/backbonejs.svg");
+}
+
+.ci-bash-horizontal,
+.ci-bash-horizontal-dark,
+.ci-bash-horizontal-light,
+.ci-bash-inline,
+.ci-bash-inline-dark,
+.ci-bash-inline-light {
+  content: url("../../public/logos/technology/bash/bash-horizontal.svg");
+}
+
+.ci-bash,
+.ci-bash-dark,
+.ci-bash-light {
+  content: url("../../public/logos/technology/bash/bash.svg");
+}
+
+.ci-bing,
+.ci-bing-dark,
+.ci-bing-light {
+  content: url("../../public/logos/technology/bing/bing.svg");
+}
+
+.ci-biome,
+.ci-biome-dark,
+.ci-biome-light {
+  content: url("../../public/logos/technology/biome/biome.svg");
+}
+
+.ci-bitbucket-horizontal,
+.ci-bitbucket-horizontal-dark,
+.ci-bitbucket-horizontal-light,
+.ci-bitbucket-inline,
+.ci-bitbucket-inline-dark,
+.ci-bitbucket-inline-light {
+  content: url("../../public/logos/technology/bitbucket/bitbucket-horizontal.svg");
+}
+
+.ci-bitbucket,
+.ci-bitbucket-dark,
+.ci-bitbucket-light {
+  content: url("../../public/logos/technology/bitbucket/bitbucket.svg");
+}
+
+.ci-bitnami,
+.ci-bitnami-dark,
+.ci-bitnami-light {
+  content: url("../../public/logos/technology/bitnami/bitnami.svg");
+}
+
+.ci-blueprint,
+.ci-blueprint-dark,
+.ci-blueprint-light,
+.ci-blueprintjs,
+.ci-blueprintjs-dark,
+.ci-blueprintjs-light {
+  content: url("../../public/logos/technology/blueprintjs/blueprintjs.svg");
+}
+
 .ci-bootstrap,
 .ci-bootstrap-dark,
 .ci-bootstrap-light {
   content: url("../../public/logos/technology/bootstrap/bootstrap.svg");
 }
 
+.ci-brave-horizontal-light,
+.ci-brave-inline-light {
+  content: url("../../public/logos/technology/brave/brave-horizontal-light.svg");
+}
+
+.ci-brave-horizontal,
+.ci-brave-horizontal-dark,
+.ci-brave-inline,
+.ci-brave-inline-dark {
+  content: url("../../public/logos/technology/brave/brave-horizontal.svg");
+}
+
+.ci-brave,
+.ci-brave-dark,
+.ci-brave-light {
+  content: url("../../public/logos/technology/brave/brave.svg");
+}
+
+.ci-bulma,
+.ci-bulma-dark,
+.ci-bulma-light,
+.ci-bulmaui,
+.ci-bulmaui-dark,
+.ci-bulmaui-light {
+  content: url("../../public/logos/technology/bulmaui/bulmaui.svg");
+}
+
+.ci-bun,
+.ci-bun-dark,
+.ci-bun-light,
+.ci-bunjs,
+.ci-bunjs-dark,
+.ci-bunjs-light {
+  content: url("../../public/logos/technology/bunjs/bunjs.svg");
+}
+
 .ci-c,
 .ci-c-dark,
 .ci-c-light {
   content: url("../../public/logos/technology/c/c.svg");
+}
+
+.ci-cakephp,
+.ci-cakephp-dark,
+.ci-cakephp-light {
+  content: url("../../public/logos/technology/cakephp/cakephp.svg");
+}
+
+.ci-canva-wordmark,
+.ci-canva-wordmark-dark,
+.ci-canva-wordmark-light {
+  content: url("../../public/logos/technology/canva/canva-wordmark.svg");
+}
+
+.ci-canva,
+.ci-canva-dark,
+.ci-canva-light {
+  content: url("../../public/logos/technology/canva/canva.svg");
+}
+
+.ci-cassandra-stacked,
+.ci-cassandra-stacked-dark,
+.ci-cassandra-stacked-light,
+.ci-cassandra-vertical,
+.ci-cassandra-vertical-dark,
+.ci-cassandra-vertical-light,
+.ci-cassandradb-stacked,
+.ci-cassandradb-stacked-dark,
+.ci-cassandradb-stacked-light,
+.ci-cassandradb-vertical,
+.ci-cassandradb-vertical-dark,
+.ci-cassandradb-vertical-light {
+  content: url("../../public/logos/technology/cassandradb/cassandradb-vertical.svg");
+}
+
+.ci-cassandra,
+.ci-cassandra-dark,
+.ci-cassandra-light,
+.ci-cassandradb,
+.ci-cassandradb-dark,
+.ci-cassandradb-light {
+  content: url("../../public/logos/technology/cassandradb/cassandradb.svg");
+}
+
+.ci-chakra,
+.ci-chakra-dark,
+.ci-chakra-light,
+.ci-chakraui,
+.ci-chakraui-dark,
+.ci-chakraui-light {
+  content: url("../../public/logos/technology/chakraui/chakraui.svg");
+}
+
+.ci-chatgpt-horizontal-light,
+.ci-chatgpt-inline-light,
+.ci-openai-horizontal-light,
+.ci-openai-inline-light {
+  content: url("../../public/logos/technology/chatgpt/chatgpt-horizontal-light.svg");
+}
+
+.ci-chatgpt-horizontal,
+.ci-chatgpt-horizontal-dark,
+.ci-chatgpt-inline,
+.ci-chatgpt-inline-dark,
+.ci-openai-horizontal,
+.ci-openai-horizontal-dark,
+.ci-openai-inline,
+.ci-openai-inline-dark {
+  content: url("../../public/logos/technology/chatgpt/chatgpt-horizontal.svg");
+}
+
+.ci-chatgpt-light,
+.ci-openai-light {
+  content: url("../../public/logos/technology/chatgpt/chatgpt-light.svg");
+}
+
+.ci-chatgpt,
+.ci-chatgpt-dark,
+.ci-openai,
+.ci-openai-dark {
+  content: url("../../public/logos/technology/chatgpt/chatgpt.svg");
+}
+
+.ci-chrome,
+.ci-chrome-dark,
+.ci-chrome-light {
+  content: url("../../public/logos/technology/chrome/chrome.svg");
+}
+
+.ci-chromium,
+.ci-chromium-dark,
+.ci-chromium-light {
+  content: url("../../public/logos/technology/chromium/chromium.svg");
+}
+
+.ci-circleci,
+.ci-circleci-dark,
+.ci-circleci-light {
+  content: url("../../public/logos/technology/circleci/circleci.svg");
+}
+
+.ci-claude-horizontal-light,
+.ci-claude-inline-light {
+  content: url("../../public/logos/technology/claude/claude-horizontal-light.svg");
+}
+
+.ci-claude-horizontal,
+.ci-claude-horizontal-dark,
+.ci-claude-inline,
+.ci-claude-inline-dark {
+  content: url("../../public/logos/technology/claude/claude-horizontal.svg");
+}
+
+.ci-claude,
+.ci-claude-dark,
+.ci-claude-light {
+  content: url("../../public/logos/technology/claude/claude.svg");
+}
+
+.ci-clickhouse,
+.ci-clickhouse-dark,
+.ci-clickhouse-light {
+  content: url("../../public/logos/technology/clickhouse/clickhouse.svg");
+}
+
+.ci-clojure,
+.ci-clojure-dark,
+.ci-clojure-light {
+  content: url("../../public/logos/technology/clojure/clojure.svg");
+}
+
+.ci-cloudflare-horizontal-light,
+.ci-cloudflare-inline-light {
+  content: url("../../public/logos/technology/cloudflare/cloudflare-horizontal-light.svg");
+}
+
+.ci-cloudflare-horizontal,
+.ci-cloudflare-horizontal-dark,
+.ci-cloudflare-inline,
+.ci-cloudflare-inline-dark {
+  content: url("../../public/logos/technology/cloudflare/cloudflare-horizontal.svg");
+}
+
+.ci-cloudflare,
+.ci-cloudflare-dark,
+.ci-cloudflare-light {
+  content: url("../../public/logos/technology/cloudflare/cloudflare.svg");
+}
+
+.ci-cloudinary-horizontal,
+.ci-cloudinary-horizontal-dark,
+.ci-cloudinary-horizontal-light,
+.ci-cloudinary-inline,
+.ci-cloudinary-inline-dark,
+.ci-cloudinary-inline-light {
+  content: url("../../public/logos/technology/cloudinary/cloudinary-horizontal.svg");
+}
+
+.ci-cloudinary,
+.ci-cloudinary-dark,
+.ci-cloudinary-light {
+  content: url("../../public/logos/technology/cloudinary/cloudinary.svg");
 }
 
 .ci-cf,
@@ -1169,6 +1634,42 @@
 .ci-codeforces-dark,
 .ci-codeforces-light {
   content: url("../../public/logos/technology/codeforces/codeforces.svg");
+}
+
+.ci-codefresh-horizontal,
+.ci-codefresh-horizontal-dark,
+.ci-codefresh-horizontal-light,
+.ci-codefresh-inline,
+.ci-codefresh-inline-dark,
+.ci-codefresh-inline-light {
+  content: url("../../public/logos/technology/codefresh/codefresh-horizontal.svg");
+}
+
+.ci-codefresh,
+.ci-codefresh-dark,
+.ci-codefresh-light {
+  content: url("../../public/logos/technology/codefresh/codefresh.svg");
+}
+
+.ci-codeigniter-horizontal,
+.ci-codeigniter-horizontal-dark,
+.ci-codeigniter-horizontal-light,
+.ci-codeigniter-inline,
+.ci-codeigniter-inline-dark,
+.ci-codeigniter-inline-light {
+  content: url("../../public/logos/technology/codeigniter/codeigniter-horizontal.svg");
+}
+
+.ci-codeigniter,
+.ci-codeigniter-dark,
+.ci-codeigniter-light {
+  content: url("../../public/logos/technology/codeigniter/codeigniter.svg");
+}
+
+.ci-copilot,
+.ci-copilot-dark,
+.ci-copilot-light {
+  content: url("../../public/logos/technology/copilot/copilot.svg");
 }
 
 .ci-cpp,
@@ -1189,10 +1690,115 @@
   content: url("../../public/logos/technology/css/css.svg");
 }
 
+.ci-cypress-horizontal-light,
+.ci-cypress-inline-light {
+  content: url("../../public/logos/technology/cypress/cypress-horizontal-light.svg");
+}
+
+.ci-cypress-horizontal,
+.ci-cypress-horizontal-dark,
+.ci-cypress-inline,
+.ci-cypress-inline-dark {
+  content: url("../../public/logos/technology/cypress/cypress-horizontal.svg");
+}
+
+.ci-cypress,
+.ci-cypress-dark,
+.ci-cypress-light {
+  content: url("../../public/logos/technology/cypress/cypress.svg");
+}
+
+.ci-dart-horizontal-light,
+.ci-dart-inline-light {
+  content: url("../../public/logos/technology/dart/dart-horizontal-light.svg");
+}
+
+.ci-dart-horizontal,
+.ci-dart-horizontal-dark,
+.ci-dart-inline,
+.ci-dart-inline-dark {
+  content: url("../../public/logos/technology/dart/dart-horizontal.svg");
+}
+
+.ci-dart-stacked-light,
+.ci-dart-vertical-light {
+  content: url("../../public/logos/technology/dart/dart-vertical-light.svg");
+}
+
+.ci-dart-stacked,
+.ci-dart-stacked-dark,
+.ci-dart-vertical,
+.ci-dart-vertical-dark {
+  content: url("../../public/logos/technology/dart/dart-vertical.svg");
+}
+
+.ci-dart,
+.ci-dart-dark,
+.ci-dart-light {
+  content: url("../../public/logos/technology/dart/dart.svg");
+}
+
+.ci-datadog-horizontal,
+.ci-datadog-horizontal-dark,
+.ci-datadog-horizontal-light,
+.ci-datadog-inline,
+.ci-datadog-inline-dark,
+.ci-datadog-inline-light {
+  content: url("../../public/logos/technology/datadog/datadog-horizontal.svg");
+}
+
+.ci-datadog-stacked,
+.ci-datadog-stacked-dark,
+.ci-datadog-stacked-light,
+.ci-datadog-vertical,
+.ci-datadog-vertical-dark,
+.ci-datadog-vertical-light {
+  content: url("../../public/logos/technology/datadog/datadog-vertical.svg");
+}
+
+.ci-datadog,
+.ci-datadog-dark,
+.ci-datadog-light {
+  content: url("../../public/logos/technology/datadog/datadog.svg");
+}
+
+.ci-deepseek-horizontal,
+.ci-deepseek-horizontal-dark,
+.ci-deepseek-horizontal-light,
+.ci-deepseek-inline,
+.ci-deepseek-inline-dark,
+.ci-deepseek-inline-light {
+  content: url("../../public/logos/technology/deepseek/deepseek-horizontal.svg");
+}
+
+.ci-deepseek,
+.ci-deepseek-dark,
+.ci-deepseek-light {
+  content: url("../../public/logos/technology/deepseek/deepseek.svg");
+}
+
 .ci-delve,
 .ci-delve-dark,
 .ci-delve-light {
   content: url("../../public/logos/technology/delve/delve.svg");
+}
+
+.ci-deno-horizontal-light,
+.ci-deno-inline-light {
+  content: url("../../public/logos/technology/deno/deno-horizontal-light.svg");
+}
+
+.ci-deno-horizontal,
+.ci-deno-horizontal-dark,
+.ci-deno-inline,
+.ci-deno-inline-dark {
+  content: url("../../public/logos/technology/deno/deno-horizontal.svg");
+}
+
+.ci-deno,
+.ci-deno-dark,
+.ci-deno-light {
+  content: url("../../public/logos/technology/deno/deno.svg");
 }
 
 .ci-digitalocean-horizontal,
@@ -1246,6 +1852,12 @@
   content: url("../../public/logos/technology/django/django.svg");
 }
 
+.ci-dlang,
+.ci-dlang-dark,
+.ci-dlang-light {
+  content: url("../../public/logos/technology/dlang/dlang.svg");
+}
+
 .ci-docker-horizontal,
 .ci-docker-horizontal-dark,
 .ci-docker-horizontal-light,
@@ -1270,6 +1882,27 @@
   content: url("../../public/logos/technology/docker/docker.webp");
 }
 
+.ci-docusaurus,
+.ci-docusaurus-dark,
+.ci-docusaurus-light {
+  content: url("../../public/logos/technology/docusaurus/docusaurus.svg");
+}
+
+.ci-dovetail-horizontal,
+.ci-dovetail-horizontal-dark,
+.ci-dovetail-horizontal-light,
+.ci-dovetail-inline,
+.ci-dovetail-inline-dark,
+.ci-dovetail-inline-light {
+  content: url("../../public/logos/technology/dovetail/dovetail-horizontal.svg");
+}
+
+.ci-dovetail,
+.ci-dovetail-dark,
+.ci-dovetail-light {
+  content: url("../../public/logos/technology/dovetail/dovetail.svg");
+}
+
 .ci-dropbox-horizontal-light,
 .ci-dropbox-inline-light {
   content: url("../../public/logos/technology/dropbox/dropbox-horizontal-light.svg");
@@ -1286,6 +1919,99 @@
 .ci-dropbox-dark,
 .ci-dropbox-light {
   content: url("../../public/logos/technology/dropbox/dropbox.svg");
+}
+
+.ci-ec2,
+.ci-ec2-dark,
+.ci-ec2-light {
+  content: url("../../public/logos/technology/ec2/ec2.svg");
+}
+
+.ci-edge,
+.ci-edge-dark,
+.ci-edge-light {
+  content: url("../../public/logos/technology/edge/edge.svg");
+}
+
+.ci-elastic-horizontal-light,
+.ci-elastic-inline-light {
+  content: url("../../public/logos/technology/elastic/elastic-horizontal-light.svg");
+}
+
+.ci-elastic-horizontal,
+.ci-elastic-horizontal-dark,
+.ci-elastic-inline,
+.ci-elastic-inline-dark {
+  content: url("../../public/logos/technology/elastic/elastic-horizontal.svg");
+}
+
+.ci-elastic,
+.ci-elastic-dark,
+.ci-elastic-light {
+  content: url("../../public/logos/technology/elastic/elastic.svg");
+}
+
+.ci-electron,
+.ci-electron-dark,
+.ci-electron-light {
+  content: url("../../public/logos/technology/electron/electron.svg");
+}
+
+.ci-element,
+.ci-element-dark,
+.ci-element-light,
+.ci-elementui,
+.ci-elementui-dark,
+.ci-elementui-light {
+  content: url("../../public/logos/technology/elementui/elementui.svg");
+}
+
+.ci-elixir,
+.ci-elixir-dark,
+.ci-elixir-light {
+  content: url("../../public/logos/technology/elixir/elixir.svg");
+}
+
+.ci-ember-horizontal,
+.ci-ember-horizontal-dark,
+.ci-ember-horizontal-light,
+.ci-ember-inline,
+.ci-ember-inline-dark,
+.ci-ember-inline-light,
+.ci-emberjs-horizontal,
+.ci-emberjs-horizontal-dark,
+.ci-emberjs-horizontal-light,
+.ci-emberjs-inline,
+.ci-emberjs-inline-dark,
+.ci-emberjs-inline-light {
+  content: url("../../public/logos/technology/emberjs/emberjs-horizontal.svg");
+}
+
+.ci-ember,
+.ci-ember-dark,
+.ci-ember-light,
+.ci-emberjs,
+.ci-emberjs-dark,
+.ci-emberjs-light {
+  content: url("../../public/logos/technology/emberjs/emberjs.svg");
+}
+
+.ci-erlang,
+.ci-erlang-dark,
+.ci-erlang-light {
+  content: url("../../public/logos/technology/erlang/erlang.svg");
+}
+
+.ci-esbuild,
+.ci-esbuild-dark,
+.ci-esbuild-light {
+  content: url("../../public/logos/technology/esbuild/esbuild.svg");
+}
+
+.ci-eslint,
+.ci-eslint-dark,
+.ci-eslint-light {
+  content: url("../../public/logos/technology/eslint/eslint.svg");
 }
 
 .ci-eth,
@@ -1318,6 +2044,30 @@
   content: url("../../public/logos/technology/expressjs/expressjs.svg");
 }
 
+.ci-fauna-horizontal,
+.ci-fauna-horizontal-dark,
+.ci-fauna-horizontal-light,
+.ci-fauna-inline,
+.ci-fauna-inline-dark,
+.ci-fauna-inline-light,
+.ci-faunadb-horizontal,
+.ci-faunadb-horizontal-dark,
+.ci-faunadb-horizontal-light,
+.ci-faunadb-inline,
+.ci-faunadb-inline-dark,
+.ci-faunadb-inline-light {
+  content: url("../../public/logos/technology/faunadb/faunadb-horizontal.svg");
+}
+
+.ci-fauna,
+.ci-fauna-dark,
+.ci-fauna-light,
+.ci-faunadb,
+.ci-faunadb-dark,
+.ci-faunadb-light {
+  content: url("../../public/logos/technology/faunadb/faunadb.svg");
+}
+
 .ci-figma,
 .ci-figma-dark,
 .ci-figma-light {
@@ -1328,6 +2078,66 @@
 .ci-firebase-dark,
 .ci-firebase-light {
   content: url("../../public/logos/technology/firebase/firebase.svg");
+}
+
+.ci-firefox-horizontal-light,
+.ci-firefox-inline-light {
+  content: url("../../public/logos/technology/firefox/firefox-horizontal-light.svg");
+}
+
+.ci-firefox-horizontal,
+.ci-firefox-horizontal-dark,
+.ci-firefox-inline,
+.ci-firefox-inline-dark {
+  content: url("../../public/logos/technology/firefox/firefox-horizontal.svg");
+}
+
+.ci-firefox,
+.ci-firefox-dark,
+.ci-firefox-light {
+  content: url("../../public/logos/technology/firefox/firefox.svg");
+}
+
+.ci-flask-light {
+  content: url("../../public/logos/technology/flask/flask-light.svg");
+}
+
+.ci-flask,
+.ci-flask-dark {
+  content: url("../../public/logos/technology/flask/flask.svg");
+}
+
+.ci-flutter-built-with-flutter-light {
+  content: url("../../public/logos/technology/flutter/flutter-built-with-flutter-light.svg");
+}
+
+.ci-flutter-built-with-flutter,
+.ci-flutter-built-with-flutter-dark {
+  content: url("../../public/logos/technology/flutter/flutter-built-with-flutter.svg");
+}
+
+.ci-flutter-horizontal-light,
+.ci-flutter-inline-light {
+  content: url("../../public/logos/technology/flutter/flutter-horizontal-light.svg");
+}
+
+.ci-flutter-horizontal,
+.ci-flutter-horizontal-dark,
+.ci-flutter-inline,
+.ci-flutter-inline-dark {
+  content: url("../../public/logos/technology/flutter/flutter-horizontal.svg");
+}
+
+.ci-flutter-stacked-light,
+.ci-flutter-vertical-light {
+  content: url("../../public/logos/technology/flutter/flutter-vertical-light.svg");
+}
+
+.ci-flutter-stacked,
+.ci-flutter-stacked-dark,
+.ci-flutter-vertical,
+.ci-flutter-vertical-dark {
+  content: url("../../public/logos/technology/flutter/flutter-vertical.svg");
 }
 
 .ci-flutter,

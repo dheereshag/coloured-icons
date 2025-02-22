@@ -647,6 +647,14 @@ const icons = [
     "url": "office.com"
   },
   {
+    "name": "Adonisjs",
+    "category": "technology",
+    "classes": [
+      "adonisjs"
+    ],
+    "url": "adonisjs.com"
+  },
+  {
     "name": "Alan AI",
     "category": "technology",
     "classes": [
@@ -655,6 +663,24 @@ const icons = [
       "alan-vertical"
     ],
     "url": "alan.app"
+  },
+  {
+    "name": "Algolia",
+    "category": "technology",
+    "classes": [
+      "algolia",
+      "algolia-horizontal"
+    ],
+    "url": "algolia.com"
+  },
+  {
+    "name": "Alpinejs",
+    "category": "technology",
+    "classes": [
+      "alpinejs",
+      "alpinejs-horizontal"
+    ],
+    "url": "alpinejs.com"
   },
   {
     "name": "Amazon",
@@ -667,6 +693,22 @@ const icons = [
     "url": "amazon.com"
   },
   {
+    "name": "Anaconda",
+    "category": "technology",
+    "classes": [
+      "anaconda"
+    ],
+    "url": "anaconda.com"
+  },
+  {
+    "name": "Android",
+    "category": "technology",
+    "classes": [
+      "android"
+    ],
+    "url": "android.com"
+  },
+  {
     "name": "Angular",
     "category": "technology",
     "classes": [
@@ -675,12 +717,93 @@ const icons = [
     "url": "angular.dev"
   },
   {
+    "name": "Anthropic",
+    "category": "technology",
+    "classes": [
+      "anthropic",
+      "anthropic-light",
+      "anthropic-wordmark",
+      "anthropic-wordmark-light"
+    ],
+    "url": "anthropic.com"
+  },
+  {
+    "name": "Apache",
+    "category": "technology",
+    "classes": [
+      "apache"
+    ],
+    "url": "apache.com"
+  },
+  {
     "name": "Apple",
     "category": "technology",
     "classes": [
       "apple"
     ],
     "url": "apple.com"
+  },
+  {
+    "name": "Appwrite",
+    "category": "technology",
+    "classes": [
+      "appwrite",
+      "appwrite-horizontal",
+      "appwrite-horizontal-light"
+    ],
+    "url": "appwrite.com"
+  },
+  {
+    "name": "Arc",
+    "category": "technology",
+    "classes": [
+      "arc"
+    ],
+    "url": "arc.com"
+  },
+  {
+    "name": "Astro",
+    "category": "technology",
+    "classes": [
+      "astro",
+      "astro-horizontal",
+      "astro-horizontal-light",
+      "astro-light"
+    ],
+    "url": "astro.com"
+  },
+  {
+    "name": "Atlassian",
+    "category": "technology",
+    "classes": [
+      "atlassian",
+      "atlassian-horizontal"
+    ],
+    "url": "atlassian.com"
+  },
+  {
+    "name": "Atom",
+    "category": "technology",
+    "classes": [
+      "atom"
+    ],
+    "url": "atom.com"
+  },
+  {
+    "name": "Auth0",
+    "category": "technology",
+    "classes": [
+      "auth0"
+    ],
+    "url": "auth0.com"
+  },
+  {
+    "name": "Avajs",
+    "category": "technology",
+    "classes": [
+      "avajs"
+    ],
+    "url": "avajs.com"
   },
   {
     "name": "AWS",
@@ -692,6 +815,16 @@ const icons = [
     "url": "aws.com"
   },
   {
+    "name": "Axure",
+    "category": "technology",
+    "classes": [
+      "axure",
+      "axure-wordmark",
+      "axure-wordmark-light"
+    ],
+    "url": "axure.com"
+  },
+  {
     "name": "Azure",
     "category": "technology",
     "classes": [
@@ -699,6 +832,74 @@ const icons = [
       "azure2"
     ],
     "url": "azure.com"
+  },
+  {
+    "name": "Babel",
+    "category": "technology",
+    "classes": [
+      "babel"
+    ],
+    "url": "babel.com"
+  },
+  {
+    "name": "Backbonejs",
+    "category": "technology",
+    "classes": [
+      "backbonejs",
+      "backbonejs-horizontal"
+    ],
+    "url": "backbonejs.com"
+  },
+  {
+    "name": "Bash",
+    "category": "technology",
+    "classes": [
+      "bash",
+      "bash-horizontal"
+    ],
+    "url": "bash.com"
+  },
+  {
+    "name": "Bing",
+    "category": "technology",
+    "classes": [
+      "bing"
+    ],
+    "url": "bing.com"
+  },
+  {
+    "name": "Biome",
+    "category": "technology",
+    "classes": [
+      "biome",
+      "biome-horizontal-light"
+    ],
+    "url": "biome.com"
+  },
+  {
+    "name": "Bitbucket",
+    "category": "technology",
+    "classes": [
+      "bitbucket",
+      "bitbucket-horizontal"
+    ],
+    "url": "bitbucket.com"
+  },
+  {
+    "name": "Bitnami",
+    "category": "technology",
+    "classes": [
+      "bitnami"
+    ],
+    "url": "bitnami.com"
+  },
+  {
+    "name": "Blueprintjs",
+    "category": "technology",
+    "classes": [
+      "blueprintjs"
+    ],
+    "url": "blueprintjs.com"
   },
   {
     "name": "Bootstrap",
@@ -709,6 +910,32 @@ const icons = [
     "url": "bootstrap.com"
   },
   {
+    "name": "Brave",
+    "category": "technology",
+    "classes": [
+      "brave",
+      "brave-horizontal",
+      "brave-horizontal-light"
+    ],
+    "url": "brave.com"
+  },
+  {
+    "name": "Bulmaui",
+    "category": "technology",
+    "classes": [
+      "bulmaui"
+    ],
+    "url": "bulmaui.com"
+  },
+  {
+    "name": "Bunjs",
+    "category": "technology",
+    "classes": [
+      "bunjs"
+    ],
+    "url": "bunjs.com"
+  },
+  {
     "name": "C",
     "category": "technology",
     "classes": [
@@ -717,12 +944,152 @@ const icons = [
     "url": "learn-c.org"
   },
   {
+    "name": "Cakephp",
+    "category": "technology",
+    "classes": [
+      "cakephp"
+    ],
+    "url": "cakephp.com"
+  },
+  {
+    "name": "Canva",
+    "category": "technology",
+    "classes": [
+      "canva",
+      "canva-wordmark"
+    ],
+    "url": "canva.com"
+  },
+  {
+    "name": "Cassandradb",
+    "category": "technology",
+    "classes": [
+      "cassandradb",
+      "cassandradb-vertical"
+    ],
+    "url": "cassandradb.com"
+  },
+  {
+    "name": "Chakraui",
+    "category": "technology",
+    "classes": [
+      "chakraui"
+    ],
+    "url": "chakraui.com"
+  },
+  {
+    "name": "Chatgpt",
+    "category": "technology",
+    "classes": [
+      "chatgpt",
+      "chatgpt-horizontal",
+      "chatgpt-horizontal-light",
+      "chatgpt-light"
+    ],
+    "url": "chatgpt.com"
+  },
+  {
+    "name": "Chrome",
+    "category": "technology",
+    "classes": [
+      "chrome"
+    ],
+    "url": "chrome.com"
+  },
+  {
+    "name": "Chromium",
+    "category": "technology",
+    "classes": [
+      "chromium"
+    ],
+    "url": "chromium.com"
+  },
+  {
+    "name": "Circleci",
+    "category": "technology",
+    "classes": [
+      "circleci"
+    ],
+    "url": "circleci.com"
+  },
+  {
+    "name": "Claude",
+    "category": "technology",
+    "classes": [
+      "claude",
+      "claude-horizontal",
+      "claude-horizontal-light"
+    ],
+    "url": "claude.com"
+  },
+  {
+    "name": "Clickhouse",
+    "category": "technology",
+    "classes": [
+      "clickhouse"
+    ],
+    "url": "clickhouse.com"
+  },
+  {
+    "name": "Clojure",
+    "category": "technology",
+    "classes": [
+      "clojure"
+    ],
+    "url": "clojure.com"
+  },
+  {
+    "name": "Cloudflare",
+    "category": "technology",
+    "classes": [
+      "cloudflare",
+      "cloudflare-horizontal",
+      "cloudflare-horizontal-light"
+    ],
+    "url": "cloudflare.com"
+  },
+  {
+    "name": "Cloudinary",
+    "category": "technology",
+    "classes": [
+      "cloudinary",
+      "cloudinary-horizontal"
+    ],
+    "url": "cloudinary.com"
+  },
+  {
     "name": "Codeforces",
     "category": "technology",
     "classes": [
       "codeforces"
     ],
     "url": "codeforces.com"
+  },
+  {
+    "name": "Codefresh",
+    "category": "technology",
+    "classes": [
+      "codefresh",
+      "codefresh-horizontal"
+    ],
+    "url": "codefresh.com"
+  },
+  {
+    "name": "Codeigniter",
+    "category": "technology",
+    "classes": [
+      "codeigniter",
+      "codeigniter-horizontal"
+    ],
+    "url": "codeigniter.com"
+  },
+  {
+    "name": "Copilot",
+    "category": "technology",
+    "classes": [
+      "copilot"
+    ],
+    "url": "copilot.com"
   },
   {
     "name": "C++",
@@ -749,12 +1116,63 @@ const icons = [
     "url": "css.com"
   },
   {
+    "name": "Cypress",
+    "category": "technology",
+    "classes": [
+      "cypress",
+      "cypress-horizontal",
+      "cypress-horizontal-light"
+    ],
+    "url": "cypress.com"
+  },
+  {
+    "name": "Dart",
+    "category": "technology",
+    "classes": [
+      "dart",
+      "dart-horizontal",
+      "dart-horizontal-light",
+      "dart-vertical",
+      "dart-vertical-light"
+    ],
+    "url": "dart.com"
+  },
+  {
+    "name": "Datadog",
+    "category": "technology",
+    "classes": [
+      "datadog",
+      "datadog-horizontal",
+      "datadog-vertical"
+    ],
+    "url": "datadog.com"
+  },
+  {
+    "name": "Deepseek",
+    "category": "technology",
+    "classes": [
+      "deepseek",
+      "deepseek-horizontal"
+    ],
+    "url": "deepseek.com"
+  },
+  {
     "name": "Delve",
     "category": "technology",
     "classes": [
       "delve"
     ],
     "url": "office.com"
+  },
+  {
+    "name": "Deno",
+    "category": "technology",
+    "classes": [
+      "deno",
+      "deno-horizontal",
+      "deno-horizontal-light"
+    ],
+    "url": "deno.com"
   },
   {
     "name": "Digitalocean",
@@ -776,6 +1194,14 @@ const icons = [
     "url": "django.com"
   },
   {
+    "name": "Dlang",
+    "category": "technology",
+    "classes": [
+      "dlang"
+    ],
+    "url": "dlang.com"
+  },
+  {
     "name": "Docker",
     "category": "technology",
     "classes": [
@@ -786,6 +1212,23 @@ const icons = [
     "url": "docker.com"
   },
   {
+    "name": "Docusaurus",
+    "category": "technology",
+    "classes": [
+      "docusaurus"
+    ],
+    "url": "docusaurus.com"
+  },
+  {
+    "name": "Dovetail",
+    "category": "technology",
+    "classes": [
+      "dovetail",
+      "dovetail-horizontal"
+    ],
+    "url": "dovetail.com"
+  },
+  {
     "name": "Dropbox",
     "category": "technology",
     "classes": [
@@ -794,6 +1237,89 @@ const icons = [
       "dropbox-horizontal-light"
     ],
     "url": "dropbox.com"
+  },
+  {
+    "name": "Ec2",
+    "category": "technology",
+    "classes": [
+      "ec2"
+    ],
+    "url": "ec2.com"
+  },
+  {
+    "name": "Edge",
+    "category": "technology",
+    "classes": [
+      "edge"
+    ],
+    "url": "edge.com"
+  },
+  {
+    "name": "Elastic",
+    "category": "technology",
+    "classes": [
+      "elastic",
+      "elastic-horizontal",
+      "elastic-horizontal-light"
+    ],
+    "url": "elastic.com"
+  },
+  {
+    "name": "Electron",
+    "category": "technology",
+    "classes": [
+      "electron"
+    ],
+    "url": "electron.com"
+  },
+  {
+    "name": "Elementui",
+    "category": "technology",
+    "classes": [
+      "elementui"
+    ],
+    "url": "elementui.com"
+  },
+  {
+    "name": "Elixir",
+    "category": "technology",
+    "classes": [
+      "elixir"
+    ],
+    "url": "elixir.com"
+  },
+  {
+    "name": "Emberjs",
+    "category": "technology",
+    "classes": [
+      "emberjs",
+      "emberjs-horizontal"
+    ],
+    "url": "emberjs.com"
+  },
+  {
+    "name": "Erlang",
+    "category": "technology",
+    "classes": [
+      "erlang"
+    ],
+    "url": "erlang.com"
+  },
+  {
+    "name": "Esbuild",
+    "category": "technology",
+    "classes": [
+      "esbuild"
+    ],
+    "url": "esbuild.com"
+  },
+  {
+    "name": "Eslint",
+    "category": "technology",
+    "classes": [
+      "eslint"
+    ],
+    "url": "eslint.com"
   },
   {
     "name": "Eth",
@@ -821,6 +1347,15 @@ const icons = [
     "url": "expressjs.com"
   },
   {
+    "name": "Faunadb",
+    "category": "technology",
+    "classes": [
+      "faunadb",
+      "faunadb-horizontal"
+    ],
+    "url": "faunadb.com"
+  },
+  {
     "name": "Figma",
     "category": "technology",
     "classes": [
@@ -837,10 +1372,35 @@ const icons = [
     "url": "firebase.com"
   },
   {
+    "name": "Firefox",
+    "category": "technology",
+    "classes": [
+      "firefox",
+      "firefox-horizontal",
+      "firefox-horizontal-light"
+    ],
+    "url": "firefox.com"
+  },
+  {
+    "name": "Flask",
+    "category": "technology",
+    "classes": [
+      "flask",
+      "flask-light"
+    ],
+    "url": "flask.com"
+  },
+  {
     "name": "Flutter",
     "category": "technology",
     "classes": [
-      "flutter"
+      "flutter",
+      "flutter-built-with-flutter",
+      "flutter-built-with-flutter-light",
+      "flutter-horizontal",
+      "flutter-horizontal-light",
+      "flutter-vertical",
+      "flutter-vertical-light"
     ],
     "url": "flutter.com"
   },
