@@ -12,7 +12,6 @@ const pacifico = Pacifico({ subsets: ["latin"], weight: "400" });
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const { triggerFocus } = useContext(SearchContext);
-  const searchRef = useRef<HTMLDivElement>(null);
 
   const handleSearchClick = () => {
     const searchSection = document.getElementById("search-section");
