@@ -42,11 +42,10 @@ const Filter = () => {
           </button>
         ))}
       </div>
-      <div className="sm:hidden w-full">
+      <div className="sm:hidden">
         <Dropdown
           categories={categories}
-          selectedCategory={selectedCategory}
-          onChange={handleCategoryChange}
+          onCategoryChange={handleCategoryChange}
         />
       </div>
       <div className="flex-1">
