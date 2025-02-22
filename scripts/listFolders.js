@@ -289,27 +289,6 @@ fs.readdir(logosPath, (err, categories) => {
       .join(" ");
   };
 
-  // NEW: Generate categories.ts based on folder names in public/logos, skip "All" and ".ds_store"
-  const categoriesTsContent =
-    `import { Category } from "@/interfaces";\n\n` +
-    `const categories: Category[] = [\n` +
-    `  { name: "All" },\n` +
-    categories
-      .filter((cat) => cat.toLowerCase() !== ".ds_store")
-      .map((cat) => `  { name: "${toTitleCase(cat)}" },`)
-      .join("\n") +
-    `\n];\n\nexport default categories;\n`;
-
-  const categoriesTsPath = path.join(
-    __dirname,
-    "..",
-    "src",
-    "constants",
-    "categories.ts"
-  );
-  fs.writeFileSync(categoriesTsPath, categoriesTsContent);
-  console.log("categories.ts generated successfully!");
-
   // NEW: Generate icons.ts based on folders; exclude folders with "stacked" or "inline"
   let iconsArr = [];
   const categoriesIcon = fs.readdirSync(logosPath);

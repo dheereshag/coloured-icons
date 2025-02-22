@@ -1,63 +1,95 @@
-import {
-  Listbox,
-  Transition,
-  ListboxOption,
-  ListboxOptions,
-} from "@headlessui/react";
-import { ListBoxButton, Selected } from ".";
-import { Category } from "@/interfaces";
+"use client";
 
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(" ");
-}
+import { IoCheckmark } from "react-icons/io5";
+import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
+import {
+  Command,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+} from "@/components/ui/command";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import { LuChevronsUpDown } from "react-icons/lu";
+import { Category } from "@/interfaces";
+import { useState } from "react";
 
 interface DropdownProps {
   categories: Category[];
-  selectedCategory: Category;
-  onChange: (value: Category) => void;
+  onCategoryChange?: (category: Category) => void;
+  getCategoryIcon: (categoryName: string) => React.ReactNode;
 }
 
 const Dropdown: React.FC<DropdownProps> = ({
   categories,
-  selectedCategory,
-  onChange,
+  onCategoryChange,
+  getCategoryIcon,
 }) => {
+  const [open, setOpen] = useState(false);
+  const [value, setValue] = useState("");
+
   return (
-    <Listbox value={selectedCategory} onChange={onChange}>
-      {({ open }) => (
-        <div className="relative text-sm">
-          <ListBoxButton selectedCategory={selectedCategory} />
-          <Transition
-            show={open}
-            leave="transition ease-in duration-100"
-            leaveFrom="opacity-100"
-            leaveTo="opacity-0"
-          >
-            <ListboxOptions className="absolute z-10 mt-2 max-h-60 w-full overflow-auto rounded-lg bg-white py-2 shadow-xl ring-1 ring-black ring-opacity-5 focus:outline-hidden">
-              {categories.map((category: Category) => (
-                <ListboxOption
+    <Popover open={open} onOpenChange={setOpen}>
+      <PopoverTrigger asChild>
+        <Button
+          variant="outline"
+          role="combobox"
+          aria-expanded={open}
+          className="w-full justify-between"
+        >
+          <span className="flex items-center">
+            {value && getCategoryIcon(value)}
+            {value
+              ? categories.find((category) => category.name === value)?.name
+              : "Select category..."}
+          </span>
+          <LuChevronsUpDown className="opacity-50" />
+        </Button>
+      </PopoverTrigger>
+      <PopoverContent className="p-0" align="start">
+        <Command>
+          <CommandInput placeholder="Search category..." className="h-9" />
+          <CommandList>
+            <CommandEmpty>No category found.</CommandEmpty>
+            <CommandGroup>
+              {categories.map((category) => (
+                <CommandItem
                   key={category.name}
-                  className={() =>
-                    classNames(
-                      "relative cursor-default select-none py-3 pl-4 pr-9 transition-colors duration-200"
-                    )
-                  }
-                  value={category}
+                  value={category.name}
+                  onSelect={(currentValue) => {
+                    setValue(currentValue === value ? "" : currentValue);
+                    const selectedCategory = categories.find(
+                      (cat) => cat.name === currentValue
+                    );
+                    if (selectedCategory && onCategoryChange) {
+                      onCategoryChange(selectedCategory);
+                    }
+                    setOpen(false);
+                  }}
                 >
-                  {({ selected }) => (
-                    <Selected
-                      selected={selected}
-                      category={category}
-                      active={selectedCategory.name.toLowerCase() === category.name.toLowerCase()}
-                    />
-                  )}
-                </ListboxOption>
+                  <span className="flex items-center">
+                    {getCategoryIcon(category.name)}
+                    {category.name}
+                  </span>
+                  <IoCheckmark
+                    className={cn(
+                      "ml-auto",
+                      value === category.name ? "opacity-100" : "opacity-0"
+                    )}
+                  />
+                </CommandItem>
               ))}
-            </ListboxOptions>
-          </Transition>
-        </div>
-      )}
-    </Listbox>
+            </CommandGroup>
+          </CommandList>
+        </Command>
+      </PopoverContent>
+    </Popover>
   );
 };
 
