@@ -28,7 +28,7 @@ const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
   return (
     <Dialog open={true} onClose={onClose} className="relative z-50">
       <div
-        className="fixed inset-0 bg-slate-900/50 backdrop-blur-sm"
+        className="fixed inset-0 bg-slate-900/50 backdrop-blur-xs"
         aria-hidden="true"
       />
 
@@ -46,13 +46,13 @@ const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
           <div className="mx-6 sm:mx-8 mb-8">
             {/* Icon preview */}
             <div className="flex items-center gap-8 mb-10">
-              <div className="p-8 bg-gradient-to-b from-slate-100 to-white rounded-2xl shadow-sm border border-slate-200">
+              <div className="p-8 bg-linear-to-b from-slate-100 to-white rounded-2xl shadow-xs border border-slate-200">
                 <i
                   className={`ci ci-${icon.classes[0]} ci-4x text-slate-700`}
                 />
               </div>
               <div className="flex flex-col">
-                <DialogTitle className="text-2xl font-semibold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+                <DialogTitle className="text-2xl font-semibold bg-linear-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                   {icon.name}
                 </DialogTitle>
                 <p className="text-sm text-slate-500 mt-2">{icon.url}</p>
@@ -74,7 +74,7 @@ const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
                 {icon.classes.map((iconClass) => (
                   <div
                     key={iconClass}
-                    className={`bg-gray-300 px-2 rounded-xl flex items-center gap-4 shadow-sm h-20`}
+                    className={`bg-gray-300 px-2 rounded-xl flex items-center gap-4 shadow-xs h-20`}
                   >
                     <i
                       className={`ci ci-${iconClass} ci-${size(
@@ -97,7 +97,7 @@ const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
       {/* Zoomed icon overlay */}
       {zoomedIcon && (
         <div className="fixed inset-0 flex items-center justify-center pointer-events-none z-100 transition-all">
-          <div className="p-8 bg-gray-300 rounded-xl shadow-xl sm:scale-[2] scale-125">
+          <div className="p-8 bg-gray-300 rounded-xl shadow-xl sm:scale-2 scale-125">
             <i className={`ci ci-${zoomedIcon} ci-4x text-gray-800`} />
           </div>
         </div>

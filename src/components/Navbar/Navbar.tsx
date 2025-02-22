@@ -1,4 +1,4 @@
-import { useState, useContext, useRef } from "react";
+import { useState, useContext} from "react";
 import { RxHamburgerMenu, RxCross2 } from "react-icons/rx";
 import { CiSearch } from "react-icons/ci";
 import { MenuList } from ".";
@@ -12,7 +12,6 @@ const pacifico = Pacifico({ subsets: ["latin"], weight: "400" });
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const { triggerFocus } = useContext(SearchContext);
-  const searchRef = useRef<HTMLDivElement>(null);
 
   const handleSearchClick = () => {
     const searchSection = document.getElementById("search-section");
@@ -52,7 +51,7 @@ const Navbar: React.FC = () => {
           <div className="flex flex-1 items-center justify-end gap-4">
             <button
               onClick={handleSearchClick}
-              className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+              className="p-2 hover:bg-gray-100 rounded-full transition-colors cursor-pointer"
               aria-label="Search"
             >
               <CiSearch className="text-gray-700 text-xl" />

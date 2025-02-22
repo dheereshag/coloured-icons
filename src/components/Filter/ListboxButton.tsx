@@ -7,7 +7,7 @@ interface ListboxButtonProps {
 
 const ListBoxButton: React.FC<ListboxButtonProps> = ({ selectedCategory }) => {
   return (
-    <ListboxButton className="relative w-full cursor-default rounded-lg bg-white py-3.5 pl-4 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-gray-300 hover:bg-gray-50 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gray-400">
+    <ListboxButton className="relative w-full cursor-default rounded-lg bg-white py-3.5 pl-4 pr-10 text-left text-gray-900 shadow-xs ring-1 ring-gray-300 hover:bg-gray-50 transition-colors duration-200 focus:outline-hidden focus:ring-2 focus:ring-gray-400">
       <span className="block truncate font-medium">
         {selectedCategory.name}
       </span>

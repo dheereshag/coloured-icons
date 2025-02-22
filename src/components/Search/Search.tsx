@@ -1,12 +1,10 @@
+import { Input } from "@/components/ui/input";
 import { SearchContext } from "@/context/SearchContextProvider";
 import { useContext, useEffect, useRef } from "react";
 import { IoCloseOutline } from "react-icons/io5";
+import { CiSearch } from "react-icons/ci";
 
-interface SearchProps {
-  searchRef?: React.RefObject<HTMLDivElement>;
-}
-
-function SearchBox({ searchRef }: SearchProps) {
+function SearchBox() {
   const ref = useRef<HTMLInputElement>(null);
 
   const { search, setSearch, focusTrigger } = useContext(SearchContext);
@@ -18,55 +16,36 @@ function SearchBox({ searchRef }: SearchProps) {
   }, [focusTrigger]);
 
   useEffect(() => {
-    const handleKeyDown = (event: KeyboardEvent) => {
-      const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
-      if (
-        (isMac && event.metaKey && event.key === 'f') ||
-        (!isMac && event.ctrlKey && event.key === 'f')
-      ) {
-        event.preventDefault();
+    const down = (e: KeyboardEvent) => {
+      if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
+        e.preventDefault();
         ref.current?.focus();
       }
     };
 
-    window.addEventListener('keydown', handleKeyDown);
-
-    return () => {
-      window.removeEventListener('keydown', handleKeyDown);
-    };
-  });
+    document.addEventListener("keydown", down);
+    return () => document.removeEventListener("keydown", down);
+  }, []);
 
   const handleClearSearch = () => {
     setSearch("");
     ref.current?.focus();
   };
+  
   return (
-    <div ref={searchRef} className="relative">
-      <label htmlFor="Search" className="sr-only">
-        {" "}
-        Search{" "}
-      </label>
-
-      <input
+    <div className="relative">
+      <CiSearch className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
+      <Input
+        placeholder="Search"
+        className="pl-8 focus-visible:ring-purple-700 focus-visible:border-gray-200"
         ref={ref}
-        type="text"
-        name="search"
-        id="Search"
-        className="w-full rounded-xl py-2.5 pe-10 shadow-sm sm:text-sm border-gray-200 ring-blue-500"
-        placeholder="Search icon name"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
-      <span className="absolute inset-y-0 end-0 grid w-10 place-content-center">
-        <button
-          type="button"
-          className="text-gray-600 hover:text-gray-700"
-          onClick={handleClearSearch}
-        >
-          <span className="sr-only">Search</span>
-          <IoCloseOutline className="text-gray-400 text-lg hover:text-gray-800" />
-        </button>
-      </span>
+      <IoCloseOutline
+        className="absolute right-2 top-2.5 h-4 w-4 text-muted-foreground"
+        onClick={handleClearSearch}
+      />
     </div>
   );
 }
