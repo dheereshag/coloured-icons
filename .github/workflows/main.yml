@@ -19,7 +19,7 @@ jobs:
           node-version: "latest"
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Run listFolders script
         run: node scripts/listFolders.js
