@@ -1405,6 +1405,14 @@ const icons = [
     "url": "flutter.com"
   },
   {
+    "name": "Flyio",
+    "category": "technology",
+    "classes": [
+      "flyio"
+    ],
+    "url": "flyio.com"
+  },
+  {
     "name": "Forms",
     "category": "technology",
     "classes": [
@@ -1419,6 +1427,16 @@ const icons = [
       "framer"
     ],
     "url": "framer.com"
+  },
+  {
+    "name": "Gatsbyjs",
+    "category": "technology",
+    "classes": [
+      "gatsbyjs",
+      "gatsbyjs-horizontal",
+      "gatsbyjs-horizontal-light"
+    ],
+    "url": "gatsbyjs.com"
   },
   {
     "name": "Gcd",
@@ -1494,6 +1512,24 @@ const icons = [
     "url": "google.com"
   },
   {
+    "name": "Grafana",
+    "category": "technology",
+    "classes": [
+      "grafana",
+      "grafana-horizontal",
+      "grafana-horizontal-light"
+    ],
+    "url": "grafana.com"
+  },
+  {
+    "name": "Grafbase",
+    "category": "technology",
+    "classes": [
+      "grafbase"
+    ],
+    "url": "grafbase.com"
+  },
+  {
     "name": "Graphql",
     "category": "technology",
     "classes": [
@@ -1504,12 +1540,131 @@ const icons = [
     "url": "graphql.com"
   },
   {
+    "name": "Gridsomejs",
+    "category": "technology",
+    "classes": [
+      "gridsomejs",
+      "gridsomejs-horizontal-light"
+    ],
+    "url": "gridsomejs.com"
+  },
+  {
+    "name": "Gruntjs",
+    "category": "technology",
+    "classes": [
+      "gruntjs",
+      "gruntjs-vertical"
+    ],
+    "url": "gruntjs.com"
+  },
+  {
+    "name": "Gulp",
+    "category": "technology",
+    "classes": [
+      "gulp"
+    ],
+    "url": "gulp.com"
+  },
+  {
+    "name": "Hashnode",
+    "category": "technology",
+    "classes": [
+      "hashnode",
+      "hashnode-horizontal",
+      "hashnode-horizontal-light"
+    ],
+    "url": "hashnode.com"
+  },
+  {
+    "name": "Haskell",
+    "category": "technology",
+    "classes": [
+      "haskell"
+    ],
+    "url": "haskell.com"
+  },
+  {
+    "name": "Headlessui",
+    "category": "technology",
+    "classes": [
+      "headlessui"
+    ],
+    "url": "headlessui.com"
+  },
+  {
+    "name": "Heroku",
+    "category": "technology",
+    "classes": [
+      "heroku",
+      "heroku-horizontal"
+    ],
+    "url": "heroku.com"
+  },
+  {
+    "name": "Hexo",
+    "category": "technology",
+    "classes": [
+      "hexo"
+    ],
+    "url": "hexo.com"
+  },
+  {
+    "name": "Hhvm",
+    "category": "technology",
+    "classes": [
+      "hhvm"
+    ],
+    "url": "hhvm.com"
+  },
+  {
+    "name": "Homebrew",
+    "category": "technology",
+    "classes": [
+      "homebrew"
+    ],
+    "url": "homebrew.com"
+  },
+  {
+    "name": "Hotjar",
+    "category": "technology",
+    "classes": [
+      "hotjar",
+      "hotjar-horizontal",
+      "hotjar-horizontal-light"
+    ],
+    "url": "hotjar.com"
+  },
+  {
     "name": "HTML",
     "category": "technology",
     "classes": [
       "html"
     ],
     "url": "html.com"
+  },
+  {
+    "name": "Hyper",
+    "category": "technology",
+    "classes": [
+      "hyper"
+    ],
+    "url": "hyper.com"
+  },
+  {
+    "name": "I18next",
+    "category": "technology",
+    "classes": [
+      "i18next"
+    ],
+    "url": "i18next.com"
+  },
+  {
+    "name": "Indesign",
+    "category": "technology",
+    "classes": [
+      "indesign"
+    ],
+    "url": "indesign.com"
   },
   {
     "name": "Infura",
@@ -1522,6 +1677,40 @@ const icons = [
     "url": "infura.io"
   },
   {
+    "name": "Insomnia",
+    "category": "technology",
+    "classes": [
+      "insomnia"
+    ],
+    "url": "insomnia.com"
+  },
+  {
+    "name": "Invision",
+    "category": "technology",
+    "classes": [
+      "invision",
+      "invision-wordmark"
+    ],
+    "url": "invision.com"
+  },
+  {
+    "name": "Ionic",
+    "category": "technology",
+    "classes": [
+      "ionic",
+      "ionic-horizontal"
+    ],
+    "url": "ionic.com"
+  },
+  {
+    "name": "Jamstack",
+    "category": "technology",
+    "classes": [
+      "jamstack"
+    ],
+    "url": "jamstack.com"
+  },
+  {
     "name": "Java",
     "category": "technology",
     "classes": [
@@ -1529,6 +1718,22 @@ const icons = [
       "java-vertical"
     ],
     "url": "java.com"
+  },
+  {
+    "name": "Jest",
+    "category": "technology",
+    "classes": [
+      "jest"
+    ],
+    "url": "jest.com"
+  },
+  {
+    "name": "Jira",
+    "category": "technology",
+    "classes": [
+      "jira"
+    ],
+    "url": "jira.com"
   },
   {
     "name": "jQuery",
@@ -1548,6 +1753,22 @@ const icons = [
     "url": "js.com"
   },
   {
+    "name": "Jslint",
+    "category": "technology",
+    "classes": [
+      "jslint"
+    ],
+    "url": "jslint.com"
+  },
+  {
+    "name": "Json",
+    "category": "technology",
+    "classes": [
+      "json"
+    ],
+    "url": "json.com"
+  },
+  {
     "name": "Julia",
     "category": "technology",
     "classes": [
@@ -1555,6 +1776,14 @@ const icons = [
       "julia-wordmark"
     ],
     "url": "julia.com"
+  },
+  {
+    "name": "Kibana",
+    "category": "technology",
+    "classes": [
+      "kibana"
+    ],
+    "url": "kibana.com"
   },
   {
     "name": "Kotlin",
@@ -1591,6 +1820,64 @@ const icons = [
       "leetcode-light"
     ],
     "url": "leetcode.com"
+  },
+  {
+    "name": "Less",
+    "category": "technology",
+    "classes": [
+      "less"
+    ],
+    "url": "less.com"
+  },
+  {
+    "name": "Lightroom",
+    "category": "technology",
+    "classes": [
+      "lightroom"
+    ],
+    "url": "lightroom.com"
+  },
+  {
+    "name": "Linux",
+    "category": "technology",
+    "classes": [
+      "linux"
+    ],
+    "url": "linux.com"
+  },
+  {
+    "name": "Lit",
+    "category": "technology",
+    "classes": [
+      "lit"
+    ],
+    "url": "lit.com"
+  },
+  {
+    "name": "Liveblocks",
+    "category": "technology",
+    "classes": [
+      "liveblocks"
+    ],
+    "url": "liveblocks.com"
+  },
+  {
+    "name": "Logrocket",
+    "category": "technology",
+    "classes": [
+      "logrocket"
+    ],
+    "url": "logrocket.com"
+  },
+  {
+    "name": "Lokalise",
+    "category": "technology",
+    "classes": [
+      "lokalise",
+      "lokalise-horizontal",
+      "lokalise-horizontal-light"
+    ],
+    "url": "lokalise.com"
   },
   {
     "name": "Meta",

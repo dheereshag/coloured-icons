@@ -46,6 +46,10 @@ const logoAliases = {
   louisvuitton: ["lv"],
   framer: ["framer-motion"],
   bluesky: ["bsky"],
+  flyio : ["fly"],
+  gatsbyjs: ["gatsby"],
+  gridsomejs: ["gridsome"],
+  gruntjs: ["grunt"],
 };
 
 // NEW: Function to parse CSS rules into groups by URL
