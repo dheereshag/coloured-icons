@@ -61,6 +61,11 @@ const logoAliases = {
   vuejs: ["vue"],
   typescript: ["ts"],
   javascript: ["js"],
+  rollupjs: ["rollup"],
+  semanticui: ["semantic"],
+  solidjs: ["solid"],
+  unjs: ["un"],
+  vitejs: ["vite"],
 };
 
 // NEW: Function to parse CSS rules into groups by URL
