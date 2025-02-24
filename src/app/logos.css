@@ -2762,13 +2762,13 @@
   content: url("../../public/logos/technology/dropwizard/dropwizard.svg");
 }
 
-.ci-drupal-stacked,
-.ci-drupal-stacked-dark,
-.ci-drupal-stacked-light,
-.ci-drupal-vertical,
-.ci-drupal-vertical-dark,
-.ci-drupal-vertical-light {
-  content: url("../../public/logos/technology/drupal/drupal-vertical.svg");
+.ci-drupal-horizontal,
+.ci-drupal-horizontal-dark,
+.ci-drupal-horizontal-light,
+.ci-drupal-inline,
+.ci-drupal-inline-dark,
+.ci-drupal-inline-light {
+  content: url("../../public/logos/technology/drupal/drupal-horizontal.svg");
 }
 
 .ci-drupal,
@@ -4352,6 +4352,12 @@
   content: url("../../public/logos/technology/kaggle/kaggle.svg");
 }
 
+.ci-karatelabs-,
+.ci-karatelabs--dark,
+.ci-karatelabs--light {
+  content: url("../../public/logos/technology/karatelabs/.DS_Store");
+}
+
 .ci-karatelabs-horizontal,
 .ci-karatelabs-horizontal-dark,
 .ci-karatelabs-horizontal-light,
@@ -5255,6 +5261,21 @@
   content: url("../../public/logos/technology/nextjs/nextjs.svg");
 }
 
+.ci-nginx-stacked,
+.ci-nginx-stacked-dark,
+.ci-nginx-stacked-light,
+.ci-nginx-vertical,
+.ci-nginx-vertical-dark,
+.ci-nginx-vertical-light {
+  content: url("../../public/logos/technology/nginx/nginx-vertical.svg");
+}
+
+.ci-nginx-wordmark,
+.ci-nginx-wordmark-dark,
+.ci-nginx-wordmark-light {
+  content: url("../../public/logos/technology/nginx/nginx-wordmark.svg");
+}
+
 .ci-nginx,
 .ci-nginx-dark,
 .ci-nginx-light {
@@ -5499,6 +5520,12 @@
 .ci-oauth-dark,
 .ci-oauth-light {
   content: url("../../public/logos/technology/oauth/oauth.svg");
+}
+
+.ci-objectivec,
+.ci-objectivec-dark,
+.ci-objectivec-light {
+  content: url("../../public/logos/technology/objectivec/objectivec.svg");
 }
 
 .ci-ocaml-horizontal,
@@ -5765,6 +5792,12 @@
   content: url("../../public/logos/technology/pandas/pandas.svg");
 }
 
+.ci-perl,
+.ci-perl-dark,
+.ci-perl-light {
+  content: url("../../public/logos/technology/perl/perl.svg");
+}
+
 .ci-pfsense-horizontal,
 .ci-pfsense-horizontal-dark,
 .ci-pfsense-horizontal-light,
@@ -5922,6 +5955,24 @@
 .ci-poetry-dark,
 .ci-poetry-light {
   content: url("../../public/logos/technology/poetry/poetry.svg");
+}
+
+.ci-polygon-horizontal-light,
+.ci-polygon-inline-light {
+  content: url("../../public/logos/technology/polygon/polygon-horizontal-light.svg");
+}
+
+.ci-polygon-horizontal,
+.ci-polygon-horizontal-dark,
+.ci-polygon-inline,
+.ci-polygon-inline-dark {
+  content: url("../../public/logos/technology/polygon/polygon-horizontal.svg");
+}
+
+.ci-polygon,
+.ci-polygon-dark,
+.ci-polygon-light {
+  content: url("../../public/logos/technology/polygon/polygon.svg");
 }
 
 .ci-polygonio-stacked,
@@ -6572,10 +6623,28 @@
   content: url("../../public/logos/technology/redis/redis-vertical.svg");
 }
 
+.ci-redis-wordmark,
+.ci-redis-wordmark-dark,
+.ci-redis-wordmark-light {
+  content: url("../../public/logos/technology/redis/redis-wordmark.svg");
+}
+
 .ci-redis,
 .ci-redis-dark,
 .ci-redis-light {
   content: url("../../public/logos/technology/redis/redis.svg");
+}
+
+.ci-redislabs-horizontal-light,
+.ci-redislabs-inline-light {
+  content: url("../../public/logos/technology/redis/redislabs-horizontal-light.svg");
+}
+
+.ci-redislabs-horizontal,
+.ci-redislabs-horizontal-dark,
+.ci-redislabs-inline,
+.ci-redislabs-inline-dark {
+  content: url("../../public/logos/technology/redis/redislabs-horizontal.svg");
 }
 
 .ci-redux-saga,
@@ -6815,7 +6884,7 @@
 .ci-sanity,
 .ci-sanity-dark,
 .ci-sanity-light {
-  content: url("../../public/logos/technology/sanity/sanity.webp");
+  content: url("../../public/logos/technology/sanity/sanity.svg");
 }
 
 .ci-sass-wordmark,
@@ -7116,6 +7185,15 @@
 .ci-spack-dark,
 .ci-spack-light {
   content: url("../../public/logos/technology/spack/spack.svg");
+}
+
+.ci-spark-horizontal,
+.ci-spark-horizontal-dark,
+.ci-spark-horizontal-light,
+.ci-spark-inline,
+.ci-spark-inline-dark,
+.ci-spark-inline-light {
+  content: url("../../public/logos/technology/spark/spark-horizontal.svg");
 }
 
 .ci-spark,
@@ -7490,6 +7568,15 @@
   content: url("../../public/logos/technology/tensorflow/tensorflow-horizontal.svg");
 }
 
+.ci-tensorflow-stacked,
+.ci-tensorflow-stacked-dark,
+.ci-tensorflow-stacked-light,
+.ci-tensorflow-vertical,
+.ci-tensorflow-vertical-dark,
+.ci-tensorflow-vertical-light {
+  content: url("../../public/logos/technology/tensorflow/tensorflow-vertical.svg");
+}
+
 .ci-tensorflow,
 .ci-tensorflow-dark,
 .ci-tensorflow-light {
@@ -7667,12 +7754,15 @@
   content: url("../../public/logos/technology/travis/travis.svg");
 }
 
+.ci-trello-horizontal-light,
+.ci-trello-inline-light {
+  content: url("../../public/logos/technology/trello/trello-horizontal-light.svg");
+}
+
 .ci-trello-horizontal,
 .ci-trello-horizontal-dark,
-.ci-trello-horizontal-light,
 .ci-trello-inline,
-.ci-trello-inline-dark,
-.ci-trello-inline-light {
+.ci-trello-inline-dark {
   content: url("../../public/logos/technology/trello/trello-horizontal.svg");
 }
 
@@ -7680,6 +7770,21 @@
 .ci-trello-dark,
 .ci-trello-light {
   content: url("../../public/logos/technology/trello/trello.svg");
+}
+
+.ci-trpc-horizontal,
+.ci-trpc-horizontal-dark,
+.ci-trpc-horizontal-light,
+.ci-trpc-inline,
+.ci-trpc-inline-dark,
+.ci-trpc-inline-light {
+  content: url("../../public/logos/technology/trpc/trpc-horizontal.svg");
+}
+
+.ci-trpc,
+.ci-trpc-dark,
+.ci-trpc-light {
+  content: url("../../public/logos/technology/trpc/trpc.svg");
 }
 
 .ci-ts-circle,
@@ -8070,6 +8175,24 @@
 .ci-webassembly-dark,
 .ci-webassembly-light {
   content: url("../../public/logos/technology/webassembly/webassembly.svg");
+}
+
+.ci-webflow-horizontal-light,
+.ci-webflow-inline-light {
+  content: url("../../public/logos/technology/webflow/webflow-horizontal-light.svg");
+}
+
+.ci-webflow-horizontal,
+.ci-webflow-horizontal-dark,
+.ci-webflow-inline,
+.ci-webflow-inline-dark {
+  content: url("../../public/logos/technology/webflow/webflow-horizontal.svg");
+}
+
+.ci-webflow,
+.ci-webflow-dark,
+.ci-webflow-light {
+  content: url("../../public/logos/technology/webflow/webflow.svg");
 }
 
 .ci-weblate-horizontal,

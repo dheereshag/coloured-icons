@@ -1,4 +1,4 @@
-const logoAliases: { [key: string]: string[] } = {
+const logoAliases = {
   adonisjs: ["adonis"],
   alpinejs: ["alpine"],
   avajs: ["ava"],

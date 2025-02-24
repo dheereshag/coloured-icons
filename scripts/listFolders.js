@@ -1,8 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { logoAliases } from "@/constants";
-
+import logoAliases from "../src/constants/logoAliases.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

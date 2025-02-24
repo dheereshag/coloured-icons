@@ -1789,7 +1789,7 @@ const icons = [
     "category": "technology",
     "classes": [
       "drupal",
-      "drupal-vertical"
+      "drupal-horizontal"
     ],
     "url": "drupal.com"
   },
@@ -2903,6 +2903,7 @@ const icons = [
     "category": "technology",
     "classes": [
       "karatelabs",
+      "karatelabs-",
       "karatelabs-horizontal",
       "karatelabs-vertical"
     ],
@@ -3505,7 +3506,9 @@ const icons = [
     "name": "Nginx",
     "category": "technology",
     "classes": [
-      "nginx"
+      "nginx",
+      "nginx-vertical",
+      "nginx-wordmark"
     ],
     "url": "nginx.com"
   },
@@ -3653,6 +3656,14 @@ const icons = [
       "oauth"
     ],
     "url": "oauth.com"
+  },
+  {
+    "name": "Objectivec",
+    "category": "technology",
+    "classes": [
+      "objectivec"
+    ],
+    "url": "objectivec.com"
   },
   {
     "name": "Ocaml",
@@ -3847,6 +3858,14 @@ const icons = [
     "url": "pandas.com"
   },
   {
+    "name": "Perl",
+    "category": "technology",
+    "classes": [
+      "perl"
+    ],
+    "url": "perl.com"
+  },
+  {
     "name": "Pfsense",
     "category": "technology",
     "classes": [
@@ -3966,6 +3985,16 @@ const icons = [
       "poetry"
     ],
     "url": "poetry.com"
+  },
+  {
+    "name": "Polygon",
+    "category": "technology",
+    "classes": [
+      "polygon",
+      "polygon-horizontal",
+      "polygon-horizontal-light"
+    ],
+    "url": "polygon.com"
   },
   {
     "name": "Polygonio",
@@ -4434,7 +4463,10 @@ const icons = [
       "redis-enterprise",
       "redis-horizontal",
       "redis-horizontal-light",
-      "redis-vertical"
+      "redis-vertical",
+      "redis-wordmark",
+      "redislabs-horizontal",
+      "redislabs-horizontal-light"
     ],
     "url": "redis.com"
   },
@@ -4835,7 +4867,8 @@ const icons = [
     "name": "Spark",
     "category": "technology",
     "classes": [
-      "spark"
+      "spark",
+      "spark-horizontal"
     ],
     "url": "spark.com"
   },
@@ -5094,7 +5127,8 @@ const icons = [
     "category": "technology",
     "classes": [
       "tensorflow",
-      "tensorflow-horizontal"
+      "tensorflow-horizontal",
+      "tensorflow-vertical"
     ],
     "url": "tensorflow.com"
   },
@@ -5240,7 +5274,8 @@ const icons = [
     "category": "technology",
     "classes": [
       "trello",
-      "trello-horizontal"
+      "trello-horizontal",
+      "trello-horizontal-light"
     ],
     "url": "trello.com"
   },
@@ -5248,8 +5283,8 @@ const icons = [
     "name": "Trpc",
     "category": "technology",
     "classes": [
-      "trpc-horizontal",
-      "trpc-tRPC"
+      "trpc",
+      "trpc-horizontal"
     ],
     "url": "trpc.com"
   },
@@ -5554,6 +5589,16 @@ const icons = [
       "webassembly"
     ],
     "url": "webassembly.com"
+  },
+  {
+    "name": "Webflow",
+    "category": "technology",
+    "classes": [
+      "webflow",
+      "webflow-horizontal",
+      "webflow-horizontal-light"
+    ],
+    "url": "webflow.com"
   },
   {
     "name": "Weblate",
