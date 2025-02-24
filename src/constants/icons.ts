@@ -654,7 +654,7 @@ const icons = [
     "classes": [
       "aarch64"
     ],
-    "url": "en.wikipedia.org/wiki/AArch64"
+    "url": "aarch64.com"
   },
   {
     "name": "Access",
@@ -679,7 +679,7 @@ const icons = [
     "classes": [
       "aftereffects"
     ],
-    "url": "adobe.com/ca/products/aftereffects.html"
+    "url": "aftereffects.com"
   },
   {
     "name": "Airflow",
@@ -688,7 +688,7 @@ const icons = [
       "airflow",
       "airflow-horizontal"
     ],
-    "url": "airflow.apache.org"
+    "url": "airflow.com"
   },
   {
     "name": "Akka",
@@ -697,7 +697,7 @@ const icons = [
       "akka",
       "akka-horizontal"
     ],
-    "url": "akka.io"
+    "url": "akka.com"
   },
   {
     "name": "Alan AI",
@@ -725,7 +725,7 @@ const icons = [
       "alpinejs",
       "alpinejs-horizontal"
     ],
-    "url": "alpinejs.dev"
+    "url": "alpinejs.com"
   },
   {
     "name": "Amazon",
@@ -761,7 +761,7 @@ const icons = [
       "androidstudio",
       "androidstudio-horizontal"
     ],
-    "url": "developer.android.com/studio"
+    "url": "androidstudio.com"
   },
   {
     "name": "Angular",
@@ -794,7 +794,7 @@ const icons = [
     "classes": [
       "antdesign"
     ],
-    "url": "ant.design"
+    "url": "antdesign.com"
   },
   {
     "name": "Anthropic",
@@ -814,7 +814,7 @@ const icons = [
       "apache",
       "apache-horizontal"
     ],
-    "url": "apache.org"
+    "url": "apache.com"
   },
   {
     "name": "Apl",
@@ -822,7 +822,7 @@ const icons = [
     "classes": [
       "apl"
     ],
-    "url": "aplwiki.com"
+    "url": "apl.com"
   },
   {
     "name": "Appcelerator",
@@ -831,7 +831,7 @@ const icons = [
       "appcelerator",
       "appcelerator-vertical"
     ],
-    "url": "axway.com/en/appcelerator-end-of-life"
+    "url": "appcelerator.com"
   },
   {
     "name": "Apple",
@@ -839,7 +839,7 @@ const icons = [
     "classes": [
       "apple"
     ],
-    "url": "apple.com/"
+    "url": "apple.com"
   },
   {
     "name": "Appwrite",
@@ -849,7 +849,7 @@ const icons = [
       "appwrite-horizontal",
       "appwrite-horizontal-light"
     ],
-    "url": "appwrite.io"
+    "url": "appwrite.com"
   },
   {
     "name": "Arc",
@@ -866,7 +866,7 @@ const icons = [
       "archlinux",
       "archlinux-horizontal"
     ],
-    "url": "archlinux.org"
+    "url": "archlinux.com"
   },
   {
     "name": "Arduino",
@@ -875,7 +875,7 @@ const icons = [
       "arduino",
       "arduino-vertical"
     ],
-    "url": "arduino.cc"
+    "url": "arduino.com"
   },
   {
     "name": "Argocd",
@@ -884,7 +884,7 @@ const icons = [
       "argocd",
       "argocd-vertical"
     ],
-    "url": "github.com/argoproj/argo-cd"
+    "url": "argocd.com"
   },
   {
     "name": "Astro",
@@ -895,7 +895,7 @@ const icons = [
       "astro-horizontal-light",
       "astro-light"
     ],
-    "url": "astro.build"
+    "url": "astro.com"
   },
   {
     "name": "Atlassian",
@@ -913,7 +913,7 @@ const icons = [
       "atom",
       "atom-horizontal"
     ],
-    "url": "github.com/atom/atom"
+    "url": "atom.com"
   },
   {
     "name": "Auth0",
@@ -937,7 +937,7 @@ const icons = [
     "classes": [
       "awk"
     ],
-    "url": "gnu.org/software/gawk/manual/gawk.html"
+    "url": "awk.com"
   },
   {
     "name": "AWS",
@@ -946,7 +946,7 @@ const icons = [
       "aws",
       "aws-light"
     ],
-    "url": "aws.amazon.com/"
+    "url": "aws.com"
   },
   {
     "name": "Axios",
@@ -955,7 +955,7 @@ const icons = [
       "axios",
       "axios-wordmark"
     ],
-    "url": "axios-http.com"
+    "url": "axios.com"
   },
   {
     "name": "Axure",
@@ -974,7 +974,7 @@ const icons = [
       "azure",
       "azure-horizontal"
     ],
-    "url": "azure.microsoft.com"
+    "url": "azure.com"
   },
   {
     "name": "Azuredevops",
@@ -982,7 +982,7 @@ const icons = [
     "classes": [
       "azuredevops"
     ],
-    "url": "azure.microsoft.com/products/devops"
+    "url": "azuredevops.com"
   },
   {
     "name": "Azuresqldatabase",
@@ -990,7 +990,7 @@ const icons = [
     "classes": [
       "azuresqldatabase"
     ],
-    "url": "learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql"
+    "url": "azuresqldatabase.com"
   },
   {
     "name": "Babel",
@@ -998,7 +998,7 @@ const icons = [
     "classes": [
       "babel"
     ],
-    "url": "babeljs.io"
+    "url": "babel.com"
   },
   {
     "name": "Backbonejs",
@@ -1008,7 +1008,7 @@ const icons = [
       "backbonejs-horizontal",
       "backbonejs-vertical"
     ],
-    "url": "backbonejs.org"
+    "url": "backbonejs.com"
   },
   {
     "name": "Ballerina",
@@ -1017,7 +1017,7 @@ const icons = [
       "ballerina",
       "ballerina-vertical"
     ],
-    "url": "ballerina.io"
+    "url": "ballerina.com"
   },
   {
     "name": "Bamboo",
@@ -1026,7 +1026,7 @@ const icons = [
       "bamboo",
       "bamboo-vertical"
     ],
-    "url": "atlassian.com/software/bamboo"
+    "url": "bamboo.com"
   },
   {
     "name": "Bash",
@@ -1035,7 +1035,7 @@ const icons = [
       "bash",
       "bash-horizontal"
     ],
-    "url": "gnu.org/software/bash"
+    "url": "bash.com"
   },
   {
     "name": "Beats",
@@ -1043,7 +1043,7 @@ const icons = [
     "classes": [
       "beats"
     ],
-    "url": "elastic.co/beats"
+    "url": "beats.com"
   },
   {
     "name": "Bing",
@@ -1070,7 +1070,7 @@ const icons = [
       "bitbucket-horizontal",
       "bitbucket-vertical"
     ],
-    "url": "bitbucket.org"
+    "url": "bitbucket.com"
   },
   {
     "name": "Bitnami",
@@ -1095,7 +1095,7 @@ const icons = [
       "blender",
       "blender-horizontal"
     ],
-    "url": "blender.org"
+    "url": "blender.com"
   },
   {
     "name": "Blueprintjs",
@@ -1111,7 +1111,7 @@ const icons = [
     "classes": [
       "bootstrap"
     ],
-    "url": "getbootstrap.com"
+    "url": "bootstrap.com"
   },
   {
     "name": "Bower",
@@ -1120,7 +1120,7 @@ const icons = [
       "bower",
       "bower-vertical"
     ],
-    "url": "bower.io"
+    "url": "bower.com"
   },
   {
     "name": "Brave",
@@ -1147,7 +1147,7 @@ const icons = [
     "classes": [
       "bulma"
     ],
-    "url": "bulma.io"
+    "url": "bulma.com"
   },
   {
     "name": "Bun",
@@ -1155,7 +1155,7 @@ const icons = [
     "classes": [
       "bun"
     ],
-    "url": "bun.sh"
+    "url": "bun.com"
   },
   {
     "name": "C",
@@ -1172,7 +1172,7 @@ const icons = [
       "cairo",
       "cairo-horizontal"
     ],
-    "url": "cairographics.org"
+    "url": "cairo.com"
   },
   {
     "name": "Cakephp",
@@ -1181,7 +1181,7 @@ const icons = [
       "cakephp",
       "cakephp-horizontal"
     ],
-    "url": "cakephp.org"
+    "url": "cakephp.com"
   },
   {
     "name": "Canva",
@@ -1199,7 +1199,7 @@ const icons = [
       "capacitor",
       "capacitor-horizontal"
     ],
-    "url": "capacitorjs.com"
+    "url": "capacitor.com"
   },
   {
     "name": "Carbon",
@@ -1216,7 +1216,7 @@ const icons = [
       "cassandra",
       "cassandra-vertical"
     ],
-    "url": "cassandra.apache.org/_/index.html"
+    "url": "cassandra.com"
   },
   {
     "name": "Centos",
@@ -1225,7 +1225,7 @@ const icons = [
       "centos",
       "centos-horizontal"
     ],
-    "url": "centos.org"
+    "url": "centos.com"
   },
   {
     "name": "Ceylon",
@@ -1234,7 +1234,7 @@ const icons = [
       "ceylon",
       "ceylon-horizontal"
     ],
-    "url": "ceylon-lang.org"
+    "url": "ceylon.com"
   },
   {
     "name": "Chakraui",
@@ -1261,7 +1261,7 @@ const icons = [
     "classes": [
       "chrome"
     ],
-    "url": "google.com/chrome"
+    "url": "chrome.com"
   },
   {
     "name": "Chromium",
@@ -1286,7 +1286,7 @@ const icons = [
       "clarity",
       "clarity-horizontal"
     ],
-    "url": "clarity-lang.org"
+    "url": "clarity.com"
   },
   {
     "name": "Claude",
@@ -1313,7 +1313,7 @@ const icons = [
       "clion",
       "clion-horizontal"
     ],
-    "url": "jetbrains.com/clion"
+    "url": "clion.com"
   },
   {
     "name": "Clojure",
@@ -1321,7 +1321,7 @@ const icons = [
     "classes": [
       "clojure"
     ],
-    "url": "clojure.org"
+    "url": "clojure.com"
   },
   {
     "name": "Clojurescript",
@@ -1329,7 +1329,7 @@ const icons = [
     "classes": [
       "clojurescript"
     ],
-    "url": "clojurescript.org"
+    "url": "clojurescript.com"
   },
   {
     "name": "Cloudflare",
@@ -1348,7 +1348,7 @@ const icons = [
       "cloudflareworkers",
       "cloudflareworkers-vertical"
     ],
-    "url": "workers.cloudflare.com"
+    "url": "cloudflareworkers.com"
   },
   {
     "name": "Cloudinary",
@@ -1366,7 +1366,7 @@ const icons = [
       "cmake",
       "cmake-horizontal"
     ],
-    "url": "cmake.org"
+    "url": "cmake.com"
   },
   {
     "name": "Codeac",
@@ -1374,7 +1374,7 @@ const icons = [
     "classes": [
       "codeac"
     ],
-    "url": "codeac.io"
+    "url": "codeac.com"
   },
   {
     "name": "Codecov",
@@ -1383,7 +1383,7 @@ const icons = [
       "codecov",
       "codecov-horizontal"
     ],
-    "url": "about.codecov.io"
+    "url": "codecov.com"
   },
   {
     "name": "Codeforces",
@@ -1419,7 +1419,7 @@ const icons = [
       "codepen",
       "codepen-wordmark"
     ],
-    "url": "codepen.io"
+    "url": "codepen.com"
   },
   {
     "name": "Coffeescript",
@@ -1428,7 +1428,7 @@ const icons = [
       "coffeescript",
       "coffeescript-vertical"
     ],
-    "url": "coffeescript.org"
+    "url": "coffeescript.com"
   },
   {
     "name": "Composer",
@@ -1436,7 +1436,7 @@ const icons = [
     "classes": [
       "composer"
     ],
-    "url": "getcomposer.org"
+    "url": "composer.com"
   },
   {
     "name": "Confluence",
@@ -1445,7 +1445,7 @@ const icons = [
       "confluence",
       "confluence-vertical"
     ],
-    "url": "atlassian.com/software/confluence"
+    "url": "confluence.com"
   },
   {
     "name": "Consul",
@@ -1454,7 +1454,7 @@ const icons = [
       "consul",
       "consul-vertical"
     ],
-    "url": "consul.io"
+    "url": "consul.com"
   },
   {
     "name": "Contao",
@@ -1463,7 +1463,7 @@ const icons = [
       "contao",
       "contao-horizontal"
     ],
-    "url": "contao.org"
+    "url": "contao.com"
   },
   {
     "name": "Copilot",
@@ -1480,7 +1480,7 @@ const icons = [
       "corejs",
       "corejs-horizontal"
     ],
-    "url": "github.com/zloirock/core-js"
+    "url": "corejs.com"
   },
   {
     "name": "Cosmosdb",
@@ -1489,7 +1489,7 @@ const icons = [
       "cosmosdb",
       "cosmosdb-vertical"
     ],
-    "url": "learn.microsoft.com/en-us/azure/cosmos-db/introduction"
+    "url": "cosmosdb.com"
   },
   {
     "name": "Couchbase",
@@ -1507,7 +1507,7 @@ const icons = [
       "couchdb",
       "couchdb-horizontal"
     ],
-    "url": "couchdb.apache.org"
+    "url": "couchdb.com"
   },
   {
     "name": "C++",
@@ -1515,7 +1515,7 @@ const icons = [
     "classes": [
       "cpp"
     ],
-    "url": "cplusplus.com"
+    "url": "isocpp.org"
   },
   {
     "name": "Crystal",
@@ -1524,7 +1524,7 @@ const icons = [
       "crystal",
       "crystal-vertical"
     ],
-    "url": "crystal-lang.org"
+    "url": "crystal.com"
   },
   {
     "name": "C#",
@@ -1532,7 +1532,7 @@ const icons = [
     "classes": [
       "csharp"
     ],
-    "url": "learn.microsoft.com/en-us/dotnet/csharp"
+    "url": "csharp.com"
   },
   {
     "name": "CSS",
@@ -1541,7 +1541,7 @@ const icons = [
       "css",
       "css-vertical"
     ],
-    "url": "developer.mozilla.org/en-US/docs/Web/CSS"
+    "url": "css.com"
   },
   {
     "name": "Cucumber",
@@ -1550,7 +1550,7 @@ const icons = [
       "cucumber",
       "cucumber-horizontal"
     ],
-    "url": "cucumber.io"
+    "url": "cucumber.com"
   },
   {
     "name": "Cypress",
@@ -1560,7 +1560,7 @@ const icons = [
       "cypress-horizontal",
       "cypress-horizontal-light"
     ],
-    "url": "cypress.io"
+    "url": "cypress.com"
   },
   {
     "name": "D3js",
@@ -1568,7 +1568,7 @@ const icons = [
     "classes": [
       "d3js"
     ],
-    "url": "d3js.org"
+    "url": "d3js.com"
   },
   {
     "name": "Dart",
@@ -1580,7 +1580,7 @@ const icons = [
       "dart-vertical",
       "dart-vertical-light"
     ],
-    "url": "dart.dev"
+    "url": "dart.com"
   },
   {
     "name": "Datadog",
@@ -1598,7 +1598,7 @@ const icons = [
     "classes": [
       "datagrip"
     ],
-    "url": "jetbrains.com/datagrip"
+    "url": "datagrip.com"
   },
   {
     "name": "Dataspell",
@@ -1607,7 +1607,7 @@ const icons = [
       "dataspell",
       "dataspell-horizontal"
     ],
-    "url": "jetbrains.com/dataspell"
+    "url": "dataspell.com"
   },
   {
     "name": "Dbeaver",
@@ -1615,7 +1615,7 @@ const icons = [
     "classes": [
       "dbeaver"
     ],
-    "url": "dbeaver.io"
+    "url": "dbeaver.com"
   },
   {
     "name": "Debian",
@@ -1624,7 +1624,7 @@ const icons = [
       "debian",
       "debian-vertical"
     ],
-    "url": "debian.org"
+    "url": "debian.com"
   },
   {
     "name": "Deepseek",
@@ -1661,7 +1661,7 @@ const icons = [
       "devicon",
       "devicon-vertical"
     ],
-    "url": "devicon.dev"
+    "url": "devicon.com"
   },
   {
     "name": "Digitalocean",
@@ -1680,7 +1680,7 @@ const icons = [
       "discordjs",
       "discordjs-horizontal"
     ],
-    "url": "discord.js.org"
+    "url": "discordjs.com"
   },
   {
     "name": "Django",
@@ -1689,7 +1689,7 @@ const icons = [
       "django",
       "django-wordmark"
     ],
-    "url": "djangoproject.com"
+    "url": "django.com"
   },
   {
     "name": "Dlang",
@@ -1716,7 +1716,7 @@ const icons = [
       "doctrine",
       "doctrine-vertical"
     ],
-    "url": "doctrine-project.org"
+    "url": "doctrine.com"
   },
   {
     "name": "Docusaurus",
@@ -1733,7 +1733,7 @@ const icons = [
       "dotnet",
       "dotnet-horizontal"
     ],
-    "url": "dotnet.microsoft.com"
+    "url": "dotnet.com"
   },
   {
     "name": "Dotnetcore",
@@ -1741,7 +1741,7 @@ const icons = [
     "classes": [
       "dotnetcore"
     ],
-    "url": "dotnet.microsoft.com"
+    "url": "dotnetcore.com"
   },
   {
     "name": "Dovetail",
@@ -1766,7 +1766,7 @@ const icons = [
     "classes": [
       "drf"
     ],
-    "url": "django-rest-framework.org"
+    "url": "drf.com"
   },
   {
     "name": "Dropbox",
@@ -1784,7 +1784,7 @@ const icons = [
     "classes": [
       "dropwizard"
     ],
-    "url": "dropwizard.io"
+    "url": "dropwizard.com"
   },
   {
     "name": "Drupal",
@@ -1793,7 +1793,7 @@ const icons = [
       "drupal",
       "drupal-horizontal"
     ],
-    "url": "drupal.org"
+    "url": "drupal.com"
   },
   {
     "name": "Dynamodb",
@@ -1818,7 +1818,7 @@ const icons = [
       "eclipse",
       "eclipse-horizontal"
     ],
-    "url": "eclipseide.org"
+    "url": "eclipse.com"
   },
   {
     "name": "Ecto",
@@ -1854,7 +1854,7 @@ const icons = [
       "elasticsearch",
       "elasticsearch-horizontal"
     ],
-    "url": "elastic.co/enterprise-search"
+    "url": "elasticsearch.com"
   },
   {
     "name": "Electron",
@@ -1863,7 +1863,7 @@ const icons = [
       "electron",
       "electron-horizontal"
     ],
-    "url": "electronjs.org"
+    "url": "electron.com"
   },
   {
     "name": "Elementui",
@@ -1880,7 +1880,7 @@ const icons = [
       "elixir",
       "elixir-horizontal"
     ],
-    "url": "elixir-lang.org"
+    "url": "elixir.com"
   },
   {
     "name": "Elm",
@@ -1889,7 +1889,7 @@ const icons = [
       "elm",
       "elm-horizontal"
     ],
-    "url": "elm-lang.org"
+    "url": "elm.com"
   },
   {
     "name": "Emacs",
@@ -1897,7 +1897,7 @@ const icons = [
     "classes": [
       "emacs"
     ],
-    "url": "gnu.org/software/emacs"
+    "url": "emacs.com"
   },
   {
     "name": "Embeddedc",
@@ -1906,7 +1906,7 @@ const icons = [
       "embeddedc",
       "embeddedc-horizontal"
     ],
-    "url": "en.wikipedia.org/wiki/Embedded_C"
+    "url": "embeddedc.com"
   },
   {
     "name": "Emberjs",
@@ -1924,7 +1924,7 @@ const icons = [
       "envoy",
       "envoy-vertical"
     ],
-    "url": "envoyproxy.io"
+    "url": "envoy.com"
   },
   {
     "name": "Erlang",
@@ -1934,7 +1934,7 @@ const icons = [
       "erlang-vertical",
       "erlang-vertical2"
     ],
-    "url": "erlang.org"
+    "url": "erlang.com"
   },
   {
     "name": "Esbuild",
@@ -1951,7 +1951,7 @@ const icons = [
       "eslint",
       "eslint-horizontal"
     ],
-    "url": "eslint.org"
+    "url": "eslint.com"
   },
   {
     "name": "Eth",
@@ -1985,7 +1985,7 @@ const icons = [
       "fastapi",
       "fastapi-horizontal"
     ],
-    "url": "fastapi.tiangolo.com"
+    "url": "fastapi.com"
   },
   {
     "name": "Fastify",
@@ -1994,7 +1994,7 @@ const icons = [
       "fastify",
       "fastify-horizontal"
     ],
-    "url": "fastify.io"
+    "url": "fastify.com"
   },
   {
     "name": "Faunadb",
@@ -2003,7 +2003,7 @@ const icons = [
       "faunadb",
       "faunadb-horizontal"
     ],
-    "url": "fauna.com"
+    "url": "faunadb.com"
   },
   {
     "name": "Feathersjs",
@@ -2019,7 +2019,7 @@ const icons = [
     "classes": [
       "fedora"
     ],
-    "url": "getfedora.org"
+    "url": "fedora.com"
   },
   {
     "name": "Figma",
@@ -2036,7 +2036,7 @@ const icons = [
       "filezilla",
       "filezilla-horizontal"
     ],
-    "url": "filezilla-project.org"
+    "url": "filezilla.com"
   },
   {
     "name": "Firebase",
@@ -2044,7 +2044,7 @@ const icons = [
     "classes": [
       "firebase"
     ],
-    "url": "firebase.google.com"
+    "url": "firebase.com"
   },
   {
     "name": "Firefox",
@@ -2054,7 +2054,7 @@ const icons = [
       "firefox-horizontal",
       "firefox-horizontal-light"
     ],
-    "url": "mozilla.org/firefox"
+    "url": "firefox.com"
   },
   {
     "name": "Flask",
@@ -2063,7 +2063,7 @@ const icons = [
       "flask",
       "flask-light"
     ],
-    "url": "flask.palletsprojects.com"
+    "url": "flask.com"
   },
   {
     "name": "Flutter",
@@ -2077,7 +2077,7 @@ const icons = [
       "flutter-vertical",
       "flutter-vertical-light"
     ],
-    "url": "flutter.dev"
+    "url": "flutter.com"
   },
   {
     "name": "Flyio",
@@ -2101,7 +2101,7 @@ const icons = [
     "classes": [
       "fortran"
     ],
-    "url": "fortran-lang.org"
+    "url": "fortran.com"
   },
   {
     "name": "Foundation",
@@ -2110,7 +2110,7 @@ const icons = [
       "foundation",
       "foundation-vertical"
     ],
-    "url": "get.foundation"
+    "url": "foundation.com"
   },
   {
     "name": "Framer",
@@ -2135,7 +2135,7 @@ const icons = [
     "classes": [
       "fsharp"
     ],
-    "url": "fsharp.org"
+    "url": "fsharp.com"
   },
   {
     "name": "Gatling",
@@ -2144,7 +2144,7 @@ const icons = [
       "gatling",
       "gatling-horizontal"
     ],
-    "url": "gatling.io"
+    "url": "gatling.com"
   },
   {
     "name": "Gatsby",
@@ -2153,7 +2153,7 @@ const icons = [
       "gatsby",
       "gatsby-horizontal"
     ],
-    "url": "gatsbyjs.com"
+    "url": "gatsby.com"
   },
   {
     "name": "Gatsbyjs",
@@ -2172,7 +2172,7 @@ const icons = [
       "gazebo",
       "gazebo-vertical"
     ],
-    "url": "gazebosim.org"
+    "url": "gazebo.com"
   },
   {
     "name": "Gcc",
@@ -2180,7 +2180,7 @@ const icons = [
     "classes": [
       "gcc"
     ],
-    "url": "gcc.gnu.org"
+    "url": "gcc.com"
   },
   {
     "name": "Gcd",
@@ -2189,7 +2189,7 @@ const icons = [
       "gcd",
       "gcd-vertical"
     ],
-    "url": "cloud.google.com"
+    "url": "gcd.com"
   },
   {
     "name": "Gentoo",
@@ -2198,7 +2198,7 @@ const icons = [
       "gentoo",
       "gentoo-vertical"
     ],
-    "url": "gentoo.org"
+    "url": "gentoo.com"
   },
   {
     "name": "Ghost",
@@ -2207,7 +2207,7 @@ const icons = [
       "ghost",
       "ghost-horizontal"
     ],
-    "url": "ghost.org"
+    "url": "ghost.com"
   },
   {
     "name": "Gimp",
@@ -2216,7 +2216,7 @@ const icons = [
       "gimp",
       "gimp-vertical"
     ],
-    "url": "gimp.org"
+    "url": "gimp.com"
   },
   {
     "name": "Git",
@@ -2225,7 +2225,7 @@ const icons = [
       "git",
       "git-horizontal"
     ],
-    "url": "git-scm.com"
+    "url": "git.com"
   },
   {
     "name": "Gitbook",
@@ -2261,7 +2261,7 @@ const icons = [
     "classes": [
       "githubactions"
     ],
-    "url": "github.com/features/actions"
+    "url": "githubactions.com"
   },
   {
     "name": "Githubcodespaces",
@@ -2269,7 +2269,7 @@ const icons = [
     "classes": [
       "githubcodespaces"
     ],
-    "url": "github.com/features/codespaces"
+    "url": "githubcodespaces.com"
   },
   {
     "name": "Gitlab",
@@ -2279,7 +2279,7 @@ const icons = [
       "gitlab-horizontal",
       "gitlab-horizontal-light"
     ],
-    "url": "about.gitlab.com"
+    "url": "gitlab.com"
   },
   {
     "name": "Gitpod",
@@ -2288,7 +2288,7 @@ const icons = [
       "gitpod",
       "gitpod-horizontal"
     ],
-    "url": "gitpod.io"
+    "url": "gitpod.com"
   },
   {
     "name": "Gitter",
@@ -2297,7 +2297,7 @@ const icons = [
       "gitter",
       "gitter-horizontal"
     ],
-    "url": "gitter.im"
+    "url": "gitter.com"
   },
   {
     "name": "Gmail",
@@ -2315,7 +2315,7 @@ const icons = [
       "godot",
       "godot-vertical"
     ],
-    "url": "godotengine.org"
+    "url": "godot.com"
   },
   {
     "name": "Goland",
@@ -2323,7 +2323,7 @@ const icons = [
     "classes": [
       "goland"
     ],
-    "url": "jetbrains.com/go"
+    "url": "goland.com"
   },
   {
     "name": "Golang",
@@ -2332,7 +2332,7 @@ const icons = [
       "golang",
       "golang-wordmark"
     ],
-    "url": "go.dev"
+    "url": "golang.com"
   },
   {
     "name": "Google",
@@ -2350,7 +2350,7 @@ const icons = [
       "gradle",
       "gradle-horizontal"
     ],
-    "url": "gradle.org"
+    "url": "gradle.com"
   },
   {
     "name": "Grafana",
@@ -2376,7 +2376,7 @@ const icons = [
     "classes": [
       "grails"
     ],
-    "url": "grails.org"
+    "url": "grails.com"
   },
   {
     "name": "Graphql",
@@ -2386,7 +2386,7 @@ const icons = [
       "graphql-horizontal",
       "graphql-vertical"
     ],
-    "url": "graphql.org"
+    "url": "graphql.com"
   },
   {
     "name": "Gridsomejs",
@@ -2403,7 +2403,7 @@ const icons = [
     "classes": [
       "groovy"
     ],
-    "url": "groovy-lang.org"
+    "url": "groovy.com"
   },
   {
     "name": "Grpc",
@@ -2420,7 +2420,7 @@ const icons = [
       "grunt",
       "grunt-vertical"
     ],
-    "url": "gruntjs.com"
+    "url": "grunt.com"
   },
   {
     "name": "Gulp",
@@ -2428,7 +2428,7 @@ const icons = [
     "classes": [
       "gulp"
     ],
-    "url": "gulpjs.com"
+    "url": "gulp.com"
   },
   {
     "name": "Hadoop",
@@ -2437,7 +2437,7 @@ const icons = [
       "hadoop",
       "hadoop-horizontal"
     ],
-    "url": "hadoop.apache.org"
+    "url": "hadoop.com"
   },
   {
     "name": "Handlebars",
@@ -2446,7 +2446,7 @@ const icons = [
       "handlebars",
       "handlebars-vertical"
     ],
-    "url": "handlebarsjs.com"
+    "url": "handlebars.com"
   },
   {
     "name": "Hardhat",
@@ -2455,7 +2455,7 @@ const icons = [
       "hardhat",
       "hardhat-horizontal"
     ],
-    "url": "hardhat.org"
+    "url": "hardhat.com"
   },
   {
     "name": "Harvester",
@@ -2464,7 +2464,7 @@ const icons = [
       "harvester",
       "harvester-vertical"
     ],
-    "url": "harvesterhci.io"
+    "url": "harvester.com"
   },
   {
     "name": "Hashnode",
@@ -2483,7 +2483,7 @@ const icons = [
       "haskell",
       "haskell-horizontal"
     ],
-    "url": "haskell.org"
+    "url": "haskell.com"
   },
   {
     "name": "Haxe",
@@ -2491,7 +2491,7 @@ const icons = [
     "classes": [
       "haxe"
     ],
-    "url": "haxe.org"
+    "url": "haxe.com"
   },
   {
     "name": "Headlessui",
@@ -2507,7 +2507,7 @@ const icons = [
     "classes": [
       "helm"
     ],
-    "url": "helm.sh"
+    "url": "helm.com"
   },
   {
     "name": "Heroku",
@@ -2541,7 +2541,7 @@ const icons = [
       "hibernate",
       "hibernate-vertical"
     ],
-    "url": "hibernate.org"
+    "url": "hibernate.com"
   },
   {
     "name": "Homebrew",
@@ -2550,7 +2550,7 @@ const icons = [
       "homebrew",
       "homebrew-vertical"
     ],
-    "url": "brew.sh"
+    "url": "homebrew.com"
   },
   {
     "name": "Hotjar",
@@ -2568,7 +2568,7 @@ const icons = [
     "classes": [
       "html"
     ],
-    "url": "developer.mozilla.org/en-US/docs/Glossary/HTML5"
+    "url": "html.com"
   },
   {
     "name": "Hugo",
@@ -2577,7 +2577,7 @@ const icons = [
       "hugo",
       "hugo-wordmark"
     ],
-    "url": "gohugo.io"
+    "url": "hugo.com"
   },
   {
     "name": "Hyper",
@@ -2609,7 +2609,7 @@ const icons = [
     "classes": [
       "illustrator"
     ],
-    "url": "adobe.com/ca/products/illustrator.html"
+    "url": "illustrator.com"
   },
   {
     "name": "Indesign",
@@ -2626,7 +2626,7 @@ const icons = [
       "influxdb",
       "influxdb-vertical"
     ],
-    "url": "influxdata.com"
+    "url": "influxdb.com"
   },
   {
     "name": "Infura",
@@ -2645,7 +2645,7 @@ const icons = [
       "inkscape",
       "inkscape-vertical"
     ],
-    "url": "inkscape.org"
+    "url": "inkscape.com"
   },
   {
     "name": "Insomnia",
@@ -2654,7 +2654,7 @@ const icons = [
       "insomnia",
       "insomnia-horizontal"
     ],
-    "url": "insomnia.rest"
+    "url": "insomnia.com"
   },
   {
     "name": "Intellij",
@@ -2662,7 +2662,7 @@ const icons = [
     "classes": [
       "intellij"
     ],
-    "url": "jetbrains.com/idea"
+    "url": "intellij.com"
   },
   {
     "name": "Invision",
@@ -2680,7 +2680,7 @@ const icons = [
       "ionic",
       "ionic-horizontal"
     ],
-    "url": "ionicframework.com"
+    "url": "ionic.com"
   },
   {
     "name": "Jaegertracing",
@@ -2689,7 +2689,7 @@ const icons = [
       "jaegertracing",
       "jaegertracing-vertical"
     ],
-    "url": "jaegertracing.io"
+    "url": "jaegertracing.com"
   },
   {
     "name": "Jamstack",
@@ -2698,7 +2698,7 @@ const icons = [
       "jamstack",
       "jamstack-horizontal"
     ],
-    "url": "jamstack.org"
+    "url": "jamstack.com"
   },
   {
     "name": "Jasmine",
@@ -2707,7 +2707,7 @@ const icons = [
       "jasmine",
       "jasmine-vertical"
     ],
-    "url": "jasmine.github.io"
+    "url": "jasmine.com"
   },
   {
     "name": "Java",
@@ -2742,7 +2742,7 @@ const icons = [
       "jekyll",
       "jekyll-horizontal"
     ],
-    "url": "jekyllrb.com"
+    "url": "jekyll.com"
   },
   {
     "name": "Jenkins",
@@ -2750,7 +2750,7 @@ const icons = [
     "classes": [
       "jenkins"
     ],
-    "url": "jenkins.io"
+    "url": "jenkins.com"
   },
   {
     "name": "Jest",
@@ -2758,7 +2758,7 @@ const icons = [
     "classes": [
       "jest"
     ],
-    "url": "jestjs.io"
+    "url": "jest.com"
   },
   {
     "name": "Jetbrains",
@@ -2784,7 +2784,7 @@ const icons = [
       "jira",
       "jira-vertical"
     ],
-    "url": "atlassian.com/software/jira"
+    "url": "jira.com"
   },
   {
     "name": "Jiraalign",
@@ -2793,7 +2793,7 @@ const icons = [
       "jiraalign",
       "jiraalign-horizontal"
     ],
-    "url": "atlassian.com/software/jira/align"
+    "url": "jiraalign.com"
   },
   {
     "name": "jQuery",
@@ -2802,7 +2802,7 @@ const icons = [
       "jquery",
       "jquery-horizontal"
     ],
-    "url": "jquery.com/"
+    "url": "jquery.com"
   },
   {
     "name": "Jslint",
@@ -2818,7 +2818,7 @@ const icons = [
     "classes": [
       "json"
     ],
-    "url": "json.org"
+    "url": "json.com"
   },
   {
     "name": "Jule",
@@ -2827,7 +2827,7 @@ const icons = [
       "jule",
       "jule-horizontal"
     ],
-    "url": "github.com/julelang/jule"
+    "url": "jule.com"
   },
   {
     "name": "Julia",
@@ -2836,7 +2836,7 @@ const icons = [
       "julia",
       "julia-wordmark"
     ],
-    "url": "julialang.org"
+    "url": "julia.com"
   },
   {
     "name": "Junit",
@@ -2845,7 +2845,7 @@ const icons = [
       "junit",
       "junit-horizontal"
     ],
-    "url": "junit.org/junit5"
+    "url": "junit.com"
   },
   {
     "name": "Jupyter",
@@ -2854,7 +2854,7 @@ const icons = [
       "jupyter",
       "jupyter-vertical"
     ],
-    "url": "jupyter.org"
+    "url": "jupyter.com"
   },
   {
     "name": "K3os",
@@ -2863,7 +2863,7 @@ const icons = [
       "k3os",
       "k3os-vertical"
     ],
-    "url": "k3os.io"
+    "url": "k3os.com"
   },
   {
     "name": "K3s",
@@ -2872,7 +2872,7 @@ const icons = [
       "k3s",
       "k3s-horizontal"
     ],
-    "url": "k3s.io/"
+    "url": "k3s.com"
   },
   {
     "name": "K6",
@@ -2889,7 +2889,7 @@ const icons = [
       "kafka",
       "kafka-horizontal"
     ],
-    "url": "kafka.apache.org"
+    "url": "kafka.com"
   },
   {
     "name": "Kaggle",
@@ -2908,7 +2908,7 @@ const icons = [
       "karatelabs-horizontal",
       "karatelabs-vertical"
     ],
-    "url": "karatelabs.io"
+    "url": "karatelabs.com"
   },
   {
     "name": "Karma",
@@ -2916,7 +2916,7 @@ const icons = [
     "classes": [
       "karma"
     ],
-    "url": "karma-runner.github.io/latest/index.html"
+    "url": "karma.com"
   },
   {
     "name": "Kdeneon",
@@ -2933,7 +2933,7 @@ const icons = [
       "keras",
       "keras-horizontal"
     ],
-    "url": "keras.io"
+    "url": "keras.com"
   },
   {
     "name": "Kibana",
@@ -2942,7 +2942,7 @@ const icons = [
       "kibana",
       "kibana-horizontal"
     ],
-    "url": "elastic.co/kibana"
+    "url": "kibana.com"
   },
   {
     "name": "Knexjs",
@@ -2951,7 +2951,7 @@ const icons = [
       "knexjs",
       "knexjs-vertical"
     ],
-    "url": "knexjs.org"
+    "url": "knexjs.com"
   },
   {
     "name": "Knockout",
@@ -2959,7 +2959,7 @@ const icons = [
     "classes": [
       "knockout"
     ],
-    "url": "knockoutjs.com"
+    "url": "knockout.com"
   },
   {
     "name": "Kotlin",
@@ -2968,7 +2968,7 @@ const icons = [
       "kotlin",
       "kotlin-horizontal"
     ],
-    "url": "kotlinlang.org"
+    "url": "kotlin.com"
   },
   {
     "name": "Krakenjs",
@@ -2986,7 +2986,7 @@ const icons = [
       "ktor",
       "ktor-horizontal"
     ],
-    "url": "ktor.io"
+    "url": "ktor.com"
   },
   {
     "name": "Kubernetes",
@@ -2996,7 +2996,7 @@ const icons = [
       "kubernetes-horizontal",
       "kubernetes-vertical"
     ],
-    "url": "kubernetes.io"
+    "url": "kubernetes.com"
   },
   {
     "name": "Labview",
@@ -3005,7 +3005,7 @@ const icons = [
       "labview",
       "labview-vertical"
     ],
-    "url": "ni.com/en-ca/shop/labview.html"
+    "url": "labview.com"
   },
   {
     "name": "Laravel",
@@ -3021,7 +3021,7 @@ const icons = [
     "classes": [
       "latex"
     ],
-    "url": "latex-project.org"
+    "url": "latex.com"
   },
   {
     "name": "Leetcode",
@@ -3038,7 +3038,7 @@ const icons = [
     "classes": [
       "less"
     ],
-    "url": "lesscss.org"
+    "url": "less.com"
   },
   {
     "name": "Lightroom",
@@ -3054,7 +3054,7 @@ const icons = [
     "classes": [
       "linux"
     ],
-    "url": "linux.org"
+    "url": "linux.com"
   },
   {
     "name": "Liquibase",
@@ -3063,7 +3063,7 @@ const icons = [
       "liquibase",
       "liquibase-vertical"
     ],
-    "url": "liquibase.org"
+    "url": "liquibase.com"
   },
   {
     "name": "Lit",
@@ -3088,7 +3088,7 @@ const icons = [
       "livewire",
       "livewire-horizontal"
     ],
-    "url": "laravel-livewire.com"
+    "url": "livewire.com"
   },
   {
     "name": "Llvm",
@@ -3096,7 +3096,7 @@ const icons = [
     "classes": [
       "llvm"
     ],
-    "url": "llvm.org"
+    "url": "llvm.com"
   },
   {
     "name": "Lodash",
@@ -3121,7 +3121,7 @@ const icons = [
       "logstash",
       "logstash-horizontal"
     ],
-    "url": "elastic.co/logstash"
+    "url": "logstash.com"
   },
   {
     "name": "Lokalise",
@@ -3139,7 +3139,7 @@ const icons = [
     "classes": [
       "lua"
     ],
-    "url": "lua.org"
+    "url": "lua.com"
   },
   {
     "name": "Lumen",
@@ -3147,7 +3147,7 @@ const icons = [
     "classes": [
       "lumen"
     ],
-    "url": "lumen.laravel.com"
+    "url": "lumen.com"
   },
   {
     "name": "Lunacy",
@@ -3164,7 +3164,7 @@ const icons = [
       "magento",
       "magento-horizontal"
     ],
-    "url": "business.adobe.com/products/magento/magento-commerce.html"
+    "url": "magento.com"
   },
   {
     "name": "Mariadb",
@@ -3191,7 +3191,7 @@ const icons = [
     "classes": [
       "markdown"
     ],
-    "url": "markdownguide.org"
+    "url": "markdown.com"
   },
   {
     "name": "Mastodon",
@@ -3217,7 +3217,7 @@ const icons = [
     "classes": [
       "materialui"
     ],
-    "url": "mui.com"
+    "url": "materialui.com"
   },
   {
     "name": "Matlab",
@@ -3225,7 +3225,7 @@ const icons = [
     "classes": [
       "matlab"
     ],
-    "url": "mathworks.com/products/matlab.html"
+    "url": "matlab.com"
   },
   {
     "name": "Matplotlib",
@@ -3234,7 +3234,7 @@ const icons = [
       "matplotlib",
       "matplotlib-wordmark"
     ],
-    "url": "matplotlib.org"
+    "url": "matplotlib.com"
   },
   {
     "name": "Maven",
@@ -3243,7 +3243,7 @@ const icons = [
       "maven",
       "maven-wordmark"
     ],
-    "url": "maven.apache.org"
+    "url": "maven.com"
   },
   {
     "name": "Maya",
@@ -3252,7 +3252,7 @@ const icons = [
       "maya",
       "maya-vertical"
     ],
-    "url": "autodesk.com/products/maya"
+    "url": "maya.com"
   },
   {
     "name": "Messenger",
@@ -3289,7 +3289,7 @@ const icons = [
       "meteorjs",
       "meteorjs-horizontal"
     ],
-    "url": "meteor.com"
+    "url": "meteorjs.com"
   },
   {
     "name": "Microsoft",
@@ -3308,7 +3308,7 @@ const icons = [
       "microsoftsqlserver",
       "microsoftsqlserver-vertical"
     ],
-    "url": "microsoft.com/en-ca/sql-server"
+    "url": "microsoftsqlserver.com"
   },
   {
     "name": "Minitab",
@@ -3342,7 +3342,7 @@ const icons = [
     "classes": [
       "mobx"
     ],
-    "url": "mobx.js.org"
+    "url": "mobx.com"
   },
   {
     "name": "Mocha",
@@ -3350,7 +3350,7 @@ const icons = [
     "classes": [
       "mocha"
     ],
-    "url": "mochajs.org"
+    "url": "mocha.com"
   },
   {
     "name": "Modx",
@@ -3368,7 +3368,7 @@ const icons = [
       "moleculer",
       "moleculer-vertical"
     ],
-    "url": "moleculer.services"
+    "url": "moleculer.com"
   },
   {
     "name": "Mongodb",
@@ -3388,7 +3388,7 @@ const icons = [
       "mongoose",
       "mongoose-vertical"
     ],
-    "url": "mongoosejs.com"
+    "url": "mongoose.com"
   },
   {
     "name": "Moodle",
@@ -3397,7 +3397,7 @@ const icons = [
       "moodle",
       "moodle-horizontal"
     ],
-    "url": "moodle.org"
+    "url": "moodle.com"
   },
   {
     "name": "Mozilla",
@@ -3416,7 +3416,7 @@ const icons = [
     "classes": [
       "msdos"
     ],
-    "url": "en.wikipedia.org/wiki/MS-DOS"
+    "url": "msdos.com"
   },
   {
     "name": "MySQL",
@@ -3434,7 +3434,7 @@ const icons = [
       "nano",
       "nano-horizontal"
     ],
-    "url": "nano-editor.org/"
+    "url": "nano.com"
   },
   {
     "name": "Neo4j",
@@ -3490,7 +3490,7 @@ const icons = [
       "networkx",
       "networkx-horizontal"
     ],
-    "url": "networkx.org"
+    "url": "networkx.com"
   },
   {
     "name": "Nextjs",
@@ -3501,7 +3501,7 @@ const icons = [
       "nextjs-horizontal-light",
       "nextjs-light"
     ],
-    "url": "nextjs.org"
+    "url": "nextjs.com"
   },
   {
     "name": "Nginx",
@@ -3528,7 +3528,7 @@ const icons = [
       "nhibernate",
       "nhibernate-vertical"
     ],
-    "url": "nhibernate.info"
+    "url": "nhibernate.com"
   },
   {
     "name": "Nim",
@@ -3537,7 +3537,7 @@ const icons = [
       "nim",
       "nim-horizontal"
     ],
-    "url": "nim-lang.org"
+    "url": "nim.com"
   },
   {
     "name": "Nimble",
@@ -3545,7 +3545,7 @@ const icons = [
     "classes": [
       "nimble"
     ],
-    "url": "nimble.directory"
+    "url": "nimble.com"
   },
   {
     "name": "Nixos",
@@ -3554,7 +3554,7 @@ const icons = [
       "nixos",
       "nixos-horizontal"
     ],
-    "url": "nixos.org"
+    "url": "nixos.com"
   },
   {
     "name": "Nodejs",
@@ -3566,7 +3566,7 @@ const icons = [
       "nodejs-vertical",
       "nodejs-vertical-light"
     ],
-    "url": "nodejs.org"
+    "url": "nodejs.com"
   },
   {
     "name": "Nodemon",
@@ -3574,7 +3574,7 @@ const icons = [
     "classes": [
       "nodemon"
     ],
-    "url": "nodemon.io"
+    "url": "nodemon.com"
   },
   {
     "name": "Nodewebkit",
@@ -3583,7 +3583,7 @@ const icons = [
       "nodewebkit",
       "nodewebkit-vertical"
     ],
-    "url": "nwjs.io"
+    "url": "nodewebkit.com"
   },
   {
     "name": "Nomad",
@@ -3600,7 +3600,7 @@ const icons = [
     "classes": [
       "norg"
     ],
-    "url": "github.com/nvim-neorg/neorg"
+    "url": "norg.com"
   },
   {
     "name": "Notion",
@@ -3620,7 +3620,7 @@ const icons = [
       "npm",
       "npm-wordmark"
     ],
-    "url": "npmjs.com"
+    "url": "npm.com"
   },
   {
     "name": "Nuget",
@@ -3629,7 +3629,7 @@ const icons = [
       "nuget",
       "nuget-horizontal"
     ],
-    "url": "nuget.org"
+    "url": "nuget.com"
   },
   {
     "name": "Numpy",
@@ -3638,7 +3638,7 @@ const icons = [
       "numpy",
       "numpy-horizontal"
     ],
-    "url": "numpy.org"
+    "url": "numpy.com"
   },
   {
     "name": "Nuxtjs",
@@ -3648,7 +3648,7 @@ const icons = [
       "nuxtjs-horizontal",
       "nuxtjs-horizontal-light"
     ],
-    "url": "nuxtjs.org"
+    "url": "nuxtjs.com"
   },
   {
     "name": "Oauth",
@@ -3664,7 +3664,7 @@ const icons = [
     "classes": [
       "objectivec"
     ],
-    "url": "developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC"
+    "url": "objectivec.com"
   },
   {
     "name": "Ocaml",
@@ -3673,7 +3673,7 @@ const icons = [
       "ocaml",
       "ocaml-horizontal"
     ],
-    "url": "ocaml.org"
+    "url": "ocaml.com"
   },
   {
     "name": "Ohmyzsh",
@@ -3681,7 +3681,7 @@ const icons = [
     "classes": [
       "ohmyzsh"
     ],
-    "url": "ohmyz.sh"
+    "url": "ohmyzsh.com"
   },
   {
     "name": "Okta",
@@ -3714,7 +3714,7 @@ const icons = [
     "classes": [
       "openal"
     ],
-    "url": "openal.org"
+    "url": "openal.com"
   },
   {
     "name": "Openapi",
@@ -3723,7 +3723,7 @@ const icons = [
       "openapi",
       "openapi-horizontal"
     ],
-    "url": "openapis.org"
+    "url": "openapi.com"
   },
   {
     "name": "Opencl",
@@ -3731,7 +3731,7 @@ const icons = [
     "classes": [
       "opencl"
     ],
-    "url": "khronos.org/opencl"
+    "url": "opencl.com"
   },
   {
     "name": "Opencv",
@@ -3740,7 +3740,7 @@ const icons = [
       "opencv",
       "opencv-vertical"
     ],
-    "url": "opencv.org/"
+    "url": "opencv.com"
   },
   {
     "name": "Opengl",
@@ -3748,7 +3748,7 @@ const icons = [
     "classes": [
       "opengl"
     ],
-    "url": "opengl.org"
+    "url": "opengl.com"
   },
   {
     "name": "OpenSea",
@@ -3769,7 +3769,7 @@ const icons = [
       "openstack",
       "openstack-vertical"
     ],
-    "url": "openstack.org"
+    "url": "openstack.com"
   },
   {
     "name": "Opensuse",
@@ -3778,7 +3778,7 @@ const icons = [
       "opensuse",
       "opensuse-vertical"
     ],
-    "url": "opensuse.org"
+    "url": "opensuse.com"
   },
   {
     "name": "Opentelemetry",
@@ -3787,7 +3787,7 @@ const icons = [
       "opentelemetry",
       "opentelemetry-vertical"
     ],
-    "url": "opentelemetry.io"
+    "url": "opentelemetry.com"
   },
   {
     "name": "Opera",
@@ -3830,7 +3830,7 @@ const icons = [
     "classes": [
       "p5js"
     ],
-    "url": "p5js.org"
+    "url": "p5js.com"
   },
   {
     "name": "Packer",
@@ -3839,7 +3839,7 @@ const icons = [
       "packer",
       "packer-vertical"
     ],
-    "url": "packer.io"
+    "url": "packer.com"
   },
   {
     "name": "Pandacss",
@@ -3856,7 +3856,7 @@ const icons = [
       "pandas",
       "pandas-vertical"
     ],
-    "url": "pandas.pydata.org"
+    "url": "pandas.com"
   },
   {
     "name": "Perl",
@@ -3864,7 +3864,7 @@ const icons = [
     "classes": [
       "perl"
     ],
-    "url": "perl.org"
+    "url": "perl.com"
   },
   {
     "name": "Pfsense",
@@ -3873,7 +3873,7 @@ const icons = [
       "pfsense",
       "pfsense-horizontal"
     ],
-    "url": "pfsense.org"
+    "url": "pfsense.com"
   },
   {
     "name": "Phalcon",
@@ -3881,7 +3881,7 @@ const icons = [
     "classes": [
       "phalcon"
     ],
-    "url": "phalcon.io"
+    "url": "phalcon.com"
   },
   {
     "name": "Phoenix",
@@ -3890,7 +3890,7 @@ const icons = [
       "phoenix",
       "phoenix-horizontal"
     ],
-    "url": "phoenixframework.org"
+    "url": "phoenix.com"
   },
   {
     "name": "Photonengine",
@@ -3906,7 +3906,7 @@ const icons = [
     "classes": [
       "photoshop"
     ],
-    "url": "adobe.com/products/photoshop.html"
+    "url": "photoshop.com"
   },
   {
     "name": "php",
@@ -3916,7 +3916,7 @@ const icons = [
       "php-wordmark",
       "php-wordmark-light"
     ],
-    "url": "php.net"
+    "url": "php.com"
   },
   {
     "name": "Phpstorm",
@@ -3924,7 +3924,7 @@ const icons = [
     "classes": [
       "phpstorm"
     ],
-    "url": "jetbrains.com/phpstorm"
+    "url": "phpstorm.com"
   },
   {
     "name": "Pinia",
@@ -3950,7 +3950,7 @@ const icons = [
       "playwright",
       "playwright-horizontal"
     ],
-    "url": "playwright.dev"
+    "url": "playwright.com"
   },
   {
     "name": "Plotly",
@@ -3977,7 +3977,7 @@ const icons = [
       "podman",
       "podman-horizontal"
     ],
-    "url": "podman.io"
+    "url": "podman.com"
   },
   {
     "name": "Poetry",
@@ -3985,7 +3985,7 @@ const icons = [
     "classes": [
       "poetry"
     ],
-    "url": "python-poetry.org"
+    "url": "poetry.com"
   },
   {
     "name": "Polygon",
@@ -3995,7 +3995,7 @@ const icons = [
       "polygon-horizontal",
       "polygon-horizontal-light"
     ],
-    "url": "polygon.technology"
+    "url": "polygon.com"
   },
   {
     "name": "Polygonio",
@@ -4014,7 +4014,7 @@ const icons = [
       "portainer",
       "portainer-horizontal"
     ],
-    "url": "portainer.io"
+    "url": "portainer.com"
   },
   {
     "name": "Postcss",
@@ -4023,7 +4023,7 @@ const icons = [
       "postcss",
       "postcss-vertical"
     ],
-    "url": "postcss.org"
+    "url": "postcss.com"
   },
   {
     "name": "Postgresql",
@@ -4032,7 +4032,7 @@ const icons = [
       "postgresql",
       "postgresql-vertical"
     ],
-    "url": "postgresql.org"
+    "url": "postgresql.com"
   },
   {
     "name": "Postman",
@@ -4057,7 +4057,7 @@ const icons = [
     "classes": [
       "powershell"
     ],
-    "url": "learn.microsoft.com/en-us/powershell"
+    "url": "powershell.com"
   },
   {
     "name": "Preact",
@@ -4073,7 +4073,7 @@ const icons = [
     "classes": [
       "premierepro"
     ],
-    "url": "adobe.com/products/premiere.html"
+    "url": "premierepro.com"
   },
   {
     "name": "Prestodb",
@@ -4107,7 +4107,7 @@ const icons = [
       "processing",
       "processing-vertical"
     ],
-    "url": "processing.org"
+    "url": "processing.com"
   },
   {
     "name": "Project",
@@ -4133,7 +4133,7 @@ const icons = [
       "prometheus",
       "prometheus-vertical"
     ],
-    "url": "prometheus.io"
+    "url": "prometheus.com"
   },
   {
     "name": "Protractor",
@@ -4142,7 +4142,7 @@ const icons = [
       "protractor",
       "protractor-horizontal"
     ],
-    "url": "protractortest.org"
+    "url": "protractor.com"
   },
   {
     "name": "Pugjs",
@@ -4185,7 +4185,7 @@ const icons = [
       "purescript",
       "purescript-horizontal"
     ],
-    "url": "purescript.org"
+    "url": "purescript.com"
   },
   {
     "name": "Putty",
@@ -4193,7 +4193,7 @@ const icons = [
     "classes": [
       "putty"
     ],
-    "url": "putty.org"
+    "url": "putty.com"
   },
   {
     "name": "Pwa",
@@ -4210,7 +4210,7 @@ const icons = [
       "pycharm",
       "pycharm-horizontal"
     ],
-    "url": "jetbrains.com/pycharm"
+    "url": "pycharm.com"
   },
   {
     "name": "Pypi",
@@ -4227,7 +4227,7 @@ const icons = [
     "classes": [
       "pyscript"
     ],
-    "url": "pyscript.net"
+    "url": "pyscript.com"
   },
   {
     "name": "Pytest",
@@ -4236,7 +4236,7 @@ const icons = [
       "pytest",
       "pytest-vertical"
     ],
-    "url": "docs.pytest.org"
+    "url": "pytest.com"
   },
   {
     "name": "Python",
@@ -4247,7 +4247,7 @@ const icons = [
       "python-powered",
       "python2-powered"
     ],
-    "url": "python.org"
+    "url": "python.com"
   },
   {
     "name": "Pytorch",
@@ -4256,7 +4256,7 @@ const icons = [
       "pytorch",
       "pytorch-horizontal"
     ],
-    "url": "pytorch.org"
+    "url": "pytorch.com"
   },
   {
     "name": "Pytorch3d",
@@ -4272,7 +4272,7 @@ const icons = [
     "classes": [
       "qodana"
     ],
-    "url": "jetbrains.com/qodana"
+    "url": "qodana.com"
   },
   {
     "name": "Qt",
@@ -4280,7 +4280,7 @@ const icons = [
     "classes": [
       "qt"
     ],
-    "url": "qt.io"
+    "url": "qt.com"
   },
   {
     "name": "Quarkus",
@@ -4289,7 +4289,7 @@ const icons = [
       "quarkus",
       "quarkus-vertical"
     ],
-    "url": "quarkus.io"
+    "url": "quarkus.com"
   },
   {
     "name": "Quasar",
@@ -4298,7 +4298,7 @@ const icons = [
       "quasar",
       "quasar-vertical"
     ],
-    "url": "quasar.dev"
+    "url": "quasar.com"
   },
   {
     "name": "Qwik",
@@ -4307,7 +4307,7 @@ const icons = [
       "qwik",
       "qwik-horizontal"
     ],
-    "url": "qwik.builder.io"
+    "url": "qwik.com"
   },
   {
     "name": "R",
@@ -4315,7 +4315,7 @@ const icons = [
     "classes": [
       "r"
     ],
-    "url": "r-project.org"
+    "url": "r.com"
   },
   {
     "name": "Rabbitmq",
@@ -4341,7 +4341,7 @@ const icons = [
       "rails",
       "rails-wordmark"
     ],
-    "url": "guides.rubyonrails.org"
+    "url": "rails.com"
   },
   {
     "name": "Railway",
@@ -4370,7 +4370,7 @@ const icons = [
       "raspberrypi",
       "raspberrypi-horizontal"
     ],
-    "url": "raspberrypi.org"
+    "url": "raspberrypi.com"
   },
   {
     "name": "Reach",
@@ -4378,7 +4378,7 @@ const icons = [
     "classes": [
       "reach"
     ],
-    "url": "reach.sh"
+    "url": "reach.com"
   },
   {
     "name": "React",
@@ -4386,7 +4386,7 @@ const icons = [
     "classes": [
       "react"
     ],
-    "url": "reactjs.org"
+    "url": "react.com"
   },
   {
     "name": "Reactbootstrap",
@@ -4394,7 +4394,7 @@ const icons = [
     "classes": [
       "reactbootstrap"
     ],
-    "url": "react-bootstrap.github.io"
+    "url": "reactbootstrap.com"
   },
   {
     "name": "Reactnative",
@@ -4428,7 +4428,7 @@ const icons = [
       "readthedocs",
       "readthedocs-horizontal"
     ],
-    "url": "readthedocs.org"
+    "url": "readthedocs.com"
   },
   {
     "name": "Realm",
@@ -4437,7 +4437,7 @@ const icons = [
       "realm",
       "realm-horizontal"
     ],
-    "url": "realm.io"
+    "url": "realm.com"
   },
   {
     "name": "Rect",
@@ -4445,7 +4445,7 @@ const icons = [
     "classes": [
       "rect"
     ],
-    "url": "rect.ml"
+    "url": "rect.com"
   },
   {
     "name": "Redhat",
@@ -4478,7 +4478,7 @@ const icons = [
       "redux",
       "redux-saga"
     ],
-    "url": "redux.js.org"
+    "url": "redux.com"
   },
   {
     "name": "Render",
@@ -4494,7 +4494,7 @@ const icons = [
     "classes": [
       "renpy"
     ],
-    "url": "renpy.org"
+    "url": "renpy.com"
   },
   {
     "name": "Replit",
@@ -4523,7 +4523,7 @@ const icons = [
       "rider",
       "rider-horizontal"
     ],
-    "url": "jetbrains.com/rider"
+    "url": "rider.com"
   },
   {
     "name": "Ringcentral",
@@ -4540,7 +4540,7 @@ const icons = [
     "classes": [
       "rocksdb"
     ],
-    "url": "rocksdb.org"
+    "url": "rocksdb.com"
   },
   {
     "name": "Rockylinux",
@@ -4558,7 +4558,7 @@ const icons = [
       "rollup",
       "rollup-horizontal"
     ],
-    "url": "rollupjs.org"
+    "url": "rollup.com"
   },
   {
     "name": "Ros",
@@ -4567,7 +4567,7 @@ const icons = [
       "ros",
       "ros-horizontal"
     ],
-    "url": "ros.org"
+    "url": "ros.com"
   },
   {
     "name": "Rspec",
@@ -4576,7 +4576,7 @@ const icons = [
       "rspec",
       "rspec-horizontal"
     ],
-    "url": "rspec.info"
+    "url": "rspec.com"
   },
   {
     "name": "Rstudio",
@@ -4584,7 +4584,7 @@ const icons = [
     "classes": [
       "rstudio"
     ],
-    "url": "support--rstudio-com.netlify.app"
+    "url": "rstudio.com"
   },
   {
     "name": "Ruby",
@@ -4592,7 +4592,7 @@ const icons = [
     "classes": [
       "ruby"
     ],
-    "url": "ruby-lang.org"
+    "url": "ruby.com"
   },
   {
     "name": "Rubymine",
@@ -4601,7 +4601,7 @@ const icons = [
       "rubymine",
       "rubymine-horizontal"
     ],
-    "url": "jetbrains.com/ruby"
+    "url": "rubymine.com"
   },
   {
     "name": "Rust",
@@ -4610,7 +4610,7 @@ const icons = [
       "rust",
       "rust-light"
     ],
-    "url": "rust-lang.org"
+    "url": "rust.com"
   },
   {
     "name": "Rxjs",
@@ -4627,7 +4627,7 @@ const icons = [
       "safari",
       "safari-vertical"
     ],
-    "url": "apple.com/safari"
+    "url": "safari.com"
   },
   {
     "name": "Salesforce",
@@ -4644,7 +4644,7 @@ const icons = [
       "sanity",
       "sanity-wordmark"
     ],
-    "url": "sanity.io"
+    "url": "sanity.com"
   },
   {
     "name": "Sass",
@@ -4653,7 +4653,7 @@ const icons = [
       "sass",
       "sass-wordmark"
     ],
-    "url": "sass-lang.com"
+    "url": "sass.com"
   },
   {
     "name": "Scala",
@@ -4679,7 +4679,7 @@ const icons = [
     "classes": [
       "scikitlearn"
     ],
-    "url": "scikit-learn.org"
+    "url": "scikitlearn.com"
   },
   {
     "name": "Sdl",
@@ -4687,7 +4687,7 @@ const icons = [
     "classes": [
       "sdl"
     ],
-    "url": "wiki.libsdl.org/SDL2/FrontPage"
+    "url": "sdl.com"
   },
   {
     "name": "Selenium",
@@ -4695,7 +4695,7 @@ const icons = [
     "classes": [
       "selenium"
     ],
-    "url": "selenium.dev"
+    "url": "selenium.com"
   },
   {
     "name": "Sema",
@@ -4704,7 +4704,7 @@ const icons = [
       "sema",
       "sema-vertical"
     ],
-    "url": "semasoftware.com"
+    "url": "sema.com"
   },
   {
     "name": "Semanticui",
@@ -4730,7 +4730,7 @@ const icons = [
       "sequelize",
       "sequelize-horizontal"
     ],
-    "url": "sequelize.org"
+    "url": "sequelize.com"
   },
   {
     "name": "Serverless",
@@ -4773,7 +4773,7 @@ const icons = [
       "shotgrid",
       "shotgrid-wordmark"
     ],
-    "url": "shotgridsoftware.com"
+    "url": "shotgrid.com"
   },
   {
     "name": "Sketch",
@@ -4809,7 +4809,7 @@ const icons = [
       "socketio",
       "socketio-horizontal"
     ],
-    "url": "socket.io"
+    "url": "socketio.com"
   },
   {
     "name": "Solana",
@@ -4827,7 +4827,7 @@ const icons = [
     "classes": [
       "solidity"
     ],
-    "url": "docs.soliditylang.org"
+    "url": "solidity.com"
   },
   {
     "name": "Solidjs",
@@ -4845,7 +4845,7 @@ const icons = [
       "sonarqube",
       "sonarqube-horizontal"
     ],
-    "url": "sonarsource.com/products/sonarqube"
+    "url": "sonarqube.com"
   },
   {
     "name": "Sourcetree",
@@ -4854,7 +4854,7 @@ const icons = [
       "sourcetree",
       "sourcetree-vertical"
     ],
-    "url": "sourcetreeapp.com"
+    "url": "sourcetree.com"
   },
   {
     "name": "Spack",
@@ -4871,7 +4871,7 @@ const icons = [
       "spark",
       "spark-horizontal"
     ],
-    "url": "spark.apache.org"
+    "url": "spark.com"
   },
   {
     "name": "Splunk",
@@ -4888,7 +4888,7 @@ const icons = [
       "spring",
       "spring-vertical"
     ],
-    "url": "spring.io"
+    "url": "spring.com"
   },
   {
     "name": "Spss",
@@ -4896,7 +4896,7 @@ const icons = [
     "classes": [
       "spss"
     ],
-    "url": "ibm.com/products/spss-statistics"
+    "url": "spss.com"
   },
   {
     "name": "Spyder",
@@ -4914,7 +4914,7 @@ const icons = [
       "sqlalchemy",
       "sqlalchemy-wordmark"
     ],
-    "url": "sqlalchemy.org"
+    "url": "sqlalchemy.com"
   },
   {
     "name": "Sqldeveloper",
@@ -4922,7 +4922,7 @@ const icons = [
     "classes": [
       "sqldeveloper"
     ],
-    "url": "oracle.com/ca-en/database/sqldeveloper"
+    "url": "sqldeveloper.com"
   },
   {
     "name": "Sqlite",
@@ -4931,7 +4931,7 @@ const icons = [
       "sqlite",
       "sqlite-horizontal"
     ],
-    "url": "sqlite.org/"
+    "url": "sqlite.com"
   },
   {
     "name": "Ssh",
@@ -4978,7 +4978,7 @@ const icons = [
       "storybook-horizontal",
       "storybook-horizontal-light"
     ],
-    "url": "storybook.js.org"
+    "url": "storybook.com"
   },
   {
     "name": "Stream",
@@ -4999,7 +4999,7 @@ const icons = [
       "streamlit-horizontal-light",
       "streamlit-vertical"
     ],
-    "url": "streamlit.io"
+    "url": "streamlit.com"
   },
   {
     "name": "Stylelint",
@@ -5015,7 +5015,7 @@ const icons = [
     "classes": [
       "stylus"
     ],
-    "url": "stylus-lang.com/docs/js.html"
+    "url": "stylus.com"
   },
   {
     "name": "Sublime",
@@ -5032,7 +5032,7 @@ const icons = [
       "subversion",
       "subversion-horizontal"
     ],
-    "url": "subversion.apache.org"
+    "url": "subversion.com"
   },
   {
     "name": "Supabase",
@@ -5051,7 +5051,7 @@ const icons = [
       "svelte",
       "svelte-horizontal"
     ],
-    "url": "svelte.dev"
+    "url": "svelte.com"
   },
   {
     "name": "Swagger",
@@ -5060,7 +5060,7 @@ const icons = [
       "swagger",
       "swagger-horizontal"
     ],
-    "url": "swagger.io"
+    "url": "swagger.com"
   },
   {
     "name": "Sway",
@@ -5077,7 +5077,7 @@ const icons = [
       "swift",
       "swift-horizontal"
     ],
-    "url": "swift.org/documentation"
+    "url": "swift.com"
   },
   {
     "name": "Swiper",
@@ -5113,7 +5113,7 @@ const icons = [
       "tauri",
       "tauri-horizontal"
     ],
-    "url": "tauri.app"
+    "url": "tauri.com"
   },
   {
     "name": "Teams",
@@ -5131,7 +5131,7 @@ const icons = [
       "tensorflow-horizontal",
       "tensorflow-vertical"
     ],
-    "url": "tensorflow.org"
+    "url": "tensorflow.com"
   },
   {
     "name": "Terraform",
@@ -5140,7 +5140,7 @@ const icons = [
       "terraform",
       "terraform-vertical"
     ],
-    "url": "terraform.io"
+    "url": "terraform.com"
   },
   {
     "name": "Tex",
@@ -5148,7 +5148,7 @@ const icons = [
     "classes": [
       "tex"
     ],
-    "url": "tex.stackexchange.com"
+    "url": "tex.com"
   },
   {
     "name": "Thealgorithms",
@@ -5157,7 +5157,7 @@ const icons = [
       "thealgorithms",
       "thealgorithms-vertical"
     ],
-    "url": "the-algorithms.com"
+    "url": "thealgorithms.com"
   },
   {
     "name": "Threads",
@@ -5183,7 +5183,7 @@ const icons = [
       "threejs",
       "threejs-vertical"
     ],
-    "url": "threejs.org"
+    "url": "threejs.com"
   },
   {
     "name": "Tinyhttp",
@@ -5216,7 +5216,7 @@ const icons = [
       "tomcat",
       "tomcat-vertical"
     ],
-    "url": "tomcat.apache.org"
+    "url": "tomcat.com"
   },
   {
     "name": "Tor",
@@ -5232,7 +5232,7 @@ const icons = [
     "classes": [
       "tortoisegit"
     ],
-    "url": "tortoisegit.org"
+    "url": "tortoisegit.com"
   },
   {
     "name": "Towergit",
@@ -5241,7 +5241,7 @@ const icons = [
       "towergit",
       "towergit-horizontal"
     ],
-    "url": "git-tower.com"
+    "url": "towergit.com"
   },
   {
     "name": "Traefikmesh",
@@ -5250,7 +5250,7 @@ const icons = [
       "traefikmesh",
       "traefikmesh-horizontal"
     ],
-    "url": "traefik.io/traefik-mesh"
+    "url": "traefikmesh.com"
   },
   {
     "name": "Traefikproxy",
@@ -5259,7 +5259,7 @@ const icons = [
       "traefikproxy",
       "traefikproxy-horizontal"
     ],
-    "url": "traefik.io/traefik"
+    "url": "traefikproxy.com"
   },
   {
     "name": "Travis",
@@ -5268,7 +5268,7 @@ const icons = [
       "travis",
       "travis-horizontal"
     ],
-    "url": "travis-ci.com"
+    "url": "travis.com"
   },
   {
     "name": "Trello",
@@ -5278,7 +5278,7 @@ const icons = [
       "trello-horizontal",
       "trello-horizontal-light"
     ],
-    "url": "trello.com/"
+    "url": "trello.com"
   },
   {
     "name": "Trpc",
@@ -5297,7 +5297,7 @@ const icons = [
       "typescript-circle",
       "typescript-wordmark"
     ],
-    "url": "typescriptlang.org"
+    "url": "typescript.com"
   },
   {
     "name": "Typo3",
@@ -5306,7 +5306,7 @@ const icons = [
       "typo3",
       "typo3-horizontal"
     ],
-    "url": "typo3.org"
+    "url": "typo3.com"
   },
   {
     "name": "Ubuntu",
@@ -5323,7 +5323,7 @@ const icons = [
       "uml",
       "uml-horizontal"
     ],
-    "url": "uml.org"
+    "url": "uml.com"
   },
   {
     "name": "Unity",
@@ -5340,7 +5340,7 @@ const icons = [
     "classes": [
       "unix"
     ],
-    "url": "unix.org"
+    "url": "unix.com"
   },
   {
     "name": "Unjs",
@@ -5375,7 +5375,7 @@ const icons = [
     "classes": [
       "uwsgi"
     ],
-    "url": "uwsgi-docs.readthedocs.io/en/latest"
+    "url": "uwsgi.com"
   },
   {
     "name": "V8",
@@ -5383,7 +5383,7 @@ const icons = [
     "classes": [
       "v8"
     ],
-    "url": "v8.dev"
+    "url": "v8.com"
   },
   {
     "name": "Vagrant",
@@ -5392,7 +5392,7 @@ const icons = [
       "vagrant",
       "vagrant-horizontal"
     ],
-    "url": "vagrantup.com"
+    "url": "vagrant.com"
   },
   {
     "name": "Vala",
@@ -5401,7 +5401,7 @@ const icons = [
       "vala",
       "vala-wordmark"
     ],
-    "url": "vala.dev"
+    "url": "vala.com"
   },
   {
     "name": "Vault",
@@ -5410,7 +5410,7 @@ const icons = [
       "vault",
       "vault-vertical"
     ],
-    "url": "hashicorp.com/products/vault"
+    "url": "vault.com"
   },
   {
     "name": "Vercel",
@@ -5430,7 +5430,7 @@ const icons = [
       "vertx",
       "vertx-wordmark"
     ],
-    "url": "vertx.io"
+    "url": "vertx.com"
   },
   {
     "name": "Vim",
@@ -5438,7 +5438,7 @@ const icons = [
     "classes": [
       "vim"
     ],
-    "url": "vim.org"
+    "url": "vim.com"
   },
   {
     "name": "Vimeo",
@@ -5472,7 +5472,7 @@ const icons = [
     "classes": [
       "visualstudio"
     ],
-    "url": "visualstudio.microsoft.com"
+    "url": "visualstudio.com"
   },
   {
     "name": "Vite",
@@ -5481,7 +5481,7 @@ const icons = [
       "vite",
       "vite-horizontal"
     ],
-    "url": "vite.org"
+    "url": "vite.com"
   },
   {
     "name": "Vitejs",
@@ -5489,7 +5489,7 @@ const icons = [
     "classes": [
       "vitejs"
     ],
-    "url": "vitejs.dev"
+    "url": "vitejs.com"
   },
   {
     "name": "Vitess",
@@ -5530,7 +5530,7 @@ const icons = [
     "classes": [
       "vscode"
     ],
-    "url": "code.visualstudio.com"
+    "url": "vscode.com"
   },
   {
     "name": "Vsphere",
@@ -5539,7 +5539,7 @@ const icons = [
       "vsphere",
       "vsphere-vertical"
     ],
-    "url": "vmware.com/ca/products/vsphere.html"
+    "url": "vsphere.com"
   },
   {
     "name": "Vuejs",
@@ -5548,7 +5548,7 @@ const icons = [
       "vuejs",
       "vuejs-vertical"
     ],
-    "url": "vuejs.org"
+    "url": "vuejs.com"
   },
   {
     "name": "Vuestorefront",
@@ -5556,7 +5556,7 @@ const icons = [
     "classes": [
       "vuestorefront"
     ],
-    "url": "vuestorefront.io"
+    "url": "vuestorefront.com"
   },
   {
     "name": "Vuetify",
@@ -5564,7 +5564,7 @@ const icons = [
     "classes": [
       "vuetify"
     ],
-    "url": "vuetifyjs.com"
+    "url": "vuetify.com"
   },
   {
     "name": "Vyper",
@@ -5573,7 +5573,7 @@ const icons = [
       "vyper",
       "vyper-vertical"
     ],
-    "url": "docs.vyperlang.org/en/stable"
+    "url": "vyper.com"
   },
   {
     "name": "Web3js",
@@ -5589,7 +5589,7 @@ const icons = [
     "classes": [
       "webassembly"
     ],
-    "url": "webassembly.org"
+    "url": "webassembly.com"
   },
   {
     "name": "Webflow",
@@ -5608,7 +5608,7 @@ const icons = [
       "weblate",
       "weblate-horizontal"
     ],
-    "url": "weblate.org/en-gb"
+    "url": "weblate.com"
   },
   {
     "name": "Webpack",
@@ -5617,7 +5617,7 @@ const icons = [
       "webpack",
       "webpack-horizontal"
     ],
-    "url": "webpack.js.org"
+    "url": "webpack.com"
   },
   {
     "name": "Webstorm",
@@ -5626,7 +5626,7 @@ const icons = [
       "webstorm",
       "webstorm-horizontal"
     ],
-    "url": "jetbrains.com/webstorm"
+    "url": "webstorm.com"
   },
   {
     "name": "Woocommerce",
@@ -5634,7 +5634,7 @@ const icons = [
     "classes": [
       "woocommerce"
     ],
-    "url": "woocommerce.com/"
+    "url": "woocommerce.com"
   },
   {
     "name": "Word",
@@ -5659,7 +5659,7 @@ const icons = [
       "xamarin",
       "xamarin-horizontal"
     ],
-    "url": "dotnet.microsoft.com/en-us/apps/xamarin"
+    "url": "xamarin.com"
   },
   {
     "name": "Xcode",
@@ -5667,7 +5667,7 @@ const icons = [
     "classes": [
       "xcode"
     ],
-    "url": "developer.apple.com/xcode"
+    "url": "xcode.com"
   },
   {
     "name": "Xd",
@@ -5675,7 +5675,7 @@ const icons = [
     "classes": [
       "xd"
     ],
-    "url": "helpx.adobe.com/support/xd.html"
+    "url": "xd.com"
   },
   {
     "name": "Xml",
@@ -5683,7 +5683,7 @@ const icons = [
     "classes": [
       "xml"
     ],
-    "url": "w3.org/standards/xml"
+    "url": "xml.com"
   },
   {
     "name": "Yaml",
@@ -5691,7 +5691,7 @@ const icons = [
     "classes": [
       "yaml"
     ],
-    "url": "yaml.org"
+    "url": "yaml.com"
   },
   {
     "name": "Yarn",
@@ -5699,7 +5699,7 @@ const icons = [
     "classes": [
       "yarn"
     ],
-    "url": "yarnpkg.com"
+    "url": "yarn.com"
   },
   {
     "name": "Yii",
@@ -5708,7 +5708,7 @@ const icons = [
       "yii",
       "yii-horizontal"
     ],
-    "url": "yiiframework.com"
+    "url": "yii.com"
   },
   {
     "name": "Yugabytedb",
@@ -5725,7 +5725,7 @@ const icons = [
     "classes": [
       "yunohost"
     ],
-    "url": "yunohost.org"
+    "url": "yunohost.com"
   },
   {
     "name": "Zend",
@@ -5735,7 +5735,7 @@ const icons = [
       "zend-horizontal-light",
       "zend-vertical"
     ],
-    "url": "framework.zend.com"
+    "url": "zend.com"
   },
   {
     "name": "Zig",
@@ -5745,7 +5745,7 @@ const icons = [
       "zig-horizontal",
       "zig-horizontal-light"
     ],
-    "url": "ziglang.org"
+    "url": "zig.com"
   },
   {
     "name": "Zod",
