@@ -538,8 +538,7 @@ const icons = [
     "classes": [
       "reddit",
       "reddit-horizontal",
-      "reddit-horizontal-light",
-      "reddit2-horizontal-light"
+      "reddit-wordmark"
     ],
     "url": "reddit.com"
   },
@@ -1494,13 +1493,13 @@ const icons = [
     "url": "gmail.com"
   },
   {
-    "name": "Go",
+    "name": "Golang",
     "category": "technology",
     "classes": [
-      "go",
-      "go-wordmark"
+      "golang",
+      "golang-wordmark"
     ],
-    "url": "go.dev"
+    "url": "golang.com"
   },
   {
     "name": "Google",
@@ -1720,6 +1719,14 @@ const icons = [
     "url": "java.com"
   },
   {
+    "name": "Javascript",
+    "category": "technology",
+    "classes": [
+      "javascript"
+    ],
+    "url": "javascript.com"
+  },
+  {
     "name": "Jest",
     "category": "technology",
     "classes": [
@@ -1743,14 +1750,6 @@ const icons = [
       "jquery-horizontal"
     ],
     "url": "jquery.com"
-  },
-  {
-    "name": "JavaScript",
-    "category": "technology",
-    "classes": [
-      "js"
-    ],
-    "url": "js.com"
   },
   {
     "name": "Jslint",
@@ -1880,6 +1879,67 @@ const icons = [
     "url": "lokalise.com"
   },
   {
+    "name": "Lua",
+    "category": "technology",
+    "classes": [
+      "lua"
+    ],
+    "url": "lua.com"
+  },
+  {
+    "name": "Lunacy",
+    "category": "technology",
+    "classes": [
+      "lunacy"
+    ],
+    "url": "lunacy.com"
+  },
+  {
+    "name": "Mariadb",
+    "category": "technology",
+    "classes": [
+      "mariadb",
+      "mariadb-horizontal",
+      "mariadb-vertical",
+      "mariadb2"
+    ],
+    "url": "mariadb.com"
+  },
+  {
+    "name": "Marionettejs",
+    "category": "technology",
+    "classes": [
+      "marionettejs"
+    ],
+    "url": "marionettejs.com"
+  },
+  {
+    "name": "Markdown",
+    "category": "technology",
+    "classes": [
+      "markdown"
+    ],
+    "url": "markdown.com"
+  },
+  {
+    "name": "Mastodon",
+    "category": "technology",
+    "classes": [
+      "mastodon",
+      "mastodon-wordmark",
+      "mastodon-wordmark-light"
+    ],
+    "url": "mastodon.com"
+  },
+  {
+    "name": "Messenger",
+    "category": "technology",
+    "classes": [
+      "messenger"
+    ],
+    "url": "messenger.com"
+  },
+  {
     "name": "Meta",
     "category": "technology",
     "classes": [
@@ -1910,6 +1970,24 @@ const icons = [
     "url": "microsoft.com"
   },
   {
+    "name": "Miro",
+    "category": "technology",
+    "classes": [
+      "miro",
+      "miro-wordmark",
+      "miro-wordmark-light"
+    ],
+    "url": "miro.com"
+  },
+  {
+    "name": "Mochajs",
+    "category": "technology",
+    "classes": [
+      "mochajs"
+    ],
+    "url": "mochajs.com"
+  },
+  {
     "name": "Mongodb",
     "category": "technology",
     "classes": [
@@ -1919,6 +1997,17 @@ const icons = [
       "mongodb2-horizontal"
     ],
     "url": "mongodb.com"
+  },
+  {
+    "name": "Mozilla",
+    "category": "technology",
+    "classes": [
+      "mozilla",
+      "mozilla-horizontal",
+      "mozilla-horizontal-light",
+      "mozilla-light"
+    ],
+    "url": "mozilla.com"
   },
   {
     "name": "MUI",
@@ -1936,6 +2025,24 @@ const icons = [
       "mysql-vertical"
     ],
     "url": "mysql.com"
+  },
+  {
+    "name": "Neovim",
+    "category": "technology",
+    "classes": [
+      "neovim",
+      "neovim-horizontal"
+    ],
+    "url": "neovim.com"
+  },
+  {
+    "name": "Nestjs",
+    "category": "technology",
+    "classes": [
+      "nestjs",
+      "nestjs-horizontal"
+    ],
+    "url": "nestjs.com"
   },
   {
     "name": "Netflix",
@@ -1969,6 +2076,14 @@ const icons = [
     "url": "nextjs.com"
   },
   {
+    "name": "Nim",
+    "category": "technology",
+    "classes": [
+      "nim"
+    ],
+    "url": "nim.com"
+  },
+  {
     "name": "Nodejs",
     "category": "technology",
     "classes": [
@@ -1979,6 +2094,17 @@ const icons = [
       "nodejs-vertical-light"
     ],
     "url": "nodejs.com"
+  },
+  {
+    "name": "Notion",
+    "category": "technology",
+    "classes": [
+      "notion",
+      "notion-horizontal",
+      "notion-horizontal-light",
+      "notion-light"
+    ],
+    "url": "notion.com"
   },
   {
     "name": "Npm",
@@ -1998,6 +2124,15 @@ const icons = [
       "nuxtjs-horizontal-light"
     ],
     "url": "nuxtjs.com"
+  },
+  {
+    "name": "Ocaml",
+    "category": "technology",
+    "classes": [
+      "ocaml",
+      "ocaml-horizontal"
+    ],
+    "url": "ocaml.com"
   },
   {
     "name": "Onedrive",
@@ -2028,6 +2163,23 @@ const icons = [
     "url": "opensea.com"
   },
   {
+    "name": "Opera",
+    "category": "technology",
+    "classes": [
+      "opera"
+    ],
+    "url": "opera.com"
+  },
+  {
+    "name": "Oracle",
+    "category": "technology",
+    "classes": [
+      "oracle",
+      "oracle-wordmark"
+    ],
+    "url": "oracle.com"
+  },
+  {
     "name": "Outlook",
     "category": "technology",
     "classes": [
@@ -2036,12 +2188,28 @@ const icons = [
     "url": "office.com"
   },
   {
+    "name": "Pandacss",
+    "category": "technology",
+    "classes": [
+      "pandacss"
+    ],
+    "url": "pandacss.com"
+  },
+  {
     "name": "Perl",
     "category": "technology",
     "classes": [
       "perl"
     ],
     "url": "perl.com"
+  },
+  {
+    "name": "Photoshop",
+    "category": "technology",
+    "classes": [
+      "photoshop"
+    ],
+    "url": "photoshop.com"
   },
   {
     "name": "php",
@@ -2060,6 +2228,24 @@ const icons = [
       "pinia"
     ],
     "url": "pinia.com"
+  },
+  {
+    "name": "Pixijs",
+    "category": "technology",
+    "classes": [
+      "pixijs",
+      "pixijs-wordmark"
+    ],
+    "url": "pixijs.com"
+  },
+  {
+    "name": "Playwright",
+    "category": "technology",
+    "classes": [
+      "playwright",
+      "playwright-horizontal"
+    ],
+    "url": "playwright.com"
   },
   {
     "name": "Polygon-io",
@@ -2097,12 +2283,69 @@ const icons = [
     "url": "office.com"
   },
   {
+    "name": "Powershell",
+    "category": "technology",
+    "classes": [
+      "powershell"
+    ],
+    "url": "powershell.com"
+  },
+  {
+    "name": "Preact",
+    "category": "technology",
+    "classes": [
+      "preact"
+    ],
+    "url": "preact.com"
+  },
+  {
+    "name": "Prestodb",
+    "category": "technology",
+    "classes": [
+      "prestodb"
+    ],
+    "url": "prestodb.com"
+  },
+  {
+    "name": "Prettier",
+    "category": "technology",
+    "classes": [
+      "prettier"
+    ],
+    "url": "prettier.com"
+  },
+  {
+    "name": "Prisma",
+    "category": "technology",
+    "classes": [
+      "prisma",
+      "prisma-horizontal"
+    ],
+    "url": "prisma.com"
+  },
+  {
     "name": "Project",
     "category": "technology",
     "classes": [
       "project"
     ],
     "url": "office.com"
+  },
+  {
+    "name": "Pugjs",
+    "category": "technology",
+    "classes": [
+      "pugjs"
+    ],
+    "url": "pugjs.com"
+  },
+  {
+    "name": "Pwa",
+    "category": "technology",
+    "classes": [
+      "pwa"
+    ],
+    "url": "pwa.com"
   },
   {
     "name": "Python",
@@ -2125,12 +2368,44 @@ const icons = [
     "url": "pytorch.com"
   },
   {
+    "name": "Pytorch3d",
+    "category": "technology",
+    "classes": [
+      "pytorch3d"
+    ],
+    "url": "pytorch3d.com"
+  },
+  {
+    "name": "Qwik",
+    "category": "technology",
+    "classes": [
+      "qwik"
+    ],
+    "url": "qwik.com"
+  },
+  {
     "name": "R",
     "category": "technology",
     "classes": [
       "r"
     ],
     "url": "r.com"
+  },
+  {
+    "name": "Radixui",
+    "category": "technology",
+    "classes": [
+      "radixui"
+    ],
+    "url": "radixui.com"
+  },
+  {
+    "name": "Rails",
+    "category": "technology",
+    "classes": [
+      "rails"
+    ],
+    "url": "rails.com"
   },
   {
     "name": "Railway",
@@ -2160,6 +2435,23 @@ const icons = [
     "url": "reactjs.com"
   },
   {
+    "name": "Reactrouter",
+    "category": "technology",
+    "classes": [
+      "reactrouter"
+    ],
+    "url": "reactrouter.com"
+  },
+  {
+    "name": "Redhat",
+    "category": "technology",
+    "classes": [
+      "redhat",
+      "redhat-horizontal"
+    ],
+    "url": "redhat.com"
+  },
+  {
     "name": "Redis",
     "category": "technology",
     "classes": [
@@ -2174,7 +2466,8 @@ const icons = [
     "name": "Redux",
     "category": "technology",
     "classes": [
-      "redux"
+      "redux",
+      "redux-saga"
     ],
     "url": "redux.com"
   },
@@ -2336,14 +2629,14 @@ const icons = [
     "url": "tmdb.com"
   },
   {
-    "name": "TypeScript",
+    "name": "Typescript",
     "category": "technology",
     "classes": [
-      "ts",
-      "ts-circle",
-      "ts-wordmark"
+      "typescript",
+      "typescript-circle",
+      "typescript-wordmark"
     ],
-    "url": "ts.com"
+    "url": "typescript.com"
   },
   {
     "name": "Vercel",
