@@ -1,32 +1,67 @@
 import os
+import re
+import json
 
 
-def get_folder_names():
-    folder_path = "public/logos/technology"
-    return set(os.listdir(folder_path))
-
-
-def get_keys_from_file():
-    keys = set()
-    with open("cleaned_output.txt", "r") as file:
+def get_url_mapping():
+    mapping = {}
+    with open("urls.txt", "r") as file:
         for line in file:
             if ":" in line:
-                key = line.split(":")[0].strip()
-                keys.add(key)
-    return keys
+                key, url = line.split(":", 1)
+                mapping[key.strip()] = url.strip()
+    return mapping
+
+
+def update_icons(url_mapping):
+    filename = "src/constants/icons.ts"
+    try:
+        with open(filename, "r") as file:
+            content = file.read()
+
+        new_content = content
+        for key, new_url in url_mapping.items():
+            pattern = (
+                r"{"
+                r"[^{]*?"  # non-greedy match of anything except {
+                r'"classes"\s*:\s*\[\s*'  # match "classes": [
+                rf'"{re.escape(key)}"'  # match the first class exactly
+                r"[^{]*?"  # non-greedy match until url
+                r'"url"\s*:\s*"([^"]+)"'  # capture the current url
+                r"[^}]*?"  # non-greedy match until end of object
+                r"}"
+            )
+
+            def replace_url(match):
+                return match.group(0).replace(match.group(1), new_url)
+
+            new_content, count = re.subn(
+                pattern, replace_url, new_content, flags=re.DOTALL
+            )
+            if count:
+                print(f"Updated URL for '{key}' to '{new_url}'")
+            else:
+                print(f"Warning: No match found for key '{key}'")
+
+        if new_content != content:
+            with open(filename, "w") as file:
+                file.write(new_content)
+            print("Successfully updated icons.ts")
+        else:
+            print("No changes were necessary in icons.ts")
+
+    except FileNotFoundError:
+        print(f"Error: Could not find {filename}")
+    except Exception as e:
+        print(f"Error updating icons: {str(e)}")
 
 
 def main():
-    folder_names = get_folder_names()
-    file_keys = get_keys_from_file()
-
-    missing_keys = file_keys - folder_names
-    if missing_keys:
-        print("Keys in cleaned_output.txt that don't have corresponding folders:")
-        for key in sorted(missing_keys):
-            print(key)
+    url_mapping = get_url_mapping()
+    if url_mapping:
+        update_icons(url_mapping)
     else:
-        print("All keys in cleaned_output.txt have corresponding folders.")
+        print("No URL mappings found in urls.txt.")
 
 
 if __name__ == "__main__":
