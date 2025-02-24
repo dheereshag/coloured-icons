@@ -2,8 +2,8 @@
 
 Sample icons
 
-<img src="public/logos/art and music/spotify/spotify.svg" alt="Spotify Icon"  height="48"> <img src="public/logos/technology/reactjs/reactjs.svg" alt="React Icon"  height="48">
-<img src="public/logos/technology/vuejs/vuejs.svg" alt="Vue.js Icon"  height="48"> <img src="public/logos/technology/redis/redis.svg" alt="Redis Icon"  height="48"> <img src="public/logos/technology/firebase/firebase.svg" alt="Firebase Icon"  height="48"> <img src="public/logos/social media/instagram/instagram.svg" alt="Instagram Icon"  height="48"> <img src="public/logos/technology/python/python.svg" alt="Python Icon"  height="48"> <img src="public/logos/technology/js/js.svg" alt="JavaScript Icon"  height="48"> <img src="public/logos/technology/html/html.svg" alt="HTML5 Icon"  height="48"> <img src="public/logos/technology/css/css.svg" alt="CSS3 Icon"  height="48"> <img src="public/logos/technology/nodejs/nodejs.svg" alt="Node.js Icon"  height="48"> <img src="public/logos/technology/mongodb/mongodb.svg" alt="MongoDB Icon"  height="48"> <img src="public/logos/technology/postgresql/postgresql.svg" alt="PostgreSQL Icon"  height="48"> <img src="public/logos/technology/java/java.svg" alt="Java Icon"  height="48"> <img src="public/logos/technology/angular/angular.svg" alt="Angular Icon"  height="48"> <img src="public/logos/technology/nuxtjs/nuxtjs.svg" alt="Nuxtjs Icon"  height="48"> <img src="public/logos/technology/solana/solana.svg" alt="Solana Icon"  height="48"> <img src="public/logos/technology/docker/docker.webp" alt="Docker Icon" height="48"> <img src="public/logos/technology/kubernetes/kubernetes.svg" alt="Kubernetes Icon"  height="48">
+<img src="public/logos/art and music/spotify/spotify.svg" alt="Spotify Icon"  height="48"> <img src="public/logos/technology/react/react.svg" alt="React Icon"  height="48">
+<img src="public/logos/technology/vuejs/vuejs.svg" alt="Vue.js Icon"  height="48"> <img src="public/logos/technology/redis/redis.svg" alt="Redis Icon"  height="48"> <img src="public/logos/technology/firebase/firebase.svg" alt="Firebase Icon"  height="48"> <img src="public/logos/social media/instagram/instagram.svg" alt="Instagram Icon"  height="48"> <img src="public/logos/technology/python/python.svg" alt="Python Icon"  height="48"> <img src="public/logos/technology/javascript/javascript.svg" alt="JavaScript Icon"  height="48"> <img src="public/logos/technology/html/html.svg" alt="HTML5 Icon"  height="48"> <img src="public/logos/technology/css/css.svg" alt="CSS3 Icon"  height="48"> <img src="public/logos/technology/nodejs/nodejs.svg" alt="Node.js Icon"  height="48"> <img src="public/logos/technology/mongodb/mongodb.svg" alt="MongoDB Icon"  height="48"> <img src="public/logos/technology/postgresql/postgresql.svg" alt="PostgreSQL Icon"  height="48"> <img src="public/logos/technology/java/java.svg" alt="Java Icon"  height="48"> <img src="public/logos/technology/angular/angular.svg" alt="Angular Icon"  height="48"> <img src="public/logos/technology/nuxtjs/nuxtjs.svg" alt="Nuxtjs Icon"  height="48"> <img src="public/logos/technology/solana/solana.svg" alt="Solana Icon"  height="48"> <img src="public/logos/technology/docker/docker.webp" alt="Docker Icon" height="48"> <img src="public/logos/technology/kubernetes/kubernetes.svg" alt="Kubernetes Icon"  height="48">
 
 Throw in a CDN and watch the magic happen! Don't bother with all that `npm` stuff; just use the easy `<i>` tag. It's a bunch of logos from different brands and tech stacks. You can use these awesome icons in your projects without ever dealing with any downloads
 
@@ -20,7 +20,7 @@ To use the Coloured Icons Library, simply add the following CDN link to your HTM
 ```
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@1.8.6/src/app/ci.min.css"
+  href="https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@1.8.7/src/app/ci.min.css"
 />
 ```
 
