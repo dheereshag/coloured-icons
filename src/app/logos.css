@@ -4352,12 +4352,6 @@
   content: url("../../public/logos/technology/kaggle/kaggle.svg");
 }
 
-.ci-karatelabs-,
-.ci-karatelabs--dark,
-.ci-karatelabs--light {
-  content: url("../../public/logos/technology/karatelabs/.DS_Store");
-}
-
 .ci-karatelabs-horizontal,
 .ci-karatelabs-horizontal-dark,
 .ci-karatelabs-horizontal-light,
@@ -7770,21 +7764,6 @@
 .ci-trello-dark,
 .ci-trello-light {
   content: url("../../public/logos/technology/trello/trello.svg");
-}
-
-.ci-trpc-horizontal,
-.ci-trpc-horizontal-dark,
-.ci-trpc-horizontal-light,
-.ci-trpc-inline,
-.ci-trpc-inline-dark,
-.ci-trpc-inline-light {
-  content: url("../../public/logos/technology/trpc/trpc-horizontal.svg");
-}
-
-.ci-trpc,
-.ci-trpc-dark,
-.ci-trpc-light {
-  content: url("../../public/logos/technology/trpc/trpc.svg");
 }
 
 .ci-ts-circle,
