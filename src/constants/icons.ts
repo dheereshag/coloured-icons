@@ -990,7 +990,7 @@ const icons = [
     "classes": [
       "azuresqldatabase"
     ],
-    "url": "learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql"
+    "url": "azure.microsoft.com/en-us/products/azure-sql/database"
   },
   {
     "name": "Babel",

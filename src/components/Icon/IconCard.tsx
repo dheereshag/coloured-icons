@@ -12,7 +12,7 @@ const IconCard: React.FC<IconCardProps> = ({ icon }) => {
         <h4 className="text-gray-800 font-semibold truncate text-sm">
           {icon.name}
         </h4>
-        <h4 className="text-gray-400 text-xs truncate max-w-[180px]">
+        <h4 className="text-gray-400 text-xs truncate max-w-[150px]">
           {icon.url}
         </h4>
       </span>
