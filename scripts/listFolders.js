@@ -65,7 +65,7 @@ const logoAliases = {
   semanticui: ["semantic"],
   solidjs: ["solid"],
   unjs: ["un"],
-  vitejs: ["vite"],
+  woocommerce: ["woo"]
 };
 
 // NEW: Function to parse CSS rules into groups by URL
