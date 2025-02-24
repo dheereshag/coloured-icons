@@ -27,13 +27,35 @@ if (aliasesMatch) {
 // Read technology folder
 const folders = fs.readdirSync(techPath);
 
-// Filter folders ending with 'js' and create new entries
+// List of folders to exclude
+const excludeFolders = ["vitejs"];
+
+// List of suffixes to process
+const suffixesToProcess = ["js", "db", "ui"];
+
+// Filter folders and create new entries
 folders
-  .filter((folder) => folder.toLowerCase().endsWith("js"))
+  .filter((folder) => {
+    const folderLower = folder.toLowerCase();
+    return (
+      !excludeFolders.includes(folderLower) &&
+      suffixesToProcess.some((suffix) => folderLower.endsWith(suffix))
+    );
+  })
   .forEach((folder) => {
     const key = folder.toLowerCase();
-    const alias = key.replace("js", "");
-    if (!logoAliases[key]) {
+    let alias;
+
+    // Handle different suffix cases
+    if (key.endsWith("js")) {
+      alias = key.replace("js", "");
+    } else if (key.endsWith("db")) {
+      alias = key.replace("db", "");
+    } else if (key.endsWith("ui")) {
+      alias = key.replace("ui", "");
+    }
+
+    if (!logoAliases[key] && alias) {
       logoAliases[key] = [alias];
     }
   });

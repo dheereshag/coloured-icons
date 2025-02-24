@@ -18,12 +18,11 @@ jobs:
         with:
           node-version: "latest"
 
-      - name: Install dependencies
-        run: npm install --legacy-peer-deps
-
-      - name: Run listFolders script
-        run: node scripts/listFolders.js
-
+      - name: Run update scripts
+        run: |
+          node scripts/updateAliases.js
+          node scripts/listFolders.js
+          
       - name: Install clean-css-cli
         run: npm install -g clean-css-cli
 

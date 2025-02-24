@@ -4,8 +4,8 @@
   "private": false,
   "type": "module",
   "scripts": {
-    "dev": "node scripts/listFolders.js && next dev",
-    "build": "node scripts/listFolders.js && next build",
+    "dev": "node scripts/updateAliases.js && node scripts/listFolders.js && next dev",
+    "build": "node scripts/updateAliases.js && node scripts/listFolders.js && next build",
     "start": "next start",
     "lint": "next lint",
     "minify:logos": "cleancss -o src/app/logos.min.css src/app/logos.css",
