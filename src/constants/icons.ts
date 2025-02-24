@@ -1,5 +1,14 @@
 const icons = [
   {
+    "name": "Applemusic",
+    "category": "art and music",
+    "classes": [
+      "applemusic",
+      "applemusic-horizontal"
+    ],
+    "url": "applemusic.com"
+  },
+  {
     "name": "Artstation",
     "category": "art and music",
     "classes": [
@@ -28,8 +37,10 @@ const icons = [
     "category": "art and music",
     "classes": [
       "behance",
+      "behance-wordmark",
       "behance-wordmark2",
-      "behance2"
+      "behance2",
+      "behance3"
     ],
     "url": "behance.com"
   },
@@ -1033,15 +1044,6 @@ const icons = [
       "beats"
     ],
     "url": "beats.com"
-  },
-  {
-    "name": "Behance",
-    "category": "technology",
-    "classes": [
-      "behance-wordmark",
-      "behance3"
-    ],
-    "url": "behance.com"
   },
   {
     "name": "Bing",
@@ -2903,6 +2905,7 @@ const icons = [
     "category": "technology",
     "classes": [
       "karatelabs",
+      "karatelabs-",
       "karatelabs-horizontal",
       "karatelabs-vertical"
     ],
@@ -3210,6 +3213,14 @@ const icons = [
     "url": "materializecss.com"
   },
   {
+    "name": "Materialui",
+    "category": "technology",
+    "classes": [
+      "materialui"
+    ],
+    "url": "materialui.com"
+  },
+  {
     "name": "Matlab",
     "category": "technology",
     "classes": [
@@ -3407,14 +3418,6 @@ const icons = [
       "msdos"
     ],
     "url": "msdos.com"
-  },
-  {
-    "name": "MUI",
-    "category": "technology",
-    "classes": [
-      "mui"
-    ],
-    "url": "mui.com"
   },
   {
     "name": "MySQL",
@@ -5282,8 +5285,8 @@ const icons = [
     "name": "Trpc",
     "category": "technology",
     "classes": [
-      "trpc-horizontal",
-      "trpc-tRPC"
+      "trpc",
+      "trpc-horizontal"
     ],
     "url": "trpc.com"
   },

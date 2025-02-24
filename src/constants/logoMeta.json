@@ -1,0 +1,142 @@
+{
+  "alan": {
+    "displayName": "Alan AI",
+    "url": "alan.app"
+  },
+  "go": {
+    "url": "go.dev"
+  },
+  "aws": {
+    "displayName": "AWS"
+  },
+  "eth": {
+    "url": "ethereum.org"
+  },
+  "cpp": {
+    "displayName": "C++",
+    "url": "isocpp.org"
+  },
+  "csharp": {
+    "displayName": "C#"
+  },
+  "do": {
+    "displayName": "DigitalOcean"
+  },
+  "css": {
+    "displayName": "CSS"
+  },
+  "louisvuitton": {
+    "displayName": "Louis Vuitton"
+  },
+  "jnj": {
+    "displayName": "Johnson & Johnson"
+  },
+  "ts": {
+    "displayName": "TypeScript"
+  },
+  "js": {
+    "displayName": "JavaScript"
+  },
+  "php": {
+    "displayName": "php"
+  },
+  "kfc": {
+    "displayName": "KFC"
+  },
+  "react-native": {
+    "displayName": "React Native"
+  },
+  "buymeacoffee": {
+    "displayName": "Buy Me a Coffee"
+  },
+  "bmw": {
+    "displayName": "BMW"
+  },
+  "burgerking": {
+    "displayName": "BurgerKing"
+  },
+  "hsbc": {
+    "displayName": "HSBC"
+  },
+  "phonepe": {
+    "displayName": "PhonePe"
+  },
+  "rayban": {
+    "displayName": "Ray-Ban"
+  },
+  "mysql": {
+    "displayName": "MySQL"
+  },
+  "opensea": {
+    "displayName": "OpenSea"
+  },
+  "orcid": {
+    "displayName": "ORCID"
+  },
+  "html": {
+    "displayName": "HTML"
+  },
+  "jquery": {
+    "displayName": "jQuery"
+  },
+  "mui": {
+    "displayName": "MUI"
+  },
+  "365": {
+    "url": "office.com"
+  },
+  "teams": {
+    "url": "office.com"
+  },
+  "word": {
+    "url": "office.com"
+  },
+  "visio": {
+    "url": "office.com"
+  },
+  "sway": {
+    "url": "office.com"
+  },
+  "sharepoint": {
+    "url": "office.com"
+  },
+  "project": {
+    "url": "office.com"
+  },
+  "powerpoint": {
+    "url": "office.com"
+  },
+  "outlook": {
+    "url": "office.com"
+  },
+  "onenote": {
+    "url": "office.com"
+  },
+  "onedrive": {
+    "url": "office.com"
+  },
+  "delve": {
+    "url": "office.com"
+  },
+  "forms": {
+    "url": "office.com"
+  },
+  "excel": {
+    "url": "office.com"
+  },
+  "access": {
+    "url": "office.com"
+  },
+  "angular": {
+    "url": "angular.dev"
+  },
+  "bluesky": {
+    "url": "bsky.app"
+  },
+  "infura": {
+    "url": "infura.io"
+  },
+  "c": {
+    "url": "learn-c.org"
+  }
+}

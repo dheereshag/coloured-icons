@@ -6,22 +6,22 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const techPath = path.join(__dirname, "..", "public", "logos", "technology");
+// Updated path to logoAliases.json
 const logoAliasesPath = path.join(
   __dirname,
   "..",
   "src",
   "constants",
-  "logoAliases.js"
+  "logoAliases.json"
 );
 
-// Read existing aliases
-const existingContent = fs.readFileSync(logoAliasesPath, "utf8");
+// Read existing aliases from JSON file
 let logoAliases = {};
-
-// Extract existing aliases using regex
-const aliasesMatch = existingContent.match(/const logoAliases = {([^}]+)}/s);
-if (aliasesMatch) {
-  eval("logoAliases = {" + aliasesMatch[1] + "}");
+try {
+  const existingContent = fs.readFileSync(logoAliasesPath, "utf8");
+  logoAliases = JSON.parse(existingContent);
+} catch (error) {
+  console.error("Error reading or parsing logoAliases.json:", error);
 }
 
 // Read technology folder
@@ -60,15 +60,9 @@ folders
     }
   });
 
-// Convert to string format
-const aliasesString = Object.entries(logoAliases)
-  .sort()
-  .map(([key, value]) => `  ${key}: ${JSON.stringify(value)}`)
-  .join(",\n");
-
-// Create new content
-const newContent = `const logoAliases = {\n${aliasesString}\n};\n\nexport default logoAliases;\n`;
+// Convert object to pretty JSON
+const newContent = JSON.stringify(logoAliases, null, 2);
 
 // Write back to file
 fs.writeFileSync(logoAliasesPath, newContent);
-console.log("logoAliases.js updated successfully!");
+console.log("logoAliases.json updated successfully!");

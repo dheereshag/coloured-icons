@@ -1,3 +1,18 @@
+.ci-applemusic-horizontal,
+.ci-applemusic-horizontal-dark,
+.ci-applemusic-horizontal-light,
+.ci-applemusic-inline,
+.ci-applemusic-inline-dark,
+.ci-applemusic-inline-light {
+  content: url("../../public/logos/art and music/applemusic/applemusic-horizontal.svg");
+}
+
+.ci-applemusic,
+.ci-applemusic-dark,
+.ci-applemusic-light {
+  content: url("../../public/logos/art and music/applemusic/applemusic.svg");
+}
+
 .ci-artstation-horizontal-light,
 .ci-artstation-inline-light {
   content: url("../../public/logos/art and music/artstation/artstation-horizontal-light.svg");
@@ -58,6 +73,12 @@
   content: url("../../public/logos/art and music/bandcamp/bandcamp2-horizontal.png");
 }
 
+.ci-behance-wordmark,
+.ci-behance-wordmark-dark,
+.ci-behance-wordmark-light {
+  content: url("../../public/logos/art and music/behance/behance-wordmark.svg");
+}
+
 .ci-behance-wordmark2,
 .ci-behance-wordmark2-dark,
 .ci-behance-wordmark2-light {
@@ -74,6 +95,12 @@
 .ci-behance2-dark,
 .ci-behance2-light {
   content: url("../../public/logos/art and music/behance/behance2.svg");
+}
+
+.ci-behance3,
+.ci-behance3-dark,
+.ci-behance3-light {
+  content: url("../../public/logos/art and music/behance/behance3.svg");
 }
 
 .ci-deviantart-horizontal,
@@ -1652,19 +1679,6 @@
 .ci-beats-dark,
 .ci-beats-light {
   content: url("../../public/logos/technology/beats/beats.svg");
-}
-
-.ci-behance,
-.ci-behance-dark,
-.ci-behance-wordmark,
-.ci-behance-wordmark-dark {
-  content: url("../../public/logos/technology/behance/behance-wordmark.svg");
-}
-
-.ci-behance3,
-.ci-behance3-dark,
-.ci-behance3-light {
-  content: url("../../public/logos/technology/behance/behance3.svg");
 }
 
 .ci-bing,
@@ -3290,9 +3304,9 @@
 .ci-framer,
 .ci-framer-dark,
 .ci-framer-light,
-.ci-framer-motion,
-.ci-framer-motion-dark,
-.ci-framer-motion-light {
+.ci-framermotion,
+.ci-framermotion-dark,
+.ci-framermotion-light {
   content: url("../../public/logos/technology/framer/framer.svg");
 }
 
@@ -4409,6 +4423,12 @@
   content: url("../../public/logos/technology/kaggle/kaggle.svg");
 }
 
+.ci-karatelabs-,
+.ci-karatelabs--dark,
+.ci-karatelabs--light {
+  content: url("../../public/logos/technology/karatelabs/.DS_Store");
+}
+
 .ci-karatelabs-horizontal,
 .ci-karatelabs-horizontal-dark,
 .ci-karatelabs-horizontal-light,
@@ -4853,6 +4873,15 @@
   content: url("../../public/logos/technology/materializecss/materializecss.svg");
 }
 
+.ci-material,
+.ci-material-dark,
+.ci-material-light,
+.ci-materialui,
+.ci-materialui-dark,
+.ci-materialui-light {
+  content: url("../../public/logos/technology/materialui/materialui.svg");
+}
+
 .ci-matlab,
 .ci-matlab-dark,
 .ci-matlab-light {
@@ -5196,15 +5225,6 @@
 .ci-msdos-dark,
 .ci-msdos-light {
   content: url("../../public/logos/technology/msdos/msdos.svg");
-}
-
-.ci-m,
-.ci-m-dark,
-.ci-m-light,
-.ci-mui,
-.ci-mui-dark,
-.ci-mui-light {
-  content: url("../../public/logos/technology/mui/mui.svg");
 }
 
 .ci-mysql-stacked,
@@ -7896,6 +7916,21 @@
 .ci-trello-dark,
 .ci-trello-light {
   content: url("../../public/logos/technology/trello/trello.svg");
+}
+
+.ci-trpc-horizontal,
+.ci-trpc-horizontal-dark,
+.ci-trpc-horizontal-light,
+.ci-trpc-inline,
+.ci-trpc-inline-dark,
+.ci-trpc-inline-light {
+  content: url("../../public/logos/technology/trpc/trpc-horizontal.svg");
+}
+
+.ci-trpc,
+.ci-trpc-dark,
+.ci-trpc-light {
+  content: url("../../public/logos/technology/trpc/trpc.svg");
 }
 
 .ci-ts-circle,

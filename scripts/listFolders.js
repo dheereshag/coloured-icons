@@ -1,7 +1,8 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import logoAliases from "../src/constants/logoAliases.js";
+import logoAliases from "../src/constants/logoAliases.json" with { type: "json" };
+import logoMeta from "../src/constants/logoMeta.json" with { type: "json" };
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -314,125 +315,18 @@ fs.readdir(logosPath, (err, categories) => {
             // NEW: Sort the classes array
             classes.sort();
 
-            // NEW: Capitalize the name and update URL based on rules
+            // Replace switch case with logoMeta lookup
             let displayName =
               folder.charAt(0).toUpperCase() + folder.slice(1).toLowerCase();
             let iconUrl = `${folder}.com`;
-            switch (folder.toLowerCase()) {
-              case "alan":
-                displayName = "Alan AI";
-                iconUrl = "alan.app";
-                break;
-              case "go":
-                iconUrl = "go.dev";
-                break;
-              case "aws":
-                displayName = "AWS";
-                break;
-              case "eth":
-                iconUrl = "ethereum.org";
-                break;
-              case "cpp":
-                displayName = "C++";
-                iconUrl = "isocpp.org";
-                break;
-              case "csharp":
-                displayName = "C#";
-                break;
-              case "do":
-                displayName = "DigitalOcean";
-                break;
-              case "css":
-                displayName = "CSS";
-                break;
-              case "louisvuitton":
-                displayName = "Louis Vuitton";
-                break;
-              case "jnj":
-                displayName = "Johnson & Johnson";
-                break;
-              case "ts":
-                displayName = "TypeScript";
-                break;
-              case "js":
-                displayName = "JavaScript";
-                break;
-              case "php":
-                displayName = "php";
-                break;
-              case "kfc":
-                displayName = "KFC";
-                break;
-              case "react-native":
-                displayName = "React Native";
-                break;
-              case "buymeacoffee":
-                displayName = "Buy Me a Coffee";
-                break;
-              case "bmw":
-                displayName = "BMW";
-                break;
-              case "burgerking":
-                displayName = "BurgerKing";
-                break;
-              case "hsbc":
-                displayName = "HSBC";
-                break;
-              case "phonepe":
-                displayName = "PhonePe";
-                break;
-              case "rayban":
-                displayName = "Ray-Ban";
-                break;
-              case "mysql":
-                displayName = "MySQL";
-                break;
-              case "opensea":
-                displayName = "OpenSea";
-                break;
-              case "orcid":
-                displayName = "ORCID";
-                break;
-              case "html":
-                displayName = "HTML";
-                break;
-              case "jquery":
-                displayName = "jQuery";
-                break;
-              case "mui":
-                displayName = "MUI";
-                break;
-              case "365":
-              case "teams":
-              case "word":
-              case "visio":
-              case "sway":
-              case "sharepoint":
-              case "project":
-              case "powerpoint":
-              case "outlook":
-              case "onenote":
-              case "onedrive":
-              case "delve":
-              case "forms":
-              case "excel":
-              case "access":
-                iconUrl = "office.com";
-                break;
-              case "angular":
-                iconUrl = "angular.dev";
-                break;
-              case "bluesky":
-                iconUrl = "bsky.app";
-                break;
-              case "infura":
-                iconUrl = "infura.io";
-                break;
-              case "c":
-                iconUrl = "learn-c.org";
-                break;
-              default:
-                break;
+
+            if (logoMeta[folder]) {
+              if (logoMeta[folder].displayName) {
+                displayName = logoMeta[folder].displayName;
+              }
+              if (logoMeta[folder].url) {
+                iconUrl = logoMeta[folder].url;
+              }
             }
 
             iconsArr.push({
