@@ -649,76 +649,7 @@ const icons = [
     "name": "Access",
     "category": "technology",
     "classes": [
-      "access",
-      "access-godot",
-      "access-goland",
-      "access-gradle",
-      "access-grails",
-      "access-groovy",
-      "access-grpc",
-      "access-hadoop",
-      "access-handlebars",
-      "access-hardhat",
-      "access-harvester",
-      "access-haskell",
-      "access-haxe",
-      "access-helm",
-      "access-hibernate",
-      "access-hugo",
-      "access-ifttt",
-      "access-influxdb",
-      "access-inkscape",
-      "access-insomnia",
-      "access-intellij",
-      "access-jaegertracing",
-      "access-jamstack",
-      "access-jasmine",
-      "access-jeet",
-      "access-jekyll",
-      "access-jenkins",
-      "access-jetbrains",
-      "access-jetpackcompose",
-      "access-jira",
-      "access-jiraalign",
-      "access-jule",
-      "access-junit",
-      "access-jupyter",
-      "access-k3os",
-      "access-k3s",
-      "access-k6",
-      "access-kaggle",
-      "access-karatelabs",
-      "access-karma",
-      "access-kdeneon",
-      "access-keras",
-      "access-kibana",
-      "access-knexjs",
-      "access-krakenjs",
-      "access-ktor",
-      "access-labview",
-      "access-latex",
-      "access-liquibase",
-      "access-livewire",
-      "access-llvm",
-      "access-lodash",
-      "access-logstash",
-      "access-lumen",
-      "access-magento",
-      "access-materializecss",
-      "access-matlab",
-      "access-matplotlib",
-      "access-maven",
-      "access-maya",
-      "access-meteorjs",
-      "access-microsoftsqlserver",
-      "access-minitab",
-      "access-mithril",
-      "access-mobx",
-      "access-modx",
-      "access-moleculer",
-      "access-mongoose",
-      "access-moodle",
-      "access-msdos"
+      "access"
     ],
     "url": "office.com"
   },
@@ -2137,8 +2068,8 @@ const icons = [
     "category": "technology",
     "classes": [
       "flutter",
-      "flutter-built-with-flutter",
-      "flutter-built-with-flutter-light",
+      "flutter-built",
+      "flutter-built-light",
       "flutter-horizontal",
       "flutter-horizontal-light",
       "flutter-vertical",
@@ -2376,6 +2307,23 @@ const icons = [
     "url": "gmail.com"
   },
   {
+    "name": "Godot",
+    "category": "technology",
+    "classes": [
+      "godot",
+      "godot-vertical"
+    ],
+    "url": "godot.com"
+  },
+  {
+    "name": "Goland",
+    "category": "technology",
+    "classes": [
+      "goland"
+    ],
+    "url": "goland.com"
+  },
+  {
     "name": "Golang",
     "category": "technology",
     "classes": [
@@ -2394,6 +2342,15 @@ const icons = [
     "url": "google.com"
   },
   {
+    "name": "Gradle",
+    "category": "technology",
+    "classes": [
+      "gradle",
+      "gradle-horizontal"
+    ],
+    "url": "gradle.com"
+  },
+  {
     "name": "Grafana",
     "category": "technology",
     "classes": [
@@ -2410,6 +2367,14 @@ const icons = [
       "grafbase"
     ],
     "url": "grafbase.com"
+  },
+  {
+    "name": "Grails",
+    "category": "technology",
+    "classes": [
+      "grails"
+    ],
+    "url": "grails.com"
   },
   {
     "name": "Graphql",
@@ -2431,6 +2396,22 @@ const icons = [
     "url": "gridsomejs.com"
   },
   {
+    "name": "Groovy",
+    "category": "technology",
+    "classes": [
+      "groovy"
+    ],
+    "url": "groovy.com"
+  },
+  {
+    "name": "Grpc",
+    "category": "technology",
+    "classes": [
+      "grpc"
+    ],
+    "url": "grpc.com"
+  },
+  {
     "name": "Gruntjs",
     "category": "technology",
     "classes": [
@@ -2448,6 +2429,42 @@ const icons = [
     "url": "gulp.com"
   },
   {
+    "name": "Hadoop",
+    "category": "technology",
+    "classes": [
+      "hadoop",
+      "hadoop-horizontal"
+    ],
+    "url": "hadoop.com"
+  },
+  {
+    "name": "Handlebars",
+    "category": "technology",
+    "classes": [
+      "handlebars",
+      "handlebars-vertical"
+    ],
+    "url": "handlebars.com"
+  },
+  {
+    "name": "Hardhat",
+    "category": "technology",
+    "classes": [
+      "hardhat",
+      "hardhat-horizontal"
+    ],
+    "url": "hardhat.com"
+  },
+  {
+    "name": "Harvester",
+    "category": "technology",
+    "classes": [
+      "harvester",
+      "harvester-vertical"
+    ],
+    "url": "harvester.com"
+  },
+  {
     "name": "Hashnode",
     "category": "technology",
     "classes": [
@@ -2458,12 +2475,37 @@ const icons = [
     "url": "hashnode.com"
   },
   {
+    "name": "Haskell",
+    "category": "technology",
+    "classes": [
+      "haskell",
+      "haskell-horizontal"
+    ],
+    "url": "haskell.com"
+  },
+  {
+    "name": "Haxe",
+    "category": "technology",
+    "classes": [
+      "haxe"
+    ],
+    "url": "haxe.com"
+  },
+  {
     "name": "Headlessui",
     "category": "technology",
     "classes": [
       "headlessui"
     ],
     "url": "headlessui.com"
+  },
+  {
+    "name": "Helm",
+    "category": "technology",
+    "classes": [
+      "helm"
+    ],
+    "url": "helm.com"
   },
   {
     "name": "Heroku",
@@ -2489,6 +2531,15 @@ const icons = [
       "hhvm"
     ],
     "url": "hhvm.com"
+  },
+  {
+    "name": "Hibernate",
+    "category": "technology",
+    "classes": [
+      "hibernate",
+      "hibernate-vertical"
+    ],
+    "url": "hibernate.com"
   },
   {
     "name": "Homebrew",
@@ -2518,6 +2569,15 @@ const icons = [
     "url": "html.com"
   },
   {
+    "name": "Hugo",
+    "category": "technology",
+    "classes": [
+      "hugo",
+      "hugo-wordmark"
+    ],
+    "url": "hugo.com"
+  },
+  {
     "name": "Hyper",
     "category": "technology",
     "classes": [
@@ -2532,6 +2592,14 @@ const icons = [
       "i18next"
     ],
     "url": "i18next.com"
+  },
+  {
+    "name": "Ifttt",
+    "category": "technology",
+    "classes": [
+      "ifttt"
+    ],
+    "url": "ifttt.com"
   },
   {
     "name": "Illustrator",
@@ -2550,6 +2618,15 @@ const icons = [
     "url": "indesign.com"
   },
   {
+    "name": "Influxdb",
+    "category": "technology",
+    "classes": [
+      "influxdb",
+      "influxdb-vertical"
+    ],
+    "url": "influxdb.com"
+  },
+  {
     "name": "Infura",
     "category": "technology",
     "classes": [
@@ -2558,6 +2635,32 @@ const icons = [
       "infura-wordmark"
     ],
     "url": "infura.io"
+  },
+  {
+    "name": "Inkscape",
+    "category": "technology",
+    "classes": [
+      "inkscape",
+      "inkscape-vertical"
+    ],
+    "url": "inkscape.com"
+  },
+  {
+    "name": "Insomnia",
+    "category": "technology",
+    "classes": [
+      "insomnia",
+      "insomnia-horizontal"
+    ],
+    "url": "insomnia.com"
+  },
+  {
+    "name": "Intellij",
+    "category": "technology",
+    "classes": [
+      "intellij"
+    ],
+    "url": "intellij.com"
   },
   {
     "name": "Invision",
@@ -2578,6 +2681,33 @@ const icons = [
     "url": "ionic.com"
   },
   {
+    "name": "Jaegertracing",
+    "category": "technology",
+    "classes": [
+      "jaegertracing",
+      "jaegertracing-vertical"
+    ],
+    "url": "jaegertracing.com"
+  },
+  {
+    "name": "Jamstack",
+    "category": "technology",
+    "classes": [
+      "jamstack",
+      "jamstack-horizontal"
+    ],
+    "url": "jamstack.com"
+  },
+  {
+    "name": "Jasmine",
+    "category": "technology",
+    "classes": [
+      "jasmine",
+      "jasmine-vertical"
+    ],
+    "url": "jasmine.com"
+  },
+  {
     "name": "Java",
     "category": "technology",
     "classes": [
@@ -2595,6 +2725,32 @@ const icons = [
     "url": "javascript.com"
   },
   {
+    "name": "Jeet",
+    "category": "technology",
+    "classes": [
+      "jeet",
+      "jeet-vertical"
+    ],
+    "url": "jeet.com"
+  },
+  {
+    "name": "Jekyll",
+    "category": "technology",
+    "classes": [
+      "jekyll",
+      "jekyll-horizontal"
+    ],
+    "url": "jekyll.com"
+  },
+  {
+    "name": "Jenkins",
+    "category": "technology",
+    "classes": [
+      "jenkins"
+    ],
+    "url": "jenkins.com"
+  },
+  {
     "name": "Jest",
     "category": "technology",
     "classes": [
@@ -2603,12 +2759,39 @@ const icons = [
     "url": "jest.com"
   },
   {
+    "name": "Jetbrains",
+    "category": "technology",
+    "classes": [
+      "jetbrains"
+    ],
+    "url": "jetbrains.com"
+  },
+  {
+    "name": "Jetpackcompose",
+    "category": "technology",
+    "classes": [
+      "jetpackcompose",
+      "jetpackcompose-vertical"
+    ],
+    "url": "jetpackcompose.com"
+  },
+  {
     "name": "Jira",
     "category": "technology",
     "classes": [
-      "jira"
+      "jira",
+      "jira-vertical"
     ],
     "url": "jira.com"
+  },
+  {
+    "name": "Jiraalign",
+    "category": "technology",
+    "classes": [
+      "jiraalign",
+      "jiraalign-horizontal"
+    ],
+    "url": "jiraalign.com"
   },
   {
     "name": "jQuery",
@@ -2636,6 +2819,15 @@ const icons = [
     "url": "json.com"
   },
   {
+    "name": "Jule",
+    "category": "technology",
+    "classes": [
+      "jule",
+      "jule-horizontal"
+    ],
+    "url": "jule.com"
+  },
+  {
     "name": "Julia",
     "category": "technology",
     "classes": [
@@ -2643,6 +2835,50 @@ const icons = [
       "julia-wordmark"
     ],
     "url": "julia.com"
+  },
+  {
+    "name": "Junit",
+    "category": "technology",
+    "classes": [
+      "junit",
+      "junit-horizontal"
+    ],
+    "url": "junit.com"
+  },
+  {
+    "name": "Jupyter",
+    "category": "technology",
+    "classes": [
+      "jupyter",
+      "jupyter-vertical"
+    ],
+    "url": "jupyter.com"
+  },
+  {
+    "name": "K3os",
+    "category": "technology",
+    "classes": [
+      "k3os",
+      "k3os-vertical"
+    ],
+    "url": "k3os.com"
+  },
+  {
+    "name": "K3s",
+    "category": "technology",
+    "classes": [
+      "k3s",
+      "k3s-horizontal"
+    ],
+    "url": "k3s.com"
+  },
+  {
+    "name": "K6",
+    "category": "technology",
+    "classes": [
+      "k6"
+    ],
+    "url": "k6.com"
   },
   {
     "name": "Kafka",
@@ -2654,20 +2890,66 @@ const icons = [
     "url": "kafka.com"
   },
   {
+    "name": "Kaggle",
+    "category": "technology",
+    "classes": [
+      "kaggle",
+      "kaggle-wordmark"
+    ],
+    "url": "kaggle.com"
+  },
+  {
     "name": "Karatelabs",
     "category": "technology",
     "classes": [
-      "karatelabs-horizontal"
+      "karatelabs",
+      "karatelabs-horizontal",
+      "karatelabs-vertical"
     ],
     "url": "karatelabs.com"
+  },
+  {
+    "name": "Karma",
+    "category": "technology",
+    "classes": [
+      "karma"
+    ],
+    "url": "karma.com"
+  },
+  {
+    "name": "Kdeneon",
+    "category": "technology",
+    "classes": [
+      "kdeneon"
+    ],
+    "url": "kdeneon.com"
+  },
+  {
+    "name": "Keras",
+    "category": "technology",
+    "classes": [
+      "keras",
+      "keras-horizontal"
+    ],
+    "url": "keras.com"
   },
   {
     "name": "Kibana",
     "category": "technology",
     "classes": [
-      "kibana"
+      "kibana",
+      "kibana-horizontal"
     ],
     "url": "kibana.com"
+  },
+  {
+    "name": "Knexjs",
+    "category": "technology",
+    "classes": [
+      "knexjs",
+      "knexjs-vertical"
+    ],
+    "url": "knexjs.com"
   },
   {
     "name": "Knockoutjs",
@@ -2687,6 +2969,24 @@ const icons = [
     "url": "kotlin.com"
   },
   {
+    "name": "Krakenjs",
+    "category": "technology",
+    "classes": [
+      "krakenjs",
+      "krakenjs-vertical"
+    ],
+    "url": "krakenjs.com"
+  },
+  {
+    "name": "Ktor",
+    "category": "technology",
+    "classes": [
+      "ktor",
+      "ktor-horizontal"
+    ],
+    "url": "ktor.com"
+  },
+  {
     "name": "Kubernetes",
     "category": "technology",
     "classes": [
@@ -2697,12 +2997,29 @@ const icons = [
     "url": "kubernetes.com"
   },
   {
+    "name": "Labview",
+    "category": "technology",
+    "classes": [
+      "labview",
+      "labview-vertical"
+    ],
+    "url": "labview.com"
+  },
+  {
     "name": "Laravel",
     "category": "technology",
     "classes": [
       "laravel"
     ],
     "url": "laravel.com"
+  },
+  {
+    "name": "Latex",
+    "category": "technology",
+    "classes": [
+      "latex"
+    ],
+    "url": "latex.com"
   },
   {
     "name": "Leetcode",
@@ -2738,6 +3055,15 @@ const icons = [
     "url": "linux.com"
   },
   {
+    "name": "Liquibase",
+    "category": "technology",
+    "classes": [
+      "liquibase",
+      "liquibase-vertical"
+    ],
+    "url": "liquibase.com"
+  },
+  {
     "name": "Lit",
     "category": "technology",
     "classes": [
@@ -2754,12 +3080,46 @@ const icons = [
     "url": "liveblocks.com"
   },
   {
+    "name": "Livewire",
+    "category": "technology",
+    "classes": [
+      "livewire",
+      "livewire-horizontal"
+    ],
+    "url": "livewire.com"
+  },
+  {
+    "name": "Llvm",
+    "category": "technology",
+    "classes": [
+      "llvm"
+    ],
+    "url": "llvm.com"
+  },
+  {
+    "name": "Lodash",
+    "category": "technology",
+    "classes": [
+      "lodash"
+    ],
+    "url": "lodash.com"
+  },
+  {
     "name": "Logrocket",
     "category": "technology",
     "classes": [
       "logrocket"
     ],
     "url": "logrocket.com"
+  },
+  {
+    "name": "Logstash",
+    "category": "technology",
+    "classes": [
+      "logstash",
+      "logstash-horizontal"
+    ],
+    "url": "logstash.com"
   },
   {
     "name": "Lokalise",
@@ -2780,12 +3140,29 @@ const icons = [
     "url": "lua.com"
   },
   {
+    "name": "Lumen",
+    "category": "technology",
+    "classes": [
+      "lumen"
+    ],
+    "url": "lumen.com"
+  },
+  {
     "name": "Lunacy",
     "category": "technology",
     "classes": [
       "lunacy"
     ],
     "url": "lunacy.com"
+  },
+  {
+    "name": "Magento",
+    "category": "technology",
+    "classes": [
+      "magento",
+      "magento-horizontal"
+    ],
+    "url": "magento.com"
   },
   {
     "name": "Mariadb",
@@ -2825,6 +3202,49 @@ const icons = [
     "url": "mastodon.com"
   },
   {
+    "name": "Materializecss",
+    "category": "technology",
+    "classes": [
+      "materializecss"
+    ],
+    "url": "materializecss.com"
+  },
+  {
+    "name": "Matlab",
+    "category": "technology",
+    "classes": [
+      "matlab"
+    ],
+    "url": "matlab.com"
+  },
+  {
+    "name": "Matplotlib",
+    "category": "technology",
+    "classes": [
+      "matplotlib",
+      "matplotlib-wordmark"
+    ],
+    "url": "matplotlib.com"
+  },
+  {
+    "name": "Maven",
+    "category": "technology",
+    "classes": [
+      "maven",
+      "maven-wordmark"
+    ],
+    "url": "maven.com"
+  },
+  {
+    "name": "Maya",
+    "category": "technology",
+    "classes": [
+      "maya",
+      "maya-vertical"
+    ],
+    "url": "maya.com"
+  },
+  {
     "name": "Messenger",
     "category": "technology",
     "classes": [
@@ -2853,6 +3273,15 @@ const icons = [
     "url": "metamask.com"
   },
   {
+    "name": "Meteorjs",
+    "category": "technology",
+    "classes": [
+      "meteorjs",
+      "meteorjs-horizontal"
+    ],
+    "url": "meteorjs.com"
+  },
+  {
     "name": "Microsoft",
     "category": "technology",
     "classes": [
@@ -2861,6 +3290,23 @@ const icons = [
       "microsoft-horizontal-light"
     ],
     "url": "microsoft.com"
+  },
+  {
+    "name": "Microsoftsqlserver",
+    "category": "technology",
+    "classes": [
+      "microsoftsqlserver",
+      "microsoftsqlserver-vertical"
+    ],
+    "url": "microsoftsqlserver.com"
+  },
+  {
+    "name": "Minitab",
+    "category": "technology",
+    "classes": [
+      "minitab"
+    ],
+    "url": "minitab.com"
   },
   {
     "name": "Miro",
@@ -2873,12 +3319,46 @@ const icons = [
     "url": "miro.com"
   },
   {
+    "name": "Mithril",
+    "category": "technology",
+    "classes": [
+      "mithril"
+    ],
+    "url": "mithril.com"
+  },
+  {
+    "name": "Mobx",
+    "category": "technology",
+    "classes": [
+      "mobx"
+    ],
+    "url": "mobx.com"
+  },
+  {
     "name": "Mochajs",
     "category": "technology",
     "classes": [
       "mochajs"
     ],
     "url": "mochajs.com"
+  },
+  {
+    "name": "Modx",
+    "category": "technology",
+    "classes": [
+      "modx",
+      "modx-vertical"
+    ],
+    "url": "modx.com"
+  },
+  {
+    "name": "Moleculer",
+    "category": "technology",
+    "classes": [
+      "moleculer",
+      "moleculer-vertical"
+    ],
+    "url": "moleculer.com"
   },
   {
     "name": "Mongodb",
@@ -2892,6 +3372,24 @@ const icons = [
     "url": "mongodb.com"
   },
   {
+    "name": "Mongoose",
+    "category": "technology",
+    "classes": [
+      "mongoose",
+      "mongoose-vertical"
+    ],
+    "url": "mongoose.com"
+  },
+  {
+    "name": "Moodle",
+    "category": "technology",
+    "classes": [
+      "moodle",
+      "moodle-horizontal"
+    ],
+    "url": "moodle.com"
+  },
+  {
     "name": "Mozilla",
     "category": "technology",
     "classes": [
@@ -2901,6 +3399,14 @@ const icons = [
       "mozilla-light"
     ],
     "url": "mozilla.com"
+  },
+  {
+    "name": "Msdos",
+    "category": "technology",
+    "classes": [
+      "msdos"
+    ],
+    "url": "msdos.com"
   },
   {
     "name": "MUI",
@@ -2918,6 +3424,24 @@ const icons = [
       "mysql-vertical"
     ],
     "url": "mysql.com"
+  },
+  {
+    "name": "Nano",
+    "category": "technology",
+    "classes": [
+      "nano",
+      "nano-horizontal"
+    ],
+    "url": "nano.com"
+  },
+  {
+    "name": "Neo4j",
+    "category": "technology",
+    "classes": [
+      "neo4j",
+      "neo4j-horizontal"
+    ],
+    "url": "neo4j.com"
   },
   {
     "name": "Neovim",
@@ -2958,6 +3482,15 @@ const icons = [
     "url": "netlify.com"
   },
   {
+    "name": "Networkx",
+    "category": "technology",
+    "classes": [
+      "networkx",
+      "networkx-horizontal"
+    ],
+    "url": "networkx.com"
+  },
+  {
     "name": "Nextjs",
     "category": "technology",
     "classes": [
@@ -2969,12 +3502,55 @@ const icons = [
     "url": "nextjs.com"
   },
   {
+    "name": "Nginx",
+    "category": "technology",
+    "classes": [
+      "nginx"
+    ],
+    "url": "nginx.com"
+  },
+  {
+    "name": "Ngrx",
+    "category": "technology",
+    "classes": [
+      "ngrx"
+    ],
+    "url": "ngrx.com"
+  },
+  {
+    "name": "Nhibernate",
+    "category": "technology",
+    "classes": [
+      "nhibernate",
+      "nhibernate-vertical"
+    ],
+    "url": "nhibernate.com"
+  },
+  {
     "name": "Nim",
     "category": "technology",
     "classes": [
-      "nim"
+      "nim",
+      "nim-horizontal"
     ],
     "url": "nim.com"
+  },
+  {
+    "name": "Nimble",
+    "category": "technology",
+    "classes": [
+      "nimble"
+    ],
+    "url": "nimble.com"
+  },
+  {
+    "name": "Nixos",
+    "category": "technology",
+    "classes": [
+      "nixos",
+      "nixos-horizontal"
+    ],
+    "url": "nixos.com"
   },
   {
     "name": "Nodejs",
@@ -2987,6 +3563,40 @@ const icons = [
       "nodejs-vertical-light"
     ],
     "url": "nodejs.com"
+  },
+  {
+    "name": "Nodemon",
+    "category": "technology",
+    "classes": [
+      "nodemon"
+    ],
+    "url": "nodemon.com"
+  },
+  {
+    "name": "Nodewebkit",
+    "category": "technology",
+    "classes": [
+      "nodewebkit",
+      "nodewebkit-vertical"
+    ],
+    "url": "nodewebkit.com"
+  },
+  {
+    "name": "Nomad",
+    "category": "technology",
+    "classes": [
+      "nomad",
+      "nomad-vertical"
+    ],
+    "url": "nomad.com"
+  },
+  {
+    "name": "Norg",
+    "category": "technology",
+    "classes": [
+      "norg"
+    ],
+    "url": "norg.com"
   },
   {
     "name": "Notion",
@@ -3009,6 +3619,24 @@ const icons = [
     "url": "npm.com"
   },
   {
+    "name": "Nuget",
+    "category": "technology",
+    "classes": [
+      "nuget",
+      "nuget-horizontal"
+    ],
+    "url": "nuget.com"
+  },
+  {
+    "name": "Numpy",
+    "category": "technology",
+    "classes": [
+      "numpy",
+      "numpy-horizontal"
+    ],
+    "url": "numpy.com"
+  },
+  {
     "name": "Nuxtjs",
     "category": "technology",
     "classes": [
@@ -3019,6 +3647,14 @@ const icons = [
     "url": "nuxtjs.com"
   },
   {
+    "name": "Oauth",
+    "category": "technology",
+    "classes": [
+      "oauth"
+    ],
+    "url": "oauth.com"
+  },
+  {
     "name": "Ocaml",
     "category": "technology",
     "classes": [
@@ -3026,6 +3662,23 @@ const icons = [
       "ocaml-horizontal"
     ],
     "url": "ocaml.com"
+  },
+  {
+    "name": "Ohmyzsh",
+    "category": "technology",
+    "classes": [
+      "ohmyzsh"
+    ],
+    "url": "ohmyzsh.com"
+  },
+  {
+    "name": "Okta",
+    "category": "technology",
+    "classes": [
+      "okta",
+      "okta-wordmark"
+    ],
+    "url": "okta.com"
   },
   {
     "name": "Onedrive",
@@ -3044,6 +3697,48 @@ const icons = [
     "url": "office.com"
   },
   {
+    "name": "Openal",
+    "category": "technology",
+    "classes": [
+      "openal"
+    ],
+    "url": "openal.com"
+  },
+  {
+    "name": "Openapi",
+    "category": "technology",
+    "classes": [
+      "openapi",
+      "openapi-horizontal"
+    ],
+    "url": "openapi.com"
+  },
+  {
+    "name": "Opencl",
+    "category": "technology",
+    "classes": [
+      "opencl"
+    ],
+    "url": "opencl.com"
+  },
+  {
+    "name": "Opencv",
+    "category": "technology",
+    "classes": [
+      "opencv",
+      "opencv-vertical"
+    ],
+    "url": "opencv.com"
+  },
+  {
+    "name": "Opengl",
+    "category": "technology",
+    "classes": [
+      "opengl"
+    ],
+    "url": "opengl.com"
+  },
+  {
     "name": "OpenSea",
     "category": "technology",
     "classes": [
@@ -3056,10 +3751,38 @@ const icons = [
     "url": "opensea.com"
   },
   {
+    "name": "Openstack",
+    "category": "technology",
+    "classes": [
+      "openstack",
+      "openstack-vertical"
+    ],
+    "url": "openstack.com"
+  },
+  {
+    "name": "Opensuse",
+    "category": "technology",
+    "classes": [
+      "opensuse",
+      "opensuse-vertical"
+    ],
+    "url": "opensuse.com"
+  },
+  {
+    "name": "Opentelemetry",
+    "category": "technology",
+    "classes": [
+      "opentelemetry",
+      "opentelemetry-vertical"
+    ],
+    "url": "opentelemetry.com"
+  },
+  {
     "name": "Opera",
     "category": "technology",
     "classes": [
-      "opera"
+      "opera",
+      "opera-horizontal"
     ],
     "url": "opera.com"
   },
@@ -3073,12 +3796,38 @@ const icons = [
     "url": "oracle.com"
   },
   {
+    "name": "Ory",
+    "category": "technology",
+    "classes": [
+      "ory",
+      "ory-horizontal"
+    ],
+    "url": "ory.com"
+  },
+  {
     "name": "Outlook",
     "category": "technology",
     "classes": [
       "outlook"
     ],
     "url": "office.com"
+  },
+  {
+    "name": "P5js",
+    "category": "technology",
+    "classes": [
+      "p5js"
+    ],
+    "url": "p5js.com"
+  },
+  {
+    "name": "Packer",
+    "category": "technology",
+    "classes": [
+      "packer",
+      "packer-vertical"
+    ],
+    "url": "packer.com"
   },
   {
     "name": "Pandacss",
@@ -3089,12 +3838,47 @@ const icons = [
     "url": "pandacss.com"
   },
   {
-    "name": "Perl",
+    "name": "Pandas",
     "category": "technology",
     "classes": [
-      "perl"
+      "pandas",
+      "pandas-vertical"
     ],
-    "url": "perl.com"
+    "url": "pandas.com"
+  },
+  {
+    "name": "Pfsense",
+    "category": "technology",
+    "classes": [
+      "pfsense",
+      "pfsense-horizontal"
+    ],
+    "url": "pfsense.com"
+  },
+  {
+    "name": "Phalcon",
+    "category": "technology",
+    "classes": [
+      "phalcon"
+    ],
+    "url": "phalcon.com"
+  },
+  {
+    "name": "Phoenix",
+    "category": "technology",
+    "classes": [
+      "phoenix",
+      "phoenix-horizontal"
+    ],
+    "url": "phoenix.com"
+  },
+  {
+    "name": "Photonengine",
+    "category": "technology",
+    "classes": [
+      "photonengine"
+    ],
+    "url": "photonengine.com"
   },
   {
     "name": "Photoshop",
@@ -3113,6 +3897,14 @@ const icons = [
       "php-wordmark-light"
     ],
     "url": "php.com"
+  },
+  {
+    "name": "Phpstorm",
+    "category": "technology",
+    "classes": [
+      "phpstorm"
+    ],
+    "url": "phpstorm.com"
   },
   {
     "name": "Pinia",
@@ -3141,12 +3933,39 @@ const icons = [
     "url": "playwright.com"
   },
   {
+    "name": "Plotly",
+    "category": "technology",
+    "classes": [
+      "plotly",
+      "plotly-horizontal"
+    ],
+    "url": "plotly.com"
+  },
+  {
     "name": "Pnpm",
     "category": "technology",
     "classes": [
-      "pnpm"
+      "pnpm",
+      "pnpm-horizontal"
     ],
     "url": "pnpm.com"
+  },
+  {
+    "name": "Podman",
+    "category": "technology",
+    "classes": [
+      "podman",
+      "podman-horizontal"
+    ],
+    "url": "podman.com"
+  },
+  {
+    "name": "Poetry",
+    "category": "technology",
+    "classes": [
+      "poetry"
+    ],
+    "url": "poetry.com"
   },
   {
     "name": "Polygonio",
@@ -3159,10 +3978,29 @@ const icons = [
     "url": "polygonio.com"
   },
   {
+    "name": "Portainer",
+    "category": "technology",
+    "classes": [
+      "portainer",
+      "portainer-horizontal"
+    ],
+    "url": "portainer.com"
+  },
+  {
+    "name": "Postcss",
+    "category": "technology",
+    "classes": [
+      "postcss",
+      "postcss-vertical"
+    ],
+    "url": "postcss.com"
+  },
+  {
     "name": "Postgresql",
     "category": "technology",
     "classes": [
-      "postgresql"
+      "postgresql",
+      "postgresql-vertical"
     ],
     "url": "postgresql.com"
   },
@@ -3200,6 +4038,14 @@ const icons = [
     "url": "preact.com"
   },
   {
+    "name": "Premierepro",
+    "category": "technology",
+    "classes": [
+      "premierepro"
+    ],
+    "url": "premierepro.com"
+  },
+  {
     "name": "Prestodb",
     "category": "technology",
     "classes": [
@@ -3225,12 +4071,48 @@ const icons = [
     "url": "prisma.com"
   },
   {
+    "name": "Processing",
+    "category": "technology",
+    "classes": [
+      "processing",
+      "processing-vertical"
+    ],
+    "url": "processing.com"
+  },
+  {
     "name": "Project",
     "category": "technology",
     "classes": [
       "project"
     ],
     "url": "office.com"
+  },
+  {
+    "name": "Prolog",
+    "category": "technology",
+    "classes": [
+      "prolog",
+      "prolog-vertical"
+    ],
+    "url": "prolog.com"
+  },
+  {
+    "name": "Prometheus",
+    "category": "technology",
+    "classes": [
+      "prometheus",
+      "prometheus-vertical"
+    ],
+    "url": "prometheus.com"
+  },
+  {
+    "name": "Protractor",
+    "category": "technology",
+    "classes": [
+      "protractor",
+      "protractor-horizontal"
+    ],
+    "url": "protractor.com"
   },
   {
     "name": "Pugjs",
@@ -3241,12 +4123,90 @@ const icons = [
     "url": "pugjs.com"
   },
   {
+    "name": "Pulsar",
+    "category": "technology",
+    "classes": [
+      "pulsar",
+      "pulsar-horizontal"
+    ],
+    "url": "pulsar.com"
+  },
+  {
+    "name": "Pulumi",
+    "category": "technology",
+    "classes": [
+      "pulumi",
+      "pulumi-horizontal"
+    ],
+    "url": "pulumi.com"
+  },
+  {
+    "name": "Puppeteer",
+    "category": "technology",
+    "classes": [
+      "puppeteer"
+    ],
+    "url": "puppeteer.com"
+  },
+  {
+    "name": "Purescript",
+    "category": "technology",
+    "classes": [
+      "purescript",
+      "purescript-horizontal"
+    ],
+    "url": "purescript.com"
+  },
+  {
+    "name": "Putty",
+    "category": "technology",
+    "classes": [
+      "putty"
+    ],
+    "url": "putty.com"
+  },
+  {
     "name": "Pwa",
     "category": "technology",
     "classes": [
       "pwa"
     ],
     "url": "pwa.com"
+  },
+  {
+    "name": "Pycharm",
+    "category": "technology",
+    "classes": [
+      "pycharm",
+      "pycharm-horizontal"
+    ],
+    "url": "pycharm.com"
+  },
+  {
+    "name": "Pypi",
+    "category": "technology",
+    "classes": [
+      "pypi",
+      "pypi-horizontal"
+    ],
+    "url": "pypi.com"
+  },
+  {
+    "name": "Pyscript",
+    "category": "technology",
+    "classes": [
+      "pyscript"
+    ],
+    "url": "pyscript.com"
+  },
+  {
+    "name": "Pytest",
+    "category": "technology",
+    "classes": [
+      "pytest",
+      "pytest-vertical"
+    ],
+    "url": "pytest.com"
   },
   {
     "name": "Python",
@@ -3277,10 +4237,45 @@ const icons = [
     "url": "pytorch3d.com"
   },
   {
+    "name": "Qodana",
+    "category": "technology",
+    "classes": [
+      "qodana"
+    ],
+    "url": "qodana.com"
+  },
+  {
+    "name": "Qt",
+    "category": "technology",
+    "classes": [
+      "qt"
+    ],
+    "url": "qt.com"
+  },
+  {
+    "name": "Quarkus",
+    "category": "technology",
+    "classes": [
+      "quarkus",
+      "quarkus-vertical"
+    ],
+    "url": "quarkus.com"
+  },
+  {
+    "name": "Quasar",
+    "category": "technology",
+    "classes": [
+      "quasar",
+      "quasar-vertical"
+    ],
+    "url": "quasar.com"
+  },
+  {
     "name": "Qwik",
     "category": "technology",
     "classes": [
-      "qwik"
+      "qwik",
+      "qwik-horizontal"
     ],
     "url": "qwik.com"
   },
@@ -3330,6 +4325,40 @@ const icons = [
     "url": "railway.com"
   },
   {
+    "name": "Rancher",
+    "category": "technology",
+    "classes": [
+      "rancher",
+      "rancher-vertical"
+    ],
+    "url": "rancher.com"
+  },
+  {
+    "name": "Raspberrypi",
+    "category": "technology",
+    "classes": [
+      "raspberrypi",
+      "raspberrypi-horizontal"
+    ],
+    "url": "raspberrypi.com"
+  },
+  {
+    "name": "Reach",
+    "category": "technology",
+    "classes": [
+      "reach"
+    ],
+    "url": "reach.com"
+  },
+  {
+    "name": "Reactbootstrap",
+    "category": "technology",
+    "classes": [
+      "reactbootstrap"
+    ],
+    "url": "reactbootstrap.com"
+  },
+  {
     "name": "Reactjs",
     "category": "technology",
     "classes": [
@@ -3346,12 +4375,47 @@ const icons = [
     "url": "reactnative.com"
   },
   {
+    "name": "Reactnavigation",
+    "category": "technology",
+    "classes": [
+      "reactnavigation"
+    ],
+    "url": "reactnavigation.com"
+  },
+  {
     "name": "Reactrouter",
     "category": "technology",
     "classes": [
-      "reactrouter"
+      "reactrouter",
+      "reactrouter-vertical"
     ],
     "url": "reactrouter.com"
+  },
+  {
+    "name": "Readthedocs",
+    "category": "technology",
+    "classes": [
+      "readthedocs",
+      "readthedocs-horizontal"
+    ],
+    "url": "readthedocs.com"
+  },
+  {
+    "name": "Realm",
+    "category": "technology",
+    "classes": [
+      "realm",
+      "realm-horizontal"
+    ],
+    "url": "realm.com"
+  },
+  {
+    "name": "Rect",
+    "category": "technology",
+    "classes": [
+      "rect"
+    ],
+    "url": "rect.com"
   },
   {
     "name": "Redhat",
@@ -3369,7 +4433,8 @@ const icons = [
       "redis",
       "redis-enterprise",
       "redis-horizontal",
-      "redis-horizontal-light"
+      "redis-horizontal-light",
+      "redis-vertical"
     ],
     "url": "redis.com"
   },
@@ -3391,6 +4456,23 @@ const icons = [
     "url": "render.com"
   },
   {
+    "name": "Renpy",
+    "category": "technology",
+    "classes": [
+      "renpy"
+    ],
+    "url": "renpy.com"
+  },
+  {
+    "name": "Replit",
+    "category": "technology",
+    "classes": [
+      "replit",
+      "replit-horizontal"
+    ],
+    "url": "replit.com"
+  },
+  {
     "name": "Resend",
     "category": "technology",
     "classes": [
@@ -3402,6 +4484,15 @@ const icons = [
     "url": "resend.com"
   },
   {
+    "name": "Rider",
+    "category": "technology",
+    "classes": [
+      "rider",
+      "rider-horizontal"
+    ],
+    "url": "rider.com"
+  },
+  {
     "name": "Ringcentral",
     "category": "technology",
     "classes": [
@@ -3411,12 +4502,56 @@ const icons = [
     "url": "ringcentral.com"
   },
   {
+    "name": "Rocksdb",
+    "category": "technology",
+    "classes": [
+      "rocksdb"
+    ],
+    "url": "rocksdb.com"
+  },
+  {
+    "name": "Rockylinux",
+    "category": "technology",
+    "classes": [
+      "rockylinux",
+      "rockylinux-horizontal"
+    ],
+    "url": "rockylinux.com"
+  },
+  {
     "name": "Rollupjs",
     "category": "technology",
     "classes": [
-      "rollupjs"
+      "rollupjs",
+      "rollupjs-horizontal"
     ],
     "url": "rollupjs.com"
+  },
+  {
+    "name": "Ros",
+    "category": "technology",
+    "classes": [
+      "ros",
+      "ros-horizontal"
+    ],
+    "url": "ros.com"
+  },
+  {
+    "name": "Rspec",
+    "category": "technology",
+    "classes": [
+      "rspec",
+      "rspec-horizontal"
+    ],
+    "url": "rspec.com"
+  },
+  {
+    "name": "Rstudio",
+    "category": "technology",
+    "classes": [
+      "rstudio"
+    ],
+    "url": "rstudio.com"
   },
   {
     "name": "Ruby",
@@ -3425,6 +4560,15 @@ const icons = [
       "ruby"
     ],
     "url": "ruby.com"
+  },
+  {
+    "name": "Rubymine",
+    "category": "technology",
+    "classes": [
+      "rubymine",
+      "rubymine-horizontal"
+    ],
+    "url": "rubymine.com"
   },
   {
     "name": "Rust",
@@ -3436,12 +4580,29 @@ const icons = [
     "url": "rust.com"
   },
   {
+    "name": "Rxjs",
+    "category": "technology",
+    "classes": [
+      "rxjs"
+    ],
+    "url": "rxjs.com"
+  },
+  {
     "name": "Safari",
     "category": "technology",
     "classes": [
-      "safari"
+      "safari",
+      "safari-vertical"
     ],
     "url": "safari.com"
+  },
+  {
+    "name": "Salesforce",
+    "category": "technology",
+    "classes": [
+      "salesforce"
+    ],
+    "url": "salesforce.com"
   },
   {
     "name": "Sanity",
@@ -3471,12 +4632,72 @@ const icons = [
     "url": "scala.com"
   },
   {
+    "name": "Scalingo",
+    "category": "technology",
+    "classes": [
+      "scalingo",
+      "scalingo-horizontal"
+    ],
+    "url": "scalingo.com"
+  },
+  {
+    "name": "Scikitlearn",
+    "category": "technology",
+    "classes": [
+      "scikitlearn"
+    ],
+    "url": "scikitlearn.com"
+  },
+  {
+    "name": "Sdl",
+    "category": "technology",
+    "classes": [
+      "sdl"
+    ],
+    "url": "sdl.com"
+  },
+  {
+    "name": "Selenium",
+    "category": "technology",
+    "classes": [
+      "selenium"
+    ],
+    "url": "selenium.com"
+  },
+  {
+    "name": "Sema",
+    "category": "technology",
+    "classes": [
+      "sema",
+      "sema-vertical"
+    ],
+    "url": "sema.com"
+  },
+  {
     "name": "Semanticui",
     "category": "technology",
     "classes": [
       "semanticui"
     ],
     "url": "semanticui.com"
+  },
+  {
+    "name": "Sentry",
+    "category": "technology",
+    "classes": [
+      "sentry",
+      "sentry-horizontal"
+    ],
+    "url": "sentry.com"
+  },
+  {
+    "name": "Sequelize",
+    "category": "technology",
+    "classes": [
+      "sequelize",
+      "sequelize-horizontal"
+    ],
+    "url": "sequelize.com"
   },
   {
     "name": "Serverless",
@@ -3504,6 +4725,33 @@ const icons = [
     "url": "office.com"
   },
   {
+    "name": "Shopware",
+    "category": "technology",
+    "classes": [
+      "shopware",
+      "shopware-horizontal"
+    ],
+    "url": "shopware.com"
+  },
+  {
+    "name": "Shotgrid",
+    "category": "technology",
+    "classes": [
+      "shotgrid",
+      "shotgrid-wordmark"
+    ],
+    "url": "shotgrid.com"
+  },
+  {
+    "name": "Sketch",
+    "category": "technology",
+    "classes": [
+      "sketch",
+      "sketch-horizontal"
+    ],
+    "url": "sketch.com"
+  },
+  {
     "name": "Skype",
     "category": "technology",
     "classes": [
@@ -3520,6 +4768,15 @@ const icons = [
       "slack-horizontal-light"
     ],
     "url": "slack.com"
+  },
+  {
+    "name": "Socketio",
+    "category": "technology",
+    "classes": [
+      "socketio",
+      "socketio-horizontal"
+    ],
+    "url": "socketio.com"
   },
   {
     "name": "Solana",
@@ -3543,9 +4800,36 @@ const icons = [
     "name": "Solidjs",
     "category": "technology",
     "classes": [
-      "solidjs"
+      "solidjs",
+      "solidjs-horizontal"
     ],
     "url": "solidjs.com"
+  },
+  {
+    "name": "Sonarqube",
+    "category": "technology",
+    "classes": [
+      "sonarqube",
+      "sonarqube-horizontal"
+    ],
+    "url": "sonarqube.com"
+  },
+  {
+    "name": "Sourcetree",
+    "category": "technology",
+    "classes": [
+      "sourcetree",
+      "sourcetree-vertical"
+    ],
+    "url": "sourcetree.com"
+  },
+  {
+    "name": "Spack",
+    "category": "technology",
+    "classes": [
+      "spack"
+    ],
+    "url": "spack.com"
   },
   {
     "name": "Spark",
@@ -3556,21 +4840,91 @@ const icons = [
     "url": "spark.com"
   },
   {
+    "name": "Splunk",
+    "category": "technology",
+    "classes": [
+      "splunk-horizontal"
+    ],
+    "url": "splunk.com"
+  },
+  {
     "name": "Spring",
     "category": "technology",
     "classes": [
-      "spring"
+      "spring",
+      "spring-vertical"
     ],
     "url": "spring.com"
+  },
+  {
+    "name": "Spss",
+    "category": "technology",
+    "classes": [
+      "spss"
+    ],
+    "url": "spss.com"
+  },
+  {
+    "name": "Spyder",
+    "category": "technology",
+    "classes": [
+      "spyder",
+      "spyder-horizontal"
+    ],
+    "url": "spyder.com"
+  },
+  {
+    "name": "Sqlalchemy",
+    "category": "technology",
+    "classes": [
+      "sqlalchemy",
+      "sqlalchemy-wordmark"
+    ],
+    "url": "sqlalchemy.com"
+  },
+  {
+    "name": "Sqldeveloper",
+    "category": "technology",
+    "classes": [
+      "sqldeveloper"
+    ],
+    "url": "sqldeveloper.com"
+  },
+  {
+    "name": "Sqlite",
+    "category": "technology",
+    "classes": [
+      "sqlite",
+      "sqlite-horizontal"
+    ],
+    "url": "sqlite.com"
+  },
+  {
+    "name": "Ssh",
+    "category": "technology",
+    "classes": [
+      "ssh",
+      "ssh-horizontal"
+    ],
+    "url": "ssh.com"
   },
   {
     "name": "Stackoverflow",
     "category": "technology",
     "classes": [
       "stackoverflow",
-      "stackoverflowm"
+      "stackoverflow-horizontal",
+      "stackoverflow-vertical"
     ],
     "url": "stackoverflow.com"
+  },
+  {
+    "name": "Stata",
+    "category": "technology",
+    "classes": [
+      "stata"
+    ],
+    "url": "stata.com"
   },
   {
     "name": "Storyblok",
@@ -3608,7 +4962,8 @@ const icons = [
     "classes": [
       "streamlit",
       "streamlit-horizontal",
-      "streamlit-horizontal-light"
+      "streamlit-horizontal-light",
+      "streamlit-vertical"
     ],
     "url": "streamlit.com"
   },
@@ -3621,12 +4976,29 @@ const icons = [
     "url": "stylelint.com"
   },
   {
+    "name": "Stylus",
+    "category": "technology",
+    "classes": [
+      "stylus"
+    ],
+    "url": "stylus.com"
+  },
+  {
     "name": "Sublime",
     "category": "technology",
     "classes": [
       "sublime"
     ],
     "url": "sublime.com"
+  },
+  {
+    "name": "Subversion",
+    "category": "technology",
+    "classes": [
+      "subversion",
+      "subversion-horizontal"
+    ],
+    "url": "subversion.com"
   },
   {
     "name": "Supabase",
@@ -3651,7 +5023,8 @@ const icons = [
     "name": "Swagger",
     "category": "technology",
     "classes": [
-      "swagger"
+      "swagger",
+      "swagger-horizontal"
     ],
     "url": "swagger.com"
   },
@@ -3673,14 +5046,40 @@ const icons = [
     "url": "swift.com"
   },
   {
-    "name": "Tailwind",
+    "name": "Swiper",
     "category": "technology",
     "classes": [
-      "tailwind",
-      "tailwind-horizontal",
-      "tailwind-horizontal-light"
+      "swiper"
     ],
-    "url": "tailwind.com"
+    "url": "swiper.com"
+  },
+  {
+    "name": "Symfony",
+    "category": "technology",
+    "classes": [
+      "symfony",
+      "symfony-vertical"
+    ],
+    "url": "symfony.com"
+  },
+  {
+    "name": "Tailwindcss",
+    "category": "technology",
+    "classes": [
+      "tailwindcss",
+      "tailwindcss-horizontal",
+      "tailwindcss-horizontal-light"
+    ],
+    "url": "tailwindcss.com"
+  },
+  {
+    "name": "Tauri",
+    "category": "technology",
+    "classes": [
+      "tauri",
+      "tauri-horizontal"
+    ],
+    "url": "tauri.com"
   },
   {
     "name": "Teams",
@@ -3694,9 +5093,36 @@ const icons = [
     "name": "Tensorflow",
     "category": "technology",
     "classes": [
-      "tensorflow"
+      "tensorflow",
+      "tensorflow-horizontal"
     ],
     "url": "tensorflow.com"
+  },
+  {
+    "name": "Terraform",
+    "category": "technology",
+    "classes": [
+      "terraform",
+      "terraform-vertical"
+    ],
+    "url": "terraform.com"
+  },
+  {
+    "name": "Tex",
+    "category": "technology",
+    "classes": [
+      "tex"
+    ],
+    "url": "tex.com"
+  },
+  {
+    "name": "Thealgorithms",
+    "category": "technology",
+    "classes": [
+      "thealgorithms",
+      "thealgorithms-vertical"
+    ],
+    "url": "thealgorithms.com"
   },
   {
     "name": "Threads",
@@ -3708,10 +5134,19 @@ const icons = [
     "url": "threads.com"
   },
   {
+    "name": "Threedsmax",
+    "category": "technology",
+    "classes": [
+      "threedsmax"
+    ],
+    "url": "threedsmax.com"
+  },
+  {
     "name": "Threejs",
     "category": "technology",
     "classes": [
-      "threejs"
+      "threejs",
+      "threejs-vertical"
     ],
     "url": "threejs.com"
   },
@@ -3722,6 +5157,14 @@ const icons = [
       "tinyhttp"
     ],
     "url": "tinyhttp.com"
+  },
+  {
+    "name": "Titaniumsdk",
+    "category": "technology",
+    "classes": [
+      "titaniumsdk"
+    ],
+    "url": "titaniumsdk.com"
   },
   {
     "name": "Tmdb",
@@ -3735,7 +5178,8 @@ const icons = [
     "name": "Tomcat",
     "category": "technology",
     "classes": [
-      "tomcat"
+      "tomcat",
+      "tomcat-vertical"
     ],
     "url": "tomcat.com"
   },
@@ -3748,9 +5192,63 @@ const icons = [
     "url": "tor.com"
   },
   {
+    "name": "Tortoisegit",
+    "category": "technology",
+    "classes": [
+      "tortoisegit"
+    ],
+    "url": "tortoisegit.com"
+  },
+  {
+    "name": "Towergit",
+    "category": "technology",
+    "classes": [
+      "towergit",
+      "towergit-horizontal"
+    ],
+    "url": "towergit.com"
+  },
+  {
+    "name": "Traefikmesh",
+    "category": "technology",
+    "classes": [
+      "traefikmesh",
+      "traefikmesh-horizontal"
+    ],
+    "url": "traefikmesh.com"
+  },
+  {
+    "name": "Traefikproxy",
+    "category": "technology",
+    "classes": [
+      "traefikproxy",
+      "traefikproxy-horizontal"
+    ],
+    "url": "traefikproxy.com"
+  },
+  {
+    "name": "Travis",
+    "category": "technology",
+    "classes": [
+      "travis",
+      "travis-horizontal"
+    ],
+    "url": "travis.com"
+  },
+  {
+    "name": "Trello",
+    "category": "technology",
+    "classes": [
+      "trello",
+      "trello-horizontal"
+    ],
+    "url": "trello.com"
+  },
+  {
     "name": "Trpc",
     "category": "technology",
     "classes": [
+      "trpc-horizontal",
       "trpc-tRPC"
     ],
     "url": "trpc.com"
@@ -3766,6 +5264,15 @@ const icons = [
     "url": "typescript.com"
   },
   {
+    "name": "Typo3",
+    "category": "technology",
+    "classes": [
+      "typo3",
+      "typo3-horizontal"
+    ],
+    "url": "typo3.com"
+  },
+  {
     "name": "Ubuntu",
     "category": "technology",
     "classes": [
@@ -3774,12 +5281,47 @@ const icons = [
     "url": "ubuntu.com"
   },
   {
+    "name": "Uml",
+    "category": "technology",
+    "classes": [
+      "uml",
+      "uml-horizontal"
+    ],
+    "url": "uml.com"
+  },
+  {
+    "name": "Unity",
+    "category": "technology",
+    "classes": [
+      "unity",
+      "unity-horizontal"
+    ],
+    "url": "unity.com"
+  },
+  {
+    "name": "Unix",
+    "category": "technology",
+    "classes": [
+      "unix"
+    ],
+    "url": "unix.com"
+  },
+  {
     "name": "Unjs",
     "category": "technology",
     "classes": [
       "unjs"
     ],
     "url": "unjs.com"
+  },
+  {
+    "name": "Unrealengine",
+    "category": "technology",
+    "classes": [
+      "unrealengine",
+      "unrealengine-vertical"
+    ],
+    "url": "unrealengine.com"
   },
   {
     "name": "Upwork",
@@ -3792,6 +5334,49 @@ const icons = [
     "url": "upwork.com"
   },
   {
+    "name": "Uwsgi",
+    "category": "technology",
+    "classes": [
+      "uwsgi"
+    ],
+    "url": "uwsgi.com"
+  },
+  {
+    "name": "V8",
+    "category": "technology",
+    "classes": [
+      "v8"
+    ],
+    "url": "v8.com"
+  },
+  {
+    "name": "Vagrant",
+    "category": "technology",
+    "classes": [
+      "vagrant",
+      "vagrant-horizontal"
+    ],
+    "url": "vagrant.com"
+  },
+  {
+    "name": "Vala",
+    "category": "technology",
+    "classes": [
+      "vala",
+      "vala-wordmark"
+    ],
+    "url": "vala.com"
+  },
+  {
+    "name": "Vault",
+    "category": "technology",
+    "classes": [
+      "vault",
+      "vault-vertical"
+    ],
+    "url": "vault.com"
+  },
+  {
     "name": "Vercel",
     "category": "technology",
     "classes": [
@@ -3801,6 +5386,15 @@ const icons = [
       "vercel-light"
     ],
     "url": "vercel.com"
+  },
+  {
+    "name": "Vertx",
+    "category": "technology",
+    "classes": [
+      "vertx",
+      "vertx-wordmark"
+    ],
+    "url": "vertx.com"
   },
   {
     "name": "Vim",
@@ -3845,12 +5439,30 @@ const icons = [
     "url": "visualstudio.com"
   },
   {
+    "name": "Vite",
+    "category": "technology",
+    "classes": [
+      "vite",
+      "vite-horizontal"
+    ],
+    "url": "vite.com"
+  },
+  {
     "name": "Vitejs",
     "category": "technology",
     "classes": [
       "vitejs"
     ],
     "url": "vitejs.com"
+  },
+  {
+    "name": "Vitess",
+    "category": "technology",
+    "classes": [
+      "vitess",
+      "vitess-wordmark"
+    ],
+    "url": "vitess.com"
   },
   {
     "name": "Vitest",
@@ -3885,12 +5497,47 @@ const icons = [
     "url": "vscode.com"
   },
   {
+    "name": "Vsphere",
+    "category": "technology",
+    "classes": [
+      "vsphere",
+      "vsphere-vertical"
+    ],
+    "url": "vsphere.com"
+  },
+  {
     "name": "Vuejs",
     "category": "technology",
     "classes": [
-      "vuejs"
+      "vuejs",
+      "vuejs-vertical"
     ],
     "url": "vuejs.com"
+  },
+  {
+    "name": "Vuestorefront",
+    "category": "technology",
+    "classes": [
+      "vuestorefront"
+    ],
+    "url": "vuestorefront.com"
+  },
+  {
+    "name": "Vuetify",
+    "category": "technology",
+    "classes": [
+      "vuetify"
+    ],
+    "url": "vuetify.com"
+  },
+  {
+    "name": "Vyper",
+    "category": "technology",
+    "classes": [
+      "vyper",
+      "vyper-vertical"
+    ],
+    "url": "vyper.com"
   },
   {
     "name": "Web3js",
@@ -3909,12 +5556,39 @@ const icons = [
     "url": "webassembly.com"
   },
   {
+    "name": "Weblate",
+    "category": "technology",
+    "classes": [
+      "weblate",
+      "weblate-horizontal"
+    ],
+    "url": "weblate.com"
+  },
+  {
     "name": "Webpack",
     "category": "technology",
     "classes": [
-      "webpack"
+      "webpack",
+      "webpack-horizontal"
     ],
     "url": "webpack.com"
+  },
+  {
+    "name": "Webstorm",
+    "category": "technology",
+    "classes": [
+      "webstorm",
+      "webstorm-horizontal"
+    ],
+    "url": "webstorm.com"
+  },
+  {
+    "name": "Woocommerce",
+    "category": "technology",
+    "classes": [
+      "woocommerce"
+    ],
+    "url": "woocommerce.com"
   },
   {
     "name": "Word",
@@ -3982,11 +5656,38 @@ const icons = [
     "url": "yarn.com"
   },
   {
+    "name": "Yii",
+    "category": "technology",
+    "classes": [
+      "yii",
+      "yii-horizontal"
+    ],
+    "url": "yii.com"
+  },
+  {
+    "name": "Yugabytedb",
+    "category": "technology",
+    "classes": [
+      "yugabytedb",
+      "yugabytedb-horizontal"
+    ],
+    "url": "yugabytedb.com"
+  },
+  {
+    "name": "Yunohost",
+    "category": "technology",
+    "classes": [
+      "yunohost"
+    ],
+    "url": "yunohost.com"
+  },
+  {
     "name": "Zend",
     "category": "technology",
     "classes": [
       "zend",
-      "zend-horizontal-light"
+      "zend-horizontal-light",
+      "zend-vertical"
     ],
     "url": "zend.com"
   },
