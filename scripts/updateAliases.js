@@ -60,8 +60,13 @@ folders
     }
   });
 
-// Convert object to pretty JSON
-const newContent = JSON.stringify(logoAliases, null, 2);
+// Convert object to pretty JSON with sorted keys
+const sortedKeys = Object.keys(logoAliases).sort();
+const sortedLogoAliases = {};
+for (const key of sortedKeys) {
+  sortedLogoAliases[key] = logoAliases[key];
+}
+const newContent = JSON.stringify(sortedLogoAliases, null, 2);
 
 // Write back to file
 fs.writeFileSync(logoAliasesPath, newContent);

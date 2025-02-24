@@ -8,6 +8,9 @@
   "avajs": [
     "ava"
   ],
+  "aws": [
+    "amazonwebservices"
+  ],
   "backbonejs": [
     "backbone"
   ],
@@ -92,6 +95,9 @@
   "gatsbyjs": [
     "gatsby"
   ],
+  "gcd": [
+    "googlecloud"
+  ],
   "golang": [
     "go"
   ],
@@ -133,6 +139,9 @@
   ],
   "marionettejs": [
     "marionette"
+  ],
+  "materialui": [
+    "mui"
   ],
   "meteorjs": [
     "meteor"
@@ -216,6 +225,9 @@
   "web3js": [
     "web3"
   ],
+  "webassembly": [
+    "wasm"
+  ],
   "woocommerce": [
     "woo"
   ],
@@ -224,8 +236,5 @@
   ],
   "yugabytedb": [
     "yugabyte"
-  ],
-  "materialui": [
-    "material"
   ]
 }

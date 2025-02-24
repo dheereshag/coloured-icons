@@ -1522,10 +1522,13 @@
   content: url("../../public/logos/technology/awk/awk.svg");
 }
 
+.ci-amazonwebservices-light,
 .ci-aws-light {
   content: url("../../public/logos/technology/aws/aws-light.svg");
 }
 
+.ci-amazonwebservices,
+.ci-amazonwebservices-dark,
 .ci-aws,
 .ci-aws-dark {
   content: url("../../public/logos/technology/aws/aws.svg");
@@ -3414,13 +3417,22 @@
 .ci-gcd-stacked-light,
 .ci-gcd-vertical,
 .ci-gcd-vertical-dark,
-.ci-gcd-vertical-light {
+.ci-gcd-vertical-light,
+.ci-googlecloud-stacked,
+.ci-googlecloud-stacked-dark,
+.ci-googlecloud-stacked-light,
+.ci-googlecloud-vertical,
+.ci-googlecloud-vertical-dark,
+.ci-googlecloud-vertical-light {
   content: url("../../public/logos/technology/gcd/gcd-vertical.svg");
 }
 
 .ci-gcd,
 .ci-gcd-dark,
-.ci-gcd-light {
+.ci-gcd-light,
+.ci-googlecloud,
+.ci-googlecloud-dark,
+.ci-googlecloud-light {
   content: url("../../public/logos/technology/gcd/gcd.svg");
 }
 
@@ -4423,6 +4435,12 @@
   content: url("../../public/logos/technology/kaggle/kaggle.svg");
 }
 
+.ci-karatelabs-,
+.ci-karatelabs--dark,
+.ci-karatelabs--light {
+  content: url("../../public/logos/technology/karatelabs/.DS_Store");
+}
+
 .ci-karatelabs-horizontal,
 .ci-karatelabs-horizontal-dark,
 .ci-karatelabs-horizontal-light,
@@ -4867,12 +4885,12 @@
   content: url("../../public/logos/technology/materializecss/materializecss.svg");
 }
 
-.ci-material,
-.ci-material-dark,
-.ci-material-light,
 .ci-materialui,
 .ci-materialui-dark,
-.ci-materialui-light {
+.ci-materialui-light,
+.ci-mui,
+.ci-mui-dark,
+.ci-mui-light {
   content: url("../../public/logos/technology/materialui/materialui.svg");
 }
 
@@ -7912,6 +7930,21 @@
   content: url("../../public/logos/technology/trello/trello.svg");
 }
 
+.ci-trpc-horizontal,
+.ci-trpc-horizontal-dark,
+.ci-trpc-horizontal-light,
+.ci-trpc-inline,
+.ci-trpc-inline-dark,
+.ci-trpc-inline-light {
+  content: url("../../public/logos/technology/trpc/trpc-horizontal.svg");
+}
+
+.ci-trpc,
+.ci-trpc-dark,
+.ci-trpc-light {
+  content: url("../../public/logos/technology/trpc/trpc.svg");
+}
+
 .ci-ts-circle,
 .ci-ts-circle-dark,
 .ci-ts-circle-light,
@@ -8299,6 +8332,9 @@
   content: url("../../public/logos/technology/web3js/web3js.svg");
 }
 
+.ci-wasm,
+.ci-wasm-dark,
+.ci-wasm-light,
 .ci-webassembly,
 .ci-webassembly-dark,
 .ci-webassembly-light {
