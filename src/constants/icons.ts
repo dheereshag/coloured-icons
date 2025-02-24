@@ -2901,16 +2901,6 @@ const icons = [
     "url": "kaggle.com"
   },
   {
-    "name": "Karatelabs",
-    "category": "technology",
-    "classes": [
-      "karatelabs",
-      "karatelabs-horizontal",
-      "karatelabs-vertical"
-    ],
-    "url": "karatelabs.com"
-  },
-  {
     "name": "Karma",
     "category": "technology",
     "classes": [
@@ -5284,8 +5274,8 @@ const icons = [
     "name": "Trpc",
     "category": "technology",
     "classes": [
-      "trpc-horizontal",
-      "trpc-tRPC"
+      "trpc",
+      "trpc-horizontal"
     ],
     "url": "trpc.com"
   },
