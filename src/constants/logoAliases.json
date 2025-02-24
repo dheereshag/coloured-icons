@@ -92,8 +92,8 @@
   "framer": [
     "framermotion"
   ],
-  "gatsbyjs": [
-    "gatsby"
+  "gatsby": [
+    "gatsbyjs"
   ],
   "gcd": [
     "googlecloud"

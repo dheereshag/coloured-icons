@@ -28,7 +28,7 @@ try {
 const folders = fs.readdirSync(techPath);
 
 // List of folders to exclude
-const excludeFolders = ["vitejs"];
+const excludeFolders = ["vitejs", "discordjs"];
 
 // List of suffixes to process
 const suffixesToProcess = ["js", "db", "ui"];
