@@ -654,6 +654,22 @@ const icons = [
     "url": "adonisjs.com"
   },
   {
+    "name": "Aftereffects",
+    "category": "technology",
+    "classes": [
+      "aftereffects"
+    ],
+    "url": "aftereffects.com"
+  },
+  {
+    "name": "Airflow",
+    "category": "technology",
+    "classes": [
+      "airflow"
+    ],
+    "url": "airflow.com"
+  },
+  {
     "name": "Alan AI",
     "category": "technology",
     "classes": [
@@ -716,6 +732,23 @@ const icons = [
     "url": "angular.dev"
   },
   {
+    "name": "Ansible",
+    "category": "technology",
+    "classes": [
+      "ansible",
+      "ansible-vertical"
+    ],
+    "url": "ansible.com"
+  },
+  {
+    "name": "Antdesign",
+    "category": "technology",
+    "classes": [
+      "antdesign"
+    ],
+    "url": "antdesign.com"
+  },
+  {
     "name": "Anthropic",
     "category": "technology",
     "classes": [
@@ -759,6 +792,14 @@ const icons = [
       "arc"
     ],
     "url": "arc.com"
+  },
+  {
+    "name": "Arduino",
+    "category": "technology",
+    "classes": [
+      "arduino"
+    ],
+    "url": "arduino.com"
   },
   {
     "name": "Astro",
@@ -1777,6 +1818,14 @@ const icons = [
     "url": "julia.com"
   },
   {
+    "name": "Kafka",
+    "category": "technology",
+    "classes": [
+      "kafka"
+    ],
+    "url": "kafka.com"
+  },
+  {
     "name": "Kibana",
     "category": "technology",
     "classes": [
@@ -2248,14 +2297,22 @@ const icons = [
     "url": "playwright.com"
   },
   {
-    "name": "Polygon-io",
+    "name": "Pnpm",
     "category": "technology",
     "classes": [
-      "polygon-io",
-      "polygon-io-vertical",
-      "polygon-io-wordmark"
+      "pnpm"
     ],
-    "url": "polygon-io.com"
+    "url": "pnpm.com"
+  },
+  {
+    "name": "Polygonio",
+    "category": "technology",
+    "classes": [
+      "polygonio",
+      "polygonio-vertical",
+      "polygonio-wordmark"
+    ],
+    "url": "polygonio.com"
   },
   {
     "name": "Postgresql",
@@ -2403,7 +2460,8 @@ const icons = [
     "name": "Rails",
     "category": "technology",
     "classes": [
-      "rails"
+      "rails",
+      "rails-wordmark"
     ],
     "url": "rails.com"
   },
@@ -2419,20 +2477,20 @@ const icons = [
     "url": "railway.com"
   },
   {
-    "name": "React Native",
-    "category": "technology",
-    "classes": [
-      "react-native"
-    ],
-    "url": "react-native.com"
-  },
-  {
     "name": "Reactjs",
     "category": "technology",
     "classes": [
       "reactjs"
     ],
     "url": "reactjs.com"
+  },
+  {
+    "name": "Reactnative",
+    "category": "technology",
+    "classes": [
+      "reactnative"
+    ],
+    "url": "reactnative.com"
   },
   {
     "name": "Reactrouter",
@@ -2637,12 +2695,29 @@ const icons = [
     "url": "solidjs.com"
   },
   {
+    "name": "Spark",
+    "category": "technology",
+    "classes": [
+      "spark"
+    ],
+    "url": "spark.com"
+  },
+  {
     "name": "Spring",
     "category": "technology",
     "classes": [
       "spring"
     ],
     "url": "spring.com"
+  },
+  {
+    "name": "Stackoverflow",
+    "category": "technology",
+    "classes": [
+      "stackoverflow",
+      "stackoverflowm"
+    ],
+    "url": "stackoverflow.com"
   },
   {
     "name": "Storyblok",
@@ -2673,6 +2748,16 @@ const icons = [
       "stream-horizontal-light"
     ],
     "url": "stream.com"
+  },
+  {
+    "name": "Streamlit",
+    "category": "technology",
+    "classes": [
+      "streamlit",
+      "streamlit-horizontal",
+      "streamlit-horizontal-light"
+    ],
+    "url": "streamlit.com"
   },
   {
     "name": "Stylelint",
@@ -2794,6 +2879,14 @@ const icons = [
     "url": "tmdb.com"
   },
   {
+    "name": "Tomcat",
+    "category": "technology",
+    "classes": [
+      "tomcat"
+    ],
+    "url": "tomcat.com"
+  },
+  {
     "name": "Tor",
     "category": "technology",
     "classes": [
@@ -2889,6 +2982,14 @@ const icons = [
       "visualbasic"
     ],
     "url": "visualbasic.com"
+  },
+  {
+    "name": "Visualstudio",
+    "category": "technology",
+    "classes": [
+      "visualstudio"
+    ],
+    "url": "visualstudio.com"
   },
   {
     "name": "Vitejs",
@@ -2988,12 +3089,63 @@ const icons = [
     "url": "xamarin.com"
   },
   {
+    "name": "Xcode",
+    "category": "technology",
+    "classes": [
+      "xcode"
+    ],
+    "url": "xcode.com"
+  },
+  {
     "name": "Xd",
     "category": "technology",
     "classes": [
       "xd"
     ],
     "url": "xd.com"
+  },
+  {
+    "name": "Xml",
+    "category": "technology",
+    "classes": [
+      "xml"
+    ],
+    "url": "xml.com"
+  },
+  {
+    "name": "Yaml",
+    "category": "technology",
+    "classes": [
+      "yaml"
+    ],
+    "url": "yaml.com"
+  },
+  {
+    "name": "Yarn",
+    "category": "technology",
+    "classes": [
+      "yarn"
+    ],
+    "url": "yarn.com"
+  },
+  {
+    "name": "Zend",
+    "category": "technology",
+    "classes": [
+      "zend",
+      "zend-horizontal-light"
+    ],
+    "url": "zend.com"
+  },
+  {
+    "name": "Zig",
+    "category": "technology",
+    "classes": [
+      "zig",
+      "zig-horizontal",
+      "zig-horizontal-light"
+    ],
+    "url": "zig.com"
   },
   {
     "name": "Zod",
