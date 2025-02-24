@@ -2273,6 +2273,12 @@
   content: url("../../public/logos/technology/copilot/copilot.svg");
 }
 
+.ci-core-horizontal,
+.ci-core-horizontal-dark,
+.ci-core-horizontal-light,
+.ci-core-inline,
+.ci-core-inline-dark,
+.ci-core-inline-light,
 .ci-corejs-horizontal,
 .ci-corejs-horizontal-dark,
 .ci-corejs-horizontal-light,
@@ -2282,12 +2288,21 @@
   content: url("../../public/logos/technology/corejs/corejs-horizontal.svg");
 }
 
+.ci-core,
+.ci-core-dark,
+.ci-core-light,
 .ci-corejs,
 .ci-corejs-dark,
 .ci-corejs-light {
   content: url("../../public/logos/technology/corejs/corejs.svg");
 }
 
+.ci-cosmos-stacked,
+.ci-cosmos-stacked-dark,
+.ci-cosmos-stacked-light,
+.ci-cosmos-vertical,
+.ci-cosmos-vertical-dark,
+.ci-cosmos-vertical-light,
 .ci-cosmosdb-stacked,
 .ci-cosmosdb-stacked-dark,
 .ci-cosmosdb-stacked-light,
@@ -2297,6 +2312,9 @@
   content: url("../../public/logos/technology/cosmosdb/cosmosdb-vertical.svg");
 }
 
+.ci-cosmos,
+.ci-cosmos-dark,
+.ci-cosmos-light,
 .ci-cosmosdb,
 .ci-cosmosdb-dark,
 .ci-cosmosdb-light {
@@ -2318,6 +2336,12 @@
   content: url("../../public/logos/technology/couchbase/couchbase.svg");
 }
 
+.ci-couch-horizontal,
+.ci-couch-horizontal-dark,
+.ci-couch-horizontal-light,
+.ci-couch-inline,
+.ci-couch-inline-dark,
+.ci-couch-inline-light,
 .ci-couchdb-horizontal,
 .ci-couchdb-horizontal-dark,
 .ci-couchdb-horizontal-light,
@@ -2327,6 +2351,9 @@
   content: url("../../public/logos/technology/couchdb/couchdb-horizontal.svg");
 }
 
+.ci-couch,
+.ci-couch-dark,
+.ci-couch-light,
 .ci-couchdb,
 .ci-couchdb-dark,
 .ci-couchdb-light {
@@ -2408,6 +2435,9 @@
   content: url("../../public/logos/technology/cypress/cypress.svg");
 }
 
+.ci-d3,
+.ci-d3-dark,
+.ci-d3-light,
 .ci-d3js,
 .ci-d3js-dark,
 .ci-d3js-light {
@@ -2612,6 +2642,12 @@
   content: url("../../public/logos/technology/digitalocean/digitalocean.svg");
 }
 
+.ci-discord-horizontal,
+.ci-discord-horizontal-dark,
+.ci-discord-horizontal-light,
+.ci-discord-inline,
+.ci-discord-inline-dark,
+.ci-discord-inline-light,
 .ci-discordjs-horizontal,
 .ci-discordjs-horizontal-dark,
 .ci-discordjs-horizontal-light,
@@ -2621,6 +2657,9 @@
   content: url("../../public/logos/technology/discordjs/discordjs-horizontal.svg");
 }
 
+.ci-discord,
+.ci-discord-dark,
+.ci-discord-light,
 .ci-discordjs,
 .ci-discordjs-dark,
 .ci-discordjs-light {
@@ -2777,6 +2816,9 @@
   content: url("../../public/logos/technology/drupal/drupal.svg");
 }
 
+.ci-dynamo,
+.ci-dynamo-dark,
+.ci-dynamo-light,
 .ci-dynamodb,
 .ci-dynamodb-dark,
 .ci-dynamodb-light {
@@ -3101,6 +3143,9 @@
   content: url("../../public/logos/technology/faunadb/faunadb.svg");
 }
 
+.ci-feathers,
+.ci-feathers-dark,
+.ci-feathers-light,
 .ci-feathersjs,
 .ci-feathersjs-dark,
 .ci-feathersjs-light {
@@ -3809,6 +3854,9 @@
   content: url("../../public/logos/technology/haxe/haxe.svg");
 }
 
+.ci-headless,
+.ci-headless-dark,
+.ci-headless-light,
 .ci-headlessui,
 .ci-headlessui-dark,
 .ci-headlessui-light {
@@ -3944,6 +3992,12 @@
   content: url("../../public/logos/technology/indesign/indesign.svg");
 }
 
+.ci-influx-stacked,
+.ci-influx-stacked-dark,
+.ci-influx-stacked-light,
+.ci-influx-vertical,
+.ci-influx-vertical-dark,
+.ci-influx-vertical-light,
 .ci-influxdb-stacked,
 .ci-influxdb-stacked-dark,
 .ci-influxdb-stacked-light,
@@ -3953,6 +4007,9 @@
   content: url("../../public/logos/technology/influxdb/influxdb-vertical.svg");
 }
 
+.ci-influx,
+.ci-influx-dark,
+.ci-influx-light,
 .ci-influxdb,
 .ci-influxdb-dark,
 .ci-influxdb-light {
@@ -4418,6 +4475,12 @@
   content: url("../../public/logos/technology/kibana/kibana.svg");
 }
 
+.ci-knex-stacked,
+.ci-knex-stacked-dark,
+.ci-knex-stacked-light,
+.ci-knex-vertical,
+.ci-knex-vertical-dark,
+.ci-knex-vertical-light,
 .ci-knexjs-stacked,
 .ci-knexjs-stacked-dark,
 .ci-knexjs-stacked-light,
@@ -4427,12 +4490,18 @@
   content: url("../../public/logos/technology/knexjs/knexjs-vertical.svg");
 }
 
+.ci-knex,
+.ci-knex-dark,
+.ci-knex-light,
 .ci-knexjs,
 .ci-knexjs-dark,
 .ci-knexjs-light {
   content: url("../../public/logos/technology/knexjs/knexjs.svg");
 }
 
+.ci-knockout,
+.ci-knockout-dark,
+.ci-knockout-light,
 .ci-knockoutjs,
 .ci-knockoutjs-dark,
 .ci-knockoutjs-light {
@@ -4454,6 +4523,12 @@
   content: url("../../public/logos/technology/kotlin/kotlin.svg");
 }
 
+.ci-kraken-stacked,
+.ci-kraken-stacked-dark,
+.ci-kraken-stacked-light,
+.ci-kraken-vertical,
+.ci-kraken-vertical-dark,
+.ci-kraken-vertical-light,
 .ci-krakenjs-stacked,
 .ci-krakenjs-stacked-dark,
 .ci-krakenjs-stacked-light,
@@ -4463,6 +4538,9 @@
   content: url("../../public/logos/technology/krakenjs/krakenjs-vertical.svg");
 }
 
+.ci-kraken,
+.ci-kraken-dark,
+.ci-kraken-light,
 .ci-krakenjs,
 .ci-krakenjs-dark,
 .ci-krakenjs-light {
@@ -4739,6 +4817,9 @@
   content: url("../../public/logos/technology/mariadb/mariadb2.svg");
 }
 
+.ci-marionette,
+.ci-marionette-dark,
+.ci-marionette-light,
 .ci-marionettejs,
 .ci-marionettejs-dark,
 .ci-marionettejs-light {
@@ -4865,6 +4946,12 @@
   content: url("../../public/logos/technology/metamask/metamask.svg");
 }
 
+.ci-meteor-horizontal,
+.ci-meteor-horizontal-dark,
+.ci-meteor-horizontal-light,
+.ci-meteor-inline,
+.ci-meteor-inline-dark,
+.ci-meteor-inline-light,
 .ci-meteorjs-horizontal,
 .ci-meteorjs-horizontal-dark,
 .ci-meteorjs-horizontal-light,
@@ -4874,6 +4961,9 @@
   content: url("../../public/logos/technology/meteorjs/meteorjs-horizontal.svg");
 }
 
+.ci-meteor,
+.ci-meteor-dark,
+.ci-meteor-light,
 .ci-meteorjs,
 .ci-meteorjs-dark,
 .ci-meteorjs-light {
@@ -5003,6 +5093,12 @@
   content: url("../../public/logos/technology/moleculer/moleculer.svg");
 }
 
+.ci-mongo-horizontal,
+.ci-mongo-horizontal-dark,
+.ci-mongo-horizontal-light,
+.ci-mongo-inline,
+.ci-mongo-inline-dark,
+.ci-mongo-inline-light,
 .ci-mongodb-horizontal,
 .ci-mongodb-horizontal-dark,
 .ci-mongodb-horizontal-light,
@@ -5012,12 +5108,21 @@
   content: url("../../public/logos/technology/mongodb/mongodb-horizontal.svg");
 }
 
+.ci-mongo,
+.ci-mongo-dark,
+.ci-mongo-light,
 .ci-mongodb,
 .ci-mongodb-dark,
 .ci-mongodb-light {
   content: url("../../public/logos/technology/mongodb/mongodb.svg");
 }
 
+.ci-mongo-mongodb2-horizontal,
+.ci-mongo-mongodb2-horizontal-dark,
+.ci-mongo-mongodb2-horizontal-light,
+.ci-mongo-mongodb2-inline,
+.ci-mongo-mongodb2-inline-dark,
+.ci-mongo-mongodb2-inline-light,
 .ci-mongodb2-horizontal,
 .ci-mongodb2-horizontal-dark,
 .ci-mongodb2-horizontal-light,
@@ -5027,6 +5132,9 @@
   content: url("../../public/logos/technology/mongodb/mongodb2-horizontal.svg");
 }
 
+.ci-mongo-mongodb2,
+.ci-mongo-mongodb2-dark,
+.ci-mongo-mongodb2-light,
 .ci-mongodb2,
 .ci-mongodb2-dark,
 .ci-mongodb2-light {
@@ -5090,6 +5198,9 @@
   content: url("../../public/logos/technology/msdos/msdos.svg");
 }
 
+.ci-m,
+.ci-m-dark,
+.ci-m-light,
 .ci-mui,
 .ci-mui-dark,
 .ci-mui-light {
@@ -5744,6 +5855,9 @@
   content: url("../../public/logos/technology/outlook/outlook.svg");
 }
 
+.ci-p5,
+.ci-p5-dark,
+.ci-p5-light,
 .ci-p5js,
 .ci-p5js-dark,
 .ci-p5js-light {
@@ -6731,6 +6845,9 @@
   content: url("../../public/logos/technology/ringcentral/ringcentral.png");
 }
 
+.ci-rocks,
+.ci-rocks-dark,
+.ci-rocks-light,
 .ci-rocksdb,
 .ci-rocksdb-dark,
 .ci-rocksdb-light {
@@ -6842,6 +6959,9 @@
   content: url("../../public/logos/technology/rust/rust.svg");
 }
 
+.ci-rx,
+.ci-rx-dark,
+.ci-rx-light,
 .ci-rxjs,
 .ci-rxjs-dark,
 .ci-rxjs-light {
@@ -7628,6 +7748,12 @@
   content: url("../../public/logos/technology/threedsmax/threedsmax.svg");
 }
 
+.ci-three-stacked,
+.ci-three-stacked-dark,
+.ci-three-stacked-light,
+.ci-three-vertical,
+.ci-three-vertical-dark,
+.ci-three-vertical-light,
 .ci-threejs-stacked,
 .ci-threejs-stacked-dark,
 .ci-threejs-stacked-light,
@@ -7637,6 +7763,9 @@
   content: url("../../public/logos/technology/threejs/threejs-vertical.svg");
 }
 
+.ci-three,
+.ci-three-dark,
+.ci-three-light,
 .ci-threejs,
 .ci-threejs-dark,
 .ci-threejs-light {
@@ -7655,6 +7784,9 @@
   content: url("../../public/logos/technology/titaniumsdk/titaniumsdk.svg");
 }
 
+.ci-tm,
+.ci-tm-dark,
+.ci-tm-light,
 .ci-tmdb,
 .ci-tmdb-dark,
 .ci-tmdb-light {
@@ -8144,6 +8276,9 @@
   content: url("../../public/logos/technology/vyper/vyper.svg");
 }
 
+.ci-web3,
+.ci-web3-dark,
+.ci-web3-light,
 .ci-web3js,
 .ci-web3js-dark,
 .ci-web3js-light {
@@ -8300,6 +8435,12 @@
   content: url("../../public/logos/technology/yii/yii.svg");
 }
 
+.ci-yugabyte-horizontal,
+.ci-yugabyte-horizontal-dark,
+.ci-yugabyte-horizontal-light,
+.ci-yugabyte-inline,
+.ci-yugabyte-inline-dark,
+.ci-yugabyte-inline-light,
 .ci-yugabytedb-horizontal,
 .ci-yugabytedb-horizontal-dark,
 .ci-yugabytedb-horizontal-light,
@@ -8309,6 +8450,9 @@
   content: url("../../public/logos/technology/yugabytedb/yugabytedb-horizontal.svg");
 }
 
+.ci-yugabyte,
+.ci-yugabyte-dark,
+.ci-yugabyte-light,
 .ci-yugabytedb,
 .ci-yugabytedb-dark,
 .ci-yugabytedb-light {
