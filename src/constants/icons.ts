@@ -5274,8 +5274,8 @@ const icons = [
     "name": "Trpc",
     "category": "technology",
     "classes": [
-      "trpc-horizontal",
-      "trpc-tRPC"
+      "trpc",
+      "trpc-horizontal"
     ],
     "url": "trpc.com"
   },
