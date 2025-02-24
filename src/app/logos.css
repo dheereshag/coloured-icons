@@ -3664,6 +3664,30 @@
   content: url("../../public/logos/technology/redux/redux.svg");
 }
 
+.ci-render,
+.ci-render-dark,
+.ci-render-light {
+  content: url("../../public/logos/technology/render/render.svg");
+}
+
+.ci-resend-light {
+  content: url("../../public/logos/technology/resend/resend-light.svg");
+}
+
+.ci-resend-wordmark-light {
+  content: url("../../public/logos/technology/resend/resend-wordmark-light.svg");
+}
+
+.ci-resend-wordmark,
+.ci-resend-wordmark-dark {
+  content: url("../../public/logos/technology/resend/resend-wordmark.svg");
+}
+
+.ci-resend,
+.ci-resend-dark {
+  content: url("../../public/logos/technology/resend/resend.svg");
+}
+
 .ci-rc-wordmark,
 .ci-rc-wordmark-dark,
 .ci-rc-wordmark-light,
@@ -3682,16 +3706,34 @@
   content: url("../../public/logos/technology/ringcentral/ringcentral.png");
 }
 
+.ci-rollup,
+.ci-rollup-dark,
+.ci-rollup-light,
+.ci-rollupjs,
+.ci-rollupjs-dark,
+.ci-rollupjs-light {
+  content: url("../../public/logos/technology/rollupjs/rollupjs.svg");
+}
+
 .ci-ruby,
 .ci-ruby-dark,
 .ci-ruby-light {
   content: url("../../public/logos/technology/ruby/ruby.svg");
 }
 
-.ci-rust,
-.ci-rust-dark,
 .ci-rust-light {
+  content: url("../../public/logos/technology/rust/rust-light.svg");
+}
+
+.ci-rust,
+.ci-rust-dark {
   content: url("../../public/logos/technology/rust/rust.svg");
+}
+
+.ci-safari,
+.ci-safari-dark,
+.ci-safari-light {
+  content: url("../../public/logos/technology/safari/safari.svg");
 }
 
 .ci-sanity-wordmark,
@@ -3733,6 +3775,21 @@
   content: url("../../public/logos/technology/scala/scala.svg");
 }
 
+.ci-semantic,
+.ci-semantic-dark,
+.ci-semantic-light,
+.ci-semanticui,
+.ci-semanticui-dark,
+.ci-semanticui-light {
+  content: url("../../public/logos/technology/semanticui/semanticui.svg");
+}
+
+.ci-serverless,
+.ci-serverless-dark,
+.ci-serverless-light {
+  content: url("../../public/logos/technology/serverless/serverless.svg");
+}
+
 .ci-shadcn-light {
   content: url("../../public/logos/technology/shadcn/shadcn-light.png");
 }
@@ -3746,6 +3803,30 @@
 .ci-sharepoint-dark,
 .ci-sharepoint-light {
   content: url("../../public/logos/technology/sharepoint/sharepoint.svg");
+}
+
+.ci-skype,
+.ci-skype-dark,
+.ci-skype-light {
+  content: url("../../public/logos/technology/skype/skype.svg");
+}
+
+.ci-slack-horizontal-light,
+.ci-slack-inline-light {
+  content: url("../../public/logos/technology/slack/slack-horizontal-light.svg");
+}
+
+.ci-slack-horizontal,
+.ci-slack-horizontal-dark,
+.ci-slack-inline,
+.ci-slack-inline-dark {
+  content: url("../../public/logos/technology/slack/slack-horizontal.svg");
+}
+
+.ci-slack,
+.ci-slack-dark,
+.ci-slack-light {
+  content: url("../../public/logos/technology/slack/slack.svg");
 }
 
 .ci-solana-horizontal-light,
@@ -3772,10 +3853,85 @@
   content: url("../../public/logos/technology/solidity/solidity.svg");
 }
 
+.ci-solid,
+.ci-solid-dark,
+.ci-solid-light,
+.ci-solidjs,
+.ci-solidjs-dark,
+.ci-solidjs-light {
+  content: url("../../public/logos/technology/solidjs/solidjs.svg");
+}
+
 .ci-spring,
 .ci-spring-dark,
 .ci-spring-light {
   content: url("../../public/logos/technology/spring/spring.svg");
+}
+
+.ci-storyblok-horizontal-light,
+.ci-storyblok-inline-light {
+  content: url("../../public/logos/technology/storyblok/storyblok-horizontal-light.svg");
+}
+
+.ci-storyblok-horizontal,
+.ci-storyblok-horizontal-dark,
+.ci-storyblok-inline,
+.ci-storyblok-inline-dark {
+  content: url("../../public/logos/technology/storyblok/storyblok-horizontal.svg");
+}
+
+.ci-storyblok,
+.ci-storyblok-dark,
+.ci-storyblok-light {
+  content: url("../../public/logos/technology/storyblok/storyblok.svg");
+}
+
+.ci-storybook-horizontal-light,
+.ci-storybook-inline-light {
+  content: url("../../public/logos/technology/storybook/storybook-horizontal-light.svg");
+}
+
+.ci-storybook-horizontal,
+.ci-storybook-horizontal-dark,
+.ci-storybook-inline,
+.ci-storybook-inline-dark {
+  content: url("../../public/logos/technology/storybook/storybook-horizontal.svg");
+}
+
+.ci-storybook,
+.ci-storybook-dark,
+.ci-storybook-light {
+  content: url("../../public/logos/technology/storybook/storybook.svg");
+}
+
+.ci-stream-horizontal-light,
+.ci-stream-inline-light {
+  content: url("../../public/logos/technology/stream/stream-horizontal-light.svg");
+}
+
+.ci-stream-horizontal,
+.ci-stream-horizontal-dark,
+.ci-stream-inline,
+.ci-stream-inline-dark {
+  content: url("../../public/logos/technology/stream/stream-horizontal.svg");
+}
+
+.ci-stream,
+.ci-stream-dark,
+.ci-stream-light {
+  content: url("../../public/logos/technology/stream/stream.svg");
+}
+
+.ci-stylelint,
+.ci-stylelint-dark,
+.ci-stylelint-light {
+  content: url("../../public/logos/technology/stylelint/stylelint.svg");
+}
+
+.ci-sublime,
+.ci-sublime-dark,
+.ci-sublime-light {
+  content: url("../../public/logos/technology/sublime/sublime.svg");
 }
 
 .ci-supabase-horizontal-light,
@@ -3809,6 +3965,12 @@
 .ci-svelte-dark,
 .ci-svelte-light {
   content: url("../../public/logos/technology/svelte/svelte.svg");
+}
+
+.ci-swagger,
+.ci-swagger-dark,
+.ci-swagger-light {
+  content: url("../../public/logos/technology/swagger/swagger.svg");
 }
 
 .ci-sway,
@@ -3856,10 +4018,43 @@
   content: url("../../public/logos/technology/teams/teams.svg");
 }
 
+.ci-tensorflow,
+.ci-tensorflow-dark,
+.ci-tensorflow-light {
+  content: url("../../public/logos/technology/tensorflow/tensorflow.svg");
+}
+
+.ci-threads-light {
+  content: url("../../public/logos/technology/threads/threads-light.svg");
+}
+
+.ci-threads,
+.ci-threads-dark {
+  content: url("../../public/logos/technology/threads/threads.svg");
+}
+
+.ci-threejs,
+.ci-threejs-dark,
+.ci-threejs-light {
+  content: url("../../public/logos/technology/threejs/threejs.svg");
+}
+
+.ci-tinyhttp,
+.ci-tinyhttp-dark,
+.ci-tinyhttp-light {
+  content: url("../../public/logos/technology/tinyhttp/tinyhttp.svg");
+}
+
 .ci-tmdb,
 .ci-tmdb-dark,
 .ci-tmdb-light {
   content: url("../../public/logos/technology/tmdb/tmdb.svg");
+}
+
+.ci-tor,
+.ci-tor-dark,
+.ci-tor-light {
+  content: url("../../public/logos/technology/tor/tor.svg");
 }
 
 .ci-ts-circle,
@@ -3889,6 +4084,39 @@
   content: url("../../public/logos/technology/typescript/typescript.svg");
 }
 
+.ci-ubuntu,
+.ci-ubuntu-dark,
+.ci-ubuntu-light {
+  content: url("../../public/logos/technology/ubuntu/ubuntu.svg");
+}
+
+.ci-un,
+.ci-un-dark,
+.ci-un-light,
+.ci-unjs,
+.ci-unjs-dark,
+.ci-unjs-light {
+  content: url("../../public/logos/technology/unjs/unjs.svg");
+}
+
+.ci-upwork-wordmark,
+.ci-upwork-wordmark-dark,
+.ci-upwork-wordmark-light {
+  content: url("../../public/logos/technology/upwork/upwork-wordmark.svg");
+}
+
+.ci-upwork,
+.ci-upwork-dark,
+.ci-upwork-light {
+  content: url("../../public/logos/technology/upwork/upwork.svg");
+}
+
+.ci-upwork2,
+.ci-upwork2-dark,
+.ci-upwork2-light {
+  content: url("../../public/logos/technology/upwork/upwork2.svg");
+}
+
 .ci-vercel-horizontal-light,
 .ci-vercel-inline-light {
   content: url("../../public/logos/technology/vercel/vercel-horizontal-light.svg");
@@ -3908,6 +4136,12 @@
 .ci-vercel,
 .ci-vercel-dark {
   content: url("../../public/logos/technology/vercel/vercel.svg");
+}
+
+.ci-vim,
+.ci-vim-dark,
+.ci-vim-light {
+  content: url("../../public/logos/technology/vim/vim.svg");
 }
 
 .ci-vimeo-wordmark,
@@ -3934,6 +4168,39 @@
   content: url("../../public/logos/technology/visio/visio.svg");
 }
 
+.ci-visualbasic,
+.ci-visualbasic-dark,
+.ci-visualbasic-light {
+  content: url("../../public/logos/technology/visualbasic/visualbasic.svg");
+}
+
+.ci-vite,
+.ci-vite-dark,
+.ci-vite-light,
+.ci-vitejs,
+.ci-vitejs-dark,
+.ci-vitejs-light {
+  content: url("../../public/logos/technology/vitejs/vitejs.svg");
+}
+
+.ci-vitest,
+.ci-vitest-dark,
+.ci-vitest-light {
+  content: url("../../public/logos/technology/vitest/vitest.svg");
+}
+
+.ci-vivaldi,
+.ci-vivaldi-dark,
+.ci-vivaldi-light {
+  content: url("../../public/logos/technology/vivaldi/vivaldi.svg");
+}
+
+.ci-vk,
+.ci-vk-dark,
+.ci-vk-light {
+  content: url("../../public/logos/technology/vk/vk.svg");
+}
+
 .ci-vscode,
 .ci-vscode-dark,
 .ci-vscode-light {
@@ -3955,10 +4222,55 @@
   content: url("../../public/logos/technology/web3js/web3js.svg");
 }
 
+.ci-webassembly,
+.ci-webassembly-dark,
+.ci-webassembly-light {
+  content: url("../../public/logos/technology/webassembly/webassembly.svg");
+}
+
+.ci-webpack,
+.ci-webpack-dark,
+.ci-webpack-light {
+  content: url("../../public/logos/technology/webpack/webpack.svg");
+}
+
 .ci-word,
 .ci-word-dark,
 .ci-word-light {
   content: url("../../public/logos/technology/word/word.svg");
+}
+
+.ci-wordpress,
+.ci-wordpress-dark,
+.ci-wordpress-light {
+  content: url("../../public/logos/technology/wordpress/wordpress.svg");
+}
+
+.ci-xamarin-horizontal,
+.ci-xamarin-horizontal-dark,
+.ci-xamarin-horizontal-light,
+.ci-xamarin-inline,
+.ci-xamarin-inline-dark,
+.ci-xamarin-inline-light {
+  content: url("../../public/logos/technology/xamarin/xamarin-horizontal.svg");
+}
+
+.ci-xamarin,
+.ci-xamarin-dark,
+.ci-xamarin-light {
+  content: url("../../public/logos/technology/xamarin/xamarin.svg");
+}
+
+.ci-xd,
+.ci-xd-dark,
+.ci-xd-light {
+  content: url("../../public/logos/technology/xd/xd.svg");
+}
+
+.ci-zod,
+.ci-zod-dark,
+.ci-zod-light {
+  content: url("../../public/logos/technology/zod/zod.svg");
 }
 
 .ci-airbnb-circle,

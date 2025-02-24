@@ -2472,6 +2472,25 @@ const icons = [
     "url": "redux.com"
   },
   {
+    "name": "Render",
+    "category": "technology",
+    "classes": [
+      "render"
+    ],
+    "url": "render.com"
+  },
+  {
+    "name": "Resend",
+    "category": "technology",
+    "classes": [
+      "resend",
+      "resend-light",
+      "resend-wordmark",
+      "resend-wordmark-light"
+    ],
+    "url": "resend.com"
+  },
+  {
     "name": "Ringcentral",
     "category": "technology",
     "classes": [
@@ -2479,6 +2498,14 @@ const icons = [
       "ringcentral-wordmark"
     ],
     "url": "ringcentral.com"
+  },
+  {
+    "name": "Rollupjs",
+    "category": "technology",
+    "classes": [
+      "rollupjs"
+    ],
+    "url": "rollupjs.com"
   },
   {
     "name": "Ruby",
@@ -2492,9 +2519,18 @@ const icons = [
     "name": "Rust",
     "category": "technology",
     "classes": [
-      "rust"
+      "rust",
+      "rust-light"
     ],
     "url": "rust.com"
+  },
+  {
+    "name": "Safari",
+    "category": "technology",
+    "classes": [
+      "safari"
+    ],
+    "url": "safari.com"
   },
   {
     "name": "Sanity",
@@ -2524,6 +2560,22 @@ const icons = [
     "url": "scala.com"
   },
   {
+    "name": "Semanticui",
+    "category": "technology",
+    "classes": [
+      "semanticui"
+    ],
+    "url": "semanticui.com"
+  },
+  {
+    "name": "Serverless",
+    "category": "technology",
+    "classes": [
+      "serverless"
+    ],
+    "url": "serverless.com"
+  },
+  {
     "name": "Shadcn",
     "category": "technology",
     "classes": [
@@ -2539,6 +2591,24 @@ const icons = [
       "sharepoint"
     ],
     "url": "office.com"
+  },
+  {
+    "name": "Skype",
+    "category": "technology",
+    "classes": [
+      "skype"
+    ],
+    "url": "skype.com"
+  },
+  {
+    "name": "Slack",
+    "category": "technology",
+    "classes": [
+      "slack",
+      "slack-horizontal",
+      "slack-horizontal-light"
+    ],
+    "url": "slack.com"
   },
   {
     "name": "Solana",
@@ -2559,12 +2629,66 @@ const icons = [
     "url": "solidity.com"
   },
   {
+    "name": "Solidjs",
+    "category": "technology",
+    "classes": [
+      "solidjs"
+    ],
+    "url": "solidjs.com"
+  },
+  {
     "name": "Spring",
     "category": "technology",
     "classes": [
       "spring"
     ],
     "url": "spring.com"
+  },
+  {
+    "name": "Storyblok",
+    "category": "technology",
+    "classes": [
+      "storyblok",
+      "storyblok-horizontal",
+      "storyblok-horizontal-light"
+    ],
+    "url": "storyblok.com"
+  },
+  {
+    "name": "Storybook",
+    "category": "technology",
+    "classes": [
+      "storybook",
+      "storybook-horizontal",
+      "storybook-horizontal-light"
+    ],
+    "url": "storybook.com"
+  },
+  {
+    "name": "Stream",
+    "category": "technology",
+    "classes": [
+      "stream",
+      "stream-horizontal",
+      "stream-horizontal-light"
+    ],
+    "url": "stream.com"
+  },
+  {
+    "name": "Stylelint",
+    "category": "technology",
+    "classes": [
+      "stylelint"
+    ],
+    "url": "stylelint.com"
+  },
+  {
+    "name": "Sublime",
+    "category": "technology",
+    "classes": [
+      "sublime"
+    ],
+    "url": "sublime.com"
   },
   {
     "name": "Supabase",
@@ -2584,6 +2708,14 @@ const icons = [
       "svelte-horizontal"
     ],
     "url": "svelte.com"
+  },
+  {
+    "name": "Swagger",
+    "category": "technology",
+    "classes": [
+      "swagger"
+    ],
+    "url": "swagger.com"
   },
   {
     "name": "Sway",
@@ -2621,12 +2753,61 @@ const icons = [
     "url": "office.com"
   },
   {
+    "name": "Tensorflow",
+    "category": "technology",
+    "classes": [
+      "tensorflow"
+    ],
+    "url": "tensorflow.com"
+  },
+  {
+    "name": "Threads",
+    "category": "technology",
+    "classes": [
+      "threads",
+      "threads-light"
+    ],
+    "url": "threads.com"
+  },
+  {
+    "name": "Threejs",
+    "category": "technology",
+    "classes": [
+      "threejs"
+    ],
+    "url": "threejs.com"
+  },
+  {
+    "name": "Tinyhttp",
+    "category": "technology",
+    "classes": [
+      "tinyhttp"
+    ],
+    "url": "tinyhttp.com"
+  },
+  {
     "name": "Tmdb",
     "category": "technology",
     "classes": [
       "tmdb"
     ],
     "url": "tmdb.com"
+  },
+  {
+    "name": "Tor",
+    "category": "technology",
+    "classes": [
+      "tor"
+    ],
+    "url": "tor.com"
+  },
+  {
+    "name": "Trpc",
+    "category": "technology",
+    "classes": [
+      "trpc-tRPC"
+    ],
+    "url": "trpc.com"
   },
   {
     "name": "Typescript",
@@ -2639,6 +2820,32 @@ const icons = [
     "url": "typescript.com"
   },
   {
+    "name": "Ubuntu",
+    "category": "technology",
+    "classes": [
+      "ubuntu"
+    ],
+    "url": "ubuntu.com"
+  },
+  {
+    "name": "Unjs",
+    "category": "technology",
+    "classes": [
+      "unjs"
+    ],
+    "url": "unjs.com"
+  },
+  {
+    "name": "Upwork",
+    "category": "technology",
+    "classes": [
+      "upwork",
+      "upwork-wordmark",
+      "upwork2"
+    ],
+    "url": "upwork.com"
+  },
+  {
     "name": "Vercel",
     "category": "technology",
     "classes": [
@@ -2648,6 +2855,14 @@ const icons = [
       "vercel-light"
     ],
     "url": "vercel.com"
+  },
+  {
+    "name": "Vim",
+    "category": "technology",
+    "classes": [
+      "vim"
+    ],
+    "url": "vim.com"
   },
   {
     "name": "Vimeo",
@@ -2666,6 +2881,46 @@ const icons = [
       "visio"
     ],
     "url": "office.com"
+  },
+  {
+    "name": "Visualbasic",
+    "category": "technology",
+    "classes": [
+      "visualbasic"
+    ],
+    "url": "visualbasic.com"
+  },
+  {
+    "name": "Vitejs",
+    "category": "technology",
+    "classes": [
+      "vitejs"
+    ],
+    "url": "vitejs.com"
+  },
+  {
+    "name": "Vitest",
+    "category": "technology",
+    "classes": [
+      "vitest"
+    ],
+    "url": "vitest.com"
+  },
+  {
+    "name": "Vivaldi",
+    "category": "technology",
+    "classes": [
+      "vivaldi"
+    ],
+    "url": "vivaldi.com"
+  },
+  {
+    "name": "Vk",
+    "category": "technology",
+    "classes": [
+      "vk"
+    ],
+    "url": "vk.com"
   },
   {
     "name": "Vscode",
@@ -2692,12 +2947,61 @@ const icons = [
     "url": "web3js.com"
   },
   {
+    "name": "Webassembly",
+    "category": "technology",
+    "classes": [
+      "webassembly"
+    ],
+    "url": "webassembly.com"
+  },
+  {
+    "name": "Webpack",
+    "category": "technology",
+    "classes": [
+      "webpack"
+    ],
+    "url": "webpack.com"
+  },
+  {
     "name": "Word",
     "category": "technology",
     "classes": [
       "word"
     ],
     "url": "office.com"
+  },
+  {
+    "name": "Wordpress",
+    "category": "technology",
+    "classes": [
+      "wordpress"
+    ],
+    "url": "wordpress.com"
+  },
+  {
+    "name": "Xamarin",
+    "category": "technology",
+    "classes": [
+      "xamarin",
+      "xamarin-horizontal"
+    ],
+    "url": "xamarin.com"
+  },
+  {
+    "name": "Xd",
+    "category": "technology",
+    "classes": [
+      "xd"
+    ],
+    "url": "xd.com"
+  },
+  {
+    "name": "Zod",
+    "category": "technology",
+    "classes": [
+      "zod"
+    ],
+    "url": "zod.com"
   },
   {
     "name": "Airbnb",
