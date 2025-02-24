@@ -2901,6 +2901,16 @@ const icons = [
     "url": "kaggle.com"
   },
   {
+    "name": "Karatelabs",
+    "category": "technology",
+    "classes": [
+      "karatelabs",
+      "karatelabs-horizontal",
+      "karatelabs-vertical"
+    ],
+    "url": "karatelabs.com"
+  },
+  {
     "name": "Karma",
     "category": "technology",
     "classes": [
