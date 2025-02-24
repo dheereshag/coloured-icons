@@ -7888,21 +7888,6 @@
   content: url("../../public/logos/technology/trello/trello.svg");
 }
 
-.ci-trpc-horizontal,
-.ci-trpc-horizontal-dark,
-.ci-trpc-horizontal-light,
-.ci-trpc-inline,
-.ci-trpc-inline-dark,
-.ci-trpc-inline-light {
-  content: url("../../public/logos/technology/trpc/trpc-horizontal.svg");
-}
-
-.ci-trpc,
-.ci-trpc-dark,
-.ci-trpc-light {
-  content: url("../../public/logos/technology/trpc/trpc.svg");
-}
-
 .ci-ts-circle,
 .ci-ts-circle-dark,
 .ci-ts-circle-light,
