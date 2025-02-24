@@ -340,13 +340,28 @@ fs.readdir(logosPath, (err, categories) => {
       });
     }
   });
-  const iconsContent = `const icons = ${JSON.stringify(
-    iconsArr,
-    null,
-    2
-  )};\nexport default icons;\n`;
   // updated file path to icons.ts
   const iconsPath = path.join(__dirname, "..", "src", "constants", "icons.ts");
+
+  // Merge with existing icons.ts file's url values if exists
+  if (fs.existsSync(iconsPath)) {
+    try {
+      const oldContent = fs.readFileSync(iconsPath, "utf8");
+      const match = oldContent.match(/const icons = (\[.*?\]);/s);
+      if (match) {
+        const oldIcons = JSON.parse(match[1]);
+        iconsArr = iconsArr.map(newIcon => {
+          const found = oldIcons.find(oldIcon => oldIcon.name === newIcon.name && oldIcon.category === newIcon.category);
+          if (found && found.url) newIcon.url = found.url;
+          return newIcon;
+        });
+      }
+    } catch (e) {
+      console.error("Error merging existing icons.ts url values:", e);
+    }
+  }
+
+  const iconsContent = `const icons = ${JSON.stringify(iconsArr, null, 2)};\nexport default icons;\n`;
   fs.writeFileSync(iconsPath, iconsContent);
   console.log("icons.ts generated successfully!");
 });
