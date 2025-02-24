@@ -1,6 +1,8 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { logoAliases } from "@/constants";
+
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -10,63 +12,7 @@ const cssPath = path.join(__dirname, "..", "src", "app", "logos.css");
 
 let cssContent = "";
 
-// Map of logo aliases
-const logoAliases = {
-  codeforces: ["cf"],
-  discord: ["dc"],
-  digitalocean: ["do"],
-  ethereum: ["eth"],
-  facebook: ["fb"],
-  golang: ["go"],
-  leetcode: ["lc"],
-  microsoft: ["msft", "ms"],
-  nodejs: ["node"],
-  expressjs: ["express"],
-  instagram: ["insta"],
-  nuxtjs: ["nuxt"],
-  nextjs: ["next"],
-  ola: ["olacabs"],
-  reactjs: ["react"],
-  adonisjs: ["adonis"],
-  alpinejs: ["alpine"],
-  avajs: ["ava"],
-  backbonejs: ["backbone"],
-  blueprintjs: ["blueprint"],
-  bulmaui: ["bulma"],
-  bunjs: ["bun"],
-  cassandradb: ["cassandra"],
-  chakraui: ["chakra"],
-  chatgpt: ["openai"],
-  elementui: ["element"],
-  emberjs: ["ember"],
-  faunadb: ["fauna"],
-  ringcentral: ["rc"],
-  youtube: ["yt"],
-  cplusplus: ["cpp"],
-  louisvuitton: ["lv"],
-  framer: ["framer-motion"],
-  bluesky: ["bsky"],
-  flyio: ["fly"],
-  gatsbyjs: ["gatsby"],
-  gridsomejs: ["gridsome"],
-  gruntjs: ["grunt"],
-  mariadb: ["maria"],
-  marrionettejs: ["marionette"],
-  mochajs: ["mocha"],
-  nestjs: ["nest"],
-  pixijs: ["pixi"],
-  prestodb: ["presto"],
-  pugjs: ["pug"],
-  radixui: ["radix"],
-  vuejs: ["vue"],
-  typescript: ["ts"],
-  javascript: ["js"],
-  rollupjs: ["rollup"],
-  semanticui: ["semantic"],
-  solidjs: ["solid"],
-  unjs: ["un"],
-  woocommerce: ["woo"]
-};
+// Map of logo aliases removed and imported from aliases.ts
 
 // NEW: Function to parse CSS rules into groups by URL
 const parseCssGroups = (content) => {
