@@ -1,0 +1,28 @@
+<svg version="1.1" id="Layer_1" xmlns:x="ns_extend;" xmlns:i="ns_ai;" xmlns:graph="ns_graphs;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 141.6 125.4" style="enable-background:new 0 0 141.6 125.4;" xml:space="preserve">
+ <style type="text/css">
+  .st0{fill:url(#SVGID_1_);}
+ </style>
+ <metadata>
+  <sfw xmlns="ns_sfw;">
+   <slices>
+   </slices>
+   <sliceSourceBounds bottomLeftOrigin="true" height="125.4" width="141.6" x="20.5" y="13">
+   </sliceSourceBounds>
+  </sfw>
+ </metadata>
+ <g>
+  <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-0.4566" y1="23.8729" x2="135.4934" y2="102.7729" gradientTransform="matrix(1 0 0 -1 0 127.9175)">
+   <stop offset="0" style="stop-color:#A726C1">
+   </stop>
+   <stop offset="0.88" style="stop-color:#803BDF">
+   </stop>
+   <stop offset="1" style="stop-color:#7B3FE4">
+   </stop>
+  </linearGradient>
+  <path class="st0" d="M105.1,88.3l33.6-19.4c1.8-1,2.9-2.9,2.9-5V25.1c0-2-1.1-4-2.9-5L105.1,0.8c-1.8-1-4-1-5.8,0L65.8,20.2
+		c-1.8,1-2.9,2.9-2.9,5v69.3L39.3,108L15.8,94.4V67.3l23.5-13.6l15.5,9V44.4l-12.7-7.3c-0.9-0.5-1.9-0.8-2.9-0.8s-2,0.3-2.9,0.8
+		L2.9,56.5c-1.8,1-2.9,2.9-2.9,5v38.8c0,2.1,1.1,4,2.9,5l33.6,19.4c1.8,1,4,1,5.8,0l33.6-19.4c1.8-1,2.9-2.9,2.9-5V30.9l0.4-0.2
+		l23.1-13.4l23.6,13.6v27.2l-23.6,13.6l-15.5-8.9V81l12.6,7.3C101.1,89.3,103.3,89.3,105.1,88.3L105.1,88.3z">
+  </path>
+ </g>
+</svg>

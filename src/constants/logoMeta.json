@@ -1,0 +1,77 @@
+{
+  "alan": {
+    "displayName": "Alan AI"
+  },
+  "aws": {
+    "displayName": "AWS"
+  },
+  "cpp": {
+    "displayName": "C++"
+  },
+  "csharp": {
+    "displayName": "C#"
+  },
+  "do": {
+    "displayName": "DigitalOcean"
+  },
+  "css": {
+    "displayName": "CSS"
+  },
+  "louisvuitton": {
+    "displayName": "Louis Vuitton"
+  },
+  "jnj": {
+    "displayName": "Johnson & Johnson"
+  },
+  "ts": {
+    "displayName": "TypeScript"
+  },
+  "js": {
+    "displayName": "JavaScript"
+  },
+  "php": {
+    "displayName": "php"
+  },
+  "kfc": {
+    "displayName": "KFC"
+  },
+  "react-native": {
+    "displayName": "React Native"
+  },
+  "buymeacoffee": {
+    "displayName": "Buy Me a Coffee"
+  },
+  "bmw": {
+    "displayName": "BMW"
+  },
+  "burgerking": {
+    "displayName": "BurgerKing"
+  },
+  "hsbc": {
+    "displayName": "HSBC"
+  },
+  "phonepe": {
+    "displayName": "PhonePe"
+  },
+  "rayban": {
+    "displayName": "Ray-Ban"
+  },
+  "mysql": {
+    "displayName": "MySQL"
+  },
+  "opensea": {
+    "displayName": "OpenSea"
+  },
+  "orcid": {
+    "displayName": "ORCID"
+  },
+  "html": {
+    "displayName": "HTML"
+  },
+  "jquery": {
+    "displayName": "jQuery"
+  },
+  "mui": {
+    "displayName": "MUI"
+  }
+}
