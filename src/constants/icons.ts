@@ -1142,20 +1142,20 @@ const icons = [
     "url": "browserstack.com"
   },
   {
-    "name": "Bulmaui",
+    "name": "Bulma",
     "category": "technology",
     "classes": [
-      "bulmaui"
+      "bulma"
     ],
-    "url": "bulmaui.com"
+    "url": "bulma.com"
   },
   {
-    "name": "Bunjs",
+    "name": "Bun",
     "category": "technology",
     "classes": [
-      "bunjs"
+      "bun"
     ],
-    "url": "bunjs.com"
+    "url": "bun.com"
   },
   {
     "name": "C",
@@ -1210,13 +1210,13 @@ const icons = [
     "url": "carbon.com"
   },
   {
-    "name": "Cassandradb",
+    "name": "Cassandra",
     "category": "technology",
     "classes": [
-      "cassandradb",
-      "cassandradb-vertical"
+      "cassandra",
+      "cassandra-vertical"
     ],
-    "url": "cassandradb.com"
+    "url": "cassandra.com"
   },
   {
     "name": "Centos",
@@ -2414,13 +2414,13 @@ const icons = [
     "url": "grpc.com"
   },
   {
-    "name": "Gruntjs",
+    "name": "Grunt",
     "category": "technology",
     "classes": [
-      "gruntjs",
-      "gruntjs-vertical"
+      "grunt",
+      "grunt-vertical"
     ],
-    "url": "gruntjs.com"
+    "url": "grunt.com"
   },
   {
     "name": "Gulp",
@@ -2954,12 +2954,12 @@ const icons = [
     "url": "knexjs.com"
   },
   {
-    "name": "Knockoutjs",
+    "name": "Knockout",
     "category": "technology",
     "classes": [
-      "knockoutjs"
+      "knockout"
     ],
-    "url": "knockoutjs.com"
+    "url": "knockout.com"
   },
   {
     "name": "Kotlin",
@@ -3345,12 +3345,12 @@ const icons = [
     "url": "mobx.com"
   },
   {
-    "name": "Mochajs",
+    "name": "Mocha",
     "category": "technology",
     "classes": [
-      "mochajs"
+      "mocha"
     ],
-    "url": "mochajs.com"
+    "url": "mocha.com"
   },
   {
     "name": "Modx",
@@ -4381,20 +4381,20 @@ const icons = [
     "url": "reach.com"
   },
   {
+    "name": "React",
+    "category": "technology",
+    "classes": [
+      "react"
+    ],
+    "url": "react.com"
+  },
+  {
     "name": "Reactbootstrap",
     "category": "technology",
     "classes": [
       "reactbootstrap"
     ],
     "url": "reactbootstrap.com"
-  },
-  {
-    "name": "Reactjs",
-    "category": "technology",
-    "classes": [
-      "reactjs"
-    ],
-    "url": "reactjs.com"
   },
   {
     "name": "Reactnative",
@@ -4552,13 +4552,13 @@ const icons = [
     "url": "rockylinux.com"
   },
   {
-    "name": "Rollupjs",
+    "name": "Rollup",
     "category": "technology",
     "classes": [
-      "rollupjs",
-      "rollupjs-horizontal"
+      "rollup",
+      "rollup-horizontal"
     ],
-    "url": "rollupjs.com"
+    "url": "rollup.com"
   },
   {
     "name": "Ros",
