@@ -95,6 +95,9 @@
   "gatsby": [
     "gatsbyjs"
   ],
+  "gatsbyjs": [
+    "gatsby"
+  ],
   "gcd": [
     "googlecloud"
   ],

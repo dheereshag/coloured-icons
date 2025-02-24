@@ -2147,21 +2147,12 @@ const icons = [
     "url": "gatling.com"
   },
   {
-    "name": "Gatsby",
-    "category": "technology",
-    "classes": [
-      "gatsby",
-      "gatsby-horizontal"
-    ],
-    "url": "gatsby.com"
-  },
-  {
     "name": "Gatsbyjs",
     "category": "technology",
     "classes": [
-      "gatsbyjs",
-      "gatsbyjs-horizontal",
-      "gatsbyjs-horizontal-light"
+      "gatsbyjs-gatsby",
+      "gatsbyjs-gatsby-horizontal",
+      "gatsbyjs-gatsby-horizontal-light"
     ],
     "url": "gatsbyjs.com"
   },

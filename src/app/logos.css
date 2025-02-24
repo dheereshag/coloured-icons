@@ -3334,48 +3334,6 @@
   content: url("../../public/logos/technology/gatling/gatling.svg");
 }
 
-.ci-gatsby-horizontal,
-.ci-gatsby-horizontal-dark,
-.ci-gatsby-horizontal-light,
-.ci-gatsby-inline,
-.ci-gatsby-inline-dark,
-.ci-gatsby-inline-light {
-  content: url("../../public/logos/technology/gatsby/gatsby-horizontal.svg");
-}
-
-.ci-gatsby,
-.ci-gatsby-dark,
-.ci-gatsby-light {
-  content: url("../../public/logos/technology/gatsby/gatsby.svg");
-}
-
-.ci-gatsby-horizontal-light,
-.ci-gatsby-inline-light,
-.ci-gatsbyjs-horizontal-light,
-.ci-gatsbyjs-inline-light {
-  content: url("../../public/logos/technology/gatsbyjs/gatsbyjs-horizontal-light.svg");
-}
-
-.ci-gatsby-horizontal,
-.ci-gatsby-horizontal-dark,
-.ci-gatsby-inline,
-.ci-gatsby-inline-dark,
-.ci-gatsbyjs-horizontal,
-.ci-gatsbyjs-horizontal-dark,
-.ci-gatsbyjs-inline,
-.ci-gatsbyjs-inline-dark {
-  content: url("../../public/logos/technology/gatsbyjs/gatsbyjs-horizontal.svg");
-}
-
-.ci-gatsby,
-.ci-gatsby-dark,
-.ci-gatsby-light,
-.ci-gatsbyjs,
-.ci-gatsbyjs-dark,
-.ci-gatsbyjs-light {
-  content: url("../../public/logos/technology/gatsbyjs/gatsbyjs.svg");
-}
-
 .ci-gazebo-stacked,
 .ci-gazebo-stacked-dark,
 .ci-gazebo-stacked-light,
