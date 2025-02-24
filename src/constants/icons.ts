@@ -28,7 +28,7 @@ const icons = [
     "category": "art and music",
     "classes": [
       "behance",
-      "behance-wordmark",
+      "behance-wordmark2",
       "behance2"
     ],
     "url": "behance.com"
@@ -638,10 +638,87 @@ const icons = [
     "url": "office.com"
   },
   {
+    "name": "Aarch64",
+    "category": "technology",
+    "classes": [
+      "aarch64"
+    ],
+    "url": "aarch64.com"
+  },
+  {
     "name": "Access",
     "category": "technology",
     "classes": [
-      "access"
+      "access",
+      "access-godot",
+      "access-goland",
+      "access-gradle",
+      "access-grails",
+      "access-groovy",
+      "access-grpc",
+      "access-hadoop",
+      "access-handlebars",
+      "access-hardhat",
+      "access-harvester",
+      "access-haskell",
+      "access-haxe",
+      "access-helm",
+      "access-hibernate",
+      "access-hugo",
+      "access-ifttt",
+      "access-influxdb",
+      "access-inkscape",
+      "access-insomnia",
+      "access-intellij",
+      "access-jaegertracing",
+      "access-jamstack",
+      "access-jasmine",
+      "access-jeet",
+      "access-jekyll",
+      "access-jenkins",
+      "access-jetbrains",
+      "access-jetpackcompose",
+      "access-jira",
+      "access-jiraalign",
+      "access-jule",
+      "access-junit",
+      "access-jupyter",
+      "access-k3os",
+      "access-k3s",
+      "access-k6",
+      "access-kaggle",
+      "access-karatelabs",
+      "access-karma",
+      "access-kdeneon",
+      "access-keras",
+      "access-kibana",
+      "access-knexjs",
+      "access-krakenjs",
+      "access-ktor",
+      "access-labview",
+      "access-latex",
+      "access-liquibase",
+      "access-livewire",
+      "access-llvm",
+      "access-lodash",
+      "access-logstash",
+      "access-lumen",
+      "access-magento",
+      "access-materializecss",
+      "access-matlab",
+      "access-matplotlib",
+      "access-maven",
+      "access-maya",
+      "access-meteorjs",
+      "access-microsoftsqlserver",
+      "access-minitab",
+      "access-mithril",
+      "access-mobx",
+      "access-modx",
+      "access-moleculer",
+      "access-mongoose",
+      "access-moodle",
+      "access-msdos"
     ],
     "url": "office.com"
   },
@@ -649,7 +726,8 @@ const icons = [
     "name": "Adonisjs",
     "category": "technology",
     "classes": [
-      "adonisjs"
+      "adonisjs",
+      "adonisjs-horizontal"
     ],
     "url": "adonisjs.com"
   },
@@ -665,9 +743,19 @@ const icons = [
     "name": "Airflow",
     "category": "technology",
     "classes": [
-      "airflow"
+      "airflow",
+      "airflow-horizontal"
     ],
     "url": "airflow.com"
+  },
+  {
+    "name": "Akka",
+    "category": "technology",
+    "classes": [
+      "akka",
+      "akka-horizontal"
+    ],
+    "url": "akka.com"
   },
   {
     "name": "Alan AI",
@@ -711,7 +799,8 @@ const icons = [
     "name": "Anaconda",
     "category": "technology",
     "classes": [
-      "anaconda"
+      "anaconda",
+      "anaconda-vertical"
     ],
     "url": "anaconda.com"
   },
@@ -724,12 +813,29 @@ const icons = [
     "url": "android.com"
   },
   {
+    "name": "Androidstudio",
+    "category": "technology",
+    "classes": [
+      "androidstudio",
+      "androidstudio-horizontal"
+    ],
+    "url": "androidstudio.com"
+  },
+  {
     "name": "Angular",
     "category": "technology",
     "classes": [
       "angular"
     ],
     "url": "angular.dev"
+  },
+  {
+    "name": "Angularmaterial",
+    "category": "technology",
+    "classes": [
+      "angularmaterial"
+    ],
+    "url": "angularmaterial.com"
   },
   {
     "name": "Ansible",
@@ -763,9 +869,27 @@ const icons = [
     "name": "Apache",
     "category": "technology",
     "classes": [
-      "apache"
+      "apache",
+      "apache-horizontal"
     ],
     "url": "apache.com"
+  },
+  {
+    "name": "Apl",
+    "category": "technology",
+    "classes": [
+      "apl"
+    ],
+    "url": "apl.com"
+  },
+  {
+    "name": "Appcelerator",
+    "category": "technology",
+    "classes": [
+      "appcelerator",
+      "appcelerator-vertical"
+    ],
+    "url": "appcelerator.com"
   },
   {
     "name": "Apple",
@@ -794,12 +918,31 @@ const icons = [
     "url": "arc.com"
   },
   {
+    "name": "Archlinux",
+    "category": "technology",
+    "classes": [
+      "archlinux",
+      "archlinux-horizontal"
+    ],
+    "url": "archlinux.com"
+  },
+  {
     "name": "Arduino",
     "category": "technology",
     "classes": [
-      "arduino"
+      "arduino",
+      "arduino-vertical"
     ],
     "url": "arduino.com"
+  },
+  {
+    "name": "Argocd",
+    "category": "technology",
+    "classes": [
+      "argocd",
+      "argocd-vertical"
+    ],
+    "url": "argocd.com"
   },
   {
     "name": "Astro",
@@ -825,7 +968,8 @@ const icons = [
     "name": "Atom",
     "category": "technology",
     "classes": [
-      "atom"
+      "atom",
+      "atom-horizontal"
     ],
     "url": "atom.com"
   },
@@ -846,6 +990,14 @@ const icons = [
     "url": "avajs.com"
   },
   {
+    "name": "Awk",
+    "category": "technology",
+    "classes": [
+      "awk"
+    ],
+    "url": "awk.com"
+  },
+  {
     "name": "AWS",
     "category": "technology",
     "classes": [
@@ -853,6 +1005,15 @@ const icons = [
       "aws-light"
     ],
     "url": "aws.com"
+  },
+  {
+    "name": "Axios",
+    "category": "technology",
+    "classes": [
+      "axios",
+      "axios-wordmark"
+    ],
+    "url": "axios.com"
   },
   {
     "name": "Axure",
@@ -869,9 +1030,25 @@ const icons = [
     "category": "technology",
     "classes": [
       "azure",
-      "azure2"
+      "azure-horizontal"
     ],
     "url": "azure.com"
+  },
+  {
+    "name": "Azuredevops",
+    "category": "technology",
+    "classes": [
+      "azuredevops"
+    ],
+    "url": "azuredevops.com"
+  },
+  {
+    "name": "Azuresqldatabase",
+    "category": "technology",
+    "classes": [
+      "azuresqldatabase"
+    ],
+    "url": "azuresqldatabase.com"
   },
   {
     "name": "Babel",
@@ -886,9 +1063,28 @@ const icons = [
     "category": "technology",
     "classes": [
       "backbonejs",
-      "backbonejs-horizontal"
+      "backbonejs-horizontal",
+      "backbonejs-vertical"
     ],
     "url": "backbonejs.com"
+  },
+  {
+    "name": "Ballerina",
+    "category": "technology",
+    "classes": [
+      "ballerina",
+      "ballerina-vertical"
+    ],
+    "url": "ballerina.com"
+  },
+  {
+    "name": "Bamboo",
+    "category": "technology",
+    "classes": [
+      "bamboo",
+      "bamboo-vertical"
+    ],
+    "url": "bamboo.com"
   },
   {
     "name": "Bash",
@@ -898,6 +1094,23 @@ const icons = [
       "bash-horizontal"
     ],
     "url": "bash.com"
+  },
+  {
+    "name": "Beats",
+    "category": "technology",
+    "classes": [
+      "beats"
+    ],
+    "url": "beats.com"
+  },
+  {
+    "name": "Behance",
+    "category": "technology",
+    "classes": [
+      "behance-wordmark",
+      "behance3"
+    ],
+    "url": "behance.com"
   },
   {
     "name": "Bing",
@@ -921,7 +1134,8 @@ const icons = [
     "category": "technology",
     "classes": [
       "bitbucket",
-      "bitbucket-horizontal"
+      "bitbucket-horizontal",
+      "bitbucket-vertical"
     ],
     "url": "bitbucket.com"
   },
@@ -932,6 +1146,23 @@ const icons = [
       "bitnami"
     ],
     "url": "bitnami.com"
+  },
+  {
+    "name": "Blazor",
+    "category": "technology",
+    "classes": [
+      "blazor"
+    ],
+    "url": "blazor.com"
+  },
+  {
+    "name": "Blender",
+    "category": "technology",
+    "classes": [
+      "blender",
+      "blender-horizontal"
+    ],
+    "url": "blender.com"
   },
   {
     "name": "Blueprintjs",
@@ -950,6 +1181,15 @@ const icons = [
     "url": "bootstrap.com"
   },
   {
+    "name": "Bower",
+    "category": "technology",
+    "classes": [
+      "bower",
+      "bower-vertical"
+    ],
+    "url": "bower.com"
+  },
+  {
     "name": "Brave",
     "category": "technology",
     "classes": [
@@ -958,6 +1198,15 @@ const icons = [
       "brave-horizontal-light"
     ],
     "url": "brave.com"
+  },
+  {
+    "name": "Browserstack",
+    "category": "technology",
+    "classes": [
+      "browserstack",
+      "browserstack-vertical"
+    ],
+    "url": "browserstack.com"
   },
   {
     "name": "Bulmaui",
@@ -984,10 +1233,20 @@ const icons = [
     "url": "learn-c.org"
   },
   {
+    "name": "Cairo",
+    "category": "technology",
+    "classes": [
+      "cairo",
+      "cairo-horizontal"
+    ],
+    "url": "cairo.com"
+  },
+  {
     "name": "Cakephp",
     "category": "technology",
     "classes": [
-      "cakephp"
+      "cakephp",
+      "cakephp-horizontal"
     ],
     "url": "cakephp.com"
   },
@@ -1001,6 +1260,23 @@ const icons = [
     "url": "canva.com"
   },
   {
+    "name": "Capacitor",
+    "category": "technology",
+    "classes": [
+      "capacitor",
+      "capacitor-horizontal"
+    ],
+    "url": "capacitor.com"
+  },
+  {
+    "name": "Carbon",
+    "category": "technology",
+    "classes": [
+      "carbon"
+    ],
+    "url": "carbon.com"
+  },
+  {
     "name": "Cassandradb",
     "category": "technology",
     "classes": [
@@ -1008,6 +1284,24 @@ const icons = [
       "cassandradb-vertical"
     ],
     "url": "cassandradb.com"
+  },
+  {
+    "name": "Centos",
+    "category": "technology",
+    "classes": [
+      "centos",
+      "centos-horizontal"
+    ],
+    "url": "centos.com"
+  },
+  {
+    "name": "Ceylon",
+    "category": "technology",
+    "classes": [
+      "ceylon",
+      "ceylon-horizontal"
+    ],
+    "url": "ceylon.com"
   },
   {
     "name": "Chakraui",
@@ -1053,6 +1347,15 @@ const icons = [
     "url": "circleci.com"
   },
   {
+    "name": "Clarity",
+    "category": "technology",
+    "classes": [
+      "clarity",
+      "clarity-horizontal"
+    ],
+    "url": "clarity.com"
+  },
+  {
     "name": "Claude",
     "category": "technology",
     "classes": [
@@ -1071,12 +1374,29 @@ const icons = [
     "url": "clickhouse.com"
   },
   {
+    "name": "Clion",
+    "category": "technology",
+    "classes": [
+      "clion",
+      "clion-horizontal"
+    ],
+    "url": "clion.com"
+  },
+  {
     "name": "Clojure",
     "category": "technology",
     "classes": [
       "clojure"
     ],
     "url": "clojure.com"
+  },
+  {
+    "name": "Clojurescript",
+    "category": "technology",
+    "classes": [
+      "clojurescript"
+    ],
+    "url": "clojurescript.com"
   },
   {
     "name": "Cloudflare",
@@ -1089,6 +1409,15 @@ const icons = [
     "url": "cloudflare.com"
   },
   {
+    "name": "Cloudflareworkers",
+    "category": "technology",
+    "classes": [
+      "cloudflareworkers",
+      "cloudflareworkers-vertical"
+    ],
+    "url": "cloudflareworkers.com"
+  },
+  {
     "name": "Cloudinary",
     "category": "technology",
     "classes": [
@@ -1096,6 +1425,32 @@ const icons = [
       "cloudinary-horizontal"
     ],
     "url": "cloudinary.com"
+  },
+  {
+    "name": "Cmake",
+    "category": "technology",
+    "classes": [
+      "cmake",
+      "cmake-horizontal"
+    ],
+    "url": "cmake.com"
+  },
+  {
+    "name": "Codeac",
+    "category": "technology",
+    "classes": [
+      "codeac"
+    ],
+    "url": "codeac.com"
+  },
+  {
+    "name": "Codecov",
+    "category": "technology",
+    "classes": [
+      "codecov",
+      "codecov-horizontal"
+    ],
+    "url": "codecov.com"
   },
   {
     "name": "Codeforces",
@@ -1119,9 +1474,63 @@ const icons = [
     "category": "technology",
     "classes": [
       "codeigniter",
-      "codeigniter-horizontal"
+      "codeigniter-horizontal",
+      "codeigniter-vertical"
     ],
     "url": "codeigniter.com"
+  },
+  {
+    "name": "Codepen",
+    "category": "technology",
+    "classes": [
+      "codepen",
+      "codepen-wordmark"
+    ],
+    "url": "codepen.com"
+  },
+  {
+    "name": "Coffeescript",
+    "category": "technology",
+    "classes": [
+      "coffeescript",
+      "coffeescript-vertical"
+    ],
+    "url": "coffeescript.com"
+  },
+  {
+    "name": "Composer",
+    "category": "technology",
+    "classes": [
+      "composer"
+    ],
+    "url": "composer.com"
+  },
+  {
+    "name": "Confluence",
+    "category": "technology",
+    "classes": [
+      "confluence",
+      "confluence-vertical"
+    ],
+    "url": "confluence.com"
+  },
+  {
+    "name": "Consul",
+    "category": "technology",
+    "classes": [
+      "consul",
+      "consul-vertical"
+    ],
+    "url": "consul.com"
+  },
+  {
+    "name": "Contao",
+    "category": "technology",
+    "classes": [
+      "contao",
+      "contao-horizontal"
+    ],
+    "url": "contao.com"
   },
   {
     "name": "Copilot",
@@ -1132,12 +1541,57 @@ const icons = [
     "url": "copilot.com"
   },
   {
+    "name": "Corejs",
+    "category": "technology",
+    "classes": [
+      "corejs",
+      "corejs-horizontal"
+    ],
+    "url": "corejs.com"
+  },
+  {
+    "name": "Cosmosdb",
+    "category": "technology",
+    "classes": [
+      "cosmosdb",
+      "cosmosdb-vertical"
+    ],
+    "url": "cosmosdb.com"
+  },
+  {
+    "name": "Couchbase",
+    "category": "technology",
+    "classes": [
+      "couchbase",
+      "couchbase-horizontal"
+    ],
+    "url": "couchbase.com"
+  },
+  {
+    "name": "Couchdb",
+    "category": "technology",
+    "classes": [
+      "couchdb",
+      "couchdb-horizontal"
+    ],
+    "url": "couchdb.com"
+  },
+  {
     "name": "C++",
     "category": "technology",
     "classes": [
       "cpp"
     ],
     "url": "isocpp.org"
+  },
+  {
+    "name": "Crystal",
+    "category": "technology",
+    "classes": [
+      "crystal",
+      "crystal-vertical"
+    ],
+    "url": "crystal.com"
   },
   {
     "name": "C#",
@@ -1151,9 +1605,19 @@ const icons = [
     "name": "CSS",
     "category": "technology",
     "classes": [
-      "css"
+      "css",
+      "css-vertical"
     ],
     "url": "css.com"
+  },
+  {
+    "name": "Cucumber",
+    "category": "technology",
+    "classes": [
+      "cucumber",
+      "cucumber-horizontal"
+    ],
+    "url": "cucumber.com"
   },
   {
     "name": "Cypress",
@@ -1164,6 +1628,14 @@ const icons = [
       "cypress-horizontal-light"
     ],
     "url": "cypress.com"
+  },
+  {
+    "name": "D3js",
+    "category": "technology",
+    "classes": [
+      "d3js"
+    ],
+    "url": "d3js.com"
   },
   {
     "name": "Dart",
@@ -1188,6 +1660,40 @@ const icons = [
     "url": "datadog.com"
   },
   {
+    "name": "Datagrip",
+    "category": "technology",
+    "classes": [
+      "datagrip"
+    ],
+    "url": "datagrip.com"
+  },
+  {
+    "name": "Dataspell",
+    "category": "technology",
+    "classes": [
+      "dataspell",
+      "dataspell-horizontal"
+    ],
+    "url": "dataspell.com"
+  },
+  {
+    "name": "Dbeaver",
+    "category": "technology",
+    "classes": [
+      "dbeaver"
+    ],
+    "url": "dbeaver.com"
+  },
+  {
+    "name": "Debian",
+    "category": "technology",
+    "classes": [
+      "debian",
+      "debian-vertical"
+    ],
+    "url": "debian.com"
+  },
+  {
     "name": "Deepseek",
     "category": "technology",
     "classes": [
@@ -1210,9 +1716,19 @@ const icons = [
     "classes": [
       "deno",
       "deno-horizontal",
-      "deno-horizontal-light"
+      "deno-horizontal-light",
+      "deno-vertical"
     ],
     "url": "deno.com"
+  },
+  {
+    "name": "Devicon",
+    "category": "technology",
+    "classes": [
+      "devicon",
+      "devicon-vertical"
+    ],
+    "url": "devicon.com"
   },
   {
     "name": "Digitalocean",
@@ -1223,6 +1739,15 @@ const icons = [
       "digitalocean-vertical"
     ],
     "url": "digitalocean.com"
+  },
+  {
+    "name": "Discordjs",
+    "category": "technology",
+    "classes": [
+      "discordjs",
+      "discordjs-horizontal"
+    ],
+    "url": "discordjs.com"
   },
   {
     "name": "Django",
@@ -1252,12 +1777,38 @@ const icons = [
     "url": "docker.com"
   },
   {
+    "name": "Doctrine",
+    "category": "technology",
+    "classes": [
+      "doctrine",
+      "doctrine-vertical"
+    ],
+    "url": "doctrine.com"
+  },
+  {
     "name": "Docusaurus",
     "category": "technology",
     "classes": [
       "docusaurus"
     ],
     "url": "docusaurus.com"
+  },
+  {
+    "name": "Dotnet",
+    "category": "technology",
+    "classes": [
+      "dotnet",
+      "dotnet-horizontal"
+    ],
+    "url": "dotnet.com"
+  },
+  {
+    "name": "Dotnetcore",
+    "category": "technology",
+    "classes": [
+      "dotnetcore"
+    ],
+    "url": "dotnetcore.com"
   },
   {
     "name": "Dovetail",
@@ -1267,6 +1818,22 @@ const icons = [
       "dovetail-horizontal"
     ],
     "url": "dovetail.com"
+  },
+  {
+    "name": "Dreamweaver",
+    "category": "technology",
+    "classes": [
+      "dreamweaver"
+    ],
+    "url": "dreamweaver.com"
+  },
+  {
+    "name": "Drf",
+    "category": "technology",
+    "classes": [
+      "drf"
+    ],
+    "url": "drf.com"
   },
   {
     "name": "Dropbox",
@@ -1279,12 +1846,55 @@ const icons = [
     "url": "dropbox.com"
   },
   {
+    "name": "Dropwizard",
+    "category": "technology",
+    "classes": [
+      "dropwizard"
+    ],
+    "url": "dropwizard.com"
+  },
+  {
+    "name": "Drupal",
+    "category": "technology",
+    "classes": [
+      "drupal",
+      "drupal-vertical"
+    ],
+    "url": "drupal.com"
+  },
+  {
+    "name": "Dynamodb",
+    "category": "technology",
+    "classes": [
+      "dynamodb"
+    ],
+    "url": "dynamodb.com"
+  },
+  {
     "name": "Ec2",
     "category": "technology",
     "classes": [
       "ec2"
     ],
     "url": "ec2.com"
+  },
+  {
+    "name": "Eclipse",
+    "category": "technology",
+    "classes": [
+      "eclipse",
+      "eclipse-horizontal"
+    ],
+    "url": "eclipse.com"
+  },
+  {
+    "name": "Ecto",
+    "category": "technology",
+    "classes": [
+      "ecto",
+      "ecto-horizontal"
+    ],
+    "url": "ecto.com"
   },
   {
     "name": "Edge",
@@ -1305,10 +1915,20 @@ const icons = [
     "url": "elastic.com"
   },
   {
+    "name": "Elasticsearch",
+    "category": "technology",
+    "classes": [
+      "elasticsearch",
+      "elasticsearch-horizontal"
+    ],
+    "url": "elasticsearch.com"
+  },
+  {
     "name": "Electron",
     "category": "technology",
     "classes": [
-      "electron"
+      "electron",
+      "electron-horizontal"
     ],
     "url": "electron.com"
   },
@@ -1324,9 +1944,36 @@ const icons = [
     "name": "Elixir",
     "category": "technology",
     "classes": [
-      "elixir"
+      "elixir",
+      "elixir-horizontal"
     ],
     "url": "elixir.com"
+  },
+  {
+    "name": "Elm",
+    "category": "technology",
+    "classes": [
+      "elm",
+      "elm-horizontal"
+    ],
+    "url": "elm.com"
+  },
+  {
+    "name": "Emacs",
+    "category": "technology",
+    "classes": [
+      "emacs"
+    ],
+    "url": "emacs.com"
+  },
+  {
+    "name": "Embeddedc",
+    "category": "technology",
+    "classes": [
+      "embeddedc",
+      "embeddedc-horizontal"
+    ],
+    "url": "embeddedc.com"
   },
   {
     "name": "Emberjs",
@@ -1338,10 +1985,21 @@ const icons = [
     "url": "emberjs.com"
   },
   {
+    "name": "Envoy",
+    "category": "technology",
+    "classes": [
+      "envoy",
+      "envoy-vertical"
+    ],
+    "url": "envoy.com"
+  },
+  {
     "name": "Erlang",
     "category": "technology",
     "classes": [
-      "erlang"
+      "erlang",
+      "erlang-vertical",
+      "erlang-vertical2"
     ],
     "url": "erlang.com"
   },
@@ -1357,7 +2015,8 @@ const icons = [
     "name": "Eslint",
     "category": "technology",
     "classes": [
-      "eslint"
+      "eslint",
+      "eslint-horizontal"
     ],
     "url": "eslint.com"
   },
@@ -1387,6 +2046,24 @@ const icons = [
     "url": "expressjs.com"
   },
   {
+    "name": "Fastapi",
+    "category": "technology",
+    "classes": [
+      "fastapi",
+      "fastapi-horizontal"
+    ],
+    "url": "fastapi.com"
+  },
+  {
+    "name": "Fastify",
+    "category": "technology",
+    "classes": [
+      "fastify",
+      "fastify-horizontal"
+    ],
+    "url": "fastify.com"
+  },
+  {
     "name": "Faunadb",
     "category": "technology",
     "classes": [
@@ -1396,12 +2073,37 @@ const icons = [
     "url": "faunadb.com"
   },
   {
+    "name": "Feathersjs",
+    "category": "technology",
+    "classes": [
+      "feathersjs"
+    ],
+    "url": "feathersjs.com"
+  },
+  {
+    "name": "Fedora",
+    "category": "technology",
+    "classes": [
+      "fedora"
+    ],
+    "url": "fedora.com"
+  },
+  {
     "name": "Figma",
     "category": "technology",
     "classes": [
       "figma"
     ],
     "url": "figma.com"
+  },
+  {
+    "name": "Filezilla",
+    "category": "technology",
+    "classes": [
+      "filezilla",
+      "filezilla-horizontal"
+    ],
+    "url": "filezilla.com"
   },
   {
     "name": "Firebase",
@@ -1461,12 +2163,64 @@ const icons = [
     "url": "office.com"
   },
   {
+    "name": "Fortran",
+    "category": "technology",
+    "classes": [
+      "fortran"
+    ],
+    "url": "fortran.com"
+  },
+  {
+    "name": "Foundation",
+    "category": "technology",
+    "classes": [
+      "foundation",
+      "foundation-vertical"
+    ],
+    "url": "foundation.com"
+  },
+  {
     "name": "Framer",
     "category": "technology",
     "classes": [
       "framer"
     ],
     "url": "framer.com"
+  },
+  {
+    "name": "Framework7",
+    "category": "technology",
+    "classes": [
+      "framework7",
+      "framework7-horizontal"
+    ],
+    "url": "framework7.com"
+  },
+  {
+    "name": "Fsharp",
+    "category": "technology",
+    "classes": [
+      "fsharp"
+    ],
+    "url": "fsharp.com"
+  },
+  {
+    "name": "Gatling",
+    "category": "technology",
+    "classes": [
+      "gatling",
+      "gatling-horizontal"
+    ],
+    "url": "gatling.com"
+  },
+  {
+    "name": "Gatsby",
+    "category": "technology",
+    "classes": [
+      "gatsby",
+      "gatsby-horizontal"
+    ],
+    "url": "gatsby.com"
   },
   {
     "name": "Gatsbyjs",
@@ -1479,12 +2233,57 @@ const icons = [
     "url": "gatsbyjs.com"
   },
   {
+    "name": "Gazebo",
+    "category": "technology",
+    "classes": [
+      "gazebo",
+      "gazebo-vertical"
+    ],
+    "url": "gazebo.com"
+  },
+  {
+    "name": "Gcc",
+    "category": "technology",
+    "classes": [
+      "gcc"
+    ],
+    "url": "gcc.com"
+  },
+  {
     "name": "Gcd",
     "category": "technology",
     "classes": [
-      "gcd"
+      "gcd",
+      "gcd-vertical"
     ],
     "url": "gcd.com"
+  },
+  {
+    "name": "Gentoo",
+    "category": "technology",
+    "classes": [
+      "gentoo",
+      "gentoo-vertical"
+    ],
+    "url": "gentoo.com"
+  },
+  {
+    "name": "Ghost",
+    "category": "technology",
+    "classes": [
+      "ghost",
+      "ghost-horizontal"
+    ],
+    "url": "ghost.com"
+  },
+  {
+    "name": "Gimp",
+    "category": "technology",
+    "classes": [
+      "gimp",
+      "gimp-vertical"
+    ],
+    "url": "gimp.com"
   },
   {
     "name": "Git",
@@ -1494,6 +2293,15 @@ const icons = [
       "git-horizontal"
     ],
     "url": "git.com"
+  },
+  {
+    "name": "Gitbook",
+    "category": "technology",
+    "classes": [
+      "gitbook",
+      "gitbook-horizontal"
+    ],
+    "url": "gitbook.com"
   },
   {
     "name": "Gitea",
@@ -1515,6 +2323,22 @@ const icons = [
     "url": "github.com"
   },
   {
+    "name": "Githubactions",
+    "category": "technology",
+    "classes": [
+      "githubactions"
+    ],
+    "url": "githubactions.com"
+  },
+  {
+    "name": "Githubcodespaces",
+    "category": "technology",
+    "classes": [
+      "githubcodespaces"
+    ],
+    "url": "githubcodespaces.com"
+  },
+  {
     "name": "Gitlab",
     "category": "technology",
     "classes": [
@@ -1523,6 +2347,24 @@ const icons = [
       "gitlab-horizontal-light"
     ],
     "url": "gitlab.com"
+  },
+  {
+    "name": "Gitpod",
+    "category": "technology",
+    "classes": [
+      "gitpod",
+      "gitpod-horizontal"
+    ],
+    "url": "gitpod.com"
+  },
+  {
+    "name": "Gitter",
+    "category": "technology",
+    "classes": [
+      "gitter",
+      "gitter-horizontal"
+    ],
+    "url": "gitter.com"
   },
   {
     "name": "Gmail",
@@ -1616,14 +2458,6 @@ const icons = [
     "url": "hashnode.com"
   },
   {
-    "name": "Haskell",
-    "category": "technology",
-    "classes": [
-      "haskell"
-    ],
-    "url": "haskell.com"
-  },
-  {
     "name": "Headlessui",
     "category": "technology",
     "classes": [
@@ -1660,7 +2494,8 @@ const icons = [
     "name": "Homebrew",
     "category": "technology",
     "classes": [
-      "homebrew"
+      "homebrew",
+      "homebrew-vertical"
     ],
     "url": "homebrew.com"
   },
@@ -1699,6 +2534,14 @@ const icons = [
     "url": "i18next.com"
   },
   {
+    "name": "Illustrator",
+    "category": "technology",
+    "classes": [
+      "illustrator"
+    ],
+    "url": "illustrator.com"
+  },
+  {
     "name": "Indesign",
     "category": "technology",
     "classes": [
@@ -1717,14 +2560,6 @@ const icons = [
     "url": "infura.io"
   },
   {
-    "name": "Insomnia",
-    "category": "technology",
-    "classes": [
-      "insomnia"
-    ],
-    "url": "insomnia.com"
-  },
-  {
     "name": "Invision",
     "category": "technology",
     "classes": [
@@ -1741,14 +2576,6 @@ const icons = [
       "ionic-horizontal"
     ],
     "url": "ionic.com"
-  },
-  {
-    "name": "Jamstack",
-    "category": "technology",
-    "classes": [
-      "jamstack"
-    ],
-    "url": "jamstack.com"
   },
   {
     "name": "Java",
@@ -1821,9 +2648,18 @@ const icons = [
     "name": "Kafka",
     "category": "technology",
     "classes": [
-      "kafka"
+      "kafka",
+      "kafka-horizontal"
     ],
     "url": "kafka.com"
+  },
+  {
+    "name": "Karatelabs",
+    "category": "technology",
+    "classes": [
+      "karatelabs-horizontal"
+    ],
+    "url": "karatelabs.com"
   },
   {
     "name": "Kibana",
@@ -1834,11 +2670,19 @@ const icons = [
     "url": "kibana.com"
   },
   {
+    "name": "Knockoutjs",
+    "category": "technology",
+    "classes": [
+      "knockoutjs"
+    ],
+    "url": "knockoutjs.com"
+  },
+  {
     "name": "Kotlin",
     "category": "technology",
     "classes": [
       "kotlin",
-      "kotlin-wordmark"
+      "kotlin-horizontal"
     ],
     "url": "kotlin.com"
   },
@@ -2447,6 +3291,15 @@ const icons = [
       "r"
     ],
     "url": "r.com"
+  },
+  {
+    "name": "Rabbitmq",
+    "category": "technology",
+    "classes": [
+      "rabbitmq",
+      "rabbitmq-horizontal"
+    ],
+    "url": "rabbitmq.com"
   },
   {
     "name": "Radixui",
