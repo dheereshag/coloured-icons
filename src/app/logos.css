@@ -1267,6 +1267,15 @@
   content: url("../../public/logos/technology/anaconda/anaconda.svg");
 }
 
+.ci-android-horizontal,
+.ci-android-horizontal-dark,
+.ci-android-horizontal-light,
+.ci-android-inline,
+.ci-android-inline-dark,
+.ci-android-inline-light {
+  content: url("../../public/logos/technology/android/android-horizontal.svg");
+}
+
 .ci-android,
 .ci-android-dark,
 .ci-android-light {

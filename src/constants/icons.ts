@@ -750,7 +750,8 @@ const icons = [
     "name": "Android",
     "category": "technology",
     "classes": [
-      "android"
+      "android",
+      "android-horizontal"
     ],
     "url": "android.com"
   },
