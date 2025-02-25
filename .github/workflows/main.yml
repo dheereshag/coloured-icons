@@ -19,9 +19,7 @@ jobs:
           node-version: "latest"
 
       - name: Run update scripts
-        run: |
-          node scripts/updateAliases.js
-          node scripts/listFolders.js
+        run: node scripts/listFolders.js
           
       - name: Install clean-css-cli
         run: npm install -g clean-css-cli

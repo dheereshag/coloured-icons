@@ -2644,12 +2644,6 @@
   content: url("../../public/logos/technology/digitalocean/digitalocean.svg");
 }
 
-.ci-discord-horizontal,
-.ci-discord-horizontal-dark,
-.ci-discord-horizontal-light,
-.ci-discord-inline,
-.ci-discord-inline-dark,
-.ci-discord-inline-light,
 .ci-discordjs-horizontal,
 .ci-discordjs-horizontal-dark,
 .ci-discordjs-horizontal-light,
@@ -2659,9 +2653,6 @@
   content: url("../../public/logos/technology/discordjs/discordjs-horizontal.svg");
 }
 
-.ci-discord,
-.ci-discord-dark,
-.ci-discord-light,
 .ci-discordjs,
 .ci-discordjs-dark,
 .ci-discordjs-light {

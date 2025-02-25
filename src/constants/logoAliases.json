@@ -59,9 +59,6 @@
   "discord": [
     "dc"
   ],
-  "discordjs": [
-    "discord"
-  ],
   "dynamodb": [
     "dynamo"
   ],
