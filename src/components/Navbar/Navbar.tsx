@@ -8,7 +8,11 @@ import { Pacifico } from "next/font/google";
 
 const pacifico = Pacifico({ subsets: ["latin"], weight: "400" });
 
-const Navbar: React.FC = () => {
+interface NavbarProps {
+  hideSearch?: boolean;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const { triggerFocus } = useContext(SearchContext);
 
@@ -48,13 +52,15 @@ const Navbar: React.FC = () => {
           </div>
 
           <div className="flex flex-1 items-center justify-end gap-4">
-            <button
-              onClick={handleSearchClick}
-              className="p-2 hover:bg-gray-100 rounded-full transition-colors cursor-pointer"
-              aria-label="Search"
-            >
-              <CiSearch className="text-gray-700 text-xl" />
-            </button>
+            {!hideSearch && (
+              <button
+                onClick={handleSearchClick}
+                className="p-2 hover:bg-gray-100 rounded-full transition-colors cursor-pointer"
+                aria-label="Search"
+              >
+                <CiSearch className="text-gray-700 text-xl" />
+              </button>
+            )}
 
             <button
               type="button"
@@ -71,10 +77,7 @@ const Navbar: React.FC = () => {
       {/* Mobile menu */}
       {isMenuOpen && (
         <div className="lg:hidden fixed z-50">
-          <div
-            className="fixed"
-            onClick={() => setIsMenuOpen(false)}
-          />
+          <div className="fixed" onClick={() => setIsMenuOpen(false)} />
 
           {/* Menu panel */}
           <div className="fixed h-full inset-y-0 right-0 w-full overflow-y-auto bg-white px-8 mx-auto my-6 sm:max-w-sm">
