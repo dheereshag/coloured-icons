@@ -256,18 +256,6 @@ fs.readdir(logosPath, (err, categories) => {
     console.error(`Error sorting CSS file: ${error}`);
   }
 
-  // Helper function to title-case a phrase except for the word "and"
-  const toTitleCase = (str) => {
-    return str
-      .split(" ")
-      .map((word) =>
-        word.toLowerCase() === "and"
-          ? "and"
-          : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
-      )
-      .join(" ");
-  };
-
   // NEW: Generate icons.ts based on folders; exclude folders with "stacked" or "inline"
   let iconsArr = [];
   const categoriesIcon = fs.readdirSync(logosPath);
@@ -323,9 +311,6 @@ fs.readdir(logosPath, (err, categories) => {
             if (logoMeta[folder]) {
               if (logoMeta[folder].displayName) {
                 displayName = logoMeta[folder].displayName;
-              }
-              if (logoMeta[folder].url) {
-                iconUrl = logoMeta[folder].url;
               }
             }
 

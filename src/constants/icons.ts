@@ -1318,6 +1318,16 @@ const icons = [
     "url": "clickhouse.com"
   },
   {
+    "name": "ClickUp",
+    "category": "technology",
+    "classes": [
+      "clickup",
+      "clickup-horizontal",
+      "clickup-horizontal-light"
+    ],
+    "url": "clickup.com"
+  },
+  {
     "name": "Clion",
     "category": "technology",
     "classes": [
@@ -3049,6 +3059,17 @@ const icons = [
       "lightroom"
     ],
     "url": "lightroom.com"
+  },
+  {
+    "name": "Linear",
+    "category": "technology",
+    "classes": [
+      "linear",
+      "linear-horizontal",
+      "linear-horizontal-light",
+      "linear-light"
+    ],
+    "url": "linear.app"
   },
   {
     "name": "Linux",
