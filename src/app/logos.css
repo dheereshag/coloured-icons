@@ -8302,6 +8302,36 @@
   content: url("../../public/logos/technology/vyper/vyper.svg");
 }
 
+.ci-wails-horizontal-light,
+.ci-wails-inline-light {
+  content: url("../../public/logos/technology/wails/wails-horizontal-light.svg");
+}
+
+.ci-wails-horizontal,
+.ci-wails-horizontal-dark,
+.ci-wails-inline,
+.ci-wails-inline-dark {
+  content: url("../../public/logos/technology/wails/wails-horizontal.svg");
+}
+
+.ci-wails-stacked-light,
+.ci-wails-vertical-light {
+  content: url("../../public/logos/technology/wails/wails-vertical-light.svg");
+}
+
+.ci-wails-stacked,
+.ci-wails-stacked-dark,
+.ci-wails-vertical,
+.ci-wails-vertical-dark {
+  content: url("../../public/logos/technology/wails/wails-vertical.svg");
+}
+
+.ci-wails,
+.ci-wails-dark,
+.ci-wails-light {
+  content: url("../../public/logos/technology/wails/wails.svg");
+}
+
 .ci-web3,
 .ci-web3-dark,
 .ci-web3-light,

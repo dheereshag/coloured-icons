@@ -5589,6 +5589,18 @@ const icons = [
     "url": "docs.vyperlang.org/en/stable"
   },
   {
+    "name": "Wails",
+    "category": "technology",
+    "classes": [
+      "wails",
+      "wails-horizontal",
+      "wails-horizontal-light",
+      "wails-vertical",
+      "wails-vertical-light"
+    ],
+    "url": "wails.io"
+  },
+  {
     "name": "Web3js",
     "category": "technology",
     "classes": [
