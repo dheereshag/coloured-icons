@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth overflow-y-scroll">
-      <body className={`px-8 mx-auto ${outfit.className}`}>
+      <body className={`mx-8 ${outfit.className}`}>
         <SearchContextProvider>
           {children}
         </SearchContextProvider>
