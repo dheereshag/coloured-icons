@@ -1,11 +1,9 @@
-import {
-  Dialog,
-  DialogContent,
-  DialogTitle,
-} from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { Icon } from "@/interfaces";
 import { IconCode } from ".";
 import { useState } from "react";
+import Link from "next/link";
+import { HiOutlineExternalLink } from "react-icons/hi";
 
 interface ModalProps {
   icon: Icon;
@@ -41,7 +39,17 @@ const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
               <DialogTitle className="text-2xl font-semibold bg-linear-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                 {icon.name}
               </DialogTitle>
-              <p className="text-sm text-slate-500 mt-2">{icon.url}</p>
+              <Link
+                href={
+                  icon.url.startsWith("http") ? icon.url : `https://${icon.url}`
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-blue-500 hover:underline flex items-center"
+              >
+                {icon.url}
+                <HiOutlineExternalLink className="ml-1 text-gray-500 text-sm inline-block" />
+              </Link>
             </div>
           </div>
 
