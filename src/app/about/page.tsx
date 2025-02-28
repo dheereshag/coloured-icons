@@ -20,9 +20,6 @@ const features = [
 export default function About() {
   return (
     <>
-      <section className="max-w-7xl mx-auto">
-        <Navbar hideSearch={true} />
-      </section>
       <main className="mx-auto max-w-3xl px-4 py-12 sm:py-20 lg:py-28">
         <div className="text-center space-y-8">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">

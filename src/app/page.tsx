@@ -11,10 +11,6 @@ const outfit = Outfit({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div className={`relative isolate ${outfit.className} mb-10`}>
-      <section className="max-w-7xl mx-auto">
-        <Navbar />
-      </section>
-
       <section className="mx-auto max-w-2xl py-8 sm:py-14 lg:py-20 text-center">
         <h1
           className={`mt-4 text-balance text-5xl sm:text-7xl ${outfit.className} tracking-tight text-gray-900 font-semibold`}

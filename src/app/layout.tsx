@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { SearchContextProvider } from '@/context/SearchContextProvider'
 import { Outfit } from "next/font/google";
+import { Navbar } from '@/components/Navbar';
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,9 +19,12 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth overflow-y-scroll">
       <body className={`mx-8 ${outfit.className}`}>
         <SearchContextProvider>
+          <section className="max-w-7xl mx-auto">
+            <Navbar />
+          </section>
           {children}
         </SearchContextProvider>
       </body>
     </html>
-  )
+  );
 }

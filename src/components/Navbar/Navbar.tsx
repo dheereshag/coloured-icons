@@ -1,3 +1,5 @@
+"use client";
+
 import { useState, useContext } from "react";
 import { RxHamburgerMenu, RxCross2 } from "react-icons/rx";
 import { CiSearch } from "react-icons/ci";
@@ -5,6 +7,7 @@ import { MenuList } from ".";
 import { SearchContext } from "@/context/SearchContextProvider";
 import Link from "next/link";
 import { Pacifico } from "next/font/google";
+import { usePathname } from "next/navigation";
 
 const pacifico = Pacifico({ subsets: ["latin"], weight: "400" });
 
@@ -12,9 +15,13 @@ interface NavbarProps {
   hideSearch?: boolean;
 }
 
-const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
+const Navbar: React.FC<NavbarProps> = () => {
+  const pathname = usePathname();
+
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const { triggerFocus } = useContext(SearchContext);
+
+  const hideSearch = pathname === "/about";
 
   const handleSearchClick = () => {
     const searchSection = document.getElementById("search-section");
@@ -48,7 +55,10 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
           </div>
 
           <div className="hidden lg:flex lg:gap-x-12">
-            <MenuList className="flex items-center gap-8 font-semibold text-gray-600" />
+            <MenuList
+              className="flex items-center gap-8 font-semibold text-gray-600"
+              activePathname={pathname}
+            />
           </div>
 
           <div className="flex flex-1 items-center justify-end gap-4">
