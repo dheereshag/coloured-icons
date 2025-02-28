@@ -544,6 +544,16 @@ const icons = [
     "url": "linkedin.com"
   },
   {
+    "name": "Mastodon",
+    "category": "social media",
+    "classes": [
+      "mastodon",
+      "mastodon-wordmark",
+      "mastodon-wordmark-light"
+    ],
+    "url": "mastodon.com"
+  },
+  {
     "name": "Reddit",
     "category": "social media",
     "classes": [
@@ -3184,16 +3194,6 @@ const icons = [
       "markdown"
     ],
     "url": "markdownguide.org"
-  },
-  {
-    "name": "Mastodon",
-    "category": "technology",
-    "classes": [
-      "mastodon",
-      "mastodon-wordmark",
-      "mastodon-wordmark-light"
-    ],
-    "url": "mastodon.com"
   },
   {
     "name": "Materializecss",

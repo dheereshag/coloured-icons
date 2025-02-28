@@ -877,6 +877,21 @@
   content: url("../../public/logos/social media/linkedin/linkedin.svg");
 }
 
+.ci-mastodon-wordmark-light {
+  content: url("../../public/logos/social media/mastodon/mastodon-wordmark-light.svg");
+}
+
+.ci-mastodon-wordmark,
+.ci-mastodon-wordmark-dark {
+  content: url("../../public/logos/social media/mastodon/mastodon-wordmark.svg");
+}
+
+.ci-mastodon,
+.ci-mastodon-dark,
+.ci-mastodon-light {
+  content: url("../../public/logos/social media/mastodon/mastodon.svg");
+}
+
 .ci-reddit-horizontal,
 .ci-reddit-horizontal-dark,
 .ci-reddit-horizontal-light,
@@ -4802,21 +4817,6 @@
 .ci-markdown-dark,
 .ci-markdown-light {
   content: url("../../public/logos/technology/markdown/markdown.svg");
-}
-
-.ci-mastodon-wordmark-light {
-  content: url("../../public/logos/technology/mastodon/mastodon-wordmark-light.svg");
-}
-
-.ci-mastodon-wordmark,
-.ci-mastodon-wordmark-dark {
-  content: url("../../public/logos/technology/mastodon/mastodon-wordmark.svg");
-}
-
-.ci-mastodon,
-.ci-mastodon-dark,
-.ci-mastodon-light {
-  content: url("../../public/logos/technology/mastodon/mastodon.svg");
 }
 
 .ci-materializecss,

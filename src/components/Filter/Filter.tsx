@@ -13,7 +13,7 @@ import {
   FaGraduationCap, // Education
   FaSackDollar, // Financial Services
   FaBowlFood, // Food and Beverage
-  FaPrescriptionBottle, // Pharmaceuticals
+  FaPumpMedical, // Pharmaceuticals
   FaHashtag, // Social Media
   FaMicrochip, // Technology
   FaPlane, // Travel and Tourism
@@ -37,7 +37,7 @@ const getCategoryIcon = (categoryName: string) => {
     case "food and beverage":
       return <FaBowlFood className={margin} />;
     case "pharmaceuticals":
-      return <FaPrescriptionBottle className={margin} />;
+      return <FaPumpMedical className={margin} />;
     case "social media":
       return <FaHashtag className={margin} />;
     case "technology":
