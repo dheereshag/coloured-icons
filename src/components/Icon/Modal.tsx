@@ -1,9 +1,10 @@
-import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
+import { Dialog, DialogPanel, DialogTitle } from "@headlessui/react";
 import { Icon } from "@/interfaces";
 import { IconCode } from ".";
+import { IoClose } from "react-icons/io5";
+import { HiOutlineExternalLink } from "react-icons/hi";
 import { useState } from "react";
 import Link from "next/link";
-import { HiOutlineExternalLink } from "react-icons/hi";
 
 interface ModalProps {
   icon: Icon;
@@ -27,65 +28,85 @@ const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
   const [zoomedIcon, setZoomedIcon] = useState<string | null>(null);
 
   return (
-    <Dialog open={true} onOpenChange={() => onClose()}>
-      <DialogContent className="sm:max-w-2xl w-full rounded-2xl bg-white shadow-[0_0_50px_-12px] shadow-purple-500/10 border border-slate-200 max-h-[90vh] overflow-y-auto">
-        <div className="px-6 sm:px-8 pb-8">
-          {/* Icon preview */}
-          <div className="flex items-center gap-8 mb-10">
-            <div className="p-8 bg-linear-to-b from-slate-100 to-white rounded-2xl shadow-xs border border-slate-200">
-              <i className={`ci ci-${icon.classes[0]} ci-4x text-slate-700`} />
-            </div>
-            <div className="flex flex-col">
-              <DialogTitle className="text-2xl font-semibold bg-linear-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                {icon.name}
-              </DialogTitle>
-              <Link
-                href={
-                  icon.url.startsWith("http") ? icon.url : `https://${icon.url}`
-                }
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-blue-500 hover:underline flex items-center"
-              >
-                {icon.url}
-                <HiOutlineExternalLink className="ml-1 text-gray-500 text-sm inline-block" />
-              </Link>
-            </div>
+    <Dialog open={true} onClose={onClose} className="relative z-50">
+      <div
+        className="fixed inset-0 bg-slate-900/50 backdrop-blur-xs"
+        aria-hidden="true"
+      />
+
+      <div className="fixed inset-0 flex items-center justify-center p-4">
+        <DialogPanel className="mx-auto max-w-2xl w-full rounded-2xl bg-white shadow-[0_0_50px_-12px] shadow-purple-500/10 border border-slate-200 max-h-[90vh] overflow-y-auto">
+          <div className="sticky top-0 right-0 z-10 bg-white/80 backdrop-blur-xl py-4 px-8">
+            <button
+              onClick={onClose}
+              className="absolute right-4 top-4 p-2 rounded-full text-slate-400 hover:text-slate-500 hover:bg-slate-100/80 transition-colors cursor-pointer"
+            >
+              <IoClose className="w-6 h-6" />
+            </button>
           </div>
 
-          {/* Code section */}
-          <div className="space-y-6">
-            <div className="space-y-2">
-              <h3 className="text-base font-semibold text-slate-900">
-                Usage Guide
-              </h3>
-              <p className="text-sm text-slate-400">
-                Copy and paste the following code into your HTML or JSX to use
-                this icon:
-              </p>
-            </div>
-            <div className="space-y-4">
-              {icon.classes.map((iconClass) => (
-                <div
-                  key={iconClass}
-                  className={`bg-gray-300 px-2 rounded-xl flex items-center gap-4 shadow-xs h-20`}
+          <div className="mx-6 sm:mx-8 mb-8">
+            {/* Icon preview */}
+            <div className="flex items-center gap-8 mb-10">
+              <div className="p-8 bg-linear-to-b from-slate-100 to-white rounded-2xl shadow-xs border border-slate-200">
+                <i
+                  className={`ci ci-${icon.classes[0]} ci-4x text-slate-700`}
+                />
+              </div>
+              <div className="flex flex-col">
+                <DialogTitle className="text-2xl font-semibold bg-linear-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+                  {icon.name}
+                </DialogTitle>
+                <Link
+                  href={
+                    icon.url.startsWith("http")
+                      ? icon.url
+                      : `https://${icon.url}`
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-blue-500 hover:underline flex items-center justify-center gap-1"
                 >
-                  <i
-                    className={`ci ci-${iconClass} ci-${size(
-                      iconClass
-                    )}x mx-3 py-auto cursor-pointer transition-all duration-200`}
-                    onMouseEnter={() => setZoomedIcon(iconClass)}
-                    onMouseLeave={() => setZoomedIcon(null)}
-                  />
-                  <div className="flex-1">
-                    <IconCode iconClass={iconClass} />
+                  <span>{icon.url}</span>
+                  <HiOutlineExternalLink className="text-gray-500 text-sm" />
+                </Link>
+              </div>
+            </div>
+
+            {/* Code section */}
+            <div className="space-y-6">
+              <div className="space-y-2">
+                <h3 className="text-base font-semibold text-slate-900">
+                  Usage Guide
+                </h3>
+                <p className="text-sm text-slate-400">
+                  Copy and paste the following code into your HTML or JSX to use
+                  this icon:
+                </p>
+              </div>
+              <div className="space-y-4">
+                {icon.classes.map((iconClass) => (
+                  <div
+                    key={iconClass}
+                    className={`bg-gray-300 px-2 rounded-xl flex items-center gap-4 shadow-xs h-20`}
+                  >
+                    <i
+                      className={`ci ci-${iconClass} ci-${size(
+                        iconClass
+                      )}x mx-3 py-auto cursor-pointer transition-all duration-200`}
+                      onMouseEnter={() => setZoomedIcon(iconClass)}
+                      onMouseLeave={() => setZoomedIcon(null)}
+                    />
+                    <div className="flex-1">
+                      <IconCode iconClass={iconClass} />
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
-        </div>
-      </DialogContent>
+        </DialogPanel>
+      </div>
 
       {/* Zoomed icon overlay */}
       {zoomedIcon && (
