@@ -39,7 +39,7 @@ const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
           <div className="sticky top-0 right-0 z-10 bg-white/80 backdrop-blur-xl py-4 px-8">
             <button
               onClick={onClose}
-              className="absolute right-4 top-4 p-2 rounded-full text-slate-400 hover:text-slate-500 hover:bg-slate-100/80 transition-colors cursor-pointer"
+              className="absolute right-4 top-4 p-2 rounded-full text-slate-400 hover:text-slate-600 hover:bg-slate-100/80 transition-colors cursor-pointer"
             >
               <IoClose className="w-6 h-6" />
             </button>
@@ -110,9 +110,9 @@ const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
 
       {/* Zoomed icon overlay */}
       {zoomedIcon && (
-        <div className="fixed inset-0 flex items-center justify-center pointer-events-none z-100 transition-all">
-          <div className="p-8 bg-gray-300 rounded-xl shadow-xl sm:scale-2 scale-125">
-            <i className={`ci ci-${zoomedIcon} ci-4x text-gray-800`} />
+        <div className="fixed inset-0 flex items-center justify-center z-50 transition-all pointer-events-none">
+          <div className="p-8 bg-gray-300 rounded-xl shadow-xl sm:scale-150 scale-125 transition-transform">
+            <i className={`ci ci-${zoomedIcon} ci-6x text-gray-800`} />
           </div>
         </div>
       )}
