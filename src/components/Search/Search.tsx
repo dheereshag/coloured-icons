@@ -43,7 +43,7 @@ function SearchBox() {
         onChange={(e) => setSearch(e.target.value)}
       />
       <IoCloseOutline
-        className="absolute right-2 top-2.5 h-4 w-4 text-muted-foreground"
+        className="absolute right-2 top-2.5 h-4 w-4 text-muted-foreground hover:text-gray-900 cursor-pointer"
         onClick={handleClearSearch}
       />
     </div>
