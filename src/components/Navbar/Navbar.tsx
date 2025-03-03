@@ -63,7 +63,7 @@ const Navbar: React.FC<NavbarProps> = () => {
             <Link
               href={"/"}
               onClick={() => {
-                const waitTime = pathname == "/" ? 0 : 100;
+                const waitTime = pathname == "/" ? 0 : 300;
                 setTimeout(handleSearchClick, waitTime);
               }}
               className="p-2 hover:bg-gray-100 rounded-full transition-colors cursor-pointer"
