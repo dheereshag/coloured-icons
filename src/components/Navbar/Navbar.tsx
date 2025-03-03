@@ -21,8 +21,6 @@ const Navbar: React.FC<NavbarProps> = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const { triggerFocus } = useContext(SearchContext);
 
-  const hideSearch = pathname === "/about";
-
   const handleSearchClick = () => {
     const searchSection = document.getElementById("search-section");
     if (searchSection) {
@@ -62,15 +60,17 @@ const Navbar: React.FC<NavbarProps> = () => {
           </div>
 
           <div className="flex flex-1 items-center justify-end gap-4">
-            {!hideSearch && (
-              <button
-                onClick={handleSearchClick}
-                className="p-2 hover:bg-gray-100 rounded-full transition-colors cursor-pointer"
-                aria-label="Search"
-              >
-                <CiSearch className="text-gray-700 text-xl" />
-              </button>
-            )}
+            <Link
+              href={"/"}
+              onClick={() => {
+                const waitTime = pathname == "/" ? 0 : 100;
+                setTimeout(handleSearchClick, waitTime);
+              }}
+              className="p-2 hover:bg-gray-100 rounded-full transition-colors cursor-pointer"
+              aria-label="Search"
+            >
+              <CiSearch className="text-gray-700 text-xl" />
+            </Link>
 
             <button
               type="button"
