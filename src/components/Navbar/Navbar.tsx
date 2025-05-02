@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useContext, useEffect } from "react";
+import { useState, useContext, useEffect, useCallback } from "react";
 import { RxHamburgerMenu, RxCross2 } from "react-icons/rx";
 import { CiSearch } from "react-icons/ci";
 import { MenuList } from ".";
@@ -22,14 +22,7 @@ const Navbar: React.FC<NavbarProps> = () => {
   const [pendingFocus, setPendingFocus] = useState(false);
   const { triggerFocus } = useContext(SearchContext);
 
-  useEffect(() => {
-    if (pendingFocus && pathname === "/") {
-      handleSearchClick();
-      setPendingFocus(false);
-    }
-  }, [pathname, pendingFocus]);
-
-  const handleSearchClick = () => {
+  const handleSearchClick = useCallback(() => {
     const searchSection = document.getElementById("search-section");
     if (searchSection) {
       const offset = 50;
@@ -43,7 +36,14 @@ const Navbar: React.FC<NavbarProps> = () => {
 
       triggerFocus();
     }
-  };
+  }, [triggerFocus]);
+
+  useEffect(() => {
+    if (pendingFocus && pathname === "/") {
+      handleSearchClick();
+      setPendingFocus(false);
+    }
+  }, [pathname, pendingFocus, handleSearchClick]);
 
   return (
     <>
