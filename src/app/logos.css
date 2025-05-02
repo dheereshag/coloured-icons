@@ -1,3 +1,123 @@
+.ci-bear,
+.ci-bear-dark,
+.ci-bear-light {
+  content: url("../../public/logos/animals/bear/bear.svg");
+}
+
+.ci-crab,
+.ci-crab-dark,
+.ci-crab-light {
+  content: url("../../public/logos/animals/crab/crab.svg");
+}
+
+.ci-crocodile,
+.ci-crocodile-dark,
+.ci-crocodile-light {
+  content: url("../../public/logos/animals/crocodile/crocodile.svg");
+}
+
+.ci-dinosaur,
+.ci-dinosaur-dark,
+.ci-dinosaur-light {
+  content: url("../../public/logos/animals/dinosaur/dinosaur.svg");
+}
+
+.ci-elk,
+.ci-elk-dark,
+.ci-elk-light {
+  content: url("../../public/logos/animals/elk/elk.svg");
+}
+
+.ci-fox,
+.ci-fox-dark,
+.ci-fox-light {
+  content: url("../../public/logos/animals/fox/fox.svg");
+}
+
+.ci-hedgehog,
+.ci-hedgehog-dark,
+.ci-hedgehog-light {
+  content: url("../../public/logos/animals/hedgehog/hedgehog.svg");
+}
+
+.ci-jellyfish,
+.ci-jellyfish-dark,
+.ci-jellyfish-light {
+  content: url("../../public/logos/animals/jellyfish/jellyfish.svg");
+}
+
+.ci-lion,
+.ci-lion-dark,
+.ci-lion-light {
+  content: url("../../public/logos/animals/lion/lion.svg");
+}
+
+.ci-penguin,
+.ci-penguin-dark,
+.ci-penguin-light {
+  content: url("../../public/logos/animals/penguin/penguin.svg");
+}
+
+.ci-polar-bear,
+.ci-polar-bear-dark,
+.ci-polar-bear-light {
+  content: url("../../public/logos/animals/polar-bear/polar-bear.svg");
+}
+
+.ci-rabbit,
+.ci-rabbit-dark,
+.ci-rabbit-light {
+  content: url("../../public/logos/animals/rabbit/rabbit.svg");
+}
+
+.ci-raccoon,
+.ci-raccoon-dark,
+.ci-raccoon-light {
+  content: url("../../public/logos/animals/raccoon/raccoon.svg");
+}
+
+.ci-shrimp,
+.ci-shrimp-dark,
+.ci-shrimp-light {
+  content: url("../../public/logos/animals/shrimp/shrimp.svg");
+}
+
+.ci-squirrel,
+.ci-squirrel-dark,
+.ci-squirrel-light {
+  content: url("../../public/logos/animals/squirrel/squirrel.svg");
+}
+
+.ci-the-cow,
+.ci-the-cow-dark,
+.ci-the-cow-light {
+  content: url("../../public/logos/animals/the-cow/the-cow.svg");
+}
+
+.ci-turtle,
+.ci-turtle-dark,
+.ci-turtle-light {
+  content: url("../../public/logos/animals/turtle/turtle.svg");
+}
+
+.ci-whale,
+.ci-whale-dark,
+.ci-whale-light {
+  content: url("../../public/logos/animals/whale/whale.svg");
+}
+
+.ci-wild-boar,
+.ci-wild-boar-dark,
+.ci-wild-boar-light {
+  content: url("../../public/logos/animals/wild-boar/wild-boar.svg");
+}
+
+.ci-zebra,
+.ci-zebra-dark,
+.ci-zebra-light {
+  content: url("../../public/logos/animals/zebra/zebra.svg");
+}
+
 .ci-applemusic-horizontal,
 .ci-applemusic-horizontal-dark,
 .ci-applemusic-horizontal-light,
@@ -441,6 +561,288 @@
 .ci-scholar-dark,
 .ci-scholar-light {
   content: url("../../public/logos/education/scholar/scholar.svg");
+}
+
+.ci-bag,
+.ci-bag-dark,
+.ci-bag-light {
+  content: url("../../public/logos/fashion/bag/bag.svg");
+}
+
+.ci-belt,
+.ci-belt-dark,
+.ci-belt-light {
+  content: url("../../public/logos/fashion/belt/belt.svg");
+}
+
+.ci-belt2,
+.ci-belt2-dark,
+.ci-belt2-light {
+  content: url("../../public/logos/fashion/belt/belt2.svg");
+}
+
+.ci-bib,
+.ci-bib-dark,
+.ci-bib-light {
+  content: url("../../public/logos/fashion/bib/bib.svg");
+}
+
+.ci-boots-with-heels,
+.ci-boots-with-heels-dark,
+.ci-boots-with-heels-light {
+  content: url("../../public/logos/fashion/boots-with-heels/boots-with-heels.svg");
+}
+
+.ci-box,
+.ci-box-dark,
+.ci-box-light {
+  content: url("../../public/logos/fashion/box/box.svg");
+}
+
+.ci-cap,
+.ci-cap-dark,
+.ci-cap-light {
+  content: url("../../public/logos/fashion/cap/cap.svg");
+}
+
+.ci-casual-shoes,
+.ci-casual-shoes-dark,
+.ci-casual-shoes-light {
+  content: url("../../public/logos/fashion/casual-shoes/casual-shoes.svg");
+}
+
+.ci-christmas-cap,
+.ci-christmas-cap-dark,
+.ci-christmas-cap-light {
+  content: url("../../public/logos/fashion/christmas-cap/christmas-cap.svg");
+}
+
+.ci-cocktail-dress,
+.ci-cocktail-dress-dark,
+.ci-cocktail-dress-light {
+  content: url("../../public/logos/fashion/cocktail-dress/cocktail-dress.svg");
+}
+
+.ci-dress-holder,
+.ci-dress-holder-dark,
+.ci-dress-holder-light {
+  content: url("../../public/logos/fashion/dress-holder/dress-holder.svg");
+}
+
+.ci-earrings,
+.ci-earrings-dark,
+.ci-earrings-light {
+  content: url("../../public/logos/fashion/earrings/earrings.svg");
+}
+
+.ci-hat,
+.ci-hat-dark,
+.ci-hat-light {
+  content: url("../../public/logos/fashion/hat/hat.svg");
+}
+
+.ci-hat2,
+.ci-hat2-dark,
+.ci-hat2-light {
+  content: url("../../public/logos/fashion/hat/hat2.svg");
+}
+
+.ci-hat3,
+.ci-hat3-dark,
+.ci-hat3-light {
+  content: url("../../public/logos/fashion/hat/hat3.svg");
+}
+
+.ci-hat4,
+.ci-hat4-dark,
+.ci-hat4-light {
+  content: url("../../public/logos/fashion/hat/hat4.svg");
+}
+
+.ci-hat5,
+.ci-hat5-dark,
+.ci-hat5-light {
+  content: url("../../public/logos/fashion/hat/hat5.svg");
+}
+
+.ci-hat6,
+.ci-hat6-dark,
+.ci-hat6-light {
+  content: url("../../public/logos/fashion/hat/hat6.svg");
+}
+
+.ci-heels,
+.ci-heels-dark,
+.ci-heels-light {
+  content: url("../../public/logos/fashion/heels/heels.svg");
+}
+
+.ci-ladies-shirt,
+.ci-ladies-shirt-dark,
+.ci-ladies-shirt-light {
+  content: url("../../public/logos/fashion/ladies-shirt/ladies-shirt.svg");
+}
+
+.ci-ladies-vest,
+.ci-ladies-vest-dark,
+.ci-ladies-vest-light {
+  content: url("../../public/logos/fashion/ladies-vest/ladies-vest.svg");
+}
+
+.ci-locket,
+.ci-locket-dark,
+.ci-locket-light {
+  content: url("../../public/logos/fashion/locket/locket.svg");
+}
+
+.ci-long-boots,
+.ci-long-boots-dark,
+.ci-long-boots-light {
+  content: url("../../public/logos/fashion/long-boots/long-boots.svg");
+}
+
+.ci-p-cap,
+.ci-p-cap-dark,
+.ci-p-cap-light {
+  content: url("../../public/logos/fashion/p-cap/p-cap.svg");
+}
+
+.ci-pants,
+.ci-pants-dark,
+.ci-pants-light {
+  content: url("../../public/logos/fashion/pants/pants.svg");
+}
+
+.ci-party-dress,
+.ci-party-dress-dark,
+.ci-party-dress-light {
+  content: url("../../public/logos/fashion/party-dress/party-dress.svg");
+}
+
+.ci-plain-t-shirt,
+.ci-plain-t-shirt-dark,
+.ci-plain-t-shirt-light {
+  content: url("../../public/logos/fashion/plain-t-shirt/plain-t-shirt.svg");
+}
+
+.ci-polo-shirt,
+.ci-polo-shirt-dark,
+.ci-polo-shirt-light {
+  content: url("../../public/logos/fashion/polo-shirt/polo-shirt.svg");
+}
+
+.ci-pyjamas-suit,
+.ci-pyjamas-suit-dark,
+.ci-pyjamas-suit-light {
+  content: url("../../public/logos/fashion/pyjamas-suit/pyjamas-suit.svg");
+}
+
+.ci-ring,
+.ci-ring-dark,
+.ci-ring-light {
+  content: url("../../public/logos/fashion/ring/ring.svg");
+}
+
+.ci-shirt-and-tie,
+.ci-shirt-and-tie-dark,
+.ci-shirt-and-tie-light {
+  content: url("../../public/logos/fashion/shirt-and-tie/shirt-and-tie.svg");
+}
+
+.ci-shirt-with-bow,
+.ci-shirt-with-bow-dark,
+.ci-shirt-with-bow-light {
+  content: url("../../public/logos/fashion/shirt-with-bow/shirt-with-bow.svg");
+}
+
+.ci-shorts,
+.ci-shorts-dark,
+.ci-shorts-light {
+  content: url("../../public/logos/fashion/shorts/shorts.svg");
+}
+
+.ci-skirt,
+.ci-skirt-dark,
+.ci-skirt-light {
+  content: url("../../public/logos/fashion/skirt/skirt.svg");
+}
+
+.ci-slippers,
+.ci-slippers-dark,
+.ci-slippers-light {
+  content: url("../../public/logos/fashion/slippers/slippers.svg");
+}
+
+.ci-sports-watch,
+.ci-sports-watch-dark,
+.ci-sports-watch-light {
+  content: url("../../public/logos/fashion/sports-watch/sports-watch.svg");
+}
+
+.ci-stilletos,
+.ci-stilletos-dark,
+.ci-stilletos-light {
+  content: url("../../public/logos/fashion/stilletos/stilletos.svg");
+}
+
+.ci-stylish-jacket,
+.ci-stylish-jacket-dark,
+.ci-stylish-jacket-light {
+  content: url("../../public/logos/fashion/stylish-jacket/stylish-jacket.svg");
+}
+
+.ci-stylish-sandals,
+.ci-stylish-sandals-dark,
+.ci-stylish-sandals-light {
+  content: url("../../public/logos/fashion/stylish-sandals/stylish-sandals.svg");
+}
+
+.ci-sunglasses,
+.ci-sunglasses-dark,
+.ci-sunglasses-light {
+  content: url("../../public/logos/fashion/sunglasses/sunglasses.svg");
+}
+
+.ci-swimming-vest,
+.ci-swimming-vest-dark,
+.ci-swimming-vest-light {
+  content: url("../../public/logos/fashion/swimming-vest/swimming-vest.svg");
+}
+
+.ci-t-shirt-with-lines,
+.ci-t-shirt-with-lines-dark,
+.ci-t-shirt-with-lines-light {
+  content: url("../../public/logos/fashion/t-shirt-with-lines/t-shirt-with-lines.svg");
+}
+
+.ci-three-ties,
+.ci-three-ties-dark,
+.ci-three-ties-light {
+  content: url("../../public/logos/fashion/three-ties/three-ties.svg");
+}
+
+.ci-tie,
+.ci-tie-dark,
+.ci-tie-light {
+  content: url("../../public/logos/fashion/tie/tie.svg");
+}
+
+.ci-trousers,
+.ci-trousers-dark,
+.ci-trousers-light {
+  content: url("../../public/logos/fashion/trousers/trousers.svg");
+}
+
+.ci-vest,
+.ci-vest-dark,
+.ci-vest-light {
+  content: url("../../public/logos/fashion/vest/vest.svg");
+}
+
+.ci-wrist-watch,
+.ci-wrist-watch-dark,
+.ci-wrist-watch-light {
+  content: url("../../public/logos/fashion/wrist-watch/wrist-watch.svg");
 }
 
 .ci-barclays-wordmark,

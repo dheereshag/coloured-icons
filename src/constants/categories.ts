@@ -13,6 +13,7 @@ const categories: Category[] = [
   { name: "Technology" },
   { name: "Travel and Tourism" },
   { name: "Animals" },
+  { name: "Fashion" },
 ];
 
 export default categories;

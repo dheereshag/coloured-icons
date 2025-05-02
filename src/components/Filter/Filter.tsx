@@ -17,7 +17,8 @@ import {
   FaHashtag, // Social Media
   FaMicrochip, // Technology
   FaPlane, // Travel and Tourism
-  FaCat
+  FaCat,
+  FaHatCowboy
 } from "react-icons/fa6";
 
 const getCategoryIcon = (categoryName: string) => {
@@ -47,6 +48,8 @@ const getCategoryIcon = (categoryName: string) => {
       return <FaPlane className={margin} />;
     case "animals":
       return <FaCat className={margin} />;
+    case "fashion":
+      return <FaHatCowboy className={margin} />;
     default:
       return null;
   }
@@ -77,7 +80,7 @@ const Filter = () => {
         {categories.map((category: Category) => (
           <button
             key={category.name}
-            className={`inline-flex items-center px-4 lg:px-5 py-2 font-medium rounded-lg whitespace-nowrap transition-all duration-200 ${
+            className={`cursor-pointer inline-flex items-center px-4 lg:px-5 py-2 font-medium rounded-lg whitespace-nowrap transition-all duration-200 ${
               selectedCategory.name === category.name
                 ? "bg-purple-600 text-white shadow-lg hover:bg-purple-700"
                 : "text-gray-600 hover:bg-purple-50 hover:text-purple-600"
