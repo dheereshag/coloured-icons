@@ -17,8 +17,7 @@ import {
   FaHashtag, // Social Media
   FaMicrochip, // Technology
   FaPlane, // Travel and Tourism
-  FaCat,
-  FaHatCowboy
+  FaYinYang //Other
 } from "react-icons/fa6";
 
 const getCategoryIcon = (categoryName: string) => {
@@ -46,10 +45,8 @@ const getCategoryIcon = (categoryName: string) => {
       return <FaMicrochip className={margin} />;
     case "travel and tourism":
       return <FaPlane className={margin} />;
-    case "animals":
-      return <FaCat className={margin} />;
-    case "fashion":
-      return <FaHatCowboy className={margin} />;
+    case "others":
+      return <FaYinYang className={margin} />;
     default:
       return null;
   }

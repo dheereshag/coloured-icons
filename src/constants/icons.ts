@@ -1,165 +1,5 @@
 const icons = [
   {
-    "name": "Bear",
-    "category": "animals",
-    "classes": [
-      "bear"
-    ],
-    "url": "bear.com"
-  },
-  {
-    "name": "Crab",
-    "category": "animals",
-    "classes": [
-      "crab"
-    ],
-    "url": "crab.com"
-  },
-  {
-    "name": "Crocodile",
-    "category": "animals",
-    "classes": [
-      "crocodile"
-    ],
-    "url": "crocodile.com"
-  },
-  {
-    "name": "Dinosaur",
-    "category": "animals",
-    "classes": [
-      "dinosaur"
-    ],
-    "url": "dinosaur.com"
-  },
-  {
-    "name": "Elk",
-    "category": "animals",
-    "classes": [
-      "elk"
-    ],
-    "url": "elk.com"
-  },
-  {
-    "name": "Fox",
-    "category": "animals",
-    "classes": [
-      "fox"
-    ],
-    "url": "fox.com"
-  },
-  {
-    "name": "Hedgehog",
-    "category": "animals",
-    "classes": [
-      "hedgehog"
-    ],
-    "url": "hedgehog.com"
-  },
-  {
-    "name": "Jellyfish",
-    "category": "animals",
-    "classes": [
-      "jellyfish"
-    ],
-    "url": "jellyfish.com"
-  },
-  {
-    "name": "Lion",
-    "category": "animals",
-    "classes": [
-      "lion"
-    ],
-    "url": "lion.com"
-  },
-  {
-    "name": "Penguin",
-    "category": "animals",
-    "classes": [
-      "penguin"
-    ],
-    "url": "penguin.com"
-  },
-  {
-    "name": "Polar-bear",
-    "category": "animals",
-    "classes": [
-      "polar-bear"
-    ],
-    "url": "polar-bear.com"
-  },
-  {
-    "name": "Rabbit",
-    "category": "animals",
-    "classes": [
-      "rabbit"
-    ],
-    "url": "rabbit.com"
-  },
-  {
-    "name": "Raccoon",
-    "category": "animals",
-    "classes": [
-      "raccoon"
-    ],
-    "url": "raccoon.com"
-  },
-  {
-    "name": "Shrimp",
-    "category": "animals",
-    "classes": [
-      "shrimp"
-    ],
-    "url": "shrimp.com"
-  },
-  {
-    "name": "Squirrel",
-    "category": "animals",
-    "classes": [
-      "squirrel"
-    ],
-    "url": "squirrel.com"
-  },
-  {
-    "name": "The-cow",
-    "category": "animals",
-    "classes": [
-      "the-cow"
-    ],
-    "url": "the-cow.com"
-  },
-  {
-    "name": "Turtle",
-    "category": "animals",
-    "classes": [
-      "turtle"
-    ],
-    "url": "turtle.com"
-  },
-  {
-    "name": "Whale",
-    "category": "animals",
-    "classes": [
-      "whale"
-    ],
-    "url": "whale.com"
-  },
-  {
-    "name": "Wild-boar",
-    "category": "animals",
-    "classes": [
-      "wild-boar"
-    ],
-    "url": "wild-boar.com"
-  },
-  {
-    "name": "Zebra",
-    "category": "animals",
-    "classes": [
-      "zebra"
-    ],
-    "url": "zebra.com"
-  },
-  {
     "name": "Applemusic",
     "category": "art and music",
     "classes": [
@@ -416,340 +256,6 @@ const icons = [
     "url": "scholar.com"
   },
   {
-    "name": "Bag",
-    "category": "fashion",
-    "classes": [
-      "bag"
-    ],
-    "url": "bag.com"
-  },
-  {
-    "name": "Belt",
-    "category": "fashion",
-    "classes": [
-      "belt",
-      "belt2"
-    ],
-    "url": "belt.com"
-  },
-  {
-    "name": "Bib",
-    "category": "fashion",
-    "classes": [
-      "bib"
-    ],
-    "url": "bib.com"
-  },
-  {
-    "name": "Boots-with-heels",
-    "category": "fashion",
-    "classes": [
-      "boots-with-heels"
-    ],
-    "url": "boots-with-heels.com"
-  },
-  {
-    "name": "Box",
-    "category": "fashion",
-    "classes": [
-      "box"
-    ],
-    "url": "box.com"
-  },
-  {
-    "name": "Cap",
-    "category": "fashion",
-    "classes": [
-      "cap"
-    ],
-    "url": "cap.com"
-  },
-  {
-    "name": "Casual-shoes",
-    "category": "fashion",
-    "classes": [
-      "casual-shoes"
-    ],
-    "url": "casual-shoes.com"
-  },
-  {
-    "name": "Christmas-cap",
-    "category": "fashion",
-    "classes": [
-      "christmas-cap"
-    ],
-    "url": "christmas-cap.com"
-  },
-  {
-    "name": "Cocktail-dress",
-    "category": "fashion",
-    "classes": [
-      "cocktail-dress"
-    ],
-    "url": "cocktail-dress.com"
-  },
-  {
-    "name": "Dress-holder",
-    "category": "fashion",
-    "classes": [
-      "dress-holder"
-    ],
-    "url": "dress-holder.com"
-  },
-  {
-    "name": "Earrings",
-    "category": "fashion",
-    "classes": [
-      "earrings"
-    ],
-    "url": "earrings.com"
-  },
-  {
-    "name": "Hat",
-    "category": "fashion",
-    "classes": [
-      "hat",
-      "hat2",
-      "hat3",
-      "hat4",
-      "hat5",
-      "hat6"
-    ],
-    "url": "hat.com"
-  },
-  {
-    "name": "Heels",
-    "category": "fashion",
-    "classes": [
-      "heels"
-    ],
-    "url": "heels.com"
-  },
-  {
-    "name": "Ladies-shirt",
-    "category": "fashion",
-    "classes": [
-      "ladies-shirt"
-    ],
-    "url": "ladies-shirt.com"
-  },
-  {
-    "name": "Ladies-vest",
-    "category": "fashion",
-    "classes": [
-      "ladies-vest"
-    ],
-    "url": "ladies-vest.com"
-  },
-  {
-    "name": "Locket",
-    "category": "fashion",
-    "classes": [
-      "locket"
-    ],
-    "url": "locket.com"
-  },
-  {
-    "name": "Long-boots",
-    "category": "fashion",
-    "classes": [
-      "long-boots"
-    ],
-    "url": "long-boots.com"
-  },
-  {
-    "name": "P-cap",
-    "category": "fashion",
-    "classes": [
-      "p-cap"
-    ],
-    "url": "p-cap.com"
-  },
-  {
-    "name": "Pants",
-    "category": "fashion",
-    "classes": [
-      "pants"
-    ],
-    "url": "pants.com"
-  },
-  {
-    "name": "Party-dress",
-    "category": "fashion",
-    "classes": [
-      "party-dress"
-    ],
-    "url": "party-dress.com"
-  },
-  {
-    "name": "Plain-t-shirt",
-    "category": "fashion",
-    "classes": [
-      "plain-t-shirt"
-    ],
-    "url": "plain-t-shirt.com"
-  },
-  {
-    "name": "Polo-shirt",
-    "category": "fashion",
-    "classes": [
-      "polo-shirt"
-    ],
-    "url": "polo-shirt.com"
-  },
-  {
-    "name": "Pyjamas-suit",
-    "category": "fashion",
-    "classes": [
-      "pyjamas-suit"
-    ],
-    "url": "pyjamas-suit.com"
-  },
-  {
-    "name": "Ring",
-    "category": "fashion",
-    "classes": [
-      "ring"
-    ],
-    "url": "ring.com"
-  },
-  {
-    "name": "Shirt-and-tie",
-    "category": "fashion",
-    "classes": [
-      "shirt-and-tie"
-    ],
-    "url": "shirt-and-tie.com"
-  },
-  {
-    "name": "Shirt-with-bow",
-    "category": "fashion",
-    "classes": [
-      "shirt-with-bow"
-    ],
-    "url": "shirt-with-bow.com"
-  },
-  {
-    "name": "Shorts",
-    "category": "fashion",
-    "classes": [
-      "shorts"
-    ],
-    "url": "shorts.com"
-  },
-  {
-    "name": "Skirt",
-    "category": "fashion",
-    "classes": [
-      "skirt"
-    ],
-    "url": "skirt.com"
-  },
-  {
-    "name": "Slippers",
-    "category": "fashion",
-    "classes": [
-      "slippers"
-    ],
-    "url": "slippers.com"
-  },
-  {
-    "name": "Sports-watch",
-    "category": "fashion",
-    "classes": [
-      "sports-watch"
-    ],
-    "url": "sports-watch.com"
-  },
-  {
-    "name": "Stilletos",
-    "category": "fashion",
-    "classes": [
-      "stilletos"
-    ],
-    "url": "stilletos.com"
-  },
-  {
-    "name": "Stylish-jacket",
-    "category": "fashion",
-    "classes": [
-      "stylish-jacket"
-    ],
-    "url": "stylish-jacket.com"
-  },
-  {
-    "name": "Stylish-sandals",
-    "category": "fashion",
-    "classes": [
-      "stylish-sandals"
-    ],
-    "url": "stylish-sandals.com"
-  },
-  {
-    "name": "Sunglasses",
-    "category": "fashion",
-    "classes": [
-      "sunglasses"
-    ],
-    "url": "sunglasses.com"
-  },
-  {
-    "name": "Swimming-vest",
-    "category": "fashion",
-    "classes": [
-      "swimming-vest"
-    ],
-    "url": "swimming-vest.com"
-  },
-  {
-    "name": "T-shirt-with-lines",
-    "category": "fashion",
-    "classes": [
-      "t-shirt-with-lines"
-    ],
-    "url": "t-shirt-with-lines.com"
-  },
-  {
-    "name": "Three-ties",
-    "category": "fashion",
-    "classes": [
-      "three-ties"
-    ],
-    "url": "three-ties.com"
-  },
-  {
-    "name": "Tie",
-    "category": "fashion",
-    "classes": [
-      "tie"
-    ],
-    "url": "tie.com"
-  },
-  {
-    "name": "Trousers",
-    "category": "fashion",
-    "classes": [
-      "trousers"
-    ],
-    "url": "trousers.com"
-  },
-  {
-    "name": "Vest",
-    "category": "fashion",
-    "classes": [
-      "vest"
-    ],
-    "url": "vest.com"
-  },
-  {
-    "name": "Wrist-watch",
-    "category": "fashion",
-    "classes": [
-      "wrist-watch"
-    ],
-    "url": "wrist-watch.com"
-  },
-  {
     "name": "Barclays",
     "category": "financial services",
     "classes": [
@@ -918,6 +424,500 @@ const icons = [
       "wendys"
     ],
     "url": "wendys.com"
+  },
+  {
+    "name": "Bag",
+    "category": "others",
+    "classes": [
+      "bag"
+    ],
+    "url": "bag.com"
+  },
+  {
+    "name": "Bear",
+    "category": "others",
+    "classes": [
+      "bear"
+    ],
+    "url": "bear.com"
+  },
+  {
+    "name": "Belt",
+    "category": "others",
+    "classes": [
+      "belt",
+      "belt2"
+    ],
+    "url": "belt.com"
+  },
+  {
+    "name": "Bib",
+    "category": "others",
+    "classes": [
+      "bib"
+    ],
+    "url": "bib.com"
+  },
+  {
+    "name": "Boots-with-heels",
+    "category": "others",
+    "classes": [
+      "boots-with-heels"
+    ],
+    "url": "boots-with-heels.com"
+  },
+  {
+    "name": "Box",
+    "category": "others",
+    "classes": [
+      "box"
+    ],
+    "url": "box.com"
+  },
+  {
+    "name": "Cap",
+    "category": "others",
+    "classes": [
+      "cap"
+    ],
+    "url": "cap.com"
+  },
+  {
+    "name": "Casual-shoes",
+    "category": "others",
+    "classes": [
+      "casual-shoes"
+    ],
+    "url": "casual-shoes.com"
+  },
+  {
+    "name": "Christmas-cap",
+    "category": "others",
+    "classes": [
+      "christmas-cap"
+    ],
+    "url": "christmas-cap.com"
+  },
+  {
+    "name": "Cocktail-dress",
+    "category": "others",
+    "classes": [
+      "cocktail-dress"
+    ],
+    "url": "cocktail-dress.com"
+  },
+  {
+    "name": "Crab",
+    "category": "others",
+    "classes": [
+      "crab"
+    ],
+    "url": "crab.com"
+  },
+  {
+    "name": "Crocodile",
+    "category": "others",
+    "classes": [
+      "crocodile"
+    ],
+    "url": "crocodile.com"
+  },
+  {
+    "name": "Dinosaur",
+    "category": "others",
+    "classes": [
+      "dinosaur"
+    ],
+    "url": "dinosaur.com"
+  },
+  {
+    "name": "Dress-holder",
+    "category": "others",
+    "classes": [
+      "dress-holder"
+    ],
+    "url": "dress-holder.com"
+  },
+  {
+    "name": "Earrings",
+    "category": "others",
+    "classes": [
+      "earrings"
+    ],
+    "url": "earrings.com"
+  },
+  {
+    "name": "Elk",
+    "category": "others",
+    "classes": [
+      "elk"
+    ],
+    "url": "elk.com"
+  },
+  {
+    "name": "Fox",
+    "category": "others",
+    "classes": [
+      "fox"
+    ],
+    "url": "fox.com"
+  },
+  {
+    "name": "Hat",
+    "category": "others",
+    "classes": [
+      "hat",
+      "hat2",
+      "hat3",
+      "hat4",
+      "hat5",
+      "hat6"
+    ],
+    "url": "hat.com"
+  },
+  {
+    "name": "Hedgehog",
+    "category": "others",
+    "classes": [
+      "hedgehog"
+    ],
+    "url": "hedgehog.com"
+  },
+  {
+    "name": "Heels",
+    "category": "others",
+    "classes": [
+      "heels"
+    ],
+    "url": "heels.com"
+  },
+  {
+    "name": "Jellyfish",
+    "category": "others",
+    "classes": [
+      "jellyfish"
+    ],
+    "url": "jellyfish.com"
+  },
+  {
+    "name": "Ladies-shirt",
+    "category": "others",
+    "classes": [
+      "ladies-shirt"
+    ],
+    "url": "ladies-shirt.com"
+  },
+  {
+    "name": "Ladies-vest",
+    "category": "others",
+    "classes": [
+      "ladies-vest"
+    ],
+    "url": "ladies-vest.com"
+  },
+  {
+    "name": "Lion",
+    "category": "others",
+    "classes": [
+      "lion"
+    ],
+    "url": "lion.com"
+  },
+  {
+    "name": "Locket",
+    "category": "others",
+    "classes": [
+      "locket"
+    ],
+    "url": "locket.com"
+  },
+  {
+    "name": "Long-boots",
+    "category": "others",
+    "classes": [
+      "long-boots"
+    ],
+    "url": "long-boots.com"
+  },
+  {
+    "name": "P-cap",
+    "category": "others",
+    "classes": [
+      "p-cap"
+    ],
+    "url": "p-cap.com"
+  },
+  {
+    "name": "Pants",
+    "category": "others",
+    "classes": [
+      "pants"
+    ],
+    "url": "pants.com"
+  },
+  {
+    "name": "Party-dress",
+    "category": "others",
+    "classes": [
+      "party-dress"
+    ],
+    "url": "party-dress.com"
+  },
+  {
+    "name": "Penguin",
+    "category": "others",
+    "classes": [
+      "penguin"
+    ],
+    "url": "penguin.com"
+  },
+  {
+    "name": "Plain-t-shirt",
+    "category": "others",
+    "classes": [
+      "plain-t-shirt"
+    ],
+    "url": "plain-t-shirt.com"
+  },
+  {
+    "name": "Polar-bear",
+    "category": "others",
+    "classes": [
+      "polar-bear"
+    ],
+    "url": "polar-bear.com"
+  },
+  {
+    "name": "Polo-shirt",
+    "category": "others",
+    "classes": [
+      "polo-shirt"
+    ],
+    "url": "polo-shirt.com"
+  },
+  {
+    "name": "Pyjamas-suit",
+    "category": "others",
+    "classes": [
+      "pyjamas-suit"
+    ],
+    "url": "pyjamas-suit.com"
+  },
+  {
+    "name": "Rabbit",
+    "category": "others",
+    "classes": [
+      "rabbit"
+    ],
+    "url": "rabbit.com"
+  },
+  {
+    "name": "Raccoon",
+    "category": "others",
+    "classes": [
+      "raccoon"
+    ],
+    "url": "raccoon.com"
+  },
+  {
+    "name": "Ring",
+    "category": "others",
+    "classes": [
+      "ring"
+    ],
+    "url": "ring.com"
+  },
+  {
+    "name": "Shirt-and-tie",
+    "category": "others",
+    "classes": [
+      "shirt-and-tie"
+    ],
+    "url": "shirt-and-tie.com"
+  },
+  {
+    "name": "Shirt-with-bow",
+    "category": "others",
+    "classes": [
+      "shirt-with-bow"
+    ],
+    "url": "shirt-with-bow.com"
+  },
+  {
+    "name": "Shorts",
+    "category": "others",
+    "classes": [
+      "shorts"
+    ],
+    "url": "shorts.com"
+  },
+  {
+    "name": "Shrimp",
+    "category": "others",
+    "classes": [
+      "shrimp"
+    ],
+    "url": "shrimp.com"
+  },
+  {
+    "name": "Skirt",
+    "category": "others",
+    "classes": [
+      "skirt"
+    ],
+    "url": "skirt.com"
+  },
+  {
+    "name": "Slippers",
+    "category": "others",
+    "classes": [
+      "slippers"
+    ],
+    "url": "slippers.com"
+  },
+  {
+    "name": "Sports-watch",
+    "category": "others",
+    "classes": [
+      "sports-watch"
+    ],
+    "url": "sports-watch.com"
+  },
+  {
+    "name": "Squirrel",
+    "category": "others",
+    "classes": [
+      "squirrel"
+    ],
+    "url": "squirrel.com"
+  },
+  {
+    "name": "Stilletos",
+    "category": "others",
+    "classes": [
+      "stilletos"
+    ],
+    "url": "stilletos.com"
+  },
+  {
+    "name": "Stylish-jacket",
+    "category": "others",
+    "classes": [
+      "stylish-jacket"
+    ],
+    "url": "stylish-jacket.com"
+  },
+  {
+    "name": "Stylish-sandals",
+    "category": "others",
+    "classes": [
+      "stylish-sandals"
+    ],
+    "url": "stylish-sandals.com"
+  },
+  {
+    "name": "Sunglasses",
+    "category": "others",
+    "classes": [
+      "sunglasses"
+    ],
+    "url": "sunglasses.com"
+  },
+  {
+    "name": "Swimming-vest",
+    "category": "others",
+    "classes": [
+      "swimming-vest"
+    ],
+    "url": "swimming-vest.com"
+  },
+  {
+    "name": "T-shirt-with-lines",
+    "category": "others",
+    "classes": [
+      "t-shirt-with-lines"
+    ],
+    "url": "t-shirt-with-lines.com"
+  },
+  {
+    "name": "The-cow",
+    "category": "others",
+    "classes": [
+      "the-cow"
+    ],
+    "url": "the-cow.com"
+  },
+  {
+    "name": "Three-ties",
+    "category": "others",
+    "classes": [
+      "three-ties"
+    ],
+    "url": "three-ties.com"
+  },
+  {
+    "name": "Tie",
+    "category": "others",
+    "classes": [
+      "tie"
+    ],
+    "url": "tie.com"
+  },
+  {
+    "name": "Trousers",
+    "category": "others",
+    "classes": [
+      "trousers"
+    ],
+    "url": "trousers.com"
+  },
+  {
+    "name": "Turtle",
+    "category": "others",
+    "classes": [
+      "turtle"
+    ],
+    "url": "turtle.com"
+  },
+  {
+    "name": "Vest",
+    "category": "others",
+    "classes": [
+      "vest"
+    ],
+    "url": "vest.com"
+  },
+  {
+    "name": "Whale",
+    "category": "others",
+    "classes": [
+      "whale"
+    ],
+    "url": "whale.com"
+  },
+  {
+    "name": "Wild-boar",
+    "category": "others",
+    "classes": [
+      "wild-boar"
+    ],
+    "url": "wild-boar.com"
+  },
+  {
+    "name": "Wrist-watch",
+    "category": "others",
+    "classes": [
+      "wrist-watch"
+    ],
+    "url": "wrist-watch.com"
+  },
+  {
+    "name": "Zebra",
+    "category": "others",
+    "classes": [
+      "zebra"
+    ],
+    "url": "zebra.com"
   },
   {
     "name": "Astrazeneca",
