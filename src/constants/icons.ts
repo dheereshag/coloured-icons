@@ -483,7 +483,7 @@ const icons = [
     "url": "cap.com"
   },
   {
-    "name": "Casual-shoes",
+    "name": "Casual Shoes",
     "category": "others",
     "classes": [
       "casual-shoes"
@@ -491,7 +491,7 @@ const icons = [
     "url": "casual-shoes.com"
   },
   {
-    "name": "Christmas-cap",
+    "name": "Christmas Cap",
     "category": "others",
     "classes": [
       "christmas-cap"
@@ -499,7 +499,7 @@ const icons = [
     "url": "christmas-cap.com"
   },
   {
-    "name": "Cocktail-dress",
+    "name": "Cocktail Dress",
     "category": "others",
     "classes": [
       "cocktail-dress"
@@ -531,7 +531,7 @@ const icons = [
     "url": "dinosaur.com"
   },
   {
-    "name": "Dress-holder",
+    "name": "Dress Holder",
     "category": "others",
     "classes": [
       "dress-holder"
@@ -600,7 +600,7 @@ const icons = [
     "url": "jellyfish.com"
   },
   {
-    "name": "Ladies-shirt",
+    "name": "Ladies Shirt",
     "category": "others",
     "classes": [
       "ladies-shirt"
@@ -608,7 +608,7 @@ const icons = [
     "url": "ladies-shirt.com"
   },
   {
-    "name": "Ladies-vest",
+    "name": "Ladies Vest",
     "category": "others",
     "classes": [
       "ladies-vest"
@@ -632,7 +632,7 @@ const icons = [
     "url": "locket.com"
   },
   {
-    "name": "Long-boots",
+    "name": "Long Boots",
     "category": "others",
     "classes": [
       "long-boots"
@@ -640,7 +640,7 @@ const icons = [
     "url": "long-boots.com"
   },
   {
-    "name": "P-cap",
+    "name": "P Cap",
     "category": "others",
     "classes": [
       "p-cap"
@@ -656,7 +656,7 @@ const icons = [
     "url": "pants.com"
   },
   {
-    "name": "Party-dress",
+    "name": "Party Dress",
     "category": "others",
     "classes": [
       "party-dress"
@@ -680,7 +680,7 @@ const icons = [
     "url": "plain-t-shirt.com"
   },
   {
-    "name": "Polar-bear",
+    "name": "Polar Bear",
     "category": "others",
     "classes": [
       "polar-bear"
@@ -688,7 +688,7 @@ const icons = [
     "url": "polar-bear.com"
   },
   {
-    "name": "Polo-shirt",
+    "name": "Polo Shirt",
     "category": "others",
     "classes": [
       "polo-shirt"
@@ -696,7 +696,7 @@ const icons = [
     "url": "polo-shirt.com"
   },
   {
-    "name": "Pyjamas-suit",
+    "name": "Pyjamas Suit",
     "category": "others",
     "classes": [
       "pyjamas-suit"
@@ -776,7 +776,7 @@ const icons = [
     "url": "slippers.com"
   },
   {
-    "name": "Sports-watch",
+    "name": "Sports Watch",
     "category": "others",
     "classes": [
       "sports-watch"
@@ -800,7 +800,7 @@ const icons = [
     "url": "stilletos.com"
   },
   {
-    "name": "Stylish-jacket",
+    "name": "Stylish Jacket",
     "category": "others",
     "classes": [
       "stylish-jacket"
@@ -808,7 +808,7 @@ const icons = [
     "url": "stylish-jacket.com"
   },
   {
-    "name": "Stylish-sandals",
+    "name": "Stylish Sandals",
     "category": "others",
     "classes": [
       "stylish-sandals"
@@ -824,7 +824,7 @@ const icons = [
     "url": "sunglasses.com"
   },
   {
-    "name": "Swimming-vest",
+    "name": "Swimming Vest",
     "category": "others",
     "classes": [
       "swimming-vest"
@@ -840,7 +840,7 @@ const icons = [
     "url": "t-shirt-with-lines.com"
   },
   {
-    "name": "The-cow",
+    "name": "The Cow",
     "category": "others",
     "classes": [
       "the-cow"
@@ -848,7 +848,7 @@ const icons = [
     "url": "the-cow.com"
   },
   {
-    "name": "Three-ties",
+    "name": "Three Ties",
     "category": "others",
     "classes": [
       "three-ties"
@@ -896,7 +896,7 @@ const icons = [
     "url": "whale.com"
   },
   {
-    "name": "Wild-boar",
+    "name": "Wild Boar",
     "category": "others",
     "classes": [
       "wild-boar"
@@ -904,7 +904,7 @@ const icons = [
     "url": "wild-boar.com"
   },
   {
-    "name": "Wrist-watch",
+    "name": "Wrist Watch",
     "category": "others",
     "classes": [
       "wrist-watch"
