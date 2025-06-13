@@ -1,3 +1,123 @@
+.ci-bear,
+.ci-bear-dark,
+.ci-bear-light {
+  content: url("../../public/logos/animals/bear/bear.svg");
+}
+
+.ci-cow,
+.ci-cow-dark,
+.ci-cow-light {
+  content: url("../../public/logos/animals/cow/cow.svg");
+}
+
+.ci-crab,
+.ci-crab-dark,
+.ci-crab-light {
+  content: url("../../public/logos/animals/crab/crab.svg");
+}
+
+.ci-crocodile,
+.ci-crocodile-dark,
+.ci-crocodile-light {
+  content: url("../../public/logos/animals/crocodile/crocodile.svg");
+}
+
+.ci-dinosaur,
+.ci-dinosaur-dark,
+.ci-dinosaur-light {
+  content: url("../../public/logos/animals/dinosaur/dinosaur.svg");
+}
+
+.ci-elk,
+.ci-elk-dark,
+.ci-elk-light {
+  content: url("../../public/logos/animals/elk/elk.svg");
+}
+
+.ci-fox,
+.ci-fox-dark,
+.ci-fox-light {
+  content: url("../../public/logos/animals/fox/fox.svg");
+}
+
+.ci-hedgehog,
+.ci-hedgehog-dark,
+.ci-hedgehog-light {
+  content: url("../../public/logos/animals/hedgehog/hedgehog.svg");
+}
+
+.ci-jellyfish,
+.ci-jellyfish-dark,
+.ci-jellyfish-light {
+  content: url("../../public/logos/animals/jellyfish/jellyfish.svg");
+}
+
+.ci-lion,
+.ci-lion-dark,
+.ci-lion-light {
+  content: url("../../public/logos/animals/lion/lion.svg");
+}
+
+.ci-penguin,
+.ci-penguin-dark,
+.ci-penguin-light {
+  content: url("../../public/logos/animals/penguin/penguin.svg");
+}
+
+.ci-polar-bear,
+.ci-polar-bear-dark,
+.ci-polar-bear-light {
+  content: url("../../public/logos/animals/polar-bear/polar-bear.svg");
+}
+
+.ci-rabbit,
+.ci-rabbit-dark,
+.ci-rabbit-light {
+  content: url("../../public/logos/animals/rabbit/rabbit.svg");
+}
+
+.ci-raccoon,
+.ci-raccoon-dark,
+.ci-raccoon-light {
+  content: url("../../public/logos/animals/raccoon/raccoon.svg");
+}
+
+.ci-shrimp,
+.ci-shrimp-dark,
+.ci-shrimp-light {
+  content: url("../../public/logos/animals/shrimp/shrimp.svg");
+}
+
+.ci-squirrel,
+.ci-squirrel-dark,
+.ci-squirrel-light {
+  content: url("../../public/logos/animals/squirrel/squirrel.svg");
+}
+
+.ci-turtle,
+.ci-turtle-dark,
+.ci-turtle-light {
+  content: url("../../public/logos/animals/turtle/turtle.svg");
+}
+
+.ci-whale,
+.ci-whale-dark,
+.ci-whale-light {
+  content: url("../../public/logos/animals/whale/whale.svg");
+}
+
+.ci-wild-boar,
+.ci-wild-boar-dark,
+.ci-wild-boar-light {
+  content: url("../../public/logos/animals/wild-boar/wild-boar.svg");
+}
+
+.ci-zebra,
+.ci-zebra-dark,
+.ci-zebra-light {
+  content: url("../../public/logos/animals/zebra/zebra.svg");
+}
+
 .ci-applemusic-horizontal,
 .ci-applemusic-horizontal-dark,
 .ci-applemusic-horizontal-light,
@@ -681,406 +801,124 @@
   content: url("../../public/logos/food and beverage/wendys/wendys.svg");
 }
 
-.ci-bag,
-.ci-bag-dark,
-.ci-bag-light {
-  content: url("../../public/logos/others/bag/bag.svg");
+.ci-accordion,
+.ci-accordion-dark,
+.ci-accordion-light {
+  content: url("../../public/logos/instruments/accordion/accordion.svg");
 }
 
-.ci-bear,
-.ci-bear-dark,
-.ci-bear-light {
-  content: url("../../public/logos/others/bear/bear.svg");
+.ci-cd,
+.ci-cd-dark,
+.ci-cd-light {
+  content: url("../../public/logos/instruments/cd/cd.svg");
 }
 
-.ci-belt,
-.ci-belt-dark,
-.ci-belt-light {
-  content: url("../../public/logos/others/belt/belt.svg");
+.ci-cello,
+.ci-cello-dark,
+.ci-cello-light {
+  content: url("../../public/logos/instruments/cello/cello.svg");
 }
 
-.ci-belt2,
-.ci-belt2-dark,
-.ci-belt2-light {
-  content: url("../../public/logos/others/belt/belt2.svg");
+.ci-cymbals,
+.ci-cymbals-dark,
+.ci-cymbals-light {
+  content: url("../../public/logos/instruments/cymbals/cymbals.svg");
 }
 
-.ci-bib,
-.ci-bib-dark,
-.ci-bib-light {
-  content: url("../../public/logos/others/bib/bib.svg");
+.ci-drum-kit,
+.ci-drum-kit-dark,
+.ci-drum-kit-light {
+  content: url("../../public/logos/instruments/drum-kit/drum-kit.svg");
 }
 
-.ci-boots-with-heels,
-.ci-boots-with-heels-dark,
-.ci-boots-with-heels-light {
-  content: url("../../public/logos/others/boots-with-heels/boots-with-heels.svg");
+.ci-electric-guitar,
+.ci-electric-guitar-dark,
+.ci-electric-guitar-light {
+  content: url("../../public/logos/instruments/electric-guitar/electric-guitar.svg");
 }
 
-.ci-box,
-.ci-box-dark,
-.ci-box-light {
-  content: url("../../public/logos/others/box/box.svg");
+.ci-electronic-organ,
+.ci-electronic-organ-dark,
+.ci-electronic-organ-light {
+  content: url("../../public/logos/instruments/electronic-organ/electronic-organ.svg");
 }
 
-.ci-cap,
-.ci-cap-dark,
-.ci-cap-light {
-  content: url("../../public/logos/others/cap/cap.svg");
+.ci-flute,
+.ci-flute-dark,
+.ci-flute-light {
+  content: url("../../public/logos/instruments/flute/flute.svg");
 }
 
-.ci-casual-shoes,
-.ci-casual-shoes-dark,
-.ci-casual-shoes-light {
-  content: url("../../public/logos/others/casual-shoes/casual-shoes.svg");
+.ci-harmonica,
+.ci-harmonica-dark,
+.ci-harmonica-light {
+  content: url("../../public/logos/instruments/harmonica/harmonica.svg");
 }
 
-.ci-christmas-cap,
-.ci-christmas-cap-dark,
-.ci-christmas-cap-light {
-  content: url("../../public/logos/others/christmas-cap/christmas-cap.svg");
+.ci-horn,
+.ci-horn-dark,
+.ci-horn-light {
+  content: url("../../public/logos/instruments/horn/horn.svg");
 }
 
-.ci-cocktail-dress,
-.ci-cocktail-dress-dark,
-.ci-cocktail-dress-light {
-  content: url("../../public/logos/others/cocktail-dress/cocktail-dress.svg");
+.ci-microphone,
+.ci-microphone-dark,
+.ci-microphone-light {
+  content: url("../../public/logos/instruments/microphone/microphone.svg");
 }
 
-.ci-crab,
-.ci-crab-dark,
-.ci-crab-light {
-  content: url("../../public/logos/others/crab/crab.svg");
+.ci-piano,
+.ci-piano-dark,
+.ci-piano-light {
+  content: url("../../public/logos/instruments/piano/piano.svg");
 }
 
-.ci-crocodile,
-.ci-crocodile-dark,
-.ci-crocodile-light {
-  content: url("../../public/logos/others/crocodile/crocodile.svg");
+.ci-radio,
+.ci-radio-dark,
+.ci-radio-light {
+  content: url("../../public/logos/instruments/radio/radio.svg");
 }
 
-.ci-dinosaur,
-.ci-dinosaur-dark,
-.ci-dinosaur-light {
-  content: url("../../public/logos/others/dinosaur/dinosaur.svg");
+.ci-saxophone,
+.ci-saxophone-dark,
+.ci-saxophone-light {
+  content: url("../../public/logos/instruments/saxophone/saxophone.svg");
 }
 
-.ci-dress-holder,
-.ci-dress-holder-dark,
-.ci-dress-holder-light {
-  content: url("../../public/logos/others/dress-holder/dress-holder.svg");
+.ci-small,
+.ci-small-dark,
+.ci-small-light {
+  content: url("../../public/logos/instruments/small/small.svg");
 }
 
-.ci-earrings,
-.ci-earrings-dark,
-.ci-earrings-light {
-  content: url("../../public/logos/others/earrings/earrings.svg");
+.ci-snare-drum,
+.ci-snare-drum-dark,
+.ci-snare-drum-light {
+  content: url("../../public/logos/instruments/snare-drum/snare-drum.svg");
 }
 
-.ci-elk,
-.ci-elk-dark,
-.ci-elk-light {
-  content: url("../../public/logos/others/elk/elk.svg");
+.ci-speakers,
+.ci-speakers-dark,
+.ci-speakers-light {
+  content: url("../../public/logos/instruments/speakers/speakers.svg");
 }
 
-.ci-fox,
-.ci-fox-dark,
-.ci-fox-light {
-  content: url("../../public/logos/others/fox/fox.svg");
+.ci-violin,
+.ci-violin-dark,
+.ci-violin-light {
+  content: url("../../public/logos/instruments/violin/violin.svg");
 }
 
-.ci-hat,
-.ci-hat-dark,
-.ci-hat-light {
-  content: url("../../public/logos/others/hat/hat.svg");
+.ci-wooden-guitar,
+.ci-wooden-guitar-dark,
+.ci-wooden-guitar-light {
+  content: url("../../public/logos/instruments/wooden-guitar/wooden-guitar.svg");
 }
 
-.ci-hat2,
-.ci-hat2-dark,
-.ci-hat2-light {
-  content: url("../../public/logos/others/hat/hat2.svg");
-}
-
-.ci-hat3,
-.ci-hat3-dark,
-.ci-hat3-light {
-  content: url("../../public/logos/others/hat/hat3.svg");
-}
-
-.ci-hat4,
-.ci-hat4-dark,
-.ci-hat4-light {
-  content: url("../../public/logos/others/hat/hat4.svg");
-}
-
-.ci-hat5,
-.ci-hat5-dark,
-.ci-hat5-light {
-  content: url("../../public/logos/others/hat/hat5.svg");
-}
-
-.ci-hat6,
-.ci-hat6-dark,
-.ci-hat6-light {
-  content: url("../../public/logos/others/hat/hat6.svg");
-}
-
-.ci-hedgehog,
-.ci-hedgehog-dark,
-.ci-hedgehog-light {
-  content: url("../../public/logos/others/hedgehog/hedgehog.svg");
-}
-
-.ci-heels,
-.ci-heels-dark,
-.ci-heels-light {
-  content: url("../../public/logos/others/heels/heels.svg");
-}
-
-.ci-jellyfish,
-.ci-jellyfish-dark,
-.ci-jellyfish-light {
-  content: url("../../public/logos/others/jellyfish/jellyfish.svg");
-}
-
-.ci-ladies-shirt,
-.ci-ladies-shirt-dark,
-.ci-ladies-shirt-light {
-  content: url("../../public/logos/others/ladies-shirt/ladies-shirt.svg");
-}
-
-.ci-ladies-vest,
-.ci-ladies-vest-dark,
-.ci-ladies-vest-light {
-  content: url("../../public/logos/others/ladies-vest/ladies-vest.svg");
-}
-
-.ci-lion,
-.ci-lion-dark,
-.ci-lion-light {
-  content: url("../../public/logos/others/lion/lion.svg");
-}
-
-.ci-locket,
-.ci-locket-dark,
-.ci-locket-light {
-  content: url("../../public/logos/others/locket/locket.svg");
-}
-
-.ci-long-boots,
-.ci-long-boots-dark,
-.ci-long-boots-light {
-  content: url("../../public/logos/others/long-boots/long-boots.svg");
-}
-
-.ci-p-cap,
-.ci-p-cap-dark,
-.ci-p-cap-light {
-  content: url("../../public/logos/others/p-cap/p-cap.svg");
-}
-
-.ci-pants,
-.ci-pants-dark,
-.ci-pants-light {
-  content: url("../../public/logos/others/pants/pants.svg");
-}
-
-.ci-party-dress,
-.ci-party-dress-dark,
-.ci-party-dress-light {
-  content: url("../../public/logos/others/party-dress/party-dress.svg");
-}
-
-.ci-penguin,
-.ci-penguin-dark,
-.ci-penguin-light {
-  content: url("../../public/logos/others/penguin/penguin.svg");
-}
-
-.ci-plain-t-shirt,
-.ci-plain-t-shirt-dark,
-.ci-plain-t-shirt-light {
-  content: url("../../public/logos/others/plain-t-shirt/plain-t-shirt.svg");
-}
-
-.ci-polar-bear,
-.ci-polar-bear-dark,
-.ci-polar-bear-light {
-  content: url("../../public/logos/others/polar-bear/polar-bear.svg");
-}
-
-.ci-polo-shirt,
-.ci-polo-shirt-dark,
-.ci-polo-shirt-light {
-  content: url("../../public/logos/others/polo-shirt/polo-shirt.svg");
-}
-
-.ci-pyjamas-suit,
-.ci-pyjamas-suit-dark,
-.ci-pyjamas-suit-light {
-  content: url("../../public/logos/others/pyjamas-suit/pyjamas-suit.svg");
-}
-
-.ci-rabbit,
-.ci-rabbit-dark,
-.ci-rabbit-light {
-  content: url("../../public/logos/others/rabbit/rabbit.svg");
-}
-
-.ci-raccoon,
-.ci-raccoon-dark,
-.ci-raccoon-light {
-  content: url("../../public/logos/others/raccoon/raccoon.svg");
-}
-
-.ci-ring,
-.ci-ring-dark,
-.ci-ring-light {
-  content: url("../../public/logos/others/ring/ring.svg");
-}
-
-.ci-shirt-and-tie,
-.ci-shirt-and-tie-dark,
-.ci-shirt-and-tie-light {
-  content: url("../../public/logos/others/shirt-and-tie/shirt-and-tie.svg");
-}
-
-.ci-shirt-with-bow,
-.ci-shirt-with-bow-dark,
-.ci-shirt-with-bow-light {
-  content: url("../../public/logos/others/shirt-with-bow/shirt-with-bow.svg");
-}
-
-.ci-shorts,
-.ci-shorts-dark,
-.ci-shorts-light {
-  content: url("../../public/logos/others/shorts/shorts.svg");
-}
-
-.ci-shrimp,
-.ci-shrimp-dark,
-.ci-shrimp-light {
-  content: url("../../public/logos/others/shrimp/shrimp.svg");
-}
-
-.ci-skirt,
-.ci-skirt-dark,
-.ci-skirt-light {
-  content: url("../../public/logos/others/skirt/skirt.svg");
-}
-
-.ci-slippers,
-.ci-slippers-dark,
-.ci-slippers-light {
-  content: url("../../public/logos/others/slippers/slippers.svg");
-}
-
-.ci-sports-watch,
-.ci-sports-watch-dark,
-.ci-sports-watch-light {
-  content: url("../../public/logos/others/sports-watch/sports-watch.svg");
-}
-
-.ci-squirrel,
-.ci-squirrel-dark,
-.ci-squirrel-light {
-  content: url("../../public/logos/others/squirrel/squirrel.svg");
-}
-
-.ci-stilletos,
-.ci-stilletos-dark,
-.ci-stilletos-light {
-  content: url("../../public/logos/others/stilletos/stilletos.svg");
-}
-
-.ci-stylish-jacket,
-.ci-stylish-jacket-dark,
-.ci-stylish-jacket-light {
-  content: url("../../public/logos/others/stylish-jacket/stylish-jacket.svg");
-}
-
-.ci-stylish-sandals,
-.ci-stylish-sandals-dark,
-.ci-stylish-sandals-light {
-  content: url("../../public/logos/others/stylish-sandals/stylish-sandals.svg");
-}
-
-.ci-sunglasses,
-.ci-sunglasses-dark,
-.ci-sunglasses-light {
-  content: url("../../public/logos/others/sunglasses/sunglasses.svg");
-}
-
-.ci-swimming-vest,
-.ci-swimming-vest-dark,
-.ci-swimming-vest-light {
-  content: url("../../public/logos/others/swimming-vest/swimming-vest.svg");
-}
-
-.ci-t-shirt-with-lines,
-.ci-t-shirt-with-lines-dark,
-.ci-t-shirt-with-lines-light {
-  content: url("../../public/logos/others/t-shirt-with-lines/t-shirt-with-lines.svg");
-}
-
-.ci-the-cow,
-.ci-the-cow-dark,
-.ci-the-cow-light {
-  content: url("../../public/logos/others/the-cow/the-cow.svg");
-}
-
-.ci-three-ties,
-.ci-three-ties-dark,
-.ci-three-ties-light {
-  content: url("../../public/logos/others/three-ties/three-ties.svg");
-}
-
-.ci-tie,
-.ci-tie-dark,
-.ci-tie-light {
-  content: url("../../public/logos/others/tie/tie.svg");
-}
-
-.ci-trousers,
-.ci-trousers-dark,
-.ci-trousers-light {
-  content: url("../../public/logos/others/trousers/trousers.svg");
-}
-
-.ci-turtle,
-.ci-turtle-dark,
-.ci-turtle-light {
-  content: url("../../public/logos/others/turtle/turtle.svg");
-}
-
-.ci-vest,
-.ci-vest-dark,
-.ci-vest-light {
-  content: url("../../public/logos/others/vest/vest.svg");
-}
-
-.ci-whale,
-.ci-whale-dark,
-.ci-whale-light {
-  content: url("../../public/logos/others/whale/whale.svg");
-}
-
-.ci-wild-boar,
-.ci-wild-boar-dark,
-.ci-wild-boar-light {
-  content: url("../../public/logos/others/wild-boar/wild-boar.svg");
-}
-
-.ci-wrist-watch,
-.ci-wrist-watch-dark,
-.ci-wrist-watch-light {
-  content: url("../../public/logos/others/wrist-watch/wrist-watch.svg");
-}
-
-.ci-zebra,
-.ci-zebra-dark,
-.ci-zebra-light {
-  content: url("../../public/logos/others/zebra/zebra.svg");
+.ci-xylophone,
+.ci-xylophone-dark,
+.ci-xylophone-light {
+  content: url("../../public/logos/instruments/xylophone/xylophone.svg");
 }
 
 .ci-astrazeneca-horizontal,

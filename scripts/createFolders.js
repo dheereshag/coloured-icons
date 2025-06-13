@@ -6,44 +6,68 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Path to 'animals' folder two directories up from current script
-const animalsFolder = path.join(__dirname, "..", "public", "logos", "fashion");
+const filesDir = path.join(__dirname, "..", "public", "logos", "files");
 
-fs.readdir(animalsFolder, (err, files) => {
-    if (err) {
-        console.error("Error reading directory:", err);
+
+function renameToBase(name) {
+  // Remove everything after the first dash
+  return name.split("-")[0];
+}
+
+function renameFoldersAndFiles() {
+  if (!fs.existsSync(filesDir)) {
+    console.log("Files directory does not exist");
+    return;
+  }
+
+  const items = fs.readdirSync(filesDir);
+
+  items.forEach((item) => {
+    const itemPath = path.join(filesDir, item);
+
+    // Only process directories
+    if (fs.statSync(itemPath).isDirectory()) {
+      console.log(`Processing folder: ${item}`);
+
+      // Get new folder name
+      const newFolderName = renameToBase(item);
+      const newFolderPath = path.join(filesDir, newFolderName);
+
+      // Check if new folder name already exists
+      if (fs.existsSync(newFolderPath) && newFolderPath !== itemPath) {
+        console.log(
+          `Warning: Folder ${newFolderName} already exists, skipping ${item}`
+        );
         return;
+      }
+
+      // Process SVG files inside the folder
+      const filesInFolder = fs.readdirSync(itemPath);
+      const svgFiles = filesInFolder.filter((file) => file.endsWith(".svg"));
+
+      svgFiles.forEach((svgFile) => {
+        const oldSvgPath = path.join(itemPath, svgFile);
+        const newSvgName = renameToBase(svgFile.replace(".svg", "")) + ".svg";
+        const newSvgPath = path.join(itemPath, newSvgName);
+
+        // Rename the SVG file
+        if (oldSvgPath !== newSvgPath) {
+          console.log(`  Renaming file: ${svgFile} -> ${newSvgName}`);
+          fs.renameSync(oldSvgPath, newSvgPath);
+        }
+      });
+
+      // Rename the folder
+      if (itemPath !== newFolderPath) {
+        console.log(`  Renaming folder: ${item} -> ${newFolderName}`);
+        fs.renameSync(itemPath, newFolderPath);
+      }
+
+      console.log(`  ✓ Completed processing ${item}`);
     }
+  });
 
-    files.forEach((file) => {
-        const filePath = path.join(animalsFolder, file);
-        fs.stat(filePath, (err, stats) => {
-            if (err) {
-                console.error("Error reading file stats:", err);
-                return;
-            }
+  console.log("Renaming process completed!");
+}
 
-            if (stats.isFile()) {
-                const nameWithoutExt = path.parse(file).name;
-                // Extract base name by removing numbers at the end
-                const baseName = nameWithoutExt.replace(/\d+$/, "");
-                const newFolder = path.join(animalsFolder, baseName);
-
-                // Create the new folder if it doesn't exist
-                if (!fs.existsSync(newFolder)) {
-                    fs.mkdirSync(newFolder);
-                }
-
-                // Move the file into the new folder
-                const newFilePath = path.join(newFolder, file);
-                fs.rename(filePath, newFilePath, (err) => {
-                    if (err) {
-                        console.error(`Error moving file ${file}:`, err);
-                    } else {
-                        console.log(`Moved ${file} to ${newFolder}`);
-                    }
-                });
-            }
-        });
-    });
-});
+renameFoldersAndFiles();
