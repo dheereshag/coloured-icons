@@ -1,8 +1,8 @@
 import { HiOutlineClipboard, HiOutlineClipboardCheck } from "react-icons/hi";
 import useCopy from "@/hooks/useCopy";
-import { Rubik } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 
-const rubik = Rubik({
+const jetBrainsMono = JetBrains_Mono({
   subsets: ["latin"],
 });
 
@@ -16,7 +16,9 @@ const IconCode: React.FC<IconCodeProps> = ({ iconClass }) => {
   return (
     <div className="flex items-center group">
       <pre className="flex-1 text-xs sm:text-sm whitespace-pre-wrap">
-        <code className={rubik.className}>{`<i class="ci ci-${iconClass}"></i>`}</code>
+        <code
+          className={jetBrainsMono.className}
+        >{`<i class="ci ci-${iconClass}"></i>`}</code>
       </pre>
 
       <button
