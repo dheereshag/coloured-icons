@@ -1,62 +1,0 @@
-<?xml version="1.0" ?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 500 500" id="Layer_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<style type="text/css">
-	.st0{fill:#B3B2B2;}
-	.st1{fill:#6F6F6F;}
-	.st2{fill:#363636;}
-	.st3{fill:#FEC70F;}
-	.st4{fill:#FBA812;}
-	.st5{fill:#565656;}
-	.st6{fill:#FEC602;}
-	.st7{fill:#FFD255;}
-	.st8{fill:#EDB400;}
-	.st9{fill:#B4B1B2;}
-	.st10{fill:#006C80;}
-	.st11{fill:#FCC000;}
-	.st12{fill:#FCD717;}
-	.st13{fill:#FCC102;}
-	.st14{fill:#FEC106;}
-	.st15{fill:#9D9D9D;}
-	.st16{fill:#7F7F7F;}
-	.st17{fill:#B2B2B2;}
-	.st18{fill:#878787;}
-	.st19{fill:#FFFFFF;}
-	.st20{fill:#888888;}
-	.st21{fill:#B3B1B1;}
-	.st22{fill:#006C84;}
-	.st23{fill:#025568;}
-</style>
-<g id="bolt_00000026845312494609623570000009828490688106308529_">
-<g>
-<path class="st15" d="M221.47,171.55H99.75c-3.88,0-7.02-3.14-7.02-7.02v-43.01c0-12.1,9.81-21.91,21.91-21.91h91.95    c12.1,0,21.91,9.81,21.91,21.91v43.01C228.49,168.4,225.35,171.55,221.47,171.55z"/>
-<path class="st15" d="M200.96,440.55h-80.7c-3.56,0-6.45-2.89-6.45-6.45V169.55h93.61V434.1    C207.41,437.66,204.52,440.55,200.96,440.55z"/>
-<g>
-<ellipse class="st16" cx="160.6" cy="189.73" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -28.4845 28.3713)"/>
-<ellipse class="st16" cx="160.6" cy="218.67" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -33.1497 28.7496)"/>
-<ellipse class="st16" cx="160.6" cy="247.62" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -37.8165 29.1282)"/>
-<ellipse class="st16" cx="160.6" cy="276.57" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -42.4832 29.5068)"/>
-<ellipse class="st16" cx="160.6" cy="305.51" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -47.1484 29.885)"/>
-<ellipse class="st16" cx="160.6" cy="334.46" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -51.8151 30.2636)"/>
-<ellipse class="st16" cx="160.6" cy="363.41" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -56.4819 30.6422)"/>
-<ellipse class="st16" cx="160.6" cy="392.36" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -61.1486 31.0208)"/>
-<ellipse class="st16" cx="160.6" cy="421.3" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -65.8138 31.399)"/>
-</g>
-</g>
-<g>
-<path class="st15" d="M400.23,131.4H278.51c-3.88,0-7.02-3.14-7.02-7.02V91.74c0-17.83,14.46-32.29,32.29-32.29h71.2    c17.83,0,32.29,14.46,32.29,32.29v32.64C407.26,128.25,404.11,131.4,400.23,131.4z"/>
-<path class="st15" d="M379.72,400.4h-80.7c-3.56,0-6.45-2.89-6.45-6.45V129.4h93.61v264.55    C386.18,397.51,383.29,400.4,379.72,400.4z"/>
-<g>
-<ellipse class="st16" cx="339.36" cy="149.58" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -19.6751 56.6626)"/>
-<ellipse class="st16" cx="339.36" cy="178.52" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -24.3403 57.0409)"/>
-<ellipse class="st16" cx="339.36" cy="207.47" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -29.007 57.4195)"/>
-<ellipse class="st16" cx="339.36" cy="236.42" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -33.6738 57.7981)"/>
-<ellipse class="st16" cx="339.36" cy="265.36" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -38.3389 58.1763)"/>
-<ellipse class="st16" cx="339.36" cy="294.31" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -43.0057 58.5549)"/>
-<ellipse class="st16" cx="339.36" cy="323.26" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -47.6724 58.9335)"/>
-<ellipse class="st16" cx="339.36" cy="352.21" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -52.3392 59.3121)"/>
-<ellipse class="st16" cx="339.36" cy="381.15" rx="51.15" ry="3.02" transform="matrix(0.9869 -0.1612 0.1612 0.9869 -57.0044 59.6903)"/>
-</g>
-</g>
-</g>
-</svg>
