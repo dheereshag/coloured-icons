@@ -19,6 +19,7 @@ import {
   FaPlane, // Travel and Tourism
   FaGuitar, // Instrument
   FaShrimp, // Animals
+  FaFlag // Countries
 } from "react-icons/fa6";
 
 const getCategoryIcon = (categoryName: string) => {
@@ -50,6 +51,8 @@ const getCategoryIcon = (categoryName: string) => {
       return <FaGuitar className={margin} />;
     case "animals":
       return <FaShrimp className={margin} />;
+    case "countries":
+      return <FaFlag className={margin} />;
     default:
       return null;
   }

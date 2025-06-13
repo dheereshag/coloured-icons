@@ -23,7 +23,7 @@ const IconCard: React.FC<IconCardProps> = ({ icon }) => {
         }x`}
       ></i>
       <span className="flex flex-col gap-1">
-        <h4 className="text-gray-800 font-semibold truncate text-sm">
+        <h4 className="text-gray-800 font-semibold truncate text-sm max-w-[230px] sm:max-w-[150px]">
           {icon.name}
         </h4>
         <h4 className="text-gray-400 text-xs truncate max-w-[150px]">
