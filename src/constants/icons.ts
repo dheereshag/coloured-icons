@@ -1,5 +1,165 @@
 const icons = [
   {
+    "name": "Bear",
+    "category": "animals",
+    "classes": [
+      "bear"
+    ],
+    "url": "bear.com"
+  },
+  {
+    "name": "Cow",
+    "category": "animals",
+    "classes": [
+      "cow"
+    ],
+    "url": "cow.com"
+  },
+  {
+    "name": "Crab",
+    "category": "animals",
+    "classes": [
+      "crab"
+    ],
+    "url": "crab.com"
+  },
+  {
+    "name": "Crocodile",
+    "category": "animals",
+    "classes": [
+      "crocodile"
+    ],
+    "url": "crocodile.com"
+  },
+  {
+    "name": "Dinosaur",
+    "category": "animals",
+    "classes": [
+      "dinosaur"
+    ],
+    "url": "dinosaur.com"
+  },
+  {
+    "name": "Elk",
+    "category": "animals",
+    "classes": [
+      "elk"
+    ],
+    "url": "elk.com"
+  },
+  {
+    "name": "Fox",
+    "category": "animals",
+    "classes": [
+      "fox"
+    ],
+    "url": "fox.com"
+  },
+  {
+    "name": "Hedgehog",
+    "category": "animals",
+    "classes": [
+      "hedgehog"
+    ],
+    "url": "hedgehog.com"
+  },
+  {
+    "name": "Jellyfish",
+    "category": "animals",
+    "classes": [
+      "jellyfish"
+    ],
+    "url": "jellyfish.com"
+  },
+  {
+    "name": "Lion",
+    "category": "animals",
+    "classes": [
+      "lion"
+    ],
+    "url": "lion.com"
+  },
+  {
+    "name": "Penguin",
+    "category": "animals",
+    "classes": [
+      "penguin"
+    ],
+    "url": "penguin.com"
+  },
+  {
+    "name": "Polar-bear",
+    "category": "animals",
+    "classes": [
+      "polar-bear"
+    ],
+    "url": "polar-bear.com"
+  },
+  {
+    "name": "Rabbit",
+    "category": "animals",
+    "classes": [
+      "rabbit"
+    ],
+    "url": "rabbit.com"
+  },
+  {
+    "name": "Raccoon",
+    "category": "animals",
+    "classes": [
+      "raccoon"
+    ],
+    "url": "raccoon.com"
+  },
+  {
+    "name": "Shrimp",
+    "category": "animals",
+    "classes": [
+      "shrimp"
+    ],
+    "url": "shrimp.com"
+  },
+  {
+    "name": "Squirrel",
+    "category": "animals",
+    "classes": [
+      "squirrel"
+    ],
+    "url": "squirrel.com"
+  },
+  {
+    "name": "Turtle",
+    "category": "animals",
+    "classes": [
+      "turtle"
+    ],
+    "url": "turtle.com"
+  },
+  {
+    "name": "Whale",
+    "category": "animals",
+    "classes": [
+      "whale"
+    ],
+    "url": "whale.com"
+  },
+  {
+    "name": "Wild-boar",
+    "category": "animals",
+    "classes": [
+      "wild-boar"
+    ],
+    "url": "wild-boar.com"
+  },
+  {
+    "name": "Zebra",
+    "category": "animals",
+    "classes": [
+      "zebra"
+    ],
+    "url": "zebra.com"
+  },
+  {
     "name": "Applemusic",
     "category": "art and music",
     "classes": [
@@ -183,12 +343,12 @@ const icons = [
     "url": "adidas.com"
   },
   {
-    "name": "Hm",
+    "name": "H&M",
     "category": "clothing and apparel",
     "classes": [
-      "hm"
+      "hnm"
     ],
-    "url": "hm.com"
+    "url": "hnm.com"
   },
   {
     "name": "Louis Vuitton",
@@ -237,6 +397,2174 @@ const icons = [
       "zara-wordmark-light"
     ],
     "url": "zara.com"
+  },
+  {
+    "name": "Andorra",
+    "category": "countries",
+    "classes": [
+      "ad"
+    ],
+    "url": "ad.com"
+  },
+  {
+    "name": "United Arab Emirates",
+    "category": "countries",
+    "classes": [
+      "ae"
+    ],
+    "url": "ae.com"
+  },
+  {
+    "name": "Afghanistan",
+    "category": "countries",
+    "classes": [
+      "af"
+    ],
+    "url": "af.com"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "category": "countries",
+    "classes": [
+      "ag"
+    ],
+    "url": "ag.com"
+  },
+  {
+    "name": "Anguilla",
+    "category": "countries",
+    "classes": [
+      "ai"
+    ],
+    "url": "ai.com"
+  },
+  {
+    "name": "Albania",
+    "category": "countries",
+    "classes": [
+      "al"
+    ],
+    "url": "al.com"
+  },
+  {
+    "name": "Armenia",
+    "category": "countries",
+    "classes": [
+      "am"
+    ],
+    "url": "am.com"
+  },
+  {
+    "name": "Angola",
+    "category": "countries",
+    "classes": [
+      "ao"
+    ],
+    "url": "ao.com"
+  },
+  {
+    "name": "Antarctica",
+    "category": "countries",
+    "classes": [
+      "aq"
+    ],
+    "url": "aq.com"
+  },
+  {
+    "name": "Argentina",
+    "category": "countries",
+    "classes": [
+      "ar"
+    ],
+    "url": "ar.com"
+  },
+  {
+    "name": "League of Arab States",
+    "category": "countries",
+    "classes": [
+      "arab"
+    ],
+    "url": "arab.com"
+  },
+  {
+    "name": "American Samoa",
+    "category": "countries",
+    "classes": [
+      "as"
+    ],
+    "url": "as.com"
+  },
+  {
+    "name": "Association of Southeast Asian Nations",
+    "category": "countries",
+    "classes": [
+      "asean"
+    ],
+    "url": "asean.com"
+  },
+  {
+    "name": "Austria",
+    "category": "countries",
+    "classes": [
+      "at"
+    ],
+    "url": "at.com"
+  },
+  {
+    "name": "Australia",
+    "category": "countries",
+    "classes": [
+      "au"
+    ],
+    "url": "au.com"
+  },
+  {
+    "name": "Aruba",
+    "category": "countries",
+    "classes": [
+      "aw"
+    ],
+    "url": "aw.com"
+  },
+  {
+    "name": "Aland Islands",
+    "category": "countries",
+    "classes": [
+      "ax"
+    ],
+    "url": "ax.com"
+  },
+  {
+    "name": "Azerbaijan",
+    "category": "countries",
+    "classes": [
+      "az"
+    ],
+    "url": "az.com"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "category": "countries",
+    "classes": [
+      "ba"
+    ],
+    "url": "ba.com"
+  },
+  {
+    "name": "Barbados",
+    "category": "countries",
+    "classes": [
+      "bb"
+    ],
+    "url": "bb.com"
+  },
+  {
+    "name": "Bangladesh",
+    "category": "countries",
+    "classes": [
+      "bd"
+    ],
+    "url": "bd.com"
+  },
+  {
+    "name": "Belgium",
+    "category": "countries",
+    "classes": [
+      "be"
+    ],
+    "url": "be.com"
+  },
+  {
+    "name": "Burkina Faso",
+    "category": "countries",
+    "classes": [
+      "bf"
+    ],
+    "url": "bf.com"
+  },
+  {
+    "name": "Bulgaria",
+    "category": "countries",
+    "classes": [
+      "bg"
+    ],
+    "url": "bg.com"
+  },
+  {
+    "name": "Bahrain",
+    "category": "countries",
+    "classes": [
+      "bh"
+    ],
+    "url": "bh.com"
+  },
+  {
+    "name": "Burundi",
+    "category": "countries",
+    "classes": [
+      "bi"
+    ],
+    "url": "bi.com"
+  },
+  {
+    "name": "Benin",
+    "category": "countries",
+    "classes": [
+      "bj"
+    ],
+    "url": "bj.com"
+  },
+  {
+    "name": "Saint Barthélemy",
+    "category": "countries",
+    "classes": [
+      "bl"
+    ],
+    "url": "bl.com"
+  },
+  {
+    "name": "Bermuda",
+    "category": "countries",
+    "classes": [
+      "bm"
+    ],
+    "url": "bm.com"
+  },
+  {
+    "name": "Brunei Darussalam",
+    "category": "countries",
+    "classes": [
+      "bn"
+    ],
+    "url": "bn.com"
+  },
+  {
+    "name": "Bolivia",
+    "category": "countries",
+    "classes": [
+      "bo"
+    ],
+    "url": "bo.com"
+  },
+  {
+    "name": "Bonaire, Sint Eustatius and Saba",
+    "category": "countries",
+    "classes": [
+      "bq"
+    ],
+    "url": "bq.com"
+  },
+  {
+    "name": "Brazil",
+    "category": "countries",
+    "classes": [
+      "br"
+    ],
+    "url": "br.com"
+  },
+  {
+    "name": "Bahamas",
+    "category": "countries",
+    "classes": [
+      "bs"
+    ],
+    "url": "bs.com"
+  },
+  {
+    "name": "Bhutan",
+    "category": "countries",
+    "classes": [
+      "bt"
+    ],
+    "url": "bt.com"
+  },
+  {
+    "name": "Bouvet Island",
+    "category": "countries",
+    "classes": [
+      "bv"
+    ],
+    "url": "bv.com"
+  },
+  {
+    "name": "Botswana",
+    "category": "countries",
+    "classes": [
+      "bw"
+    ],
+    "url": "bw.com"
+  },
+  {
+    "name": "Belarus",
+    "category": "countries",
+    "classes": [
+      "by"
+    ],
+    "url": "by.com"
+  },
+  {
+    "name": "Belize",
+    "category": "countries",
+    "classes": [
+      "bz"
+    ],
+    "url": "bz.com"
+  },
+  {
+    "name": "Canada",
+    "category": "countries",
+    "classes": [
+      "ca"
+    ],
+    "url": "ca.com"
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "category": "countries",
+    "classes": [
+      "cc"
+    ],
+    "url": "cc.com"
+  },
+  {
+    "name": "Democratic Republic of the Congo",
+    "category": "countries",
+    "classes": [
+      "cd"
+    ],
+    "url": "cd.com"
+  },
+  {
+    "name": "Central European Free Trade Agreement",
+    "category": "countries",
+    "classes": [
+      "cefta"
+    ],
+    "url": "cefta.com"
+  },
+  {
+    "name": "Central African Republic",
+    "category": "countries",
+    "classes": [
+      "cf"
+    ],
+    "url": "cf.com"
+  },
+  {
+    "name": "Republic of the Congo",
+    "category": "countries",
+    "classes": [
+      "cg"
+    ],
+    "url": "cg.com"
+  },
+  {
+    "name": "Switzerland",
+    "category": "countries",
+    "classes": [
+      "ch"
+    ],
+    "url": "ch.com"
+  },
+  {
+    "name": "Côte d'Ivoire",
+    "category": "countries",
+    "classes": [
+      "ci"
+    ],
+    "url": "ci.com"
+  },
+  {
+    "name": "Cook Islands",
+    "category": "countries",
+    "classes": [
+      "ck"
+    ],
+    "url": "ck.com"
+  },
+  {
+    "name": "Chile",
+    "category": "countries",
+    "classes": [
+      "cl"
+    ],
+    "url": "cl.com"
+  },
+  {
+    "name": "Cameroon",
+    "category": "countries",
+    "classes": [
+      "cm"
+    ],
+    "url": "cm.com"
+  },
+  {
+    "name": "China",
+    "category": "countries",
+    "classes": [
+      "cn"
+    ],
+    "url": "cn.com"
+  },
+  {
+    "name": "Colombia",
+    "category": "countries",
+    "classes": [
+      "co"
+    ],
+    "url": "co.com"
+  },
+  {
+    "name": "Clipperton Island",
+    "category": "countries",
+    "classes": [
+      "cp"
+    ],
+    "url": "cp.com"
+  },
+  {
+    "name": "Costa Rica",
+    "category": "countries",
+    "classes": [
+      "cr"
+    ],
+    "url": "cr.com"
+  },
+  {
+    "name": "Cuba",
+    "category": "countries",
+    "classes": [
+      "cu"
+    ],
+    "url": "cu.com"
+  },
+  {
+    "name": "Cabo Verde",
+    "category": "countries",
+    "classes": [
+      "cv"
+    ],
+    "url": "cv.com"
+  },
+  {
+    "name": "Curaçao",
+    "category": "countries",
+    "classes": [
+      "cw"
+    ],
+    "url": "cw.com"
+  },
+  {
+    "name": "Christmas Island",
+    "category": "countries",
+    "classes": [
+      "cx"
+    ],
+    "url": "cx.com"
+  },
+  {
+    "name": "Cyprus",
+    "category": "countries",
+    "classes": [
+      "cy"
+    ],
+    "url": "cy.com"
+  },
+  {
+    "name": "Czech Republic",
+    "category": "countries",
+    "classes": [
+      "cz"
+    ],
+    "url": "cz.com"
+  },
+  {
+    "name": "Germany",
+    "category": "countries",
+    "classes": [
+      "de"
+    ],
+    "url": "de.com"
+  },
+  {
+    "name": "Diego Garcia",
+    "category": "countries",
+    "classes": [
+      "dg"
+    ],
+    "url": "dg.com"
+  },
+  {
+    "name": "Djibouti",
+    "category": "countries",
+    "classes": [
+      "dj"
+    ],
+    "url": "dj.com"
+  },
+  {
+    "name": "Denmark",
+    "category": "countries",
+    "classes": [
+      "dk"
+    ],
+    "url": "dk.com"
+  },
+  {
+    "name": "Dominica",
+    "category": "countries",
+    "classes": [
+      "dm"
+    ],
+    "url": "dm.com"
+  },
+  {
+    "name": "Dominican Republic",
+    "category": "countries",
+    "classes": [
+      "do"
+    ],
+    "url": "do.com"
+  },
+  {
+    "name": "Algeria",
+    "category": "countries",
+    "classes": [
+      "dz"
+    ],
+    "url": "dz.com"
+  },
+  {
+    "name": "East African Community",
+    "category": "countries",
+    "classes": [
+      "eac"
+    ],
+    "url": "eac.com"
+  },
+  {
+    "name": "Ecuador",
+    "category": "countries",
+    "classes": [
+      "ec"
+    ],
+    "url": "ec.com"
+  },
+  {
+    "name": "Estonia",
+    "category": "countries",
+    "classes": [
+      "ee"
+    ],
+    "url": "ee.com"
+  },
+  {
+    "name": "Egypt",
+    "category": "countries",
+    "classes": [
+      "eg"
+    ],
+    "url": "eg.com"
+  },
+  {
+    "name": "Western Sahara",
+    "category": "countries",
+    "classes": [
+      "eh"
+    ],
+    "url": "eh.com"
+  },
+  {
+    "name": "Eritrea",
+    "category": "countries",
+    "classes": [
+      "er"
+    ],
+    "url": "er.com"
+  },
+  {
+    "name": "Spain",
+    "category": "countries",
+    "classes": [
+      "es"
+    ],
+    "url": "es.com"
+  },
+  {
+    "name": "Catalonia",
+    "category": "countries",
+    "classes": [
+      "es-ct"
+    ],
+    "url": "es-ct.com"
+  },
+  {
+    "name": "Galicia",
+    "category": "countries",
+    "classes": [
+      "es-ga"
+    ],
+    "url": "es-ga.com"
+  },
+  {
+    "name": "Basque Country",
+    "category": "countries",
+    "classes": [
+      "es-pv"
+    ],
+    "url": "es-pv.com"
+  },
+  {
+    "name": "Ethiopia",
+    "category": "countries",
+    "classes": [
+      "et"
+    ],
+    "url": "et.com"
+  },
+  {
+    "name": "Europe",
+    "category": "countries",
+    "classes": [
+      "eu"
+    ],
+    "url": "eu.com"
+  },
+  {
+    "name": "Finland",
+    "category": "countries",
+    "classes": [
+      "fi"
+    ],
+    "url": "fi.com"
+  },
+  {
+    "name": "Fiji",
+    "category": "countries",
+    "classes": [
+      "fj"
+    ],
+    "url": "fj.com"
+  },
+  {
+    "name": "Falkland Islands",
+    "category": "countries",
+    "classes": [
+      "fk"
+    ],
+    "url": "fk.com"
+  },
+  {
+    "name": "Federated States of Micronesia",
+    "category": "countries",
+    "classes": [
+      "fm"
+    ],
+    "url": "fm.com"
+  },
+  {
+    "name": "Faroe Islands",
+    "category": "countries",
+    "classes": [
+      "fo"
+    ],
+    "url": "fo.com"
+  },
+  {
+    "name": "France",
+    "category": "countries",
+    "classes": [
+      "fr"
+    ],
+    "url": "fr.com"
+  },
+  {
+    "name": "Gabon",
+    "category": "countries",
+    "classes": [
+      "ga"
+    ],
+    "url": "ga.com"
+  },
+  {
+    "name": "United Kingdom",
+    "category": "countries",
+    "classes": [
+      "gb"
+    ],
+    "url": "gb.com"
+  },
+  {
+    "name": "England",
+    "category": "countries",
+    "classes": [
+      "gb-eng"
+    ],
+    "url": "gb-eng.com"
+  },
+  {
+    "name": "Northern Ireland",
+    "category": "countries",
+    "classes": [
+      "gb-nir"
+    ],
+    "url": "gb-nir.com"
+  },
+  {
+    "name": "Scotland",
+    "category": "countries",
+    "classes": [
+      "gb-sct"
+    ],
+    "url": "gb-sct.com"
+  },
+  {
+    "name": "Wales",
+    "category": "countries",
+    "classes": [
+      "gb-wls"
+    ],
+    "url": "gb-wls.com"
+  },
+  {
+    "name": "Grenada",
+    "category": "countries",
+    "classes": [
+      "gd"
+    ],
+    "url": "gd.com"
+  },
+  {
+    "name": "Georgia",
+    "category": "countries",
+    "classes": [
+      "ge"
+    ],
+    "url": "ge.com"
+  },
+  {
+    "name": "French Guiana",
+    "category": "countries",
+    "classes": [
+      "gf"
+    ],
+    "url": "gf.com"
+  },
+  {
+    "name": "Guernsey",
+    "category": "countries",
+    "classes": [
+      "gg"
+    ],
+    "url": "gg.com"
+  },
+  {
+    "name": "Ghana",
+    "category": "countries",
+    "classes": [
+      "gh"
+    ],
+    "url": "gh.com"
+  },
+  {
+    "name": "Gibraltar",
+    "category": "countries",
+    "classes": [
+      "gi"
+    ],
+    "url": "gi.com"
+  },
+  {
+    "name": "Greenland",
+    "category": "countries",
+    "classes": [
+      "gl"
+    ],
+    "url": "gl.com"
+  },
+  {
+    "name": "Gambia",
+    "category": "countries",
+    "classes": [
+      "gm"
+    ],
+    "url": "gm.com"
+  },
+  {
+    "name": "Guinea",
+    "category": "countries",
+    "classes": [
+      "gn"
+    ],
+    "url": "gn.com"
+  },
+  {
+    "name": "Guadeloupe",
+    "category": "countries",
+    "classes": [
+      "gp"
+    ],
+    "url": "gp.com"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "category": "countries",
+    "classes": [
+      "gq"
+    ],
+    "url": "gq.com"
+  },
+  {
+    "name": "Greece",
+    "category": "countries",
+    "classes": [
+      "gr"
+    ],
+    "url": "gr.com"
+  },
+  {
+    "name": "South Georgia and the South Sandwich Islands",
+    "category": "countries",
+    "classes": [
+      "gs"
+    ],
+    "url": "gs.com"
+  },
+  {
+    "name": "Guatemala",
+    "category": "countries",
+    "classes": [
+      "gt"
+    ],
+    "url": "gt.com"
+  },
+  {
+    "name": "Guam",
+    "category": "countries",
+    "classes": [
+      "gu"
+    ],
+    "url": "gu.com"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "category": "countries",
+    "classes": [
+      "gw"
+    ],
+    "url": "gw.com"
+  },
+  {
+    "name": "Guyana",
+    "category": "countries",
+    "classes": [
+      "gy"
+    ],
+    "url": "gy.com"
+  },
+  {
+    "name": "Hong Kong",
+    "category": "countries",
+    "classes": [
+      "hk"
+    ],
+    "url": "hk.com"
+  },
+  {
+    "name": "Heard Island and McDonald Islands",
+    "category": "countries",
+    "classes": [
+      "hm"
+    ],
+    "url": "hm.com"
+  },
+  {
+    "name": "Honduras",
+    "category": "countries",
+    "classes": [
+      "hn"
+    ],
+    "url": "hn.com"
+  },
+  {
+    "name": "Croatia",
+    "category": "countries",
+    "classes": [
+      "hr"
+    ],
+    "url": "hr.com"
+  },
+  {
+    "name": "Haiti",
+    "category": "countries",
+    "classes": [
+      "ht"
+    ],
+    "url": "ht.com"
+  },
+  {
+    "name": "Hungary",
+    "category": "countries",
+    "classes": [
+      "hu"
+    ],
+    "url": "hu.com"
+  },
+  {
+    "name": "Canary Islands",
+    "category": "countries",
+    "classes": [
+      "ic"
+    ],
+    "url": "ic.com"
+  },
+  {
+    "name": "Indonesia",
+    "category": "countries",
+    "classes": [
+      "id"
+    ],
+    "url": "id.com"
+  },
+  {
+    "name": "Ireland",
+    "category": "countries",
+    "classes": [
+      "ie"
+    ],
+    "url": "ie.com"
+  },
+  {
+    "name": "Israel",
+    "category": "countries",
+    "classes": [
+      "il"
+    ],
+    "url": "il.com"
+  },
+  {
+    "name": "Isle of Man",
+    "category": "countries",
+    "classes": [
+      "im"
+    ],
+    "url": "im.com"
+  },
+  {
+    "name": "India",
+    "category": "countries",
+    "classes": [
+      "in"
+    ],
+    "url": "in.com"
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "category": "countries",
+    "classes": [
+      "io"
+    ],
+    "url": "io.com"
+  },
+  {
+    "name": "Iraq",
+    "category": "countries",
+    "classes": [
+      "iq"
+    ],
+    "url": "iq.com"
+  },
+  {
+    "name": "Iran",
+    "category": "countries",
+    "classes": [
+      "ir"
+    ],
+    "url": "ir.com"
+  },
+  {
+    "name": "Iceland",
+    "category": "countries",
+    "classes": [
+      "is"
+    ],
+    "url": "is.com"
+  },
+  {
+    "name": "Italy",
+    "category": "countries",
+    "classes": [
+      "it"
+    ],
+    "url": "it.com"
+  },
+  {
+    "name": "Jersey",
+    "category": "countries",
+    "classes": [
+      "je"
+    ],
+    "url": "je.com"
+  },
+  {
+    "name": "Jamaica",
+    "category": "countries",
+    "classes": [
+      "jm"
+    ],
+    "url": "jm.com"
+  },
+  {
+    "name": "Jordan",
+    "category": "countries",
+    "classes": [
+      "jo"
+    ],
+    "url": "jo.com"
+  },
+  {
+    "name": "Japan",
+    "category": "countries",
+    "classes": [
+      "jp"
+    ],
+    "url": "jp.com"
+  },
+  {
+    "name": "Kenya",
+    "category": "countries",
+    "classes": [
+      "ke"
+    ],
+    "url": "ke.com"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "category": "countries",
+    "classes": [
+      "kg"
+    ],
+    "url": "kg.com"
+  },
+  {
+    "name": "Cambodia",
+    "category": "countries",
+    "classes": [
+      "kh"
+    ],
+    "url": "kh.com"
+  },
+  {
+    "name": "Kiribati",
+    "category": "countries",
+    "classes": [
+      "ki"
+    ],
+    "url": "ki.com"
+  },
+  {
+    "name": "Comoros",
+    "category": "countries",
+    "classes": [
+      "km"
+    ],
+    "url": "km.com"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "category": "countries",
+    "classes": [
+      "kn"
+    ],
+    "url": "kn.com"
+  },
+  {
+    "name": "North Korea",
+    "category": "countries",
+    "classes": [
+      "kp"
+    ],
+    "url": "kp.com"
+  },
+  {
+    "name": "South Korea",
+    "category": "countries",
+    "classes": [
+      "kr"
+    ],
+    "url": "kr.com"
+  },
+  {
+    "name": "Kuwait",
+    "category": "countries",
+    "classes": [
+      "kw"
+    ],
+    "url": "kw.com"
+  },
+  {
+    "name": "Cayman Islands",
+    "category": "countries",
+    "classes": [
+      "ky"
+    ],
+    "url": "ky.com"
+  },
+  {
+    "name": "Kazakhstan",
+    "category": "countries",
+    "classes": [
+      "kz"
+    ],
+    "url": "kz.com"
+  },
+  {
+    "name": "Laos",
+    "category": "countries",
+    "classes": [
+      "la"
+    ],
+    "url": "la.com"
+  },
+  {
+    "name": "Lebanon",
+    "category": "countries",
+    "classes": [
+      "lb"
+    ],
+    "url": "lb.com"
+  },
+  {
+    "name": "Saint Lucia",
+    "category": "countries",
+    "classes": [
+      "lc"
+    ],
+    "url": "lc.com"
+  },
+  {
+    "name": "Liechtenstein",
+    "category": "countries",
+    "classes": [
+      "li"
+    ],
+    "url": "li.com"
+  },
+  {
+    "name": "Sri Lanka",
+    "category": "countries",
+    "classes": [
+      "lk"
+    ],
+    "url": "lk.com"
+  },
+  {
+    "name": "Liberia",
+    "category": "countries",
+    "classes": [
+      "lr"
+    ],
+    "url": "lr.com"
+  },
+  {
+    "name": "Lesotho",
+    "category": "countries",
+    "classes": [
+      "ls"
+    ],
+    "url": "ls.com"
+  },
+  {
+    "name": "Lithuania",
+    "category": "countries",
+    "classes": [
+      "lt"
+    ],
+    "url": "lt.com"
+  },
+  {
+    "name": "Luxembourg",
+    "category": "countries",
+    "classes": [
+      "lu"
+    ],
+    "url": "lu.com"
+  },
+  {
+    "name": "Latvia",
+    "category": "countries",
+    "classes": [
+      "lv"
+    ],
+    "url": "lv.com"
+  },
+  {
+    "name": "Libya",
+    "category": "countries",
+    "classes": [
+      "ly"
+    ],
+    "url": "ly.com"
+  },
+  {
+    "name": "Morocco",
+    "category": "countries",
+    "classes": [
+      "ma"
+    ],
+    "url": "ma.com"
+  },
+  {
+    "name": "Monaco",
+    "category": "countries",
+    "classes": [
+      "mc"
+    ],
+    "url": "mc.com"
+  },
+  {
+    "name": "Moldova",
+    "category": "countries",
+    "classes": [
+      "md"
+    ],
+    "url": "md.com"
+  },
+  {
+    "name": "Montenegro",
+    "category": "countries",
+    "classes": [
+      "me"
+    ],
+    "url": "me.com"
+  },
+  {
+    "name": "Saint Martin",
+    "category": "countries",
+    "classes": [
+      "mf"
+    ],
+    "url": "mf.com"
+  },
+  {
+    "name": "Madagascar",
+    "category": "countries",
+    "classes": [
+      "mg"
+    ],
+    "url": "mg.com"
+  },
+  {
+    "name": "Marshall Islands",
+    "category": "countries",
+    "classes": [
+      "mh"
+    ],
+    "url": "mh.com"
+  },
+  {
+    "name": "North Macedonia",
+    "category": "countries",
+    "classes": [
+      "mk"
+    ],
+    "url": "mk.com"
+  },
+  {
+    "name": "Mali",
+    "category": "countries",
+    "classes": [
+      "ml"
+    ],
+    "url": "ml.com"
+  },
+  {
+    "name": "Myanmar",
+    "category": "countries",
+    "classes": [
+      "mm"
+    ],
+    "url": "mm.com"
+  },
+  {
+    "name": "Mongolia",
+    "category": "countries",
+    "classes": [
+      "mn"
+    ],
+    "url": "mn.com"
+  },
+  {
+    "name": "Macau",
+    "category": "countries",
+    "classes": [
+      "mo"
+    ],
+    "url": "mo.com"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "category": "countries",
+    "classes": [
+      "mp"
+    ],
+    "url": "mp.com"
+  },
+  {
+    "name": "Martinique",
+    "category": "countries",
+    "classes": [
+      "mq"
+    ],
+    "url": "mq.com"
+  },
+  {
+    "name": "Mauritania",
+    "category": "countries",
+    "classes": [
+      "mr"
+    ],
+    "url": "mr.com"
+  },
+  {
+    "name": "Montserrat",
+    "category": "countries",
+    "classes": [
+      "ms"
+    ],
+    "url": "ms.com"
+  },
+  {
+    "name": "Malta",
+    "category": "countries",
+    "classes": [
+      "mt"
+    ],
+    "url": "mt.com"
+  },
+  {
+    "name": "Mauritius",
+    "category": "countries",
+    "classes": [
+      "mu"
+    ],
+    "url": "mu.com"
+  },
+  {
+    "name": "Maldives",
+    "category": "countries",
+    "classes": [
+      "mv"
+    ],
+    "url": "mv.com"
+  },
+  {
+    "name": "Malawi",
+    "category": "countries",
+    "classes": [
+      "mw"
+    ],
+    "url": "mw.com"
+  },
+  {
+    "name": "Mexico",
+    "category": "countries",
+    "classes": [
+      "mx"
+    ],
+    "url": "mx.com"
+  },
+  {
+    "name": "Malaysia",
+    "category": "countries",
+    "classes": [
+      "my"
+    ],
+    "url": "my.com"
+  },
+  {
+    "name": "Mozambique",
+    "category": "countries",
+    "classes": [
+      "mz"
+    ],
+    "url": "mz.com"
+  },
+  {
+    "name": "Namibia",
+    "category": "countries",
+    "classes": [
+      "na"
+    ],
+    "url": "na.com"
+  },
+  {
+    "name": "New Caledonia",
+    "category": "countries",
+    "classes": [
+      "nc"
+    ],
+    "url": "nc.com"
+  },
+  {
+    "name": "Niger",
+    "category": "countries",
+    "classes": [
+      "ne"
+    ],
+    "url": "ne.com"
+  },
+  {
+    "name": "Norfolk Island",
+    "category": "countries",
+    "classes": [
+      "nf"
+    ],
+    "url": "nf.com"
+  },
+  {
+    "name": "Nigeria",
+    "category": "countries",
+    "classes": [
+      "ng"
+    ],
+    "url": "ng.com"
+  },
+  {
+    "name": "Nicaragua",
+    "category": "countries",
+    "classes": [
+      "ni"
+    ],
+    "url": "ni.com"
+  },
+  {
+    "name": "Netherlands",
+    "category": "countries",
+    "classes": [
+      "nl"
+    ],
+    "url": "nl.com"
+  },
+  {
+    "name": "Norway",
+    "category": "countries",
+    "classes": [
+      "no"
+    ],
+    "url": "no.com"
+  },
+  {
+    "name": "Nepal",
+    "category": "countries",
+    "classes": [
+      "np"
+    ],
+    "url": "np.com"
+  },
+  {
+    "name": "Nauru",
+    "category": "countries",
+    "classes": [
+      "nr"
+    ],
+    "url": "nr.com"
+  },
+  {
+    "name": "Niue",
+    "category": "countries",
+    "classes": [
+      "nu"
+    ],
+    "url": "nu.com"
+  },
+  {
+    "name": "New Zealand",
+    "category": "countries",
+    "classes": [
+      "nz"
+    ],
+    "url": "nz.com"
+  },
+  {
+    "name": "Oman",
+    "category": "countries",
+    "classes": [
+      "om"
+    ],
+    "url": "om.com"
+  },
+  {
+    "name": "Panama",
+    "category": "countries",
+    "classes": [
+      "pa"
+    ],
+    "url": "pa.com"
+  },
+  {
+    "name": "Pacific Community",
+    "category": "countries",
+    "classes": [
+      "pc"
+    ],
+    "url": "pc.com"
+  },
+  {
+    "name": "Peru",
+    "category": "countries",
+    "classes": [
+      "pe"
+    ],
+    "url": "pe.com"
+  },
+  {
+    "name": "French Polynesia",
+    "category": "countries",
+    "classes": [
+      "pf"
+    ],
+    "url": "pf.com"
+  },
+  {
+    "name": "Papua New Guinea",
+    "category": "countries",
+    "classes": [
+      "pg"
+    ],
+    "url": "pg.com"
+  },
+  {
+    "name": "Philippines",
+    "category": "countries",
+    "classes": [
+      "ph"
+    ],
+    "url": "ph.com"
+  },
+  {
+    "name": "Pakistan",
+    "category": "countries",
+    "classes": [
+      "pk"
+    ],
+    "url": "pk.com"
+  },
+  {
+    "name": "Poland",
+    "category": "countries",
+    "classes": [
+      "pl"
+    ],
+    "url": "pl.com"
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "category": "countries",
+    "classes": [
+      "pm"
+    ],
+    "url": "pm.com"
+  },
+  {
+    "name": "Pitcairn",
+    "category": "countries",
+    "classes": [
+      "pn"
+    ],
+    "url": "pn.com"
+  },
+  {
+    "name": "Puerto Rico",
+    "category": "countries",
+    "classes": [
+      "pr"
+    ],
+    "url": "pr.com"
+  },
+  {
+    "name": "State of Palestine",
+    "category": "countries",
+    "classes": [
+      "ps"
+    ],
+    "url": "ps.com"
+  },
+  {
+    "name": "Portugal",
+    "category": "countries",
+    "classes": [
+      "pt"
+    ],
+    "url": "pt.com"
+  },
+  {
+    "name": "Palau",
+    "category": "countries",
+    "classes": [
+      "pw"
+    ],
+    "url": "pw.com"
+  },
+  {
+    "name": "Paraguay",
+    "category": "countries",
+    "classes": [
+      "py"
+    ],
+    "url": "py.com"
+  },
+  {
+    "name": "Qatar",
+    "category": "countries",
+    "classes": [
+      "qa"
+    ],
+    "url": "qa.com"
+  },
+  {
+    "name": "Réunion",
+    "category": "countries",
+    "classes": [
+      "re"
+    ],
+    "url": "re.com"
+  },
+  {
+    "name": "Romania",
+    "category": "countries",
+    "classes": [
+      "ro"
+    ],
+    "url": "ro.com"
+  },
+  {
+    "name": "Serbia",
+    "category": "countries",
+    "classes": [
+      "rs"
+    ],
+    "url": "rs.com"
+  },
+  {
+    "name": "Russia",
+    "category": "countries",
+    "classes": [
+      "ru"
+    ],
+    "url": "ru.com"
+  },
+  {
+    "name": "Rwanda",
+    "category": "countries",
+    "classes": [
+      "rw"
+    ],
+    "url": "rw.com"
+  },
+  {
+    "name": "Saudi Arabia",
+    "category": "countries",
+    "classes": [
+      "sa"
+    ],
+    "url": "sa.com"
+  },
+  {
+    "name": "Solomon Islands",
+    "category": "countries",
+    "classes": [
+      "sb"
+    ],
+    "url": "sb.com"
+  },
+  {
+    "name": "Seychelles",
+    "category": "countries",
+    "classes": [
+      "sc"
+    ],
+    "url": "sc.com"
+  },
+  {
+    "name": "Sudan",
+    "category": "countries",
+    "classes": [
+      "sd"
+    ],
+    "url": "sd.com"
+  },
+  {
+    "name": "Sweden",
+    "category": "countries",
+    "classes": [
+      "se"
+    ],
+    "url": "se.com"
+  },
+  {
+    "name": "Singapore",
+    "category": "countries",
+    "classes": [
+      "sg"
+    ],
+    "url": "sg.com"
+  },
+  {
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "category": "countries",
+    "classes": [
+      "sh"
+    ],
+    "url": "sh.com"
+  },
+  {
+    "name": "Ascension Island",
+    "category": "countries",
+    "classes": [
+      "sh-ac"
+    ],
+    "url": "sh-ac.com"
+  },
+  {
+    "name": "Saint Helena",
+    "category": "countries",
+    "classes": [
+      "sh-hl"
+    ],
+    "url": "sh-hl.com"
+  },
+  {
+    "name": "Tristan da Cunha",
+    "category": "countries",
+    "classes": [
+      "sh-ta"
+    ],
+    "url": "sh-ta.com"
+  },
+  {
+    "name": "Slovenia",
+    "category": "countries",
+    "classes": [
+      "si"
+    ],
+    "url": "si.com"
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "category": "countries",
+    "classes": [
+      "sj"
+    ],
+    "url": "sj.com"
+  },
+  {
+    "name": "Slovakia",
+    "category": "countries",
+    "classes": [
+      "sk"
+    ],
+    "url": "sk.com"
+  },
+  {
+    "name": "Sierra Leone",
+    "category": "countries",
+    "classes": [
+      "sl"
+    ],
+    "url": "sl.com"
+  },
+  {
+    "name": "San Marino",
+    "category": "countries",
+    "classes": [
+      "sm"
+    ],
+    "url": "sm.com"
+  },
+  {
+    "name": "Senegal",
+    "category": "countries",
+    "classes": [
+      "sn"
+    ],
+    "url": "sn.com"
+  },
+  {
+    "name": "Somalia",
+    "category": "countries",
+    "classes": [
+      "so"
+    ],
+    "url": "so.com"
+  },
+  {
+    "name": "Suriname",
+    "category": "countries",
+    "classes": [
+      "sr"
+    ],
+    "url": "sr.com"
+  },
+  {
+    "name": "South Sudan",
+    "category": "countries",
+    "classes": [
+      "ss"
+    ],
+    "url": "ss.com"
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "category": "countries",
+    "classes": [
+      "st"
+    ],
+    "url": "st.com"
+  },
+  {
+    "name": "El Salvador",
+    "category": "countries",
+    "classes": [
+      "sv"
+    ],
+    "url": "sv.com"
+  },
+  {
+    "name": "Sint Maarten",
+    "category": "countries",
+    "classes": [
+      "sx"
+    ],
+    "url": "sx.com"
+  },
+  {
+    "name": "Syria",
+    "category": "countries",
+    "classes": [
+      "sy"
+    ],
+    "url": "sy.com"
+  },
+  {
+    "name": "Eswatini",
+    "category": "countries",
+    "classes": [
+      "sz"
+    ],
+    "url": "sz.com"
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "category": "countries",
+    "classes": [
+      "tc"
+    ],
+    "url": "tc.com"
+  },
+  {
+    "name": "Chad",
+    "category": "countries",
+    "classes": [
+      "td"
+    ],
+    "url": "td.com"
+  },
+  {
+    "name": "French Southern Territories",
+    "category": "countries",
+    "classes": [
+      "tf"
+    ],
+    "url": "tf.com"
+  },
+  {
+    "name": "Togo",
+    "category": "countries",
+    "classes": [
+      "tg"
+    ],
+    "url": "tg.com"
+  },
+  {
+    "name": "Thailand",
+    "category": "countries",
+    "classes": [
+      "th"
+    ],
+    "url": "th.com"
+  },
+  {
+    "name": "Tajikistan",
+    "category": "countries",
+    "classes": [
+      "tj"
+    ],
+    "url": "tj.com"
+  },
+  {
+    "name": "Tokelau",
+    "category": "countries",
+    "classes": [
+      "tk"
+    ],
+    "url": "tk.com"
+  },
+  {
+    "name": "Timor-Leste",
+    "category": "countries",
+    "classes": [
+      "tl"
+    ],
+    "url": "tl.com"
+  },
+  {
+    "name": "Turkmenistan",
+    "category": "countries",
+    "classes": [
+      "tm"
+    ],
+    "url": "tm.com"
+  },
+  {
+    "name": "Tunisia",
+    "category": "countries",
+    "classes": [
+      "tn"
+    ],
+    "url": "tn.com"
+  },
+  {
+    "name": "Tonga",
+    "category": "countries",
+    "classes": [
+      "to"
+    ],
+    "url": "to.com"
+  },
+  {
+    "name": "Türkiye",
+    "category": "countries",
+    "classes": [
+      "tr"
+    ],
+    "url": "tr.com"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "category": "countries",
+    "classes": [
+      "tt"
+    ],
+    "url": "tt.com"
+  },
+  {
+    "name": "Tuvalu",
+    "category": "countries",
+    "classes": [
+      "tv"
+    ],
+    "url": "tv.com"
+  },
+  {
+    "name": "Taiwan",
+    "category": "countries",
+    "classes": [
+      "tw"
+    ],
+    "url": "tw.com"
+  },
+  {
+    "name": "Tanzania",
+    "category": "countries",
+    "classes": [
+      "tz"
+    ],
+    "url": "tz.com"
+  },
+  {
+    "name": "Ukraine",
+    "category": "countries",
+    "classes": [
+      "ua"
+    ],
+    "url": "ua.com"
+  },
+  {
+    "name": "Uganda",
+    "category": "countries",
+    "classes": [
+      "ug"
+    ],
+    "url": "ug.com"
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "category": "countries",
+    "classes": [
+      "um"
+    ],
+    "url": "um.com"
+  },
+  {
+    "name": "United Nations",
+    "category": "countries",
+    "classes": [
+      "un"
+    ],
+    "url": "un.com"
+  },
+  {
+    "name": "United States of America",
+    "category": "countries",
+    "classes": [
+      "us"
+    ],
+    "url": "us.com"
+  },
+  {
+    "name": "Uruguay",
+    "category": "countries",
+    "classes": [
+      "uy"
+    ],
+    "url": "uy.com"
+  },
+  {
+    "name": "Uzbekistan",
+    "category": "countries",
+    "classes": [
+      "uz"
+    ],
+    "url": "uz.com"
+  },
+  {
+    "name": "Holy See",
+    "category": "countries",
+    "classes": [
+      "va"
+    ],
+    "url": "va.com"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "category": "countries",
+    "classes": [
+      "vc"
+    ],
+    "url": "vc.com"
+  },
+  {
+    "name": "Venezuela",
+    "category": "countries",
+    "classes": [
+      "ve"
+    ],
+    "url": "ve.com"
+  },
+  {
+    "name": "Virgin Islands (British)",
+    "category": "countries",
+    "classes": [
+      "vg"
+    ],
+    "url": "vg.com"
+  },
+  {
+    "name": "Virgin Islands (U.S.)",
+    "category": "countries",
+    "classes": [
+      "vi"
+    ],
+    "url": "vi.com"
+  },
+  {
+    "name": "Vietnam",
+    "category": "countries",
+    "classes": [
+      "vn"
+    ],
+    "url": "vn.com"
+  },
+  {
+    "name": "Vanuatu",
+    "category": "countries",
+    "classes": [
+      "vu"
+    ],
+    "url": "vu.com"
+  },
+  {
+    "name": "Wallis and Futuna",
+    "category": "countries",
+    "classes": [
+      "wf"
+    ],
+    "url": "wf.com"
+  },
+  {
+    "name": "Samoa",
+    "category": "countries",
+    "classes": [
+      "ws"
+    ],
+    "url": "ws.com"
+  },
+  {
+    "name": "Kosovo",
+    "category": "countries",
+    "classes": [
+      "xk"
+    ],
+    "url": "xk.com"
+  },
+  {
+    "name": "Unknown",
+    "category": "countries",
+    "classes": [
+      "xx"
+    ],
+    "url": "xx.com"
+  },
+  {
+    "name": "Yemen",
+    "category": "countries",
+    "classes": [
+      "ye"
+    ],
+    "url": "ye.com"
+  },
+  {
+    "name": "Mayotte",
+    "category": "countries",
+    "classes": [
+      "yt"
+    ],
+    "url": "yt.com"
+  },
+  {
+    "name": "South Africa",
+    "category": "countries",
+    "classes": [
+      "za"
+    ],
+    "url": "za.com"
+  },
+  {
+    "name": "Zambia",
+    "category": "countries",
+    "classes": [
+      "zm"
+    ],
+    "url": "zm.com"
+  },
+  {
+    "name": "Zimbabwe",
+    "category": "countries",
+    "classes": [
+      "zw"
+    ],
+    "url": "zw.com"
   },
   {
     "name": "ORCID",
@@ -426,498 +2754,164 @@ const icons = [
     "url": "wendys.com"
   },
   {
-    "name": "Bag",
-    "category": "others",
+    "name": "Accordion",
+    "category": "instruments",
     "classes": [
-      "bag"
+      "accordion"
     ],
-    "url": "bag.com"
+    "url": "accordion.com"
   },
   {
-    "name": "Bear",
-    "category": "others",
+    "name": "Cello",
+    "category": "instruments",
     "classes": [
-      "bear"
+      "cello"
     ],
-    "url": "bear.com"
+    "url": "cello.com"
   },
   {
-    "name": "Belt",
-    "category": "others",
+    "name": "Cymbals",
+    "category": "instruments",
     "classes": [
-      "belt",
-      "belt2"
+      "cymbals"
     ],
-    "url": "belt.com"
+    "url": "cymbals.com"
   },
   {
-    "name": "Bib",
-    "category": "others",
+    "name": "Disk",
+    "category": "instruments",
     "classes": [
-      "bib"
+      "disk"
     ],
-    "url": "bib.com"
+    "url": "disk.com"
   },
   {
-    "name": "Boots-with-heels",
-    "category": "others",
+    "name": "Drum-kit",
+    "category": "instruments",
     "classes": [
-      "boots-with-heels"
+      "drum-kit"
     ],
-    "url": "boots-with-heels.com"
+    "url": "drum-kit.com"
   },
   {
-    "name": "Box",
-    "category": "others",
+    "name": "Electric-guitar",
+    "category": "instruments",
     "classes": [
-      "box"
+      "electric-guitar"
     ],
-    "url": "box.com"
+    "url": "electric-guitar.com"
   },
   {
-    "name": "Cap",
-    "category": "others",
+    "name": "Electronic-organ",
+    "category": "instruments",
     "classes": [
-      "cap"
+      "electronic-organ"
     ],
-    "url": "cap.com"
+    "url": "electronic-organ.com"
   },
   {
-    "name": "Casual-shoes",
-    "category": "others",
+    "name": "Flute",
+    "category": "instruments",
     "classes": [
-      "casual-shoes"
+      "flute"
     ],
-    "url": "casual-shoes.com"
+    "url": "flute.com"
   },
   {
-    "name": "Christmas-cap",
-    "category": "others",
+    "name": "Harmonica",
+    "category": "instruments",
     "classes": [
-      "christmas-cap"
+      "harmonica"
     ],
-    "url": "christmas-cap.com"
+    "url": "harmonica.com"
   },
   {
-    "name": "Cocktail-dress",
-    "category": "others",
+    "name": "Horn",
+    "category": "instruments",
     "classes": [
-      "cocktail-dress"
+      "horn"
     ],
-    "url": "cocktail-dress.com"
+    "url": "horn.com"
   },
   {
-    "name": "Crab",
-    "category": "others",
+    "name": "Microphone",
+    "category": "instruments",
     "classes": [
-      "crab"
+      "microphone"
     ],
-    "url": "crab.com"
+    "url": "microphone.com"
   },
   {
-    "name": "Crocodile",
-    "category": "others",
+    "name": "Piano",
+    "category": "instruments",
     "classes": [
-      "crocodile"
+      "piano"
     ],
-    "url": "crocodile.com"
+    "url": "piano.com"
   },
   {
-    "name": "Dinosaur",
-    "category": "others",
+    "name": "Radio",
+    "category": "instruments",
     "classes": [
-      "dinosaur"
+      "radio"
     ],
-    "url": "dinosaur.com"
+    "url": "radio.com"
   },
   {
-    "name": "Dress-holder",
-    "category": "others",
+    "name": "Saxophone",
+    "category": "instruments",
     "classes": [
-      "dress-holder"
+      "saxophone"
     ],
-    "url": "dress-holder.com"
+    "url": "saxophone.com"
   },
   {
-    "name": "Earrings",
-    "category": "others",
+    "name": "Small",
+    "category": "instruments",
     "classes": [
-      "earrings"
+      "small"
     ],
-    "url": "earrings.com"
+    "url": "small.com"
   },
   {
-    "name": "Elk",
-    "category": "others",
+    "name": "Snare-drum",
+    "category": "instruments",
     "classes": [
-      "elk"
+      "snare-drum"
     ],
-    "url": "elk.com"
+    "url": "snare-drum.com"
   },
   {
-    "name": "Fox",
-    "category": "others",
+    "name": "Speakers",
+    "category": "instruments",
     "classes": [
-      "fox"
+      "speakers"
     ],
-    "url": "fox.com"
+    "url": "speakers.com"
   },
   {
-    "name": "Hat",
-    "category": "others",
+    "name": "Violin",
+    "category": "instruments",
     "classes": [
-      "hat",
-      "hat2",
-      "hat3",
-      "hat4",
-      "hat5",
-      "hat6"
+      "violin"
     ],
-    "url": "hat.com"
+    "url": "violin.com"
   },
   {
-    "name": "Hedgehog",
-    "category": "others",
+    "name": "Wooden-guitar",
+    "category": "instruments",
     "classes": [
-      "hedgehog"
+      "wooden-guitar"
     ],
-    "url": "hedgehog.com"
+    "url": "wooden-guitar.com"
   },
   {
-    "name": "Heels",
-    "category": "others",
+    "name": "Xylophone",
+    "category": "instruments",
     "classes": [
-      "heels"
+      "xylophone"
     ],
-    "url": "heels.com"
-  },
-  {
-    "name": "Jellyfish",
-    "category": "others",
-    "classes": [
-      "jellyfish"
-    ],
-    "url": "jellyfish.com"
-  },
-  {
-    "name": "Ladies-shirt",
-    "category": "others",
-    "classes": [
-      "ladies-shirt"
-    ],
-    "url": "ladies-shirt.com"
-  },
-  {
-    "name": "Ladies-vest",
-    "category": "others",
-    "classes": [
-      "ladies-vest"
-    ],
-    "url": "ladies-vest.com"
-  },
-  {
-    "name": "Lion",
-    "category": "others",
-    "classes": [
-      "lion"
-    ],
-    "url": "lion.com"
-  },
-  {
-    "name": "Locket",
-    "category": "others",
-    "classes": [
-      "locket"
-    ],
-    "url": "locket.com"
-  },
-  {
-    "name": "Long-boots",
-    "category": "others",
-    "classes": [
-      "long-boots"
-    ],
-    "url": "long-boots.com"
-  },
-  {
-    "name": "P-cap",
-    "category": "others",
-    "classes": [
-      "p-cap"
-    ],
-    "url": "p-cap.com"
-  },
-  {
-    "name": "Pants",
-    "category": "others",
-    "classes": [
-      "pants"
-    ],
-    "url": "pants.com"
-  },
-  {
-    "name": "Party-dress",
-    "category": "others",
-    "classes": [
-      "party-dress"
-    ],
-    "url": "party-dress.com"
-  },
-  {
-    "name": "Penguin",
-    "category": "others",
-    "classes": [
-      "penguin"
-    ],
-    "url": "penguin.com"
-  },
-  {
-    "name": "Plain-t-shirt",
-    "category": "others",
-    "classes": [
-      "plain-t-shirt"
-    ],
-    "url": "plain-t-shirt.com"
-  },
-  {
-    "name": "Polar-bear",
-    "category": "others",
-    "classes": [
-      "polar-bear"
-    ],
-    "url": "polar-bear.com"
-  },
-  {
-    "name": "Polo-shirt",
-    "category": "others",
-    "classes": [
-      "polo-shirt"
-    ],
-    "url": "polo-shirt.com"
-  },
-  {
-    "name": "Pyjamas-suit",
-    "category": "others",
-    "classes": [
-      "pyjamas-suit"
-    ],
-    "url": "pyjamas-suit.com"
-  },
-  {
-    "name": "Rabbit",
-    "category": "others",
-    "classes": [
-      "rabbit"
-    ],
-    "url": "rabbit.com"
-  },
-  {
-    "name": "Raccoon",
-    "category": "others",
-    "classes": [
-      "raccoon"
-    ],
-    "url": "raccoon.com"
-  },
-  {
-    "name": "Ring",
-    "category": "others",
-    "classes": [
-      "ring"
-    ],
-    "url": "ring.com"
-  },
-  {
-    "name": "Shirt-and-tie",
-    "category": "others",
-    "classes": [
-      "shirt-and-tie"
-    ],
-    "url": "shirt-and-tie.com"
-  },
-  {
-    "name": "Shirt-with-bow",
-    "category": "others",
-    "classes": [
-      "shirt-with-bow"
-    ],
-    "url": "shirt-with-bow.com"
-  },
-  {
-    "name": "Shorts",
-    "category": "others",
-    "classes": [
-      "shorts"
-    ],
-    "url": "shorts.com"
-  },
-  {
-    "name": "Shrimp",
-    "category": "others",
-    "classes": [
-      "shrimp"
-    ],
-    "url": "shrimp.com"
-  },
-  {
-    "name": "Skirt",
-    "category": "others",
-    "classes": [
-      "skirt"
-    ],
-    "url": "skirt.com"
-  },
-  {
-    "name": "Slippers",
-    "category": "others",
-    "classes": [
-      "slippers"
-    ],
-    "url": "slippers.com"
-  },
-  {
-    "name": "Sports-watch",
-    "category": "others",
-    "classes": [
-      "sports-watch"
-    ],
-    "url": "sports-watch.com"
-  },
-  {
-    "name": "Squirrel",
-    "category": "others",
-    "classes": [
-      "squirrel"
-    ],
-    "url": "squirrel.com"
-  },
-  {
-    "name": "Stilletos",
-    "category": "others",
-    "classes": [
-      "stilletos"
-    ],
-    "url": "stilletos.com"
-  },
-  {
-    "name": "Stylish-jacket",
-    "category": "others",
-    "classes": [
-      "stylish-jacket"
-    ],
-    "url": "stylish-jacket.com"
-  },
-  {
-    "name": "Stylish-sandals",
-    "category": "others",
-    "classes": [
-      "stylish-sandals"
-    ],
-    "url": "stylish-sandals.com"
-  },
-  {
-    "name": "Sunglasses",
-    "category": "others",
-    "classes": [
-      "sunglasses"
-    ],
-    "url": "sunglasses.com"
-  },
-  {
-    "name": "Swimming-vest",
-    "category": "others",
-    "classes": [
-      "swimming-vest"
-    ],
-    "url": "swimming-vest.com"
-  },
-  {
-    "name": "T-shirt-with-lines",
-    "category": "others",
-    "classes": [
-      "t-shirt-with-lines"
-    ],
-    "url": "t-shirt-with-lines.com"
-  },
-  {
-    "name": "The-cow",
-    "category": "others",
-    "classes": [
-      "the-cow"
-    ],
-    "url": "the-cow.com"
-  },
-  {
-    "name": "Three-ties",
-    "category": "others",
-    "classes": [
-      "three-ties"
-    ],
-    "url": "three-ties.com"
-  },
-  {
-    "name": "Tie",
-    "category": "others",
-    "classes": [
-      "tie"
-    ],
-    "url": "tie.com"
-  },
-  {
-    "name": "Trousers",
-    "category": "others",
-    "classes": [
-      "trousers"
-    ],
-    "url": "trousers.com"
-  },
-  {
-    "name": "Turtle",
-    "category": "others",
-    "classes": [
-      "turtle"
-    ],
-    "url": "turtle.com"
-  },
-  {
-    "name": "Vest",
-    "category": "others",
-    "classes": [
-      "vest"
-    ],
-    "url": "vest.com"
-  },
-  {
-    "name": "Whale",
-    "category": "others",
-    "classes": [
-      "whale"
-    ],
-    "url": "whale.com"
-  },
-  {
-    "name": "Wild-boar",
-    "category": "others",
-    "classes": [
-      "wild-boar"
-    ],
-    "url": "wild-boar.com"
-  },
-  {
-    "name": "Wrist-watch",
-    "category": "others",
-    "classes": [
-      "wrist-watch"
-    ],
-    "url": "wrist-watch.com"
-  },
-  {
-    "name": "Zebra",
-    "category": "others",
-    "classes": [
-      "zebra"
-    ],
-    "url": "zebra.com"
+    "url": "xylophone.com"
   },
   {
     "name": "Astrazeneca",

@@ -1,258 +1,86 @@
 {
-  "adonisjs": [
-    "adonis"
-  ],
-  "alpinejs": [
-    "alpine"
-  ],
-  "avajs": [
-    "ava"
-  ],
-  "aws": [
-    "amazonwebservices"
-  ],
-  "backbonejs": [
-    "backbone"
-  ],
-  "blueprintjs": [
-    "blueprint"
-  ],
-  "bluesky": [
-    "bsky"
-  ],
-  "bulmaui": [
-    "bulma"
-  ],
-  "bunjs": [
-    "bun"
-  ],
-  "cassandradb": [
-    "cassandra"
-  ],
-  "chakraui": [
-    "chakra"
-  ],
-  "chatgpt": [
-    "openai"
-  ],
-  "codeforces": [
-    "cf"
-  ],
-  "corejs": [
-    "core"
-  ],
-  "cosmosdb": [
-    "cosmos"
-  ],
-  "couchdb": [
-    "couch"
-  ],
-  "cplusplus": [
-    "cpp"
-  ],
-  "d3js": [
-    "d3"
-  ],
-  "digitalocean": [
-    "do"
-  ],
-  "discord": [
-    "dc"
-  ],
-  "dynamodb": [
-    "dynamo"
-  ],
-  "elementui": [
-    "element"
-  ],
-  "emberjs": [
-    "ember"
-  ],
-  "ethereum": [
-    "eth"
-  ],
-  "expressjs": [
-    "express"
-  ],
-  "facebook": [
-    "fb"
-  ],
-  "faunadb": [
-    "fauna"
-  ],
-  "feathersjs": [
-    "feathers"
-  ],
-  "flyio": [
-    "fly"
-  ],
-  "framer": [
-    "framermotion"
-  ],
-  "gatsby": [
-    "gatsbyjs"
-  ],
-  "gatsbyjs": [
-    "gatsby"
-  ],
-  "gcd": [
-    "googlecloud"
-  ],
-  "golang": [
-    "go"
-  ],
-  "gridsomejs": [
-    "gridsome"
-  ],
-  "grunt": [
-    "gruntjs"
-  ],
-  "gruntjs": [
-    "grunt"
-  ],
-  "gulp": [
-    "gulpjs"
-  ],
-  "headlessui": [
-    "headless"
-  ],
-  "influxdb": [
-    "influx"
-  ],
-  "instagram": [
-    "insta"
-  ],
-  "javascript": [
-    "js"
-  ],
-  "knexjs": [
-    "knex"
-  ],
-  "knockout": [
-    "knockoutjs"
-  ],
-  "knockoutjs": [
-    "knockout"
-  ],
-  "krakenjs": [
-    "kraken"
-  ],
-  "leetcode": [
-    "lc"
-  ],
-  "louisvuitton": [
-    "lv"
-  ],
-  "mariadb": [
-    "maria"
-  ],
-  "marionettejs": [
-    "marionette"
-  ],
-  "materialui": [
-    "mui"
-  ],
-  "meteorjs": [
-    "meteor"
-  ],
-  "microsoft": [
-    "msft",
-    "ms"
-  ],
-  "mocha": [
-    "mochajs"
-  ],
-  "mochajs": [
-    "mocha"
-  ],
-  "mongodb": [
-    "mongo"
-  ],
-  "nestjs": [
-    "nest"
-  ],
-  "nextjs": [
-    "next"
-  ],
-  "nodejs": [
-    "node"
-  ],
-  "nuxtjs": [
-    "nuxt"
-  ],
-  "ola": [
-    "olacabs"
-  ],
-  "p5js": [
-    "p5"
-  ],
-  "pixijs": [
-    "pixi"
-  ],
-  "prestodb": [
-    "presto"
-  ],
-  "pugjs": [
-    "pug"
-  ],
-  "radixui": [
-    "radix"
-  ],
-  "react": [
-    "reactjs"
-  ],
-  "reactjs": [
-    "react"
-  ],
-  "ringcentral": [
-    "rc"
-  ],
-  "rocksdb": [
-    "rocks"
-  ],
-  "rollup": [
-    "rollupjs"
-  ],
-  "rollupjs": [
-    "rollup"
-  ],
-  "rxjs": [
-    "rx"
-  ],
-  "semanticui": [
-    "semantic"
-  ],
-  "solidjs": [
-    "solid"
-  ],
-  "threejs": [
-    "three"
-  ],
-  "tmdb": [
-    "tm"
-  ],
-  "typescript": [
-    "ts"
-  ],
-  "unjs": [
-    "un"
-  ],
-  "vuejs": [
-    "vue"
-  ],
-  "web3js": [
-    "web3"
-  ],
-  "webassembly": [
-    "wasm"
-  ],
-  "woocommerce": [
-    "woo"
-  ],
-  "youtube": [
-    "yt"
-  ],
-  "yugabytedb": [
-    "yugabyte"
-  ]
+  "adonisjs": ["adonis"],
+  "alpinejs": ["alpine"],
+  "avajs": ["ava"],
+  "aws": ["amazonwebservices"],
+  "backbonejs": ["backbone"],
+  "blueprintjs": ["blueprint"],
+  "bluesky": ["bsky"],
+  "bulmaui": ["bulma"],
+  "bunjs": ["bun"],
+  "cassandradb": ["cassandra"],
+  "chakraui": ["chakra"],
+  "chatgpt": ["openai"],
+  "codeforces": ["cf"],
+  "corejs": ["core"],
+  "cosmosdb": ["cosmos"],
+  "couchdb": ["couch"],
+  "cplusplus": ["cpp"],
+  "d3js": ["d3"],
+  "discord": ["dc"],
+  "dynamodb": ["dynamo"],
+  "elementui": ["element"],
+  "emberjs": ["ember"],
+  "ethereum": ["eth"],
+  "expressjs": ["express"],
+  "facebook": ["fb"],
+  "faunadb": ["fauna"],
+  "feathersjs": ["feathers"],
+  "flyio": ["fly"],
+  "framer": ["framermotion"],
+  "gatsby": ["gatsbyjs"],
+  "gatsbyjs": ["gatsby"],
+  "gcd": ["googlecloud"],
+  "golang": ["go"],
+  "gridsomejs": ["gridsome"],
+  "grunt": ["gruntjs"],
+  "gruntjs": ["grunt"],
+  "gulp": ["gulpjs"],
+  "headlessui": ["headless"],
+  "influxdb": ["influx"],
+  "instagram": ["insta"],
+  "javascript": ["js"],
+  "knexjs": ["knex"],
+  "knockout": ["knockoutjs"],
+  "knockoutjs": ["knockout"],
+  "krakenjs": ["kraken"],
+  "leetcode": ["lc"],
+  "louisvuitton": ["lv"],
+  "mariadb": ["maria"],
+  "marionettejs": ["marionette"],
+  "materialui": ["mui"],
+  "meteorjs": ["meteor"],
+  "microsoft": ["msft", "ms"],
+  "mocha": ["mochajs"],
+  "mochajs": ["mocha"],
+  "mongodb": ["mongo"],
+  "nestjs": ["nest"],
+  "nextjs": ["next"],
+  "nodejs": ["node"],
+  "nuxtjs": ["nuxt"],
+  "ola": ["olacabs"],
+  "p5js": ["p5"],
+  "pixijs": ["pixi"],
+  "prestodb": ["presto"],
+  "pugjs": ["pug"],
+  "radixui": ["radix"],
+  "react": ["reactjs"],
+  "reactjs": ["react"],
+  "ringcentral": ["rc"],
+  "rocksdb": ["rocks"],
+  "rollup": ["rollupjs"],
+  "rollupjs": ["rollup"],
+  "rxjs": ["rx"],
+  "semanticui": ["semantic"],
+  "solidjs": ["solid"],
+  "threejs": ["three"],
+  "tmdb": ["tm"],
+  "typescript": ["ts"],
+  "unjs": ["un"],
+  "vuejs": ["vue"],
+  "web3js": ["web3"],
+  "webassembly": ["wasm"],
+  "woocommerce": ["woo"],
+  "youtube": ["yt"],
+  "yugabytedb": ["yugabyte"]
 }

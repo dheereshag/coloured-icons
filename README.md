@@ -20,7 +20,7 @@ To use the Coloured Icons Library, simply add the following CDN link to your HTM
 ```
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@1.9.0/src/app/ci.min.css"
+  href="https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@1.9.1/src/app/ci.min.css"
 />
 ```
 
