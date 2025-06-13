@@ -343,12 +343,12 @@ const icons = [
     "url": "adidas.com"
   },
   {
-    "name": "Hm",
+    "name": "H&M",
     "category": "clothing and apparel",
     "classes": [
-      "hm"
+      "hnm"
     ],
-    "url": "hm.com"
+    "url": "hnm.com"
   },
   {
     "name": "Louis Vuitton",
@@ -526,6 +526,2174 @@ const icons = [
     "url": "visa.com"
   },
   {
+    "name": "Ad",
+    "category": "flags",
+    "classes": [
+      "ad"
+    ],
+    "url": "ad.com"
+  },
+  {
+    "name": "Ae",
+    "category": "flags",
+    "classes": [
+      "ae"
+    ],
+    "url": "ae.com"
+  },
+  {
+    "name": "Af",
+    "category": "flags",
+    "classes": [
+      "af"
+    ],
+    "url": "af.com"
+  },
+  {
+    "name": "Ag",
+    "category": "flags",
+    "classes": [
+      "ag"
+    ],
+    "url": "ag.com"
+  },
+  {
+    "name": "Ai",
+    "category": "flags",
+    "classes": [
+      "ai"
+    ],
+    "url": "ai.com"
+  },
+  {
+    "name": "Al",
+    "category": "flags",
+    "classes": [
+      "al"
+    ],
+    "url": "al.com"
+  },
+  {
+    "name": "Am",
+    "category": "flags",
+    "classes": [
+      "am"
+    ],
+    "url": "am.com"
+  },
+  {
+    "name": "Ao",
+    "category": "flags",
+    "classes": [
+      "ao"
+    ],
+    "url": "ao.com"
+  },
+  {
+    "name": "Aq",
+    "category": "flags",
+    "classes": [
+      "aq"
+    ],
+    "url": "aq.com"
+  },
+  {
+    "name": "Ar",
+    "category": "flags",
+    "classes": [
+      "ar"
+    ],
+    "url": "ar.com"
+  },
+  {
+    "name": "Arab",
+    "category": "flags",
+    "classes": [
+      "arab"
+    ],
+    "url": "arab.com"
+  },
+  {
+    "name": "As",
+    "category": "flags",
+    "classes": [
+      "as"
+    ],
+    "url": "as.com"
+  },
+  {
+    "name": "Asean",
+    "category": "flags",
+    "classes": [
+      "asean"
+    ],
+    "url": "asean.com"
+  },
+  {
+    "name": "At",
+    "category": "flags",
+    "classes": [
+      "at"
+    ],
+    "url": "at.com"
+  },
+  {
+    "name": "Au",
+    "category": "flags",
+    "classes": [
+      "au"
+    ],
+    "url": "au.com"
+  },
+  {
+    "name": "Aw",
+    "category": "flags",
+    "classes": [
+      "aw"
+    ],
+    "url": "aw.com"
+  },
+  {
+    "name": "Ax",
+    "category": "flags",
+    "classes": [
+      "ax"
+    ],
+    "url": "ax.com"
+  },
+  {
+    "name": "Az",
+    "category": "flags",
+    "classes": [
+      "az"
+    ],
+    "url": "az.com"
+  },
+  {
+    "name": "Ba",
+    "category": "flags",
+    "classes": [
+      "ba"
+    ],
+    "url": "ba.com"
+  },
+  {
+    "name": "Bb",
+    "category": "flags",
+    "classes": [
+      "bb"
+    ],
+    "url": "bb.com"
+  },
+  {
+    "name": "Bd",
+    "category": "flags",
+    "classes": [
+      "bd"
+    ],
+    "url": "bd.com"
+  },
+  {
+    "name": "Be",
+    "category": "flags",
+    "classes": [
+      "be"
+    ],
+    "url": "be.com"
+  },
+  {
+    "name": "Bf",
+    "category": "flags",
+    "classes": [
+      "bf"
+    ],
+    "url": "bf.com"
+  },
+  {
+    "name": "Bg",
+    "category": "flags",
+    "classes": [
+      "bg"
+    ],
+    "url": "bg.com"
+  },
+  {
+    "name": "Bh",
+    "category": "flags",
+    "classes": [
+      "bh"
+    ],
+    "url": "bh.com"
+  },
+  {
+    "name": "Bi",
+    "category": "flags",
+    "classes": [
+      "bi"
+    ],
+    "url": "bi.com"
+  },
+  {
+    "name": "Bj",
+    "category": "flags",
+    "classes": [
+      "bj"
+    ],
+    "url": "bj.com"
+  },
+  {
+    "name": "Bl",
+    "category": "flags",
+    "classes": [
+      "bl"
+    ],
+    "url": "bl.com"
+  },
+  {
+    "name": "Bm",
+    "category": "flags",
+    "classes": [
+      "bm"
+    ],
+    "url": "bm.com"
+  },
+  {
+    "name": "Bn",
+    "category": "flags",
+    "classes": [
+      "bn"
+    ],
+    "url": "bn.com"
+  },
+  {
+    "name": "Bo",
+    "category": "flags",
+    "classes": [
+      "bo"
+    ],
+    "url": "bo.com"
+  },
+  {
+    "name": "Bq",
+    "category": "flags",
+    "classes": [
+      "bq"
+    ],
+    "url": "bq.com"
+  },
+  {
+    "name": "Br",
+    "category": "flags",
+    "classes": [
+      "br"
+    ],
+    "url": "br.com"
+  },
+  {
+    "name": "Bs",
+    "category": "flags",
+    "classes": [
+      "bs"
+    ],
+    "url": "bs.com"
+  },
+  {
+    "name": "Bt",
+    "category": "flags",
+    "classes": [
+      "bt"
+    ],
+    "url": "bt.com"
+  },
+  {
+    "name": "Bv",
+    "category": "flags",
+    "classes": [
+      "bv"
+    ],
+    "url": "bv.com"
+  },
+  {
+    "name": "Bw",
+    "category": "flags",
+    "classes": [
+      "bw"
+    ],
+    "url": "bw.com"
+  },
+  {
+    "name": "By",
+    "category": "flags",
+    "classes": [
+      "by"
+    ],
+    "url": "by.com"
+  },
+  {
+    "name": "Bz",
+    "category": "flags",
+    "classes": [
+      "bz"
+    ],
+    "url": "bz.com"
+  },
+  {
+    "name": "Ca",
+    "category": "flags",
+    "classes": [
+      "ca"
+    ],
+    "url": "ca.com"
+  },
+  {
+    "name": "Cc",
+    "category": "flags",
+    "classes": [
+      "cc"
+    ],
+    "url": "cc.com"
+  },
+  {
+    "name": "Cd",
+    "category": "flags",
+    "classes": [
+      "cd"
+    ],
+    "url": "cd.com"
+  },
+  {
+    "name": "Cefta",
+    "category": "flags",
+    "classes": [
+      "cefta"
+    ],
+    "url": "cefta.com"
+  },
+  {
+    "name": "Cf",
+    "category": "flags",
+    "classes": [
+      "cf"
+    ],
+    "url": "cf.com"
+  },
+  {
+    "name": "Cg",
+    "category": "flags",
+    "classes": [
+      "cg"
+    ],
+    "url": "cg.com"
+  },
+  {
+    "name": "Ch",
+    "category": "flags",
+    "classes": [
+      "ch"
+    ],
+    "url": "ch.com"
+  },
+  {
+    "name": "Ci",
+    "category": "flags",
+    "classes": [
+      "ci"
+    ],
+    "url": "ci.com"
+  },
+  {
+    "name": "Ck",
+    "category": "flags",
+    "classes": [
+      "ck"
+    ],
+    "url": "ck.com"
+  },
+  {
+    "name": "Cl",
+    "category": "flags",
+    "classes": [
+      "cl"
+    ],
+    "url": "cl.com"
+  },
+  {
+    "name": "Cm",
+    "category": "flags",
+    "classes": [
+      "cm"
+    ],
+    "url": "cm.com"
+  },
+  {
+    "name": "Cn",
+    "category": "flags",
+    "classes": [
+      "cn"
+    ],
+    "url": "cn.com"
+  },
+  {
+    "name": "Co",
+    "category": "flags",
+    "classes": [
+      "co"
+    ],
+    "url": "co.com"
+  },
+  {
+    "name": "Cp",
+    "category": "flags",
+    "classes": [
+      "cp"
+    ],
+    "url": "cp.com"
+  },
+  {
+    "name": "Cr",
+    "category": "flags",
+    "classes": [
+      "cr"
+    ],
+    "url": "cr.com"
+  },
+  {
+    "name": "Cu",
+    "category": "flags",
+    "classes": [
+      "cu"
+    ],
+    "url": "cu.com"
+  },
+  {
+    "name": "Cv",
+    "category": "flags",
+    "classes": [
+      "cv"
+    ],
+    "url": "cv.com"
+  },
+  {
+    "name": "Cw",
+    "category": "flags",
+    "classes": [
+      "cw"
+    ],
+    "url": "cw.com"
+  },
+  {
+    "name": "Cx",
+    "category": "flags",
+    "classes": [
+      "cx"
+    ],
+    "url": "cx.com"
+  },
+  {
+    "name": "Cy",
+    "category": "flags",
+    "classes": [
+      "cy"
+    ],
+    "url": "cy.com"
+  },
+  {
+    "name": "Cz",
+    "category": "flags",
+    "classes": [
+      "cz"
+    ],
+    "url": "cz.com"
+  },
+  {
+    "name": "De",
+    "category": "flags",
+    "classes": [
+      "de"
+    ],
+    "url": "de.com"
+  },
+  {
+    "name": "Dg",
+    "category": "flags",
+    "classes": [
+      "dg"
+    ],
+    "url": "dg.com"
+  },
+  {
+    "name": "Dj",
+    "category": "flags",
+    "classes": [
+      "dj"
+    ],
+    "url": "dj.com"
+  },
+  {
+    "name": "Dk",
+    "category": "flags",
+    "classes": [
+      "dk"
+    ],
+    "url": "dk.com"
+  },
+  {
+    "name": "Dm",
+    "category": "flags",
+    "classes": [
+      "dm"
+    ],
+    "url": "dm.com"
+  },
+  {
+    "name": "DigitalOcean",
+    "category": "flags",
+    "classes": [
+      "do"
+    ],
+    "url": "do.com"
+  },
+  {
+    "name": "Dz",
+    "category": "flags",
+    "classes": [
+      "dz"
+    ],
+    "url": "dz.com"
+  },
+  {
+    "name": "Eac",
+    "category": "flags",
+    "classes": [
+      "eac"
+    ],
+    "url": "eac.com"
+  },
+  {
+    "name": "Ec",
+    "category": "flags",
+    "classes": [
+      "ec"
+    ],
+    "url": "ec.com"
+  },
+  {
+    "name": "Ee",
+    "category": "flags",
+    "classes": [
+      "ee"
+    ],
+    "url": "ee.com"
+  },
+  {
+    "name": "Eg",
+    "category": "flags",
+    "classes": [
+      "eg"
+    ],
+    "url": "eg.com"
+  },
+  {
+    "name": "Eh",
+    "category": "flags",
+    "classes": [
+      "eh"
+    ],
+    "url": "eh.com"
+  },
+  {
+    "name": "Er",
+    "category": "flags",
+    "classes": [
+      "er"
+    ],
+    "url": "er.com"
+  },
+  {
+    "name": "Es",
+    "category": "flags",
+    "classes": [
+      "es"
+    ],
+    "url": "es.com"
+  },
+  {
+    "name": "Es-ct",
+    "category": "flags",
+    "classes": [
+      "es-ct"
+    ],
+    "url": "es-ct.com"
+  },
+  {
+    "name": "Es-ga",
+    "category": "flags",
+    "classes": [
+      "es-ga"
+    ],
+    "url": "es-ga.com"
+  },
+  {
+    "name": "Es-pv",
+    "category": "flags",
+    "classes": [
+      "es-pv"
+    ],
+    "url": "es-pv.com"
+  },
+  {
+    "name": "Et",
+    "category": "flags",
+    "classes": [
+      "et"
+    ],
+    "url": "et.com"
+  },
+  {
+    "name": "Eu",
+    "category": "flags",
+    "classes": [
+      "eu"
+    ],
+    "url": "eu.com"
+  },
+  {
+    "name": "Fi",
+    "category": "flags",
+    "classes": [
+      "fi"
+    ],
+    "url": "fi.com"
+  },
+  {
+    "name": "Fj",
+    "category": "flags",
+    "classes": [
+      "fj"
+    ],
+    "url": "fj.com"
+  },
+  {
+    "name": "Fk",
+    "category": "flags",
+    "classes": [
+      "fk"
+    ],
+    "url": "fk.com"
+  },
+  {
+    "name": "Fm",
+    "category": "flags",
+    "classes": [
+      "fm"
+    ],
+    "url": "fm.com"
+  },
+  {
+    "name": "Fo",
+    "category": "flags",
+    "classes": [
+      "fo"
+    ],
+    "url": "fo.com"
+  },
+  {
+    "name": "Fr",
+    "category": "flags",
+    "classes": [
+      "fr"
+    ],
+    "url": "fr.com"
+  },
+  {
+    "name": "Ga",
+    "category": "flags",
+    "classes": [
+      "ga"
+    ],
+    "url": "ga.com"
+  },
+  {
+    "name": "Gb",
+    "category": "flags",
+    "classes": [
+      "gb"
+    ],
+    "url": "gb.com"
+  },
+  {
+    "name": "Gb-eng",
+    "category": "flags",
+    "classes": [
+      "gb-eng"
+    ],
+    "url": "gb-eng.com"
+  },
+  {
+    "name": "Gb-nir",
+    "category": "flags",
+    "classes": [
+      "gb-nir"
+    ],
+    "url": "gb-nir.com"
+  },
+  {
+    "name": "Gb-sct",
+    "category": "flags",
+    "classes": [
+      "gb-sct"
+    ],
+    "url": "gb-sct.com"
+  },
+  {
+    "name": "Gb-wls",
+    "category": "flags",
+    "classes": [
+      "gb-wls"
+    ],
+    "url": "gb-wls.com"
+  },
+  {
+    "name": "Gd",
+    "category": "flags",
+    "classes": [
+      "gd"
+    ],
+    "url": "gd.com"
+  },
+  {
+    "name": "Ge",
+    "category": "flags",
+    "classes": [
+      "ge"
+    ],
+    "url": "ge.com"
+  },
+  {
+    "name": "Gf",
+    "category": "flags",
+    "classes": [
+      "gf"
+    ],
+    "url": "gf.com"
+  },
+  {
+    "name": "Gg",
+    "category": "flags",
+    "classes": [
+      "gg"
+    ],
+    "url": "gg.com"
+  },
+  {
+    "name": "Gh",
+    "category": "flags",
+    "classes": [
+      "gh"
+    ],
+    "url": "gh.com"
+  },
+  {
+    "name": "Gi",
+    "category": "flags",
+    "classes": [
+      "gi"
+    ],
+    "url": "gi.com"
+  },
+  {
+    "name": "Gl",
+    "category": "flags",
+    "classes": [
+      "gl"
+    ],
+    "url": "gl.com"
+  },
+  {
+    "name": "Gm",
+    "category": "flags",
+    "classes": [
+      "gm"
+    ],
+    "url": "gm.com"
+  },
+  {
+    "name": "Gn",
+    "category": "flags",
+    "classes": [
+      "gn"
+    ],
+    "url": "gn.com"
+  },
+  {
+    "name": "Gp",
+    "category": "flags",
+    "classes": [
+      "gp"
+    ],
+    "url": "gp.com"
+  },
+  {
+    "name": "Gq",
+    "category": "flags",
+    "classes": [
+      "gq"
+    ],
+    "url": "gq.com"
+  },
+  {
+    "name": "Gr",
+    "category": "flags",
+    "classes": [
+      "gr"
+    ],
+    "url": "gr.com"
+  },
+  {
+    "name": "Gs",
+    "category": "flags",
+    "classes": [
+      "gs"
+    ],
+    "url": "gs.com"
+  },
+  {
+    "name": "Gt",
+    "category": "flags",
+    "classes": [
+      "gt"
+    ],
+    "url": "gt.com"
+  },
+  {
+    "name": "Gu",
+    "category": "flags",
+    "classes": [
+      "gu"
+    ],
+    "url": "gu.com"
+  },
+  {
+    "name": "Gw",
+    "category": "flags",
+    "classes": [
+      "gw"
+    ],
+    "url": "gw.com"
+  },
+  {
+    "name": "Gy",
+    "category": "flags",
+    "classes": [
+      "gy"
+    ],
+    "url": "gy.com"
+  },
+  {
+    "name": "Hk",
+    "category": "flags",
+    "classes": [
+      "hk"
+    ],
+    "url": "hk.com"
+  },
+  {
+    "name": "Hm",
+    "category": "flags",
+    "classes": [
+      "hm"
+    ],
+    "url": "hm.com"
+  },
+  {
+    "name": "Hn",
+    "category": "flags",
+    "classes": [
+      "hn"
+    ],
+    "url": "hn.com"
+  },
+  {
+    "name": "Hr",
+    "category": "flags",
+    "classes": [
+      "hr"
+    ],
+    "url": "hr.com"
+  },
+  {
+    "name": "Ht",
+    "category": "flags",
+    "classes": [
+      "ht"
+    ],
+    "url": "ht.com"
+  },
+  {
+    "name": "Hu",
+    "category": "flags",
+    "classes": [
+      "hu"
+    ],
+    "url": "hu.com"
+  },
+  {
+    "name": "Ic",
+    "category": "flags",
+    "classes": [
+      "ic"
+    ],
+    "url": "ic.com"
+  },
+  {
+    "name": "Id",
+    "category": "flags",
+    "classes": [
+      "id"
+    ],
+    "url": "id.com"
+  },
+  {
+    "name": "Ie",
+    "category": "flags",
+    "classes": [
+      "ie"
+    ],
+    "url": "ie.com"
+  },
+  {
+    "name": "Il",
+    "category": "flags",
+    "classes": [
+      "il"
+    ],
+    "url": "il.com"
+  },
+  {
+    "name": "Im",
+    "category": "flags",
+    "classes": [
+      "im"
+    ],
+    "url": "im.com"
+  },
+  {
+    "name": "In",
+    "category": "flags",
+    "classes": [
+      "in"
+    ],
+    "url": "in.com"
+  },
+  {
+    "name": "Io",
+    "category": "flags",
+    "classes": [
+      "io"
+    ],
+    "url": "io.com"
+  },
+  {
+    "name": "Iq",
+    "category": "flags",
+    "classes": [
+      "iq"
+    ],
+    "url": "iq.com"
+  },
+  {
+    "name": "Ir",
+    "category": "flags",
+    "classes": [
+      "ir"
+    ],
+    "url": "ir.com"
+  },
+  {
+    "name": "Is",
+    "category": "flags",
+    "classes": [
+      "is"
+    ],
+    "url": "is.com"
+  },
+  {
+    "name": "It",
+    "category": "flags",
+    "classes": [
+      "it"
+    ],
+    "url": "it.com"
+  },
+  {
+    "name": "Je",
+    "category": "flags",
+    "classes": [
+      "je"
+    ],
+    "url": "je.com"
+  },
+  {
+    "name": "Jm",
+    "category": "flags",
+    "classes": [
+      "jm"
+    ],
+    "url": "jm.com"
+  },
+  {
+    "name": "Jo",
+    "category": "flags",
+    "classes": [
+      "jo"
+    ],
+    "url": "jo.com"
+  },
+  {
+    "name": "Jp",
+    "category": "flags",
+    "classes": [
+      "jp"
+    ],
+    "url": "jp.com"
+  },
+  {
+    "name": "Ke",
+    "category": "flags",
+    "classes": [
+      "ke"
+    ],
+    "url": "ke.com"
+  },
+  {
+    "name": "Kg",
+    "category": "flags",
+    "classes": [
+      "kg"
+    ],
+    "url": "kg.com"
+  },
+  {
+    "name": "Kh",
+    "category": "flags",
+    "classes": [
+      "kh"
+    ],
+    "url": "kh.com"
+  },
+  {
+    "name": "Ki",
+    "category": "flags",
+    "classes": [
+      "ki"
+    ],
+    "url": "ki.com"
+  },
+  {
+    "name": "Km",
+    "category": "flags",
+    "classes": [
+      "km"
+    ],
+    "url": "km.com"
+  },
+  {
+    "name": "Kn",
+    "category": "flags",
+    "classes": [
+      "kn"
+    ],
+    "url": "kn.com"
+  },
+  {
+    "name": "Kp",
+    "category": "flags",
+    "classes": [
+      "kp"
+    ],
+    "url": "kp.com"
+  },
+  {
+    "name": "Kr",
+    "category": "flags",
+    "classes": [
+      "kr"
+    ],
+    "url": "kr.com"
+  },
+  {
+    "name": "Kw",
+    "category": "flags",
+    "classes": [
+      "kw"
+    ],
+    "url": "kw.com"
+  },
+  {
+    "name": "Ky",
+    "category": "flags",
+    "classes": [
+      "ky"
+    ],
+    "url": "ky.com"
+  },
+  {
+    "name": "Kz",
+    "category": "flags",
+    "classes": [
+      "kz"
+    ],
+    "url": "kz.com"
+  },
+  {
+    "name": "La",
+    "category": "flags",
+    "classes": [
+      "la"
+    ],
+    "url": "la.com"
+  },
+  {
+    "name": "Lb",
+    "category": "flags",
+    "classes": [
+      "lb"
+    ],
+    "url": "lb.com"
+  },
+  {
+    "name": "Lc",
+    "category": "flags",
+    "classes": [
+      "lc"
+    ],
+    "url": "lc.com"
+  },
+  {
+    "name": "Li",
+    "category": "flags",
+    "classes": [
+      "li"
+    ],
+    "url": "li.com"
+  },
+  {
+    "name": "Lk",
+    "category": "flags",
+    "classes": [
+      "lk"
+    ],
+    "url": "lk.com"
+  },
+  {
+    "name": "Lr",
+    "category": "flags",
+    "classes": [
+      "lr"
+    ],
+    "url": "lr.com"
+  },
+  {
+    "name": "Ls",
+    "category": "flags",
+    "classes": [
+      "ls"
+    ],
+    "url": "ls.com"
+  },
+  {
+    "name": "Lt",
+    "category": "flags",
+    "classes": [
+      "lt"
+    ],
+    "url": "lt.com"
+  },
+  {
+    "name": "Lu",
+    "category": "flags",
+    "classes": [
+      "lu"
+    ],
+    "url": "lu.com"
+  },
+  {
+    "name": "Lv",
+    "category": "flags",
+    "classes": [
+      "lv"
+    ],
+    "url": "lv.com"
+  },
+  {
+    "name": "Ly",
+    "category": "flags",
+    "classes": [
+      "ly"
+    ],
+    "url": "ly.com"
+  },
+  {
+    "name": "Ma",
+    "category": "flags",
+    "classes": [
+      "ma"
+    ],
+    "url": "ma.com"
+  },
+  {
+    "name": "Mc",
+    "category": "flags",
+    "classes": [
+      "mc"
+    ],
+    "url": "mc.com"
+  },
+  {
+    "name": "Md",
+    "category": "flags",
+    "classes": [
+      "md"
+    ],
+    "url": "md.com"
+  },
+  {
+    "name": "Me",
+    "category": "flags",
+    "classes": [
+      "me"
+    ],
+    "url": "me.com"
+  },
+  {
+    "name": "Mf",
+    "category": "flags",
+    "classes": [
+      "mf"
+    ],
+    "url": "mf.com"
+  },
+  {
+    "name": "Mg",
+    "category": "flags",
+    "classes": [
+      "mg"
+    ],
+    "url": "mg.com"
+  },
+  {
+    "name": "Mh",
+    "category": "flags",
+    "classes": [
+      "mh"
+    ],
+    "url": "mh.com"
+  },
+  {
+    "name": "Mk",
+    "category": "flags",
+    "classes": [
+      "mk"
+    ],
+    "url": "mk.com"
+  },
+  {
+    "name": "Ml",
+    "category": "flags",
+    "classes": [
+      "ml"
+    ],
+    "url": "ml.com"
+  },
+  {
+    "name": "Mm",
+    "category": "flags",
+    "classes": [
+      "mm"
+    ],
+    "url": "mm.com"
+  },
+  {
+    "name": "Mn",
+    "category": "flags",
+    "classes": [
+      "mn"
+    ],
+    "url": "mn.com"
+  },
+  {
+    "name": "Mo",
+    "category": "flags",
+    "classes": [
+      "mo"
+    ],
+    "url": "mo.com"
+  },
+  {
+    "name": "Mp",
+    "category": "flags",
+    "classes": [
+      "mp"
+    ],
+    "url": "mp.com"
+  },
+  {
+    "name": "Mq",
+    "category": "flags",
+    "classes": [
+      "mq"
+    ],
+    "url": "mq.com"
+  },
+  {
+    "name": "Mr",
+    "category": "flags",
+    "classes": [
+      "mr"
+    ],
+    "url": "mr.com"
+  },
+  {
+    "name": "Ms",
+    "category": "flags",
+    "classes": [
+      "ms"
+    ],
+    "url": "ms.com"
+  },
+  {
+    "name": "Mt",
+    "category": "flags",
+    "classes": [
+      "mt"
+    ],
+    "url": "mt.com"
+  },
+  {
+    "name": "Mu",
+    "category": "flags",
+    "classes": [
+      "mu"
+    ],
+    "url": "mu.com"
+  },
+  {
+    "name": "Mv",
+    "category": "flags",
+    "classes": [
+      "mv"
+    ],
+    "url": "mv.com"
+  },
+  {
+    "name": "Mw",
+    "category": "flags",
+    "classes": [
+      "mw"
+    ],
+    "url": "mw.com"
+  },
+  {
+    "name": "Mx",
+    "category": "flags",
+    "classes": [
+      "mx"
+    ],
+    "url": "mx.com"
+  },
+  {
+    "name": "My",
+    "category": "flags",
+    "classes": [
+      "my"
+    ],
+    "url": "my.com"
+  },
+  {
+    "name": "Mz",
+    "category": "flags",
+    "classes": [
+      "mz"
+    ],
+    "url": "mz.com"
+  },
+  {
+    "name": "Na",
+    "category": "flags",
+    "classes": [
+      "na"
+    ],
+    "url": "na.com"
+  },
+  {
+    "name": "Nc",
+    "category": "flags",
+    "classes": [
+      "nc"
+    ],
+    "url": "nc.com"
+  },
+  {
+    "name": "Ne",
+    "category": "flags",
+    "classes": [
+      "ne"
+    ],
+    "url": "ne.com"
+  },
+  {
+    "name": "Nf",
+    "category": "flags",
+    "classes": [
+      "nf"
+    ],
+    "url": "nf.com"
+  },
+  {
+    "name": "Ng",
+    "category": "flags",
+    "classes": [
+      "ng"
+    ],
+    "url": "ng.com"
+  },
+  {
+    "name": "Ni",
+    "category": "flags",
+    "classes": [
+      "ni"
+    ],
+    "url": "ni.com"
+  },
+  {
+    "name": "Nl",
+    "category": "flags",
+    "classes": [
+      "nl"
+    ],
+    "url": "nl.com"
+  },
+  {
+    "name": "No",
+    "category": "flags",
+    "classes": [
+      "no"
+    ],
+    "url": "no.com"
+  },
+  {
+    "name": "Np",
+    "category": "flags",
+    "classes": [
+      "np"
+    ],
+    "url": "np.com"
+  },
+  {
+    "name": "Nr",
+    "category": "flags",
+    "classes": [
+      "nr"
+    ],
+    "url": "nr.com"
+  },
+  {
+    "name": "Nu",
+    "category": "flags",
+    "classes": [
+      "nu"
+    ],
+    "url": "nu.com"
+  },
+  {
+    "name": "Nz",
+    "category": "flags",
+    "classes": [
+      "nz"
+    ],
+    "url": "nz.com"
+  },
+  {
+    "name": "Om",
+    "category": "flags",
+    "classes": [
+      "om"
+    ],
+    "url": "om.com"
+  },
+  {
+    "name": "Pa",
+    "category": "flags",
+    "classes": [
+      "pa"
+    ],
+    "url": "pa.com"
+  },
+  {
+    "name": "Pc",
+    "category": "flags",
+    "classes": [
+      "pc"
+    ],
+    "url": "pc.com"
+  },
+  {
+    "name": "Pe",
+    "category": "flags",
+    "classes": [
+      "pe"
+    ],
+    "url": "pe.com"
+  },
+  {
+    "name": "Pf",
+    "category": "flags",
+    "classes": [
+      "pf"
+    ],
+    "url": "pf.com"
+  },
+  {
+    "name": "Pg",
+    "category": "flags",
+    "classes": [
+      "pg"
+    ],
+    "url": "pg.com"
+  },
+  {
+    "name": "Ph",
+    "category": "flags",
+    "classes": [
+      "ph"
+    ],
+    "url": "ph.com"
+  },
+  {
+    "name": "Pk",
+    "category": "flags",
+    "classes": [
+      "pk"
+    ],
+    "url": "pk.com"
+  },
+  {
+    "name": "Pl",
+    "category": "flags",
+    "classes": [
+      "pl"
+    ],
+    "url": "pl.com"
+  },
+  {
+    "name": "Pm",
+    "category": "flags",
+    "classes": [
+      "pm"
+    ],
+    "url": "pm.com"
+  },
+  {
+    "name": "Pn",
+    "category": "flags",
+    "classes": [
+      "pn"
+    ],
+    "url": "pn.com"
+  },
+  {
+    "name": "Pr",
+    "category": "flags",
+    "classes": [
+      "pr"
+    ],
+    "url": "pr.com"
+  },
+  {
+    "name": "Ps",
+    "category": "flags",
+    "classes": [
+      "ps"
+    ],
+    "url": "ps.com"
+  },
+  {
+    "name": "Pt",
+    "category": "flags",
+    "classes": [
+      "pt"
+    ],
+    "url": "pt.com"
+  },
+  {
+    "name": "Pw",
+    "category": "flags",
+    "classes": [
+      "pw"
+    ],
+    "url": "pw.com"
+  },
+  {
+    "name": "Py",
+    "category": "flags",
+    "classes": [
+      "py"
+    ],
+    "url": "py.com"
+  },
+  {
+    "name": "Qa",
+    "category": "flags",
+    "classes": [
+      "qa"
+    ],
+    "url": "qa.com"
+  },
+  {
+    "name": "Re",
+    "category": "flags",
+    "classes": [
+      "re"
+    ],
+    "url": "re.com"
+  },
+  {
+    "name": "Ro",
+    "category": "flags",
+    "classes": [
+      "ro"
+    ],
+    "url": "ro.com"
+  },
+  {
+    "name": "Rs",
+    "category": "flags",
+    "classes": [
+      "rs"
+    ],
+    "url": "rs.com"
+  },
+  {
+    "name": "Ru",
+    "category": "flags",
+    "classes": [
+      "ru"
+    ],
+    "url": "ru.com"
+  },
+  {
+    "name": "Rw",
+    "category": "flags",
+    "classes": [
+      "rw"
+    ],
+    "url": "rw.com"
+  },
+  {
+    "name": "Sa",
+    "category": "flags",
+    "classes": [
+      "sa"
+    ],
+    "url": "sa.com"
+  },
+  {
+    "name": "Sb",
+    "category": "flags",
+    "classes": [
+      "sb"
+    ],
+    "url": "sb.com"
+  },
+  {
+    "name": "Sc",
+    "category": "flags",
+    "classes": [
+      "sc"
+    ],
+    "url": "sc.com"
+  },
+  {
+    "name": "Sd",
+    "category": "flags",
+    "classes": [
+      "sd"
+    ],
+    "url": "sd.com"
+  },
+  {
+    "name": "Se",
+    "category": "flags",
+    "classes": [
+      "se"
+    ],
+    "url": "se.com"
+  },
+  {
+    "name": "Sg",
+    "category": "flags",
+    "classes": [
+      "sg"
+    ],
+    "url": "sg.com"
+  },
+  {
+    "name": "Sh",
+    "category": "flags",
+    "classes": [
+      "sh"
+    ],
+    "url": "sh.com"
+  },
+  {
+    "name": "Sh-ac",
+    "category": "flags",
+    "classes": [
+      "sh-ac"
+    ],
+    "url": "sh-ac.com"
+  },
+  {
+    "name": "Sh-hl",
+    "category": "flags",
+    "classes": [
+      "sh-hl"
+    ],
+    "url": "sh-hl.com"
+  },
+  {
+    "name": "Sh-ta",
+    "category": "flags",
+    "classes": [
+      "sh-ta"
+    ],
+    "url": "sh-ta.com"
+  },
+  {
+    "name": "Si",
+    "category": "flags",
+    "classes": [
+      "si"
+    ],
+    "url": "si.com"
+  },
+  {
+    "name": "Sj",
+    "category": "flags",
+    "classes": [
+      "sj"
+    ],
+    "url": "sj.com"
+  },
+  {
+    "name": "Sk",
+    "category": "flags",
+    "classes": [
+      "sk"
+    ],
+    "url": "sk.com"
+  },
+  {
+    "name": "Sl",
+    "category": "flags",
+    "classes": [
+      "sl"
+    ],
+    "url": "sl.com"
+  },
+  {
+    "name": "Sm",
+    "category": "flags",
+    "classes": [
+      "sm"
+    ],
+    "url": "sm.com"
+  },
+  {
+    "name": "Sn",
+    "category": "flags",
+    "classes": [
+      "sn"
+    ],
+    "url": "sn.com"
+  },
+  {
+    "name": "So",
+    "category": "flags",
+    "classes": [
+      "so"
+    ],
+    "url": "so.com"
+  },
+  {
+    "name": "Sr",
+    "category": "flags",
+    "classes": [
+      "sr"
+    ],
+    "url": "sr.com"
+  },
+  {
+    "name": "Ss",
+    "category": "flags",
+    "classes": [
+      "ss"
+    ],
+    "url": "ss.com"
+  },
+  {
+    "name": "St",
+    "category": "flags",
+    "classes": [
+      "st"
+    ],
+    "url": "st.com"
+  },
+  {
+    "name": "Sv",
+    "category": "flags",
+    "classes": [
+      "sv"
+    ],
+    "url": "sv.com"
+  },
+  {
+    "name": "Sx",
+    "category": "flags",
+    "classes": [
+      "sx"
+    ],
+    "url": "sx.com"
+  },
+  {
+    "name": "Sy",
+    "category": "flags",
+    "classes": [
+      "sy"
+    ],
+    "url": "sy.com"
+  },
+  {
+    "name": "Sz",
+    "category": "flags",
+    "classes": [
+      "sz"
+    ],
+    "url": "sz.com"
+  },
+  {
+    "name": "Tc",
+    "category": "flags",
+    "classes": [
+      "tc"
+    ],
+    "url": "tc.com"
+  },
+  {
+    "name": "Td",
+    "category": "flags",
+    "classes": [
+      "td"
+    ],
+    "url": "td.com"
+  },
+  {
+    "name": "Tf",
+    "category": "flags",
+    "classes": [
+      "tf"
+    ],
+    "url": "tf.com"
+  },
+  {
+    "name": "Tg",
+    "category": "flags",
+    "classes": [
+      "tg"
+    ],
+    "url": "tg.com"
+  },
+  {
+    "name": "Th",
+    "category": "flags",
+    "classes": [
+      "th"
+    ],
+    "url": "th.com"
+  },
+  {
+    "name": "Tj",
+    "category": "flags",
+    "classes": [
+      "tj"
+    ],
+    "url": "tj.com"
+  },
+  {
+    "name": "Tk",
+    "category": "flags",
+    "classes": [
+      "tk"
+    ],
+    "url": "tk.com"
+  },
+  {
+    "name": "Tl",
+    "category": "flags",
+    "classes": [
+      "tl"
+    ],
+    "url": "tl.com"
+  },
+  {
+    "name": "Tm",
+    "category": "flags",
+    "classes": [
+      "tm"
+    ],
+    "url": "tm.com"
+  },
+  {
+    "name": "Tn",
+    "category": "flags",
+    "classes": [
+      "tn"
+    ],
+    "url": "tn.com"
+  },
+  {
+    "name": "To",
+    "category": "flags",
+    "classes": [
+      "to"
+    ],
+    "url": "to.com"
+  },
+  {
+    "name": "Tr",
+    "category": "flags",
+    "classes": [
+      "tr"
+    ],
+    "url": "tr.com"
+  },
+  {
+    "name": "Tt",
+    "category": "flags",
+    "classes": [
+      "tt"
+    ],
+    "url": "tt.com"
+  },
+  {
+    "name": "Tv",
+    "category": "flags",
+    "classes": [
+      "tv"
+    ],
+    "url": "tv.com"
+  },
+  {
+    "name": "Tw",
+    "category": "flags",
+    "classes": [
+      "tw"
+    ],
+    "url": "tw.com"
+  },
+  {
+    "name": "Tz",
+    "category": "flags",
+    "classes": [
+      "tz"
+    ],
+    "url": "tz.com"
+  },
+  {
+    "name": "Ua",
+    "category": "flags",
+    "classes": [
+      "ua"
+    ],
+    "url": "ua.com"
+  },
+  {
+    "name": "Ug",
+    "category": "flags",
+    "classes": [
+      "ug"
+    ],
+    "url": "ug.com"
+  },
+  {
+    "name": "Um",
+    "category": "flags",
+    "classes": [
+      "um"
+    ],
+    "url": "um.com"
+  },
+  {
+    "name": "Un",
+    "category": "flags",
+    "classes": [
+      "un"
+    ],
+    "url": "un.com"
+  },
+  {
+    "name": "Us",
+    "category": "flags",
+    "classes": [
+      "us"
+    ],
+    "url": "us.com"
+  },
+  {
+    "name": "Uy",
+    "category": "flags",
+    "classes": [
+      "uy"
+    ],
+    "url": "uy.com"
+  },
+  {
+    "name": "Uz",
+    "category": "flags",
+    "classes": [
+      "uz"
+    ],
+    "url": "uz.com"
+  },
+  {
+    "name": "Va",
+    "category": "flags",
+    "classes": [
+      "va"
+    ],
+    "url": "va.com"
+  },
+  {
+    "name": "Vc",
+    "category": "flags",
+    "classes": [
+      "vc"
+    ],
+    "url": "vc.com"
+  },
+  {
+    "name": "Ve",
+    "category": "flags",
+    "classes": [
+      "ve"
+    ],
+    "url": "ve.com"
+  },
+  {
+    "name": "Vg",
+    "category": "flags",
+    "classes": [
+      "vg"
+    ],
+    "url": "vg.com"
+  },
+  {
+    "name": "Vi",
+    "category": "flags",
+    "classes": [
+      "vi"
+    ],
+    "url": "vi.com"
+  },
+  {
+    "name": "Vn",
+    "category": "flags",
+    "classes": [
+      "vn"
+    ],
+    "url": "vn.com"
+  },
+  {
+    "name": "Vu",
+    "category": "flags",
+    "classes": [
+      "vu"
+    ],
+    "url": "vu.com"
+  },
+  {
+    "name": "Wf",
+    "category": "flags",
+    "classes": [
+      "wf"
+    ],
+    "url": "wf.com"
+  },
+  {
+    "name": "Ws",
+    "category": "flags",
+    "classes": [
+      "ws"
+    ],
+    "url": "ws.com"
+  },
+  {
+    "name": "Xk",
+    "category": "flags",
+    "classes": [
+      "xk"
+    ],
+    "url": "xk.com"
+  },
+  {
+    "name": "Xx",
+    "category": "flags",
+    "classes": [
+      "xx"
+    ],
+    "url": "xx.com"
+  },
+  {
+    "name": "Ye",
+    "category": "flags",
+    "classes": [
+      "ye"
+    ],
+    "url": "ye.com"
+  },
+  {
+    "name": "Yt",
+    "category": "flags",
+    "classes": [
+      "yt"
+    ],
+    "url": "yt.com"
+  },
+  {
+    "name": "Za",
+    "category": "flags",
+    "classes": [
+      "za"
+    ],
+    "url": "za.com"
+  },
+  {
+    "name": "Zm",
+    "category": "flags",
+    "classes": [
+      "zm"
+    ],
+    "url": "zm.com"
+  },
+  {
+    "name": "Zw",
+    "category": "flags",
+    "classes": [
+      "zw"
+    ],
+    "url": "zw.com"
+  },
+  {
     "name": "BurgerKing",
     "category": "food and beverage",
     "classes": [
@@ -594,14 +2762,6 @@ const icons = [
     "url": "accordion.com"
   },
   {
-    "name": "Cd",
-    "category": "instruments",
-    "classes": [
-      "cd"
-    ],
-    "url": "cd.com"
-  },
-  {
     "name": "Cello",
     "category": "instruments",
     "classes": [
@@ -616,6 +2776,14 @@ const icons = [
       "cymbals"
     ],
     "url": "cymbals.com"
+  },
+  {
+    "name": "Disk",
+    "category": "instruments",
+    "classes": [
+      "disk"
+    ],
+    "url": "disk.com"
   },
   {
     "name": "Drum-kit",
