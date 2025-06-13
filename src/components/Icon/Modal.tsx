@@ -22,7 +22,7 @@ const size = (icon: Icon) => {
       return 5;
     case iconClass.includes("vertical"):
       return 4;
-    case iconCategory === "others":
+    case iconCategory === "animals":
       return 3;
     default:
       return 2;

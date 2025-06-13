@@ -25,7 +25,10 @@ const IconList: React.FC<IconListProps> = ({
       (icon) =>
         icon.name.toLowerCase().includes(debouncedSearchLowercase) ||
         icon.url.toLowerCase().includes(debouncedSearchLowercase) ||
-        icon.category.toLowerCase().includes(debouncedSearchLowercase)
+        icon.category.toLowerCase().includes(debouncedSearchLowercase) ||
+        icon.classes.some((cls) =>
+          cls.toLowerCase().includes(debouncedSearchLowercase)
+        )
     );
   }, [icons, debouncedSearch]);
 

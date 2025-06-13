@@ -7,7 +7,7 @@ interface IconCardProps {
 const size = (icon: Icon) => {
   const iconCategory = icon.category.toLowerCase();
   switch (true) {
-    case iconCategory === "others":
+    case iconCategory === "animals":
       return 3;
     default:
       return 2;

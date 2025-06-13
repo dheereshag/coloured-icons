@@ -343,10 +343,10 @@ const icons = [
     "url": "adidas.com"
   },
   {
-    "name": "Hm",
+    "name": "H&M",
     "category": "clothing and apparel",
     "classes": [
-      "hm"
+      "hnm"
     ],
     "url": "hm.com"
   },
