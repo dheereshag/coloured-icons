@@ -1,10 +1,6 @@
 import { HiOutlineClipboard, HiOutlineClipboardCheck } from "react-icons/hi";
 import useCopy from "@/hooks/useCopy";
-import { Rubik } from "next/font/google";
-
-const rubik = Rubik({
-  subsets: ["latin"],
-});
+import { rubik } from "@/lib/fonts";
 
 interface IconCodeProps {
   iconClass: string;
@@ -16,7 +12,9 @@ const IconCode: React.FC<IconCodeProps> = ({ iconClass }) => {
   return (
     <div className="flex items-center group">
       <pre className="flex-1 text-xs sm:text-sm whitespace-pre-wrap">
-        <code className={rubik.className}>{`<i class="ci ci-${iconClass}"></i>`}</code>
+        <code
+          className={rubik.className}
+        >{`<i class="ci ci-${iconClass}"></i>`}</code>
       </pre>
 
       <button

@@ -1,9 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { SearchContextProvider } from '@/context/SearchContextProvider'
-import { Outfit } from "next/font/google";
+import { outfit } from '@/lib/fonts'
 import { Navbar } from '@/components/Navbar';
-const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'Coloured Icons',

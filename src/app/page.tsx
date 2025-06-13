@@ -1,12 +1,9 @@
 "use client";
-import { Navbar } from "@/components/Navbar";
 import { Search } from "@/components/Search";
 import { Filter } from "../components/Filter";
 import Link from "next/link";
 import { FaStar } from "react-icons/fa6";
-import { Outfit } from "next/font/google";
-
-const outfit = Outfit({ subsets: ["latin"] });
+import { outfit } from "@/lib/fonts";
 
 export default function Home() {
   return (
@@ -19,8 +16,8 @@ export default function Home() {
           Endless Possibilities
         </h1>
         <h2 className="mt-6 text-pretty text-lg font-medium text-gray-600 sm:text-xl/8 max-w-md mx-auto">
-          Your one-stop destination for stunning coloured icons. Find the perfect
-          icon to bring your designs to life.
+          Your one-stop destination for stunning coloured icons. Find the
+          perfect icon to bring your designs to life.
         </h2>
 
         <div className="mt-6 flex justify-center">

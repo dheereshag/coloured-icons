@@ -6,10 +6,8 @@ import { CiSearch } from "react-icons/ci";
 import { MenuList } from ".";
 import { SearchContext } from "@/context/SearchContextProvider";
 import Link from "next/link";
-import { Pacifico } from "next/font/google";
+import  { pacifico } from "@/lib/fonts";
 import { usePathname } from "next/navigation";
-
-const pacifico = Pacifico({ subsets: ["latin"], weight: "400" });
 
 interface NavbarProps {
   hideSearch?: boolean;
