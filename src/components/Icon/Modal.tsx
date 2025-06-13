@@ -70,7 +70,7 @@ const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
                   }
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-blue-500 hover:underline flex items-center justify-center gap-1"
+                  className="text-sm text-blue-500 hover:underline flex items-center gap-1"
                 >
                   <span>{icon.url}</span>
                   <HiOutlineExternalLink className="text-gray-500 text-sm" />
