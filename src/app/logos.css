@@ -3607,6 +3607,33 @@
   content: url("../../public/logos/technology/gatling/gatling.svg");
 }
 
+.ci-gatsby-horizontal-light,
+.ci-gatsby-inline-light,
+.ci-gatsbyjs-horizontal-light,
+.ci-gatsbyjs-inline-light {
+  content: url("../../public/logos/technology/gatsbyjs/gatsbyjs-horizontal-light.svg");
+}
+
+.ci-gatsby-horizontal,
+.ci-gatsby-horizontal-dark,
+.ci-gatsby-inline,
+.ci-gatsby-inline-dark,
+.ci-gatsbyjs-horizontal,
+.ci-gatsbyjs-horizontal-dark,
+.ci-gatsbyjs-inline,
+.ci-gatsbyjs-inline-dark {
+  content: url("../../public/logos/technology/gatsbyjs/gatsbyjs-horizontal.svg");
+}
+
+.ci-gatsby,
+.ci-gatsby-dark,
+.ci-gatsby-light,
+.ci-gatsbyjs,
+.ci-gatsbyjs-dark,
+.ci-gatsbyjs-light {
+  content: url("../../public/logos/technology/gatsbyjs/gatsbyjs.svg");
+}
+
 .ci-gazebo-stacked,
 .ci-gazebo-stacked-dark,
 .ci-gazebo-stacked-light,
@@ -4169,6 +4196,24 @@
 .ci-homebrew-dark,
 .ci-homebrew-light {
   content: url("../../public/logos/technology/homebrew/homebrew.svg");
+}
+
+.ci-honeycomb-horizontal-light,
+.ci-honeycomb-inline-light {
+  content: url("../../public/logos/technology/honeycomb/honeycomb-horizontal-light.svg");
+}
+
+.ci-honeycomb-horizontal,
+.ci-honeycomb-horizontal-dark,
+.ci-honeycomb-inline,
+.ci-honeycomb-inline-dark {
+  content: url("../../public/logos/technology/honeycomb/honeycomb-horizontal.svg");
+}
+
+.ci-honeycomb,
+.ci-honeycomb-dark,
+.ci-honeycomb-light {
+  content: url("../../public/logos/technology/honeycomb/honeycomb.svg");
 }
 
 .ci-hotjar-horizontal-light,
@@ -7486,6 +7531,21 @@
   content: url("../../public/logos/technology/solana/solana.svg");
 }
 
+.ci-solarwinds-horizontal,
+.ci-solarwinds-horizontal-dark,
+.ci-solarwinds-horizontal-light,
+.ci-solarwinds-inline,
+.ci-solarwinds-inline-dark,
+.ci-solarwinds-inline-light {
+  content: url("../../public/logos/technology/solarwinds/solarwinds-horizontal.svg");
+}
+
+.ci-solarwinds,
+.ci-solarwinds-dark,
+.ci-solarwinds-light {
+  content: url("../../public/logos/technology/solarwinds/solarwinds.svg");
+}
+
 .ci-solidity,
 .ci-solidity-dark,
 .ci-solidity-light {
@@ -7565,6 +7625,12 @@
 .ci-spark-dark,
 .ci-spark-light {
   content: url("../../public/logos/technology/spark/spark.svg");
+}
+
+.ci-splunk,
+.ci-splunk-dark,
+.ci-splunk-light {
+  content: url("../../public/logos/technology/splunk/splunk.svg");
 }
 
 .ci-spring-stacked,

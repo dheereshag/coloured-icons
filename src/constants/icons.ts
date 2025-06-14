@@ -2491,9 +2491,9 @@ const icons = [
     "name": "Gatsbyjs",
     "category": "technology",
     "classes": [
-      "gatsbyjs-gatsby",
-      "gatsbyjs-gatsby-horizontal",
-      "gatsbyjs-gatsby-horizontal-light"
+      "gatsbyjs",
+      "gatsbyjs-horizontal",
+      "gatsbyjs-horizontal-light"
     ],
     "url": "gatsbyjs.com"
   },
@@ -2883,6 +2883,16 @@ const icons = [
       "homebrew-vertical"
     ],
     "url": "homebrew.com"
+  },
+  {
+    "name": "Honeycomb",
+    "category": "technology",
+    "classes": [
+      "honeycomb",
+      "honeycomb-horizontal",
+      "honeycomb-horizontal-light"
+    ],
+    "url": "honeycomb.io"
   },
   {
     "name": "Hotjar",
@@ -5155,6 +5165,15 @@ const icons = [
     "url": "solana.com"
   },
   {
+    "name": "Solarwinds",
+    "category": "technology",
+    "classes": [
+      "solarwinds",
+      "solarwinds-horizontal"
+    ],
+    "url": "solarwinds.com"
+  },
+  {
     "name": "Solidity",
     "category": "technology",
     "classes": [
@@ -5210,7 +5229,7 @@ const icons = [
     "name": "Splunk",
     "category": "technology",
     "classes": [
-      "splunk-horizontal"
+      "splunk"
     ],
     "url": "splunk.com"
   },
