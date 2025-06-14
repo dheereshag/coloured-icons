@@ -1,8 +1,8 @@
-import { useEffect, MutableRefObject } from "react";
+import { useEffect, RefObject } from "react";
 
 function useOutsideClick(
-  ref: MutableRefObject<any>,
-  modalRef: MutableRefObject<any>,
+  ref: RefObject<any>,
+  modalRef: RefObject<any>,
   handler: (event: MouseEvent | TouchEvent) => void
 ) {
   useEffect(() => {
