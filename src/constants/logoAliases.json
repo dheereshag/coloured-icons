@@ -82,5 +82,6 @@
   "webassembly": ["wasm"],
   "woocommerce": ["woo"],
   "youtube": ["yt"],
-  "yugabytedb": ["yugabyte"]
+  "yugabytedb": ["yugabyte"],
+  "digitalocean": ["do"]
 }

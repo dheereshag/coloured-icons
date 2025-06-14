@@ -2892,7 +2892,13 @@
 .ci-digitalocean-horizontal-light,
 .ci-digitalocean-inline,
 .ci-digitalocean-inline-dark,
-.ci-digitalocean-inline-light {
+.ci-digitalocean-inline-light,
+.ci-do-horizontal,
+.ci-do-horizontal-dark,
+.ci-do-horizontal-light,
+.ci-do-inline,
+.ci-do-inline-dark,
+.ci-do-inline-light {
   content: url("../../public/logos/technology/digitalocean/digitalocean-horizontal.svg");
 }
 
@@ -2901,13 +2907,22 @@
 .ci-digitalocean-stacked-light,
 .ci-digitalocean-vertical,
 .ci-digitalocean-vertical-dark,
-.ci-digitalocean-vertical-light {
+.ci-digitalocean-vertical-light,
+.ci-do-stacked,
+.ci-do-stacked-dark,
+.ci-do-stacked-light,
+.ci-do-vertical,
+.ci-do-vertical-dark,
+.ci-do-vertical-light {
   content: url("../../public/logos/technology/digitalocean/digitalocean-vertical.svg");
 }
 
 .ci-digitalocean,
 .ci-digitalocean-dark,
-.ci-digitalocean-light {
+.ci-digitalocean-light,
+.ci-do,
+.ci-do-dark,
+.ci-do-light {
   content: url("../../public/logos/technology/digitalocean/digitalocean.svg");
 }
 
