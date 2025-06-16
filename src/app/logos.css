@@ -373,13 +373,13 @@
 .ci-bmw,
 .ci-bmw-dark,
 .ci-bmw-light {
-  content: url("../../public/logos/automobile/bmw/bmw.png");
+  content: url("../../public/logos/automobile/bmw/bmw.svg");
 }
 
 .ci-lamborghini,
 .ci-lamborghini-dark,
 .ci-lamborghini-light {
-  content: url("../../public/logos/automobile/lamborghini/lamborghini.png");
+  content: url("../../public/logos/automobile/lamborghini/lamborghini.svg");
 }
 
 .ci-landrover,
@@ -5596,7 +5596,7 @@
 .ci-netflix,
 .ci-netflix-dark,
 .ci-netflix-light {
-  content: url("../../public/logos/technology/netflix/netflix.png");
+  content: url("../../public/logos/technology/netflix/netflix.svg");
 }
 
 .ci-netlify-light {
