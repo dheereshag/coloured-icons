@@ -153,7 +153,7 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
                         href={item.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-foreground transition-colors text-lg"
+                        className="text-muted-foreground hover:text-foreground transition-colors font-medium"
                       >
                         {item.label}
                       </a>
@@ -162,7 +162,7 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
                     <NavigationMenuLink asChild>
                       <Link
                         href={item.href}
-                        className={`text-muted-foreground hover:text-foreground transition-colors text-lg ${
+                        className={`text-muted-foreground hover:text-foreground transition-colors font-medium ${
                           pathname === item.href
                             ? "text-foreground font-semibold"
                             : ""
