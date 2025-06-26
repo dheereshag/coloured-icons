@@ -11,7 +11,12 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { CiSearch } from "react-icons/ci";
-import { MenuList } from ".";
+import {
+  NavigationMenu,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+} from "@/components/ui/navigation-menu";
 import { SearchContext } from "@/context/SearchContextProvider";
 import Link from "next/link";
 import { pacifico } from "@/lib/fonts";
@@ -25,6 +30,16 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const [pendingFocus, setPendingFocus] = useState(false);
   const { triggerFocus } = useContext(SearchContext);
+
+  const menuItems = [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    {
+      href: "https://github.com/dheereshagrwal/coloured-icons/blob/master/README.md",
+      label: "Docs",
+      external: true,
+    },
+  ];
 
   const handleSearchClick = useCallback(() => {
     const searchSection = document.getElementById("search-section");
@@ -84,17 +99,39 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
                   role="navigation"
                   aria-label="Main navigation"
                 >
-                  <MenuList
-                    className="flex flex-col space-y-4"
-                    onClick={() => setIsMenuOpen(false)}
-                    activePathname={pathname}
-                    orientation="vertical"
-                  />
+                  <ul className="flex flex-col space-y-4">
+                    {menuItems.map((item) => (
+                      <li key={item.href}>
+                        {item.external ? (
+                          <a
+                            href={item.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-muted-foreground hover:text-foreground transition-colors font-medium"
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            {item.label}
+                          </a>
+                        ) : (
+                          <Link
+                            href={item.href}
+                            className={`text-muted-foreground hover:text-foreground transition-colors font-medium ${
+                              pathname === item.href
+                                ? "text-foreground font-semibold"
+                                : ""
+                            }`}
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            {item.label}
+                          </Link>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
                 </nav>
               </SheetContent>
             </Sheet>
           </div>
-
           {/* Logo */}
           <Link
             className={`${pacifico.className} text-2xl lg:text-3xl hover:text-gray-600 transition-colors`}
@@ -103,13 +140,42 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
             Coloured Icons
           </Link>
         </div>
+
         {/* Center - Desktop Navigation */}
         <div className="hidden md:flex md:absolute md:left-1/2 md:transform md:-translate-x-1/2">
-          <MenuList
-            className="flex items-center gap-8"
-            activePathname={pathname}
-            orientation="horizontal"
-          />
+          <NavigationMenu>
+            <NavigationMenuList>
+              {menuItems.map((item) => (
+                <NavigationMenuItem key={item.href}>
+                  {item.external ? (
+                    <NavigationMenuLink asChild>
+                      <a
+                        href={item.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-muted-foreground hover:text-foreground transition-colors text-lg"
+                      >
+                        {item.label}
+                      </a>
+                    </NavigationMenuLink>
+                  ) : (
+                    <NavigationMenuLink asChild>
+                      <Link
+                        href={item.href}
+                        className={`text-muted-foreground hover:text-foreground transition-colors text-lg ${
+                          pathname === item.href
+                            ? "text-foreground font-semibold"
+                            : ""
+                        }`}
+                      >
+                        {item.label}
+                      </Link>
+                    </NavigationMenuLink>
+                  )}
+                </NavigationMenuItem>
+              ))}
+            </NavigationMenuList>
+          </NavigationMenu>
         </div>
 
         {/* Right side - Search */}
@@ -127,7 +193,7 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
                   }
                 }}
               >
-                <CiSearch className="size-4"/>
+                <CiSearch className="size-4" />
                 <span className="sr-only">Search</span>
               </Link>
             </Button>
