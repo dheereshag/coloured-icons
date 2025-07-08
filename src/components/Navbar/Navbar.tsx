@@ -10,7 +10,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { CiSearch } from "react-icons/ci";
+import { FiSearch } from "react-icons/fi";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -153,7 +153,7 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
                         href={item.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-foreground transition-colors font-medium"
+                        className="text-muted-foreground hover:text-foreground transition-colors font-semibold"
                       >
                         {item.label}
                       </a>
@@ -162,9 +162,9 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
                     <NavigationMenuLink asChild>
                       <Link
                         href={item.href}
-                        className={`text-muted-foreground hover:text-foreground transition-colors font-medium ${
+                        className={`text-muted-foreground hover:text-foreground transition-colors font-semibold ${
                           pathname === item.href
-                            ? "text-foreground font-semibold"
+                            ? "text-foreground"
                             : ""
                         }`}
                       >
@@ -193,7 +193,7 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
                   }
                 }}
               >
-                <CiSearch className="size-4" />
+                <FiSearch className="size-5" />
                 <span className="sr-only">Search</span>
               </Link>
             </Button>
