@@ -5,7 +5,7 @@ import Link from "next/link";
 import { FaStar } from "react-icons/fa6";
 import { outfit } from "@/lib/fonts";
 
-const heroHeading = "mt-4 text-5xl sm:text-6xl text-gray-900 font-semibold";
+const heroHeading = "mt-4 text-4xl sm:text-6xl text-gray-900 font-semibold";
 
 export default function Home() {
   return (
@@ -33,7 +33,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row justify-between gap-5 lg:gap-0 lg:items-center mb-10">
           <h1
             id="popular-icons"
-            className={`${outfit.className} text-4xl text-gray-900`}
+            className={`${outfit.className} text-4xl text-gray-800 font-medium`}
           >
             Most Popular Coloured Icons
           </h1>

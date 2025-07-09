@@ -5,6 +5,7 @@ import { Dropdown } from ".";
 import { IconList, Modal } from "@/components/Icon";
 import { icons, categories } from "@/constants";
 import { SearchContext } from "@/context/SearchContextProvider";
+import { Button } from "@/components/ui/button";
 import {
   FaIcons, // All
   FaPalette, // Art and Music
@@ -78,18 +79,21 @@ const Filter = () => {
     <div className="flex flex-col lg:flex-row gap-6">
       <div className="hidden sm:flex flex-row lg:flex-col gap-1.5 text-sm lg:w-64 shrink-0 overflow-x-auto pb-2 lg:pb-0">
         {categories.map((category: Category) => (
-          <button
+          <Button
             key={category.name}
-            className={`cursor-pointer inline-flex items-center px-4 lg:px-5 py-2 font-medium rounded-lg whitespace-nowrap transition-all duration-200 ${
+            variant={
+              selectedCategory.name === category.name ? "default" : "ghost"
+            }
+            onClick={() => handleCategoryChange(category)}
+            className={`inline-flex items-center whitespace-nowrap lg:justify-start ${
               selectedCategory.name === category.name
                 ? "bg-purple-600 text-white shadow-lg hover:bg-purple-700"
                 : "text-gray-600 hover:bg-purple-50 hover:text-purple-600"
             }`}
-            onClick={() => handleCategoryChange(category)}
           >
             {getCategoryIcon(category.name)}
             {category.name}
-          </button>
+          </Button>
         ))}
       </div>
       <div className="sm:hidden">
