@@ -96,7 +96,7 @@ const Filter = () => {
           </Button>
         ))}
       </div>
-      <div className="sm:hidden">
+      <div className="sm:hidden w-full">
         <Dropdown
           categories={categories}
           onCategoryChange={handleCategoryChange}

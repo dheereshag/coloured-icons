@@ -41,7 +41,7 @@ const Dropdown: React.FC<DropdownProps> = ({
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="w-xs justify-between"
+          className="w-full justify-between"
         >
           <span className="flex items-center">
             {value && getCategoryIcon(value)}
@@ -52,7 +52,7 @@ const Dropdown: React.FC<DropdownProps> = ({
           <LuChevronsUpDown className="opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-xs p-0" align="start">
+      <PopoverContent className="min-w-[var(--radix-popper-anchor-width)]">
         <Command>
           <CommandInput placeholder="Search category..." className="h-9" />
           <CommandList>
