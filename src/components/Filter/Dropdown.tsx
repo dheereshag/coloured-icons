@@ -1,22 +1,15 @@
 "use client";
 
-import { IoCheckmark } from "react-icons/io5";
-import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
 import {
-  Command,
-  CommandEmpty,
-  CommandGroup,
-  CommandInput,
-  CommandItem,
-  CommandList,
-} from "@/components/ui/command";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
-import { LuChevronsUpDown } from "react-icons/lu";
+  Combobox,
+  ComboboxContent,
+  ComboboxEmpty,
+  ComboboxGroup,
+  ComboboxInput,
+  ComboboxItem,
+  ComboboxList,
+  ComboboxTrigger,
+} from "@/components/ui/kibo-ui/combobox";
 import { Category } from "@/interfaces";
 import { useState } from "react";
 
@@ -31,65 +24,47 @@ const Dropdown: React.FC<DropdownProps> = ({
   onCategoryChange,
   getCategoryIcon,
 }) => {
-  const [open, setOpen] = useState(false);
   const [value, setValue] = useState("");
 
+  // Transform categories to match the combobox data format
+  const categoryData = categories.map((category) => ({
+    value: category.name,
+    label: category.name,
+    category: category,
+  }));
+
+  const handleValueChange = (newValue: string) => {
+    setValue(newValue);
+    const selectedCategory = categories.find((cat) => cat.name === newValue);
+    if (selectedCategory && onCategoryChange) {
+      onCategoryChange(selectedCategory);
+    }
+  };
+
   return (
-    <Popover open={open} onOpenChange={setOpen}>
-      <PopoverTrigger asChild>
-        <Button
-          variant="outline"
-          role="combobox"
-          aria-expanded={open}
-          className="w-full justify-between"
-        >
-          <span className="flex items-center">
-            {value && getCategoryIcon(value)}
-            {value
-              ? categories.find((category) => category.name === value)?.name
-              : "Select category..."}
-          </span>
-          <LuChevronsUpDown className="opacity-50" />
-        </Button>
-      </PopoverTrigger>
-      <PopoverContent className="min-w-[var(--radix-popper-anchor-width)]">
-        <Command>
-          <CommandInput placeholder="Search category..." className="h-9" />
-          <CommandList>
-            <CommandEmpty>No category found.</CommandEmpty>
-            <CommandGroup>
-              {categories.map((category) => (
-                <CommandItem
-                  key={category.name}
-                  value={category.name}
-                  onSelect={(currentValue) => {
-                    setValue(currentValue === value ? "" : currentValue);
-                    const selectedCategory = categories.find(
-                      (cat) => cat.name === currentValue
-                    );
-                    if (selectedCategory && onCategoryChange) {
-                      onCategoryChange(selectedCategory);
-                    }
-                    setOpen(false);
-                  }}
-                >
-                  <span className="flex items-center">
-                    {getCategoryIcon(category.name)}
-                    {category.name}
-                  </span>
-                  <IoCheckmark
-                    className={cn(
-                      "ml-auto",
-                      value === category.name ? "opacity-100" : "opacity-0"
-                    )}
-                  />
-                </CommandItem>
-              ))}
-            </CommandGroup>
-          </CommandList>
-        </Command>
-      </PopoverContent>
-    </Popover>
+    <Combobox
+      data={categoryData}
+      onValueChange={handleValueChange}
+      type="category"
+    >
+      <ComboboxTrigger className="w-full" />
+      <ComboboxContent>
+        <ComboboxInput placeholder="Search category..." />
+        <ComboboxEmpty>No category found.</ComboboxEmpty>
+        <ComboboxList>
+          <ComboboxGroup>
+            {categories.map((category) => (
+              <ComboboxItem key={category.name} value={category.name}>
+                <span className="flex items-center gap-2">
+                  {getCategoryIcon(category.name)}
+                  {category.name}
+                </span>
+              </ComboboxItem>
+            ))}
+          </ComboboxGroup>
+        </ComboboxList>
+      </ComboboxContent>
+    </Combobox>
   );
 };
 
