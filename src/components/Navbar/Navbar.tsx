@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useContext, useEffect, useCallback } from "react";
-import { RxHamburgerMenu } from "react-icons/rx";
+import { Menu, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -10,7 +10,6 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { FiSearch } from "react-icons/fi";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -74,7 +73,7 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
             <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon">
-                  <RxHamburgerMenu className="h-5 w-5" />
+                  <Menu className="h-5 w-5" />
                   <span className="sr-only">Open menu</span>
                 </Button>
               </SheetTrigger>
@@ -163,9 +162,7 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
                       <Link
                         href={item.href}
                         className={`text-muted-foreground hover:text-foreground transition-colors font-semibold ${
-                          pathname === item.href
-                            ? "text-foreground"
-                            : ""
+                          pathname === item.href ? "text-foreground" : ""
                         }`}
                       >
                         {item.label}
@@ -193,7 +190,7 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
                   }
                 }}
               >
-                <FiSearch className="size-5" />
+                <Search className="size-5" />
                 <span className="sr-only">Search</span>
               </Link>
             </Button>

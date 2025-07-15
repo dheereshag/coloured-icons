@@ -1,4 +1,4 @@
-import { HiOutlineClipboard, HiOutlineClipboardCheck } from "react-icons/hi";
+import { Clipboard, ClipboardCheck } from "lucide-react";
 import useCopy from "@/hooks/useCopy";
 import { rubik } from "@/lib/fonts";
 
@@ -23,9 +23,9 @@ const IconCode: React.FC<IconCodeProps> = ({ iconClass }) => {
         title="Copy to clipboard"
       >
         {copied ? (
-          <HiOutlineClipboardCheck className="w-5 h-5 text-green-600" />
+          <ClipboardCheck className="w-5 h-5 text-green-600" />
         ) : (
-          <HiOutlineClipboard className="w-5 h-5 text-gray-600 group-hover:text-gray-700" />
+          <Clipboard className="w-5 h-5 text-gray-600 group-hover:text-gray-700" />
         )}
       </button>
     </div>

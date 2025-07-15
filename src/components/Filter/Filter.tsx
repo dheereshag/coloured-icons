@@ -7,50 +7,50 @@ import { icons, categories } from "@/constants";
 import { SearchContext } from "@/context/SearchContextProvider";
 import { Button } from "@/components/ui/button";
 import {
-  FaIcons, // All
-  FaPalette, // Art and Music
-  FaCar, // Automobile
-  FaShirt, // Clothing and Apparel
-  FaGraduationCap, // Education
-  FaSackDollar, // Financial Services
-  FaBowlFood, // Food and Beverage
-  FaPumpMedical, // Pharmaceuticals
-  FaHashtag, // Social Media
-  FaMicrochip, // Technology
-  FaPlane, // Travel and Tourism
-  FaGuitar, // Instrument
-  FaShrimp, // Animals
-} from "react-icons/fa6";
+  Grid3x3, // All (was FaIcons)
+  Palette, // Art and Music (was FaPalette)
+  Car, // Automobile (was FaCar)
+  Shirt, // Clothing and Apparel (was FaShirt)
+  GraduationCap, // Education (was FaGraduationCap)
+  DollarSign, // Financial Services (was FaSackDollar)
+  UtensilsCrossed, // Food and Beverage (was FaBowlFood)
+  Pill, // Pharmaceuticals (was FaPumpMedical)
+  Hash, // Social Media (was FaHashtag)
+  Cpu, // Technology (was FaMicrochip)
+  Plane, // Travel and Tourism (was FaPlane)
+  Music, // Instrument (was FaGuitar)
+  Rabbit, // Animals (was FaShrimp)
+} from "lucide-react";
 
 const getCategoryIcon = (categoryName: string) => {
   const margin = "mr-2";
   switch (categoryName.toLowerCase()) {
     case "all":
-      return <FaIcons className={margin} />;
+      return <Grid3x3 className={margin} />;
     case "art and music":
-      return <FaPalette className={margin} />;
+      return <Palette className={margin} />;
     case "automobile":
-      return <FaCar className={margin} />;
+      return <Car className={margin} />;
     case "clothing and apparel":
-      return <FaShirt className={margin} />;
+      return <Shirt className={margin} />;
     case "education":
-      return <FaGraduationCap className={margin} />;
+      return <GraduationCap className={margin} />;
     case "financial services":
-      return <FaSackDollar className={margin} />;
+      return <DollarSign className={margin} />;
     case "food and beverage":
-      return <FaBowlFood className={margin} />;
+      return <UtensilsCrossed className={margin} />;
     case "pharmaceuticals":
-      return <FaPumpMedical className={margin} />;
+      return <Pill className={margin} />;
     case "social media":
-      return <FaHashtag className={margin} />;
+      return <Hash className={margin} />;
     case "technology":
-      return <FaMicrochip className={margin} />;
+      return <Cpu className={margin} />;
     case "travel and tourism":
-      return <FaPlane className={margin} />;
+      return <Plane className={margin} />;
     case "instruments":
-      return <FaGuitar className={margin} />;
+      return <Music className={margin} />;
     case "animals":
-      return <FaShrimp className={margin} />;
+      return <Rabbit className={margin} />;
     default:
       return null;
   }

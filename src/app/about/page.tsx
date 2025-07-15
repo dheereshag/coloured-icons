@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa6";
+import { Github } from "lucide-react";
 import CdnInclude from "../../components/About/CdnInclude";
 import IconSection from "../../components/About/IconSection";
 
@@ -95,7 +95,7 @@ export default function About() {
               target="_blank"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-linear-to-r from-gray-800 to-gray-900 text-white rounded-lg hover:from-gray-900 hover:to-black shadow-lg hover:shadow-gray-900/20 transition-all"
             >
-              <FaGithub className="text-xl" />
+              <Github className="text-xl" />
               <span className="font-medium">View on GitHub</span>
             </Link>
           </div>

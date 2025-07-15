@@ -2,7 +2,7 @@
 import { Search } from "@/components/Search";
 import { Filter } from "../components/Filter";
 import Link from "next/link";
-import { FaStar } from "react-icons/fa6";
+import { Star } from "lucide-react";
 import { outfit } from "@/lib/fonts";
 
 const heroHeading = "mt-4 text-4xl sm:text-6xl text-gray-900 font-semibold";
@@ -23,7 +23,7 @@ export default function Home() {
             target="_blank"
             className="relative rounded-full px-4 py-2 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 flex items-center gap-2"
           >
-            <FaStar className="text-lg text-amber-500" />
+            <Star className="w-4 h-4 text-amber-500" fill="currentColor" />
             <span className="font-semibold">Star us on Github</span>
           </Link>
         </div>

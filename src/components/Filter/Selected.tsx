@@ -1,4 +1,4 @@
-import { IoCheckmark } from "react-icons/io5";
+import { Check } from "lucide-react";
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
@@ -30,7 +30,7 @@ const Selected: React.FC<SelectedProps> = ({ selected, active, category }) => {
             "absolute inset-y-0 right-0 flex items-center pr-4"
           )}
         >
-          <IoCheckmark className="h-5 w-5" aria-hidden="true" />
+          <Check className="h-5 w-5" aria-hidden="true" />
         </span>
       )}
     </>

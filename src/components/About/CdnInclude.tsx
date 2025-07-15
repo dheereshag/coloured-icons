@@ -1,4 +1,4 @@
-import { HiOutlineClipboard, HiOutlineClipboardCheck } from "react-icons/hi";
+import { Clipboard, ClipboardCheck } from "lucide-react";
 import { useState } from "react";
 interface CdnIncludeProps {
   text: string;
@@ -27,9 +27,9 @@ const CdnInclude: React.FC<CdnIncludeProps> = ({ text, url }) => {
           title="Copy to clipboard"
         >
           {copied ? (
-            <HiOutlineClipboardCheck className="w-5 h-5 text-green-400" />
+            <ClipboardCheck className="w-5 h-5 text-green-400" />
           ) : (
-            <HiOutlineClipboard className="w-5 h-5 text-gray-400" />
+            <Clipboard className="w-5 h-5 text-gray-400" />
           )}
         </button>
       </div>

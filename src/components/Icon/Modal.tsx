@@ -1,8 +1,7 @@
 import { Dialog, DialogPanel, DialogTitle } from "@headlessui/react";
 import { Icon } from "@/interfaces";
 import { IconCode } from ".";
-import { IoClose } from "react-icons/io5";
-import { HiOutlineExternalLink } from "react-icons/hi";
+import { X, ExternalLink } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
 
@@ -46,7 +45,7 @@ const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
               onClick={onClose}
               className="absolute right-4 top-4 p-2 rounded-full text-slate-400 hover:text-slate-600 hover:bg-slate-100/80 transition-colors cursor-pointer"
             >
-              <IoClose className="w-6 h-6" />
+              <X className="w-6 h-6" />
             </button>
           </div>
 
@@ -73,7 +72,7 @@ const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
                   className="text-sm text-blue-500 hover:underline flex items-center gap-1"
                 >
                   <span>{icon.url}</span>
-                  <HiOutlineExternalLink className="text-gray-500 text-sm" />
+                  <ExternalLink className="text-gray-500 w-3 h-3" />
                 </Link>
               </div>
             </div>
