@@ -4,12 +4,10 @@ import { useState, useContext, useEffect, useCallback } from "react";
 import { Menu, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -71,66 +69,54 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
         <div className="flex items-center gap-4">
           {/* Mobile hamburger menu */}
           <div className="md:hidden">
-            <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
-              <SheetTrigger asChild>
+            <Popover open={isMenuOpen} onOpenChange={setIsMenuOpen}>
+              <PopoverTrigger asChild>
                 <Button variant="ghost" size="icon">
                   <Menu className="h-5 w-5" />
                   <span className="sr-only">Open menu</span>
                 </Button>
-              </SheetTrigger>
-              <SheetContent
-                side="left"
-                className="w-full sm:max-w-sm flex flex-col p-6"
+              </PopoverTrigger>
+              <PopoverContent
+                side="bottom"
+                align="start"
+                className="w-48 p-2"
                 aria-describedby="mobile-menu-description"
               >
-                <SheetHeader className="p-0">
-                  <SheetTitle asChild>
-                    <Link
-                      className={`${pacifico.className} text-2xl font-bold`}
-                      href="/"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      Coloured Icons
-                    </Link>
-                  </SheetTitle>
-                </SheetHeader>
                 <nav
-                  className="mt-6"
+                  className="space-y-2"
                   role="navigation"
                   aria-label="Main navigation"
                 >
-                  <ul className="flex flex-col space-y-4">
-                    {menuItems.map((item) => (
-                      <li key={item.href}>
-                        {item.external ? (
-                          <a
-                            href={item.href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-muted-foreground hover:text-foreground transition-colors font-medium"
-                            onClick={() => setIsMenuOpen(false)}
-                          >
-                            {item.label}
-                          </a>
-                        ) : (
-                          <Link
-                            href={item.href}
-                            className={`text-muted-foreground hover:text-foreground transition-colors font-medium ${
-                              pathname === item.href
-                                ? "text-foreground font-semibold"
-                                : ""
-                            }`}
-                            onClick={() => setIsMenuOpen(false)}
-                          >
-                            {item.label}
-                          </Link>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
+                  {menuItems.map((item) => (
+                    <div key={item.href}>
+                      {item.external ? (
+                        <a
+                          href={item.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block px-3 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors font-medium rounded-sm hover:bg-accent"
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          {item.label}
+                        </a>
+                      ) : (
+                        <Link
+                          href={item.href}
+                          className={`block px-3 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors font-medium rounded-sm hover:bg-accent ${
+                            pathname === item.href
+                              ? "text-foreground font-semibold bg-accent"
+                              : ""
+                          }`}
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          {item.label}
+                        </Link>
+                      )}
+                    </div>
+                  ))}
                 </nav>
-              </SheetContent>
-            </Sheet>
+              </PopoverContent>
+            </Popover>
           </div>
           {/* Logo */}
           <Logo />
