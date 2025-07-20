@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useContext, useEffect, useCallback } from "react";
-import { Menu, Search } from "lucide-react";
+import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Popover,
@@ -71,9 +71,40 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
           <div className="md:hidden">
             <Popover open={isMenuOpen} onOpenChange={setIsMenuOpen}>
               <PopoverTrigger asChild>
-                <Button variant="ghost" size="icon">
-                  <Menu className="h-5 w-5" />
-                  <span className="sr-only">Open menu</span>
+                <Button
+                  className="group size-8"
+                  variant="ghost"
+                  size="icon"
+                  aria-expanded={isMenuOpen}
+                >
+                  <svg
+                    className="pointer-events-none"
+                    width={16}
+                    height={16}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4 12L20 12"
+                      className="origin-center -translate-y-[7px] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.1)] group-aria-expanded:translate-x-0 group-aria-expanded:translate-y-0 group-aria-expanded:rotate-[315deg]"
+                    />
+                    <path
+                      d="M4 12H20"
+                      className="origin-center transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.8)] group-aria-expanded:rotate-45"
+                    />
+                    <path
+                      d="M4 12H20"
+                      className="origin-center translate-y-[7px] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.1)] group-aria-expanded:translate-y-0 group-aria-expanded:rotate-[135deg]"
+                    />
+                  </svg>
+                  <span className="sr-only">
+                    {isMenuOpen ? "Close menu" : "Open menu"}
+                  </span>
                 </Button>
               </PopoverTrigger>
               <PopoverContent
