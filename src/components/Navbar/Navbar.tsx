@@ -20,6 +20,7 @@ import { SearchContext } from "@/context/SearchContextProvider";
 import Link from "next/link";
 import { pacifico } from "@/lib/fonts";
 import { usePathname } from "next/navigation";
+import { Logo } from ".";
 interface NavbarProps {
   hideSearch?: boolean;
 }
@@ -132,12 +133,7 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
             </Sheet>
           </div>
           {/* Logo */}
-          <Link
-            className={`${pacifico.className} text-2xl lg:text-3xl hover:text-gray-600 transition-colors`}
-            href="/"
-          >
-            Coloured Icons
-          </Link>
+          <Logo />
         </div>
 
         {/* Center - Desktop Navigation */}
