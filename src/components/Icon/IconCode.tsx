@@ -1,4 +1,5 @@
 import { Clipboard, ClipboardCheck } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import useCopy from "@/hooks/useCopy";
 import { rubik } from "@/lib/fonts";
 
@@ -17,9 +18,11 @@ const IconCode: React.FC<IconCodeProps> = ({ iconClass }) => {
         >{`<i class="ci ci-${iconClass}"></i>`}</code>
       </pre>
 
-      <button
+      <Button
+        variant="ghost"
+        size="sm"
         onClick={() => handleCopy(`<i class="ci ci-${iconClass}"></i>`)}
-        className="m-2 hover:bg-gray-300/50 transition-all"
+        className="m-2 hover:bg-gray-300/50 transition-all h-auto p-2"
         title="Copy to clipboard"
       >
         {copied ? (
@@ -27,7 +30,7 @@ const IconCode: React.FC<IconCodeProps> = ({ iconClass }) => {
         ) : (
           <Clipboard className="w-5 h-5 text-gray-600 group-hover:text-gray-700" />
         )}
-      </button>
+      </Button>
     </div>
   );
 };

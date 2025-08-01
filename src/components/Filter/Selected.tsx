@@ -1,8 +1,5 @@
 import { Check } from "lucide-react";
-
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(" ");
-}
+import { cn } from "@/lib/utils";
 
 interface SelectedProps {
   selected: boolean;
@@ -14,7 +11,7 @@ const Selected: React.FC<SelectedProps> = ({ selected, active, category }) => {
   return (
     <>
       <span
-        className={classNames(
+        className={cn(
           selected
             ? "font-semibold text-gray-900"
             : "font-medium text-gray-600",
@@ -25,7 +22,7 @@ const Selected: React.FC<SelectedProps> = ({ selected, active, category }) => {
       </span>
       {selected && (
         <span
-          className={classNames(
+          className={cn(
             active ? "text-gray-900" : "text-gray-600",
             "absolute inset-y-0 right-0 flex items-center pr-4"
           )}
