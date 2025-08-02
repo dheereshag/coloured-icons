@@ -1,18 +1,12 @@
+import useCopy from "@/hooks/useCopy";
 import { Clipboard, ClipboardCheck } from "lucide-react";
-import { useState } from "react";
 interface CdnIncludeProps {
   text: string;
   url: string;
 }
 
 const CdnInclude: React.FC<CdnIncludeProps> = ({ text, url }) => {
-  const [copied, setCopied] = useState(false);
-
-  const handleCopy = (content: string) => {
-    navigator.clipboard.writeText(content);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
+  const { copied, handleCopy } = useCopy();
 
   return (
     <>
