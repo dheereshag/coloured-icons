@@ -1,11 +1,12 @@
 import { icons } from "@/constants";
 import React from "react";
-
+import { IconCard } from "../Icon";
 interface Icon {
   name: string;
   classes: string[];
+  category: string;
+  url: string;
 }
-
 interface IconSectionProps {
   title: string;
   type: "tech" | "social";
@@ -46,15 +47,7 @@ const IconSection: React.FC<IconSectionProps> = ({ title, type }) => {
       <h3 className="text-lg font-medium text-gray-800 mb-4">{title}</h3>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
         {getIconsByType(type).map((icon: Icon) => (
-          <div
-            key={icon.name}
-            className="flex flex-col items-center gap-3 p-6 rounded-xl bg-white shadow-xs border border-gray-200 hover:border-purple-200 hover:shadow-md transition-all"
-          >
-            <i className={`ci ci-${icon.classes[0]} ci-3x text-gray-800`}></i>
-            <span className="text-sm font-medium text-gray-600">
-              {icon.name}
-            </span>
-          </div>
+          <IconCard key={icon.name} icon={icon} />
         ))}
       </div>
     </>
