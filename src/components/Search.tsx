@@ -38,7 +38,7 @@ function SearchBox() {
       <Input
         placeholder="Search"
         type="search"
-        className="pl-10 focus-visible:ring-purple-700 focus-visible:border-gray-200"
+        className="pl-8 focus-visible:ring-purple-700 focus-visible:border-gray-200"
         ref={ref}
         value={search}
         onChange={(e) => setSearch(e.target.value)}

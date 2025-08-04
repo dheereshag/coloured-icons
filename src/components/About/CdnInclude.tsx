@@ -7,7 +7,7 @@ interface CdnIncludeProps {
 
 const CdnInclude: React.FC<CdnIncludeProps> = ({ text, url }) => {
   const { copied, handleCopy } = useCopy();
-
+  const link = `<link rel="stylesheet" href="${url}" />`;
   return (
     <>
       <p className="text-gray-600 mt-4">{text}</p>
@@ -16,7 +16,7 @@ const CdnInclude: React.FC<CdnIncludeProps> = ({ text, url }) => {
           <code>{`<link rel="stylesheet" href="${url}" />`}</code>
         </pre>
         <button
-          onClick={() => handleCopy(`<link rel="stylesheet" href="${url}" />`)}
+          onClick={() => handleCopy(link)}
           className="absolute right-3 top-1/2 -translate-y-1/2 p-2 rounded-md hover:bg-white/10 transition-colors"
           title="Copy to clipboard"
         >

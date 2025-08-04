@@ -17,7 +17,7 @@ const size = (icon: Icon) => {
 
 const IconCard: React.FC<IconCardProps> = ({ icon }) => {
   return (
-    <Card className="rounded-lg border-2 hover:border-blue-500 hover:cursor-pointer p-0">
+    <Card className="rounded-lg border-2 p-0">
       <CardContent className="flex gap-3 p-3 sm:p-4 items-center w-full">
         <i
           className={`ci ci-${icon.classes[0]} ci-${size(icon)}x sm:ci-${
