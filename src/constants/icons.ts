@@ -4740,7 +4740,7 @@ const icons = [
     "url": "reactbootstrap.com"
   },
   {
-    "name": "Reactnative",
+    "name": "React Native",
     "category": "technology",
     "classes": [
       "reactnative"

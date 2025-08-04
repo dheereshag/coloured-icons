@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import logoAliases from "../src/constants/logoAliases.json" with { type: "json" };
-import logoMeta from "../src/constants/logoMeta.json" with { type: "json" };
+import logoAliases from "../src/constants/logoAliases.js";
+import logoMeta from "../src/constants/logoMeta.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -335,8 +335,12 @@ fs.readdir(logosPath, (err, categories) => {
       const match = oldContent.match(/const icons = (\[.*?\]);/s);
       if (match) {
         const oldIcons = JSON.parse(match[1]);
-        iconsArr = iconsArr.map(newIcon => {
-          const found = oldIcons.find(oldIcon => oldIcon.name === newIcon.name && oldIcon.category === newIcon.category);
+        iconsArr = iconsArr.map((newIcon) => {
+          const found = oldIcons.find(
+            (oldIcon) =>
+              oldIcon.name === newIcon.name &&
+              oldIcon.category === newIcon.category
+          );
           if (found && found.url) newIcon.url = found.url;
           return newIcon;
         });
@@ -346,7 +350,11 @@ fs.readdir(logosPath, (err, categories) => {
     }
   }
 
-  const iconsContent = `const icons = ${JSON.stringify(iconsArr, null, 2)};\nexport default icons;\n`;
+  const iconsContent = `const icons = ${JSON.stringify(
+    iconsArr,
+    null,
+    2
+  )};\nexport default icons;\n`;
   fs.writeFileSync(iconsPath, iconsContent);
   console.log("icons.ts generated successfully!");
 });
