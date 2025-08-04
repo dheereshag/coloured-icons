@@ -18,17 +18,6 @@ interface CdnIncludeProps {
 const CdnInclude: React.FC<CdnIncludeProps> = ({ text, url }) => {
   const link = `<link rel="stylesheet" href="${url}" />`;
   const [value, setValue] = useState("cdn");
-  const [isCopied, setIsCopied] = useState(false);
-
-  const handleCopy = () => {
-    setIsCopied(true);
-    console.log(`Copied "${link}" to clipboard`);
-    setTimeout(() => setIsCopied(false), 2000);
-  };
-
-  const handleError = () => {
-    console.error(`Failed to copy "${link}" to clipboard`);
-  };
 
   return (
     <>
