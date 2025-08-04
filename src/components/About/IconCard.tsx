@@ -1,9 +1,9 @@
-interface Icon {
+interface AboutPageIcon {
   name: string;
   classes: string[];
 }
 interface IconCardProps {
-  icon: Icon;
+  icon: AboutPageIcon;
 }
 
 const IconCard = ({ icon }: IconCardProps) => {

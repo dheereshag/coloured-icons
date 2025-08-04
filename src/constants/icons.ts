@@ -4408,7 +4408,7 @@ const icons = [
     "classes": [
       "preact"
     ],
-    "url": "preact.com"
+    "url": "preactjs.com"
   },
   {
     "name": "Premierepro",
@@ -4729,7 +4729,7 @@ const icons = [
     "classes": [
       "react"
     ],
-    "url": "react.com"
+    "url": "react.dev"
   },
   {
     "name": "Reactbootstrap",

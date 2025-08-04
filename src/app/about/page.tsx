@@ -3,18 +3,11 @@ import Link from "next/link";
 import { Github } from "lucide-react";
 import CdnInclude from "../../components/About/CdnInclude";
 import IconSection from "../../components/About/IconSection";
-
-const CI_CSS_URL_VERSION =
-  "https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@1.9.4/src/app/ci.min.css";
-const CI_CSS_URL_LATEST =
-  "https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@master/src/app/ci.min.css";
-
-const features = [
-  "Over 300+ professionally designed icons",
-  "Multiple variations for popular brands and logos",
-  "Easy implementation with simple HTML/CSS classes",
-  "Regular updates and new icon additions",
-];
+import {
+  socialIcons,
+  techIcons,
+} from "@/constants/about-page-icons";
+import { CI_CSS_URL_LATEST, CI_CSS_URL_VERSION, features } from "@/constants/data";
 
 export default function About() {
   return (
@@ -47,8 +40,8 @@ export default function About() {
             Explore Our Icon Collection
           </h2>
           <div className="space-y-6">
-            <IconSection title="Development & Technology Icons" type="tech" />
-            <IconSection title="Brand & Social Media Icons" type="social" />
+            <IconSection title="Tech Icons" icons={techIcons} />
+            <IconSection title="Social Icons" icons={socialIcons} />
           </div>
         </section>
 

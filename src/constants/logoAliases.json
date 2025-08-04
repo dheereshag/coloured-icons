@@ -73,6 +73,7 @@
   "rxjs": ["rx"],
   "semanticui": ["semantic"],
   "solidjs": ["solid"],
+  "tailwindcss": ["tailwind"],
   "threejs": ["three"],
   "tmdb": ["tm"],
   "typescript": ["ts"],

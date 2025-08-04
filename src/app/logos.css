@@ -7951,11 +7951,17 @@
   content: url("../../public/logos/technology/symfony/symfony.svg");
 }
 
+.ci-tailwind-horizontal-light,
+.ci-tailwind-inline-light,
 .ci-tailwindcss-horizontal-light,
 .ci-tailwindcss-inline-light {
   content: url("../../public/logos/technology/tailwindcss/tailwindcss-horizontal-light.svg");
 }
 
+.ci-tailwind-horizontal,
+.ci-tailwind-horizontal-dark,
+.ci-tailwind-inline,
+.ci-tailwind-inline-dark,
 .ci-tailwindcss-horizontal,
 .ci-tailwindcss-horizontal-dark,
 .ci-tailwindcss-inline,
@@ -7963,6 +7969,9 @@
   content: url("../../public/logos/technology/tailwindcss/tailwindcss-horizontal.svg");
 }
 
+.ci-tailwind,
+.ci-tailwind-dark,
+.ci-tailwind-light,
 .ci-tailwindcss,
 .ci-tailwindcss-dark,
 .ci-tailwindcss-light {
