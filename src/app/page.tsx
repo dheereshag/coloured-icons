@@ -1,5 +1,5 @@
 "use client";
-import { Search } from "@/components/Search";
+import SearchBox from "@/components/Search";
 import { Filter } from "../components/Filter";
 import Link from "next/link";
 import { Star } from "lucide-react";
@@ -38,7 +38,7 @@ export default function Home() {
             Most Popular Coloured Icons
           </h1>
           <div id="search-section" className="lg:w-4/12">
-            <Search />
+            <SearchBox />
           </div>
         </div>
         <Filter />

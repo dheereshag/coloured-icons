@@ -16,12 +16,13 @@ import {
 } from "@/components/ui/navigation-menu";
 import { SearchContext } from "@/context/SearchContextProvider";
 import Link from "next/link";
-import { pacifico } from "@/lib/fonts";
 import { usePathname } from "next/navigation";
-import { Logo } from ".";
+import Logo from "@/components/Logo";
+
 interface NavbarProps {
   hideSearch?: boolean;
 }
+
 const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
   const pathname = usePathname();
 
