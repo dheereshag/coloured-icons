@@ -10,10 +10,10 @@ const CdnInclude: React.FC<CdnIncludeProps> = ({ text, url }) => {
   const link = `<link rel="stylesheet" href="${url}" />`;
   return (
     <>
-      <p className="text-gray-600 mt-4">{text}</p>
-      <div className="mt-4 relative">
+      <p className="text-gray-600 my-4">{text}</p>
+      <div className="relative">
         <pre className="bg-gray-800/95 text-white p-4 rounded-lg whitespace-pre-wrap word-break-all">
-          <code>{`<link rel="stylesheet" href="${url}" />`}</code>
+          <code>{link}</code>
         </pre>
         <button
           onClick={() => handleCopy(link)}
