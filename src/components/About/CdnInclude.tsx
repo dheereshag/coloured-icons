@@ -1,32 +1,56 @@
-import useCopy from "@/hooks/useCopy";
-import { Clipboard, ClipboardCheck } from "lucide-react";
+"use client";
+import {
+  Snippet,
+  SnippetCopyButton,
+  SnippetHeader,
+  SnippetTabsContent,
+  SnippetTabsList,
+  SnippetTabsTrigger,
+} from "@/components/ui/kibo-ui/snippet";
+import { LinkIcon } from "lucide-react";
+import { useState } from "react";
+
 interface CdnIncludeProps {
   text: string;
   url: string;
 }
 
 const CdnInclude: React.FC<CdnIncludeProps> = ({ text, url }) => {
-  const { copied, handleCopy } = useCopy();
   const link = `<link rel="stylesheet" href="${url}" />`;
+  const [value, setValue] = useState("cdn");
+  const [isCopied, setIsCopied] = useState(false);
+
+  const handleCopy = () => {
+    setIsCopied(true);
+    console.log(`Copied "${link}" to clipboard`);
+    setTimeout(() => setIsCopied(false), 2000);
+  };
+
+  const handleError = () => {
+    console.error(`Failed to copy "${link}" to clipboard`);
+  };
+
   return (
     <>
       <p className="text-gray-600 my-4">{text}</p>
-      <div className="relative">
-        <pre className="bg-gray-800/95 text-white p-4 rounded-lg whitespace-pre-wrap word-break-all">
-          <code>{link}</code>
-        </pre>
-        <button
-          onClick={() => handleCopy(link)}
-          className="absolute right-3 top-1/2 -translate-y-1/2 p-2 rounded-md hover:bg-white/10 transition-colors"
-          title="Copy to clipboard"
-        >
-          {copied ? (
-            <ClipboardCheck className="w-5 h-5 text-green-400" />
-          ) : (
-            <Clipboard className="w-5 h-5 text-gray-400" />
-          )}
-        </button>
-      </div>
+      <Snippet onValueChange={setValue} value={value}>
+        <SnippetHeader>
+          <SnippetTabsList>
+            <SnippetTabsTrigger value="cdn">
+              <LinkIcon size={14} />
+              <span>CDN Link</span>
+            </SnippetTabsTrigger>
+          </SnippetTabsList>
+          <SnippetCopyButton
+            onCopy={() => console.log(`Copied "${link}" to clipboard`)}
+            onError={() =>
+              console.error(`Failed to copy "${link}" to clipboard`)
+            }
+            value={link}
+          />
+        </SnippetHeader>
+        <SnippetTabsContent value="cdn">{link}</SnippetTabsContent>
+      </Snippet>
     </>
   );
 };
