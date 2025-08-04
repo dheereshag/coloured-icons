@@ -6,7 +6,7 @@ import { IconList, Modal } from "@/components/Icon";
 import { icons, categories, devLimitedIcons } from "@/constants";
 import { SearchContext } from "@/context/SearchContextProvider";
 import { Button } from "@/components/ui/button";
-import { isDevelopmentMode } from "@/lib/devUtils";
+import { isDevelopmentMode } from "@/lib/dev-utils";
 import {
   Grid3x3, // All (was FaIcons)
   Palette, // Art and Music (was FaPalette)
