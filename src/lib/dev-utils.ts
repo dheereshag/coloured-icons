@@ -6,7 +6,7 @@ import { Icon } from "@/interfaces";
  * @param limit - Number of icons to show per category (default: 5)
  * @returns Limited array of icons if in development mode, otherwise original array
  */
-export const limitIconsInDev = (icons: Icon[], limit: number = 5): Icon[] => {
+const limitIconsInDev = (icons: Icon[], limit: number = 5): Icon[] => {
   // Check if we're in development mode
   const isDevelopment = process.env.NODE_ENV === "development";
 
@@ -47,6 +47,7 @@ export const limitIconsInDev = (icons: Icon[], limit: number = 5): Icon[] => {
  * Check if currently in development mode
  * @returns boolean indicating if in development mode
  */
-export const isDevelopmentMode = (): boolean => {
+const isDevelopmentMode = (): boolean => {
   return process.env.NODE_ENV === "development";
 };
+export { isDevelopmentMode, limitIconsInDev };

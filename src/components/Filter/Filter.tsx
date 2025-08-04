@@ -3,10 +3,10 @@ import { Icon, Category } from "@/interfaces";
 import { useContext, useState } from "react";
 import { Dropdown } from ".";
 import { IconList, Modal } from "@/components/Icon";
-import { icons, categories, devLimitedIcons } from "@/constants";
+import { icons, categories } from "@/constants";
 import { SearchContext } from "@/context/SearchContextProvider";
 import { Button } from "@/components/ui/button";
-import { isDevelopmentMode } from "@/lib/dev-utils";
+import { isDevelopmentMode, limitIconsInDev } from "@/lib/dev-utils";
 import {
   Grid3x3, // All (was FaIcons)
   Palette, // Art and Music (was FaPalette)
@@ -66,7 +66,7 @@ const Filter = () => {
   const { search } = useContext(SearchContext);
 
   // Use development-limited icons in dev mode, full icons in production
-  const iconsToUse = isDevelopmentMode() ? devLimitedIcons : icons;
+  const iconsToUse = isDevelopmentMode() ? limitIconsInDev(icons) : icons;
 
   const handleIconClick = (icon: Icon) => {
     setSelectedIcon(icon);
