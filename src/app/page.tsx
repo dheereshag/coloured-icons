@@ -1,9 +1,8 @@
 "use client";
 import SearchBox from "@/components/Search";
 import { Filter } from "../components/Filter";
-import Link from "next/link";
-import { Star } from "lucide-react";
 import { outfit } from "@/lib/fonts";
+import StarUsOnGithubButton from "@/components/StarUsOnGithubButton";
 
 const heroHeading = "mt-4 text-4xl sm:text-6xl text-gray-900 font-semibold";
 
@@ -17,16 +16,7 @@ export default function Home() {
           From React to MongoDB, Tesla to Spotify-every icon your project needs,
           instantly accessible via CDN.
         </h2>
-        <div className="mt-6 flex justify-center">
-          <Link
-            href="https://github.com/dheereshagrwal/coloured-icons"
-            target="_blank"
-            className="relative rounded-full px-4 py-2 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 flex items-center gap-2"
-          >
-            <Star className="w-4 h-4 text-amber-500" fill="currentColor" />
-            <span className="font-semibold">Star us on Github</span>
-          </Link>
-        </div>
+        <StarUsOnGithubButton />
       </section>
 
       <section className="mt-4 mx-auto max-w-7xl">

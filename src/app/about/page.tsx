@@ -1,13 +1,14 @@
 "use client";
-import Link from "next/link";
-import { Github } from "lucide-react";
-import CdnInclude from "../../components/About/CdnInclude";
-import IconSection from "../../components/About/IconSection";
+import CdnInclude from "@/components/About/CdnInclude";
+import IconSection from "@/components/About/IconSection";
+
+import { socialIcons, techIcons } from "@/constants/about-page-icons";
 import {
-  socialIcons,
-  techIcons,
-} from "@/constants/about-page-icons";
-import { CI_CSS_URL_LATEST, CI_CSS_URL_VERSION, features } from "@/constants/data";
+  CI_CSS_URL_LATEST,
+  CI_CSS_URL_VERSION,
+  features,
+} from "@/constants/data";
+import ViewOnGithubButton from "@/components/ViewOnGithubButton";
 
 export default function About() {
   return (
@@ -82,16 +83,7 @@ export default function About() {
             welcome contributions, suggestions, and feedback to make this
             project even better.
           </p>
-          <div className="mt-4">
-            <Link
-              href="https://github.com/dheereshagrwal/coloured-icons"
-              target="_blank"
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-linear-to-r from-gray-800 to-gray-900 text-white rounded-lg hover:from-gray-900 hover:to-black shadow-lg hover:shadow-gray-900/20 transition-all"
-            >
-              <Github className="text-xl" />
-              <span className="font-medium">View on GitHub</span>
-            </Link>
-          </div>
+          <ViewOnGithubButton />
         </section>
       </div>
     </main>
