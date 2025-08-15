@@ -14,6 +14,7 @@ const IconCard: React.FC<IconCardProps> = ({ icon }) => {
           className={`ci ci-${icon.classes[0]} ci-${computeIconSize(
             icon
           )}x sm:ci-${computeIconSize(icon) + 1}x`}
+          aria-hidden="true"
         ></i>
         <span className="flex flex-col gap-1">
           <h4 className="text-gray-800 font-semibold truncate text-sm max-w-[230px] sm:max-w-[150px]">

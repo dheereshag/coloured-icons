@@ -1,3 +1,4 @@
+"use client";
 import { Input } from "@/components/ui/input";
 import { SearchContext } from "@/context/SearchContextProvider";
 import { useContext, useEffect, useRef, useCallback } from "react";

@@ -1,4 +1,3 @@
-"use client";
 import SearchBox from "@/components/Search";
 import { Filter } from "../components/Filter";
 import { outfit } from "@/lib/fonts";

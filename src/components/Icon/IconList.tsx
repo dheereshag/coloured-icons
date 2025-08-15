@@ -51,8 +51,15 @@ const IconList: React.FC<IconListProps> = ({
   return (
     <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3">
       {filteredIcons.map((icon) => (
-        <li key={icon.name} onClick={() => handleIconClick(icon)}>
-          <IconCard icon={icon} />
+        <li key={icon.name}>
+          <button
+            type="button"
+            onClick={() => handleIconClick(icon)}
+            className="text-left w-full"
+            aria-label={`Open usage for ${icon.name}`}
+          >
+            <IconCard icon={icon} />
+          </button>
         </li>
       ))}
     </ul>
