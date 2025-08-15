@@ -12,8 +12,6 @@ interface ModalProps {
   onClose: () => void;
 }
 
-// size computation moved to ./utils.ts as computeIconSize
-
 const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
   const [zoomedIcon, setZoomedIcon] = useState<string | null>(null);
 

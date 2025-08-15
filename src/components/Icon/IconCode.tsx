@@ -22,7 +22,7 @@ const IconCode: React.FC<IconCodeProps> = ({ iconClass }) => {
         variant="ghost"
         size="sm"
         onClick={() => handleCopy(`<i class="ci ci-${iconClass}"></i>`)}
-        className="m-2 hover:bg-gray-300/50 transition-all h-auto p-2"
+        className="m-2 hover:bg-gray-300/50 transition-all h-auto p-2 cursor-pointer"
         title="Copy to clipboard"
       >
         {copied ? (

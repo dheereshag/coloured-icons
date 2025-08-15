@@ -20,7 +20,6 @@ import { usePathname } from "next/navigation";
 import Logo from "@/components/Logo";
 import { menuItems } from "@/constants";
 
-// Small presentational subcomponents to simplify the main render
 const MobileHamburger = ({ isOpen }: { isOpen: boolean }) => (
   <svg
     className="pointer-events-none"
@@ -60,8 +59,6 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const [pendingFocus, setPendingFocus] = useState(false);
   const { triggerFocus } = useContext(SearchContext);
-
-  // menuItems moved to src/constants/nav.ts
 
   const handleSearchClick = useCallback(() => {
     const searchSection = document.getElementById("search-section");
