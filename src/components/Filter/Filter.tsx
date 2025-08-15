@@ -3,7 +3,7 @@ import { Icon, Category } from "@/interfaces";
 import { useContext, useState } from "react";
 import { Dropdown } from ".";
 import { IconList } from "@/components/Icon";
-import { Modal } from "@/components/Modal";
+import Modal from "@/components/Modal";
 import { icons, categories } from "@/constants";
 import { SearchContext } from "@/context/SearchContextProvider";
 import { Button } from "@/components/ui/button";

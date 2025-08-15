@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { SearchContextProvider } from "@/context/SearchContextProvider";
 import { outfit } from "@/lib/fonts";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar/Navbar";
 
 export const metadata: Metadata = {
   title: "Coloured Icons",
