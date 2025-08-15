@@ -11,11 +11,8 @@ const limitIconsInDev = (icons: Icon[], limit: number = 5): Icon[] => {
   const isDevelopment = process.env.NODE_ENV === "development";
 
   if (!isDevelopment) {
-    console.log("Production mode: Showing all icons");
     return icons;
   }
-
-  console.log(`Development mode: Limiting to ${limit} icons per category`);
 
   // Group icons by category
   const iconsByCategory: { [key: string]: Icon[] } = {};
@@ -34,12 +31,17 @@ const limitIconsInDev = (icons: Icon[], limit: number = 5): Icon[] => {
   Object.entries(iconsByCategory).forEach(([category, categoryIcons]) => {
     const limitedCategoryIcons = categoryIcons.slice(0, limit);
     limitedIcons.push(...limitedCategoryIcons);
-    console.log(
-      `${category}: ${limitedCategoryIcons.length}/${categoryIcons.length} icons`
-    );
+    // helpful debug when developing locally
+    if (typeof window !== "undefined") {
+      console.debug(
+        `${category}: ${limitedCategoryIcons.length}/${categoryIcons.length} icons`
+      );
+    }
   });
 
-  console.log(`Total icons: ${limitedIcons.length}/${icons.length}`);
+  if (typeof window !== "undefined") {
+    console.debug(`Total icons: ${limitedIcons.length}/${icons.length}`);
+  }
   return limitedIcons;
 };
 

@@ -15,7 +15,7 @@ const Filter = () => {
     categories[0]
   );
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
-  const [selectedIcon, setSelectedIcon] = useState<Icon | {}>({});
+  const [selectedIcon, setSelectedIcon] = useState<Icon | null>(null);
   const { search } = useContext(SearchContext);
 
   // Use development-limited icons in dev mode, full icons in production
@@ -81,8 +81,8 @@ const Filter = () => {
           />
         </div>
 
-        {isModalOpen && (
-          <Modal icon={selectedIcon as Icon} onClose={closeModal} />
+        {isModalOpen && selectedIcon && (
+          <Modal icon={selectedIcon} onClose={closeModal} />
         )}
       </div>
     </div>

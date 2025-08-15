@@ -1,6 +1,6 @@
 import { Input } from "@/components/ui/input";
 import { SearchContext } from "@/context/SearchContextProvider";
-import { useContext, useEffect, useRef } from "react";
+import { useContext, useEffect, useRef, useCallback } from "react";
 import { X, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -27,10 +27,10 @@ function SearchBox() {
     return () => document.removeEventListener("keydown", down);
   }, []);
 
-  const handleClearSearch = () => {
+  const handleClearSearch = useCallback(() => {
     setSearch("");
     ref.current?.focus();
-  };
+  }, [setSearch]);
 
   return (
     <div className="relative">
@@ -42,6 +42,7 @@ function SearchBox() {
         ref={ref}
         value={search}
         onChange={(e) => setSearch(e.target.value)}
+        aria-label="Search icons"
       />
       {search && (
         <Button

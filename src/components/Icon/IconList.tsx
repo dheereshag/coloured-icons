@@ -16,7 +16,7 @@ const IconList: React.FC<IconListProps> = ({
   handleIconClick,
   search,
 }) => {
-  const debouncedSearch = useDebounce(search);
+  const debouncedSearch = useDebounce(search, 200);
 
   const searchFilteredIcons = useMemo(() => {
     if (!debouncedSearch) return icons;
@@ -33,33 +33,28 @@ const IconList: React.FC<IconListProps> = ({
   }, [icons, debouncedSearch]);
 
   const filteredIcons = useMemo(() => {
-    const sortedIcons = searchFilteredIcons.sort((a, b) =>
+    // avoid mutating original array when sorting
+    const sortedIcons = [...searchFilteredIcons].sort((a, b) =>
       a.name.toLowerCase().localeCompare(b.name.toLowerCase())
     );
 
     if (selectedCategory.name === "All") {
-      return sortedIcons.map((icon) => (
-        <li key={icon.name} onClick={() => handleIconClick(icon)}>
-          <IconCard icon={icon} />
-        </li>
-      ));
-    } else {
-      return sortedIcons
-        .filter(
-          (icon) =>
-            icon.category.toLowerCase() === selectedCategory.name.toLowerCase()
-        )
-        .map((icon) => (
-          <li key={icon.name} onClick={() => handleIconClick(icon)}>
-            <IconCard icon={icon} />
-          </li>
-        ));
+      return sortedIcons;
     }
-  }, [handleIconClick, searchFilteredIcons, selectedCategory.name]);
+
+    const categoryName = selectedCategory.name.toLowerCase();
+    return sortedIcons.filter(
+      (icon) => icon.category.toLowerCase() === categoryName
+    );
+  }, [searchFilteredIcons, selectedCategory.name]);
 
   return (
     <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3">
-      {filteredIcons}
+      {filteredIcons.map((icon) => (
+        <li key={icon.name} onClick={() => handleIconClick(icon)}>
+          <IconCard icon={icon} />
+        </li>
+      ))}
     </ul>
   );
 };

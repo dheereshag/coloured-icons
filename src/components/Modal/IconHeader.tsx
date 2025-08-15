@@ -2,6 +2,7 @@ import { DialogTitle } from "@headlessui/react";
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import { Icon } from "@/interfaces";
+import { ensureProtocol } from "@/lib/utils";
 
 interface IconHeaderProps {
   icon: Icon;
@@ -18,7 +19,7 @@ const IconHeader: React.FC<IconHeaderProps> = ({ icon }) => {
           {icon.name}
         </DialogTitle>
         <Link
-          href={icon.url.startsWith("http") ? icon.url : `https://${icon.url}`}
+          href={ensureProtocol(icon.url)}
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm text-blue-500 hover:underline flex items-center gap-1"
