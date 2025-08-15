@@ -1,4 +1,3 @@
-"use client";
 import CdnInclude from "@/components/About/CdnInclude";
 import IconSection from "@/components/About/IconSection";
 
@@ -12,9 +11,9 @@ import ViewOnGithubButton from "@/components/About/ViewOnGithubButton";
 
 export default function About() {
   return (
-    <main className="mx-auto max-w-3xl px-4 py-12 sm:py-20 lg:py-28">
+    <main className="mx-auto max-w-3xl px-4 py-8 sm:py-14 lg:py-20">
       <div className="text-center space-y-8">
-        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+        <h1 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
           About Coloured Icons
         </h1>
         <p className="text-lg leading-8 text-gray-600 sm:text-xl/8">

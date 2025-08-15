@@ -36,6 +36,7 @@ const CdnInclude: React.FC<CdnIncludeProps> = ({ text, url }) => {
               console.error(`Failed to copy "${link}" to clipboard`)
             }
             value={link}
+            className="cursor-pointer"
           />
         </SnippetHeader>
         <SnippetTabsContent value="cdn">{link}</SnippetTabsContent>
