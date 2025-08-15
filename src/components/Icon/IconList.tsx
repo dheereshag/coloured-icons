@@ -1,7 +1,6 @@
-import { useMemo } from "react";
 import { IconCard } from ".";
 import { Icon, Category } from "@/interfaces";
-import useDebounce from "@/hooks/useDebounce";
+import useFilteredIcons from "@/hooks/useFilteredIcons";
 
 interface IconListProps {
   icons: Icon[];
@@ -16,50 +15,17 @@ const IconList: React.FC<IconListProps> = ({
   handleIconClick,
   search,
 }) => {
-  const debouncedSearch = useDebounce(search, 200);
-
-  const searchFilteredIcons = useMemo(() => {
-    if (!debouncedSearch) return icons;
-    const debouncedSearchLowercase = debouncedSearch.toLowerCase();
-    return icons.filter(
-      (icon) =>
-        icon.name.toLowerCase().includes(debouncedSearchLowercase) ||
-        icon.url.toLowerCase().includes(debouncedSearchLowercase) ||
-        icon.category.toLowerCase().includes(debouncedSearchLowercase) ||
-        icon.classes.some((cls) =>
-          cls.toLowerCase().includes(debouncedSearchLowercase)
-        )
-    );
-  }, [icons, debouncedSearch]);
-
-  const filteredIcons = useMemo(() => {
-    // avoid mutating original array when sorting
-    const sortedIcons = [...searchFilteredIcons].sort((a, b) =>
-      a.name.toLowerCase().localeCompare(b.name.toLowerCase())
-    );
-
-    if (selectedCategory.name === "All") {
-      return sortedIcons;
-    }
-
-    const categoryName = selectedCategory.name.toLowerCase();
-    return sortedIcons.filter(
-      (icon) => icon.category.toLowerCase() === categoryName
-    );
-  }, [searchFilteredIcons, selectedCategory.name]);
+  const filteredIcons = useFilteredIcons({
+    icons,
+    search,
+    selectedCategory,
+  });
 
   return (
     <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3">
       {filteredIcons.map((icon) => (
         <li key={icon.name}>
-          <button
-            type="button"
-            onClick={() => handleIconClick(icon)}
-            className="text-left w-full"
-            aria-label={`Open usage for ${icon.name}`}
-          >
-            <IconCard icon={icon} />
-          </button>
+          <IconCard icon={icon} onClick={() => handleIconClick(icon)} />
         </li>
       ))}
     </ul>

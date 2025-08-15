@@ -4,11 +4,15 @@ import { computeIconSize } from "./utils";
 
 interface IconCardProps {
   icon: Icon;
+  onClick?: () => void;
 }
 
-const IconCard: React.FC<IconCardProps> = ({ icon }) => {
+const IconCard: React.FC<IconCardProps> = ({ icon, onClick }) => {
   return (
-    <Card className="rounded-lg border-2 p-0 cursor-pointer hover:border-purple-400 hover:shadow-md transition-all">
+    <Card
+      onClick={onClick}
+      className="w-full text-left rounded-lg border-2 p-0 cursor-pointer hover:border-purple-400 hover:shadow-md transition-all"
+    >
       <CardContent className="flex gap-3 p-3 sm:p-4 items-center w-full">
         <i
           className={`ci ci-${icon.classes[0]} ci-${computeIconSize(

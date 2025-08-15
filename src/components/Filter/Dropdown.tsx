@@ -25,7 +25,6 @@ const Dropdown: React.FC<DropdownProps> = ({
 }) => {
   const [value, setValue] = useState("");
 
-  // Transform categories to match the combobox data format
   const categoryData = categories.map((category) => ({
     value: category.name,
     label: category.name,

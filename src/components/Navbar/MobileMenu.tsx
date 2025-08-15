@@ -6,14 +6,12 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import Link from "next/link";
 import { menuItems } from "@/constants";
 import MobileHamburger from "./MobileHamburger";
-import { usePathname } from "next/navigation";
+import MobileMenuItem from "./MobileMenuItem";
 
 const MobileMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const pathname = usePathname();
 
   return (
     <div className="md:hidden">
@@ -44,29 +42,10 @@ const MobileMenu = () => {
           >
             {menuItems.map((item) => (
               <div key={item.href}>
-                {item.external ? (
-                  <a
-                    href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block px-3 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors font-medium rounded-sm hover:bg-accent"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    {item.label}
-                  </a>
-                ) : (
-                  <Link
-                    href={item.href}
-                    className={`block px-3 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors font-medium rounded-sm hover:bg-accent ${
-                      pathname === item.href
-                        ? "text-foreground font-semibold bg-accent"
-                        : ""
-                    }`}
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    {item.label}
-                  </Link>
-                )}
+                <MobileMenuItem
+                  item={item}
+                  onClick={() => setIsMenuOpen(false)}
+                />
               </div>
             ))}
           </nav>

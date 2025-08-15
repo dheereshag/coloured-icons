@@ -1,32 +1,10 @@
 "use client";
 import { Input } from "@/components/ui/input";
 import { SearchContext } from "@/context/SearchContextProvider";
-import { useContext, useEffect, useRef, useCallback } from "react";
+import { useContext, useRef, useCallback } from "react";
 import { Search } from "lucide-react";
 import { ClearButton } from ".";
-
-const useSearchShortcuts = (
-  ref: React.RefObject<HTMLInputElement | null>,
-  focusTrigger: number
-) => {
-  useEffect(() => {
-    if (focusTrigger) {
-      ref.current?.focus();
-    }
-  }, [focusTrigger]);
-
-  useEffect(() => {
-    const down = (e: KeyboardEvent) => {
-      if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
-        e.preventDefault();
-        ref.current?.focus();
-      }
-    };
-
-    document.addEventListener("keydown", down);
-    return () => document.removeEventListener("keydown", down);
-  }, [ref]);
-};
+import useSearchShortcuts from "@/hooks/useSearchShortcuts";
 
 function SearchBox() {
   const ref = useRef<HTMLInputElement>(null);

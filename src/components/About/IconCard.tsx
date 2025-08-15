@@ -1,6 +1,5 @@
 import type { Icon as BaseIcon } from "@/interfaces";
 interface IconCardProps {
-  // About page only needs a subset (name + classes)
   icon: Pick<BaseIcon, "name" | "classes">;
 }
 

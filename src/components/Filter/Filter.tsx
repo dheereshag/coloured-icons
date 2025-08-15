@@ -8,7 +8,7 @@ import { icons, categories } from "@/constants";
 import { SearchContext } from "@/context/SearchContextProvider";
 import { isDevelopmentMode, limitIconsInDev } from "@/lib/dev-utils";
 import DevModeBanner from "./DevModeBanner";
-import CategoryButton from "./CategoryButton";
+import CategoryList from "./CategoryList";
 
 // Load Modal lazily on the client only when needed
 const Modal = dynamic(() => import("@/components/Modal"), { ssr: false });
@@ -41,16 +41,11 @@ const Filter = () => {
       <DevModeBanner />
 
       <div className="flex flex-col lg:flex-row gap-6">
-        <div className="hidden sm:flex flex-row lg:flex-col gap-1.5 text-sm lg:w-64 shrink-0 overflow-x-auto pb-2 lg:pb-0">
-          {categories.map((category: Category) => (
-            <CategoryButton
-              key={category.name}
-              category={category}
-              isSelected={selectedCategory.name === category.name}
-              onClick={handleCategoryChange}
-            />
-          ))}
-        </div>
+        <CategoryList
+          categories={categories}
+          selectedCategory={selectedCategory}
+          onCategoryChange={handleCategoryChange}
+        />
         <div className="sm:hidden w-full">
           <Dropdown
             categories={categories}
