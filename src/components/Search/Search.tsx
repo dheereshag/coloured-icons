@@ -2,14 +2,13 @@
 import { Input } from "@/components/ui/input";
 import { SearchContext } from "@/context/SearchContextProvider";
 import { useContext, useEffect, useRef, useCallback } from "react";
-import { X, Search } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Search } from "lucide-react";
+import { ClearButton } from ".";
 
-function SearchBox() {
-  const ref = useRef<HTMLInputElement>(null);
-
-  const { search, setSearch, focusTrigger } = useContext(SearchContext);
-
+const useSearchShortcuts = (
+  ref: React.RefObject<HTMLInputElement | null>,
+  focusTrigger: number
+) => {
   useEffect(() => {
     if (focusTrigger) {
       ref.current?.focus();
@@ -26,7 +25,14 @@ function SearchBox() {
 
     document.addEventListener("keydown", down);
     return () => document.removeEventListener("keydown", down);
-  }, []);
+  }, [ref]);
+};
+
+function SearchBox() {
+  const ref = useRef<HTMLInputElement>(null);
+
+  const { search, setSearch, focusTrigger } = useContext(SearchContext);
+  useSearchShortcuts(ref, focusTrigger);
 
   const handleClearSearch = useCallback(() => {
     setSearch("");
@@ -45,17 +51,7 @@ function SearchBox() {
         onChange={(e) => setSearch(e.target.value)}
         aria-label="Search icons"
       />
-      {search && (
-        <Button
-          variant="ghost"
-          size="icon"
-          className="absolute right-0 top-1/2 h-8 w-8 -translate-y-1/2 hover:bg-transparent"
-          onClick={handleClearSearch}
-          aria-label="Clear search"
-        >
-          <X className="h-4 w-4" />
-        </Button>
-      )}
+      {search && <ClearButton onClick={handleClearSearch} />}
     </div>
   );
 }

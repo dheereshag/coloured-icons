@@ -1,4 +1,4 @@
-import SearchBox from "@/components/Search";
+import SearchBox from "@/components/Search/Search";
 import { Filter } from "../components/Filter";
 import { outfit } from "@/lib/fonts";
 import StarUsOnGithubButton from "@/components/StarUsOnGithubButton";
