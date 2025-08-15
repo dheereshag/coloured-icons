@@ -79,7 +79,6 @@ I used the same sizing style used by Font Awesome:
 
 `ci-2xs` `ci-xs` `ci-sm` `ci-md` `ci-lg` `ci-xl` `ci-2xl`
 
-
 `ci-1x` `ci-2x` `ci-3x` `ci-4x` `ci-5x` `ci-6x` `ci-7x` `ci-8x` `ci-9x` `ci-10x`
 
 <img src="public/logos/social media/discord/discord.svg" width="16px"> <img src="public/logos/social media/discord/discord.svg" width="32px"> <img src="public/logos/social media/discord/discord.svg" width="48px"> <img src="public/logos/social media/discord/discord.svg" width="64px"> <img src="public/logos/social media/discord/discord.svg" width="80px"> <img src="public/logos/social media/discord/discord.svg" width="96px"> <img src="public/logos/social media/discord/discord.svg" width="112px"> <img src="public/logos/social media/discord/discord.svg" width="128px"> <img src="public/logos/social media/discord/discord.svg" width="144px"> <img src="public/logos/social media/discord/discord.svg" width="160px">
@@ -151,7 +150,21 @@ If you want me to add an icon that is missing or have some suggestions, just rai
 
 During development, run the following scripts:
 
--   `pnpm run dev`: Generates automated files. This script is also executed during the push process by GitHub Actions.
+- `pnpm run dev`: Generates automated files. This script is also executed during the push process by GitHub Actions.
+
+## React Compiler
+
+This project enables the React Compiler via Next.js experimental flag for automatic memoization and performance optimizations.
+
+Toggle in `next.config.js`:
+
+```
+export default {
+  experimental: {
+    reactCompiler: true, // set to false to disable if you hit any issues
+  },
+}
+```
 
 ## License
 
