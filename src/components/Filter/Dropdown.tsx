@@ -12,17 +12,16 @@ import {
 } from "@/components/ui/kibo-ui/combobox";
 import { Category } from "@/interfaces";
 import { useState } from "react";
+import { getCategoryIcon } from "./CategoryIcon";
 
 interface DropdownProps {
   categories: Category[];
   onCategoryChange?: (category: Category) => void;
-  getCategoryIcon: (categoryName: string) => React.ReactNode;
 }
 
 const Dropdown: React.FC<DropdownProps> = ({
   categories,
   onCategoryChange,
-  getCategoryIcon,
 }) => {
   const [value, setValue] = useState("");
 

@@ -5,29 +5,14 @@ import { IconCode } from ".";
 import { X, ExternalLink } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
+import { computeIconSize } from "./utils";
 
 interface ModalProps {
   icon: Icon;
   onClose: () => void;
 }
 
-const size = (icon: Icon) => {
-  const iconClass = icon.classes[0];
-  const iconCategory = icon.category.toLowerCase();
-  console.log(iconClass, iconCategory, typeof iconCategory);
-  // returns iconSize
-  switch (true) {
-    case iconClass.includes("horizontal"):
-    case iconClass.includes("wordmark"):
-      return 5;
-    case iconClass.includes("vertical"):
-      return 4;
-    case iconCategory === "animals":
-      return 3;
-    default:
-      return 2;
-  }
-};
+// size computation moved to ./utils.ts as computeIconSize
 
 const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
   const [zoomedIcon, setZoomedIcon] = useState<string | null>(null);
@@ -99,7 +84,7 @@ const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
                       className={`bg-gray-300 px-2 rounded-xl flex items-center gap-4 shadow-xs h-20`}
                     >
                       <i
-                        className={`ci ci-${iconClass} ci-${size(
+                        className={`ci ci-${iconClass} ci-${computeIconSize(
                           icon
                         )}x mx-3 py-auto cursor-pointer transition-all duration-200`}
                         onMouseEnter={() => setZoomedIcon(iconClass)}

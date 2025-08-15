@@ -7,55 +7,7 @@ import { icons, categories } from "@/constants";
 import { SearchContext } from "@/context/SearchContextProvider";
 import { Button } from "@/components/ui/button";
 import { isDevelopmentMode, limitIconsInDev } from "@/lib/dev-utils";
-import {
-  Grid3x3, // All (was FaIcons)
-  Palette, // Art and Music (was FaPalette)
-  Car, // Automobile (was FaCar)
-  Shirt, // Clothing and Apparel (was FaShirt)
-  GraduationCap, // Education (was FaGraduationCap)
-  DollarSign, // Financial Services (was FaSackDollar)
-  UtensilsCrossed, // Food and Beverage (was FaBowlFood)
-  Pill, // Pharmaceuticals (was FaPumpMedical)
-  Hash, // Social Media (was FaHashtag)
-  Cpu, // Technology (was FaMicrochip)
-  Plane, // Travel and Tourism (was FaPlane)
-  Music, // Instrument (was FaGuitar)
-  Rabbit, // Animals (was FaShrimp)
-} from "lucide-react";
-
-const getCategoryIcon = (categoryName: string) => {
-  const margin = "mr-2";
-  switch (categoryName.toLowerCase()) {
-    case "all":
-      return <Grid3x3 className={margin} />;
-    case "art and music":
-      return <Palette className={margin} />;
-    case "automobile":
-      return <Car className={margin} />;
-    case "clothing and apparel":
-      return <Shirt className={margin} />;
-    case "education":
-      return <GraduationCap className={margin} />;
-    case "financial services":
-      return <DollarSign className={margin} />;
-    case "food and beverage":
-      return <UtensilsCrossed className={margin} />;
-    case "pharmaceuticals":
-      return <Pill className={margin} />;
-    case "social media":
-      return <Hash className={margin} />;
-    case "technology":
-      return <Cpu className={margin} />;
-    case "travel and tourism":
-      return <Plane className={margin} />;
-    case "instruments":
-      return <Music className={margin} />;
-    case "animals":
-      return <Rabbit className={margin} />;
-    default:
-      return null;
-  }
-};
+import { getCategoryIcon } from "@/components/Filter/CategoryIcon";
 
 const Filter = () => {
   const [selectedCategory, setSelectedCategory] = useState<Category>(
@@ -117,7 +69,6 @@ const Filter = () => {
           <Dropdown
             categories={categories}
             onCategoryChange={handleCategoryChange}
-            getCategoryIcon={getCategoryIcon}
           />
         </div>
         <div className="flex-1">

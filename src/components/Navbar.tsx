@@ -18,6 +18,37 @@ import { SearchContext } from "@/context/SearchContextProvider";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Logo from "@/components/Logo";
+import { menuItems } from "@/constants";
+
+// Small presentational subcomponents to simplify the main render
+const MobileHamburger = ({ isOpen }: { isOpen: boolean }) => (
+  <svg
+    className="pointer-events-none"
+    width={16}
+    height={16}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden
+  >
+    <path
+      d="M4 12L20 12"
+      className="origin-center -translate-y-[7px] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.1)] group-aria-expanded:translate-x-0 group-aria-expanded:translate-y-0 group-aria-expanded:rotate-[315deg]"
+    />
+    <path
+      d="M4 12H20"
+      className="origin-center transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.8)] group-aria-expanded:rotate-45"
+    />
+    <path
+      d="M4 12H20"
+      className="origin-center translate-y-[7px] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.1)] group-aria-expanded:translate-y-0 group-aria-expanded:rotate-[135deg]"
+    />
+  </svg>
+);
 
 interface NavbarProps {
   hideSearch?: boolean;
@@ -30,15 +61,7 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
   const [pendingFocus, setPendingFocus] = useState(false);
   const { triggerFocus } = useContext(SearchContext);
 
-  const menuItems = [
-    { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
-    {
-      href: "https://github.com/dheereshagrwal/coloured-icons/blob/master/README.md",
-      label: "Docs",
-      external: true,
-    },
-  ];
+  // menuItems moved to src/constants/nav.ts
 
   const handleSearchClick = useCallback(() => {
     const searchSection = document.getElementById("search-section");
@@ -78,31 +101,7 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
                   size="icon"
                   aria-expanded={isMenuOpen}
                 >
-                  <svg
-                    className="pointer-events-none"
-                    width={16}
-                    height={16}
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M4 12L20 12"
-                      className="origin-center -translate-y-[7px] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.1)] group-aria-expanded:translate-x-0 group-aria-expanded:translate-y-0 group-aria-expanded:rotate-[315deg]"
-                    />
-                    <path
-                      d="M4 12H20"
-                      className="origin-center transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.8)] group-aria-expanded:rotate-45"
-                    />
-                    <path
-                      d="M4 12H20"
-                      className="origin-center translate-y-[7px] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.1)] group-aria-expanded:translate-y-0 group-aria-expanded:rotate-[135deg]"
-                    />
-                  </svg>
+                  <MobileHamburger isOpen={isMenuOpen} />
                   <span className="sr-only">
                     {isMenuOpen ? "Close menu" : "Open menu"}
                   </span>

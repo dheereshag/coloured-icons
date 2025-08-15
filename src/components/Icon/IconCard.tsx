@@ -1,28 +1,19 @@
 import { Icon } from "@/interfaces";
 import { Card, CardContent } from "@/components/ui/card";
+import { computeIconSize } from "./utils";
 
 interface IconCardProps {
   icon: Icon;
 }
-
-const size = (icon: Icon) => {
-  const iconCategory = icon.category.toLowerCase();
-  switch (true) {
-    case iconCategory === "animals":
-      return 3;
-    default:
-      return 2;
-  }
-};
 
 const IconCard: React.FC<IconCardProps> = ({ icon }) => {
   return (
     <Card className="rounded-lg border-2 p-0 cursor-pointer hover:border-purple-400 hover:shadow-md transition-all">
       <CardContent className="flex gap-3 p-3 sm:p-4 items-center w-full">
         <i
-          className={`ci ci-${icon.classes[0]} ci-${size(icon)}x sm:ci-${
-            size(icon) + 1
-          }x`}
+          className={`ci ci-${icon.classes[0]} ci-${computeIconSize(
+            icon
+          )}x sm:ci-${computeIconSize(icon) + 1}x`}
         ></i>
         <span className="flex flex-col gap-1">
           <h4 className="text-gray-800 font-semibold truncate text-sm max-w-[230px] sm:max-w-[150px]">
