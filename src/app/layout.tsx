@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { SearchContextProvider } from "@/context/SearchContextProvider";
 import { outfit } from "@/lib/fonts";
@@ -59,7 +59,6 @@ export const metadata: Metadata = {
     apple: [{ url: "/icons/apple-touch-icon.png", sizes: "180x180" }],
   },
   category: "technology",
-  themeColor: SITE.themeColor,
   robots: {
     index: true,
     follow: true,
@@ -72,6 +71,10 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: SITE.themeColor,
 };
 
 export default function RootLayout({

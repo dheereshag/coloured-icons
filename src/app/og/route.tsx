@@ -1,16 +1,9 @@
 import { ImageResponse } from "next/og";
-import type { NextRequest } from "next/server";
 import { SITE } from "@/constants/site";
 
-export const runtime = "edge";
-export const alt = `${SITE.name} – ${SITE.description}`;
-export const size = {
-  width: 1200,
-  height: 630,
-};
-export const contentType = "image/png";
+const size = { width: 1200, height: 630 } as const;
 
-export default function handler(_req: NextRequest) {
+export function GET() {
   return new ImageResponse(
     (
       <div
