@@ -2,12 +2,12 @@
 import CdnInclude from "@/components/About/CdnInclude";
 import IconSection from "@/components/About/IconSection";
 
-import { socialIcons, techIcons } from "@/constants/about-page-icons";
+import { socialIcons, techIcons } from "@/constants/about";
 import {
   CI_CSS_URL_LATEST,
   CI_CSS_URL_VERSION,
   features,
-} from "@/constants/data";
+} from "@/constants/about";
 import ViewOnGithubButton from "@/components/About/ViewOnGithubButton";
 
 export default function About() {
