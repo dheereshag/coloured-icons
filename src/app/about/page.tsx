@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import {
   Community,
   Features,
@@ -6,6 +7,14 @@ import {
   Project,
   QuickStart,
 } from "@/components/About";
+import { SITE } from "@/constants/site";
+
+export const metadata: Metadata = {
+  title: `About · ${SITE.name}`,
+  description:
+    "Learn about Coloured Icons, a CDN-first icon library with simple <i> based usage and Font Awesome-like sizing.",
+  alternates: { canonical: "/about" },
+};
 
 export default function About() {
   return (

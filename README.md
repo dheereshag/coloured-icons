@@ -1,5 +1,7 @@
 # Coloured Icons
 
+SEO: https://coloured-icons.vercel.app (auto sitemap/robots, OG cards)
+
 Sample icons
 
 <img src="public/logos/art and music/spotify/spotify.svg" alt="Spotify Icon"  height="48"> <img src="public/logos/technology/react/react.svg" alt="React Icon"  height="48">
