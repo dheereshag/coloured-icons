@@ -8,7 +8,7 @@ import {
   CI_CSS_URL_VERSION,
   features,
 } from "@/constants/data";
-import ViewOnGithubButton from "@/components/ViewOnGithubButton";
+import ViewOnGithubButton from "@/components/About/ViewOnGithubButton";
 
 export default function About() {
   return (
