@@ -18,12 +18,12 @@ function SearchBox() {
   }, [setSearch]);
 
   return (
-    <div className="relative">
+    <div className="relative animate-in fade-in slide-in-from-bottom-1">
       <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
       <Input
         placeholder="Search"
         type="search"
-        className="pl-8 focus-visible:ring-purple-700 focus-visible:border-gray-200"
+        className="pl-8 focus-visible:ring-purple-700 focus-visible:border-gray-200 transition-shadow"
         ref={ref}
         value={search}
         onChange={(e) => setSearch(e.target.value)}

@@ -18,7 +18,7 @@ const CategoryButton: React.FC<CategoryButtonProps> = ({
       key={category.name}
       variant={isSelected ? "default" : "ghost"}
       onClick={() => onClick(category)}
-      className={`inline-flex items-center whitespace-nowrap lg:justify-start ${
+      className={`inline-flex items-center whitespace-nowrap lg:justify-start transition-transform duration-150 active:scale-95 ${
         isSelected
           ? "bg-purple-600 text-white shadow-lg hover:bg-purple-700"
           : "text-gray-600 hover:bg-purple-50 hover:text-purple-600"
