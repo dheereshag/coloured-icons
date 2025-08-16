@@ -6,7 +6,7 @@ import {
   IconShowcase,
   Project,
   QuickStart,
-} from "@/components/About";
+} from "@/components/about";
 import { SITE } from "@/constants/site";
 
 export const metadata: Metadata = {

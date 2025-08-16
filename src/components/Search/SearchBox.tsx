@@ -1,7 +1,7 @@
 "use client";
 import { Input } from "@/components/ui/input";
 import { SearchContext } from "@/context/SearchContextProvider";
-import { useContext, useRef, useCallback } from "react";
+import { useContext, useRef } from "react";
 import { Search } from "lucide-react";
 import { ClearButton } from ".";
 import useSearchShortcuts from "@/hooks/useSearchShortcuts";
@@ -12,10 +12,10 @@ function SearchBox() {
   const { search, setSearch, focusTrigger } = useContext(SearchContext);
   useSearchShortcuts(ref, focusTrigger);
 
-  const handleClearSearch = useCallback(() => {
+  const handleClearSearch = () => {
     setSearch("");
     ref.current?.focus();
-  }, [setSearch]);
+  };
 
   return (
     <div className="relative animate-in fade-in slide-in-from-bottom-1">

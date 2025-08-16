@@ -1,4 +1,4 @@
-import IconCard from "@/components/About/IconCard";
+import IconCard from "@/components/about/IconCard";
 import type { Icon as BaseIcon } from "@/interfaces";
 
 interface IconSectionProps {

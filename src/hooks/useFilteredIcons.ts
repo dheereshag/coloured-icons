@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+// React Compiler can optimize derived values; no need for useMemo here
 import useDebounce from "@/hooks/useDebounce";
 import type { Icon, Category } from "@/interfaces";
 
@@ -15,7 +15,7 @@ export default function useFilteredIcons({
 }: Params) {
   const debouncedSearch = useDebounce(search, 200);
 
-  const searchFilteredIcons = useMemo(() => {
+  const searchFilteredIcons: Icon[] = (() => {
     if (!debouncedSearch) return icons;
     const s = debouncedSearch.toLowerCase();
     return icons.filter(
@@ -25,9 +25,9 @@ export default function useFilteredIcons({
         icon.category.toLowerCase().includes(s) ||
         icon.classes.some((cls) => cls.toLowerCase().includes(s))
     );
-  }, [icons, debouncedSearch]);
+  })();
 
-  const filteredIcons = useMemo(() => {
+  const filteredIcons: Icon[] = (() => {
     const sortedIcons = [...searchFilteredIcons].sort((a, b) =>
       a.name.toLowerCase().localeCompare(b.name.toLowerCase())
     );
@@ -37,7 +37,7 @@ export default function useFilteredIcons({
     return sortedIcons.filter(
       (icon) => icon.category.toLowerCase() === categoryName
     );
-  }, [searchFilteredIcons, selectedCategory.name]);
+  })();
 
   return filteredIcons;
 }

@@ -2,7 +2,7 @@
 import { Icon, Category } from "@/interfaces";
 import { useContext, useState } from "react";
 import { Dropdown } from ".";
-import { IconList } from "@/components/Icon";
+import { IconList } from "@/components/icon";
 import dynamic from "next/dynamic";
 import { icons, categories } from "@/constants";
 import { SearchContext } from "@/context/SearchContextProvider";
@@ -11,7 +11,7 @@ import DevModeBanner from "./DevModeBanner";
 import CategoryList from "./CategoryList";
 
 // Load Modal lazily on the client only when needed
-const Modal = dynamic(() => import("@/components/Modal"), { ssr: false });
+const Modal = dynamic(() => import("@/components/modal"), { ssr: false });
 
 const Filter = () => {
   const [selectedCategory, setSelectedCategory] = useState<Category>(

@@ -1,6 +1,6 @@
 import { Icon } from "@/interfaces";
-import { computeIconSize } from "../Icon/utils";
-import { IconCode } from "../Icon";
+import { computeIconSize } from "../icon/utils";
+import { IconCode } from "../icon";
 
 interface UsageListProps {
   icon: Icon;
