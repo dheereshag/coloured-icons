@@ -1,5 +1,5 @@
 const CI_CSS_URL_VERSION =
-  "https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@1.9.4/src/app/ci.min.css";
+  "https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@1.9.5/src/app/ci.min.css";
 const CI_CSS_URL_LATEST =
   "https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@master/src/app/ci.min.css";
 
