@@ -1,4 +1,4 @@
-import ViewOnGithubButton from "./ViewOnGithubButton";
+import { ViewOnGithubButton } from ".";
 
 export default function Community() {
   return (

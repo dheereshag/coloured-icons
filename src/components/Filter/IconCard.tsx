@@ -1,6 +1,6 @@
 import { Icon } from "@/interfaces";
 import { Card, CardContent } from "@/components/ui/card";
-import { computeIconSize } from "./utils";
+import { computeIconSize } from "@/lib/utils";
 
 interface IconCardProps {
   icon: Icon;

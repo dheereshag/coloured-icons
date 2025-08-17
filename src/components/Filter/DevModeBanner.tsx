@@ -1,4 +1,3 @@
-"use client";
 import { isDevelopmentMode } from "@/lib/dev-utils";
 
 const DevModeBanner = () => {

@@ -1,7 +1,7 @@
 import SearchBox from "@/components/search";
-import { Filter } from "../components/filter";
-import { outfit } from "@/lib/fonts";
+import Filter from "@/components/filter";
 import Hero from "@/components/home/Hero";
+import { outfit } from "@/lib/fonts";
 import type { Metadata } from "next";
 import { SITE } from "@/constants/site";
 

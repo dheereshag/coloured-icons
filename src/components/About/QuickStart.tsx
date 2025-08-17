@@ -1,4 +1,4 @@
-import CdnInclude from "./CdnInclude";
+import { CdnInclude } from ".";
 import { CI_CSS_URL_LATEST, CI_CSS_URL_VERSION } from "@/constants/about";
 
 export default function QuickStart() {

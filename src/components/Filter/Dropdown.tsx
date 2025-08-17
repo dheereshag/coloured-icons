@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/kibo-ui/combobox";
 import { Category } from "@/interfaces";
 import { useState } from "react";
-import { getCategoryIcon } from "./CategoryIcon";
+import { CategoryIcon } from ".";
 
 interface DropdownProps {
   categories: Category[];
@@ -54,7 +54,7 @@ const Dropdown: React.FC<DropdownProps> = ({
             {categories.map((category) => (
               <ComboboxItem key={category.name} value={category.name}>
                 <span className="flex items-center gap-2">
-                  {getCategoryIcon(category.name)}
+                  <CategoryIcon name={category.name} />
                   {category.name}
                 </span>
               </ComboboxItem>

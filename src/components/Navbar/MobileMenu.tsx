@@ -7,8 +7,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { menuItems } from "@/constants";
-import MobileHamburger from "./MobileHamburger";
-import MobileMenuItem from "./MobileMenuItem";
+import { MobileHamburger, MobileMenuItem } from ".";
 
 const MobileMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

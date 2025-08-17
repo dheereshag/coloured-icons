@@ -1,10 +1,7 @@
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Icon } from "@/interfaces";
 import { useState } from "react";
-import ModalTopBar from "./ModalTopBar";
-import IconHeader from "./IconHeader";
-import UsageList from "./UsageList";
-import ZoomOverlay from "./ZoomOverlay";
+import { IconHeader, ModalTopBar, UsageList, ZoomOverlay } from ".";
 
 interface ModalProps {
   icon: Icon;

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Category } from "@/interfaces";
-import { getCategoryIcon } from "./CategoryIcon";
+import { CategoryIcon } from ".";
 
 interface CategoryButtonProps {
   category: Category;
@@ -24,7 +24,7 @@ const CategoryButton: React.FC<CategoryButtonProps> = ({
           : "text-gray-600 hover:bg-purple-50 hover:text-purple-600"
       }`}
     >
-      {getCategoryIcon(category.name)}
+      <CategoryIcon name={category.name} />
       {category.name}
     </Button>
   );

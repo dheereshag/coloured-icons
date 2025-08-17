@@ -1,14 +1,11 @@
 "use client";
+import dynamic from "next/dynamic";
 import { Icon, Category } from "@/interfaces";
 import { useContext, useState } from "react";
-import { Dropdown } from ".";
-import { IconList } from "@/components/icon";
-import dynamic from "next/dynamic";
+import { Dropdown, DevModeBanner, CategoryList, IconList } from ".";
 import { icons, categories } from "@/constants";
 import { SearchContext } from "@/context/SearchContextProvider";
 import { isDevelopmentMode, limitIconsInDev } from "@/lib/dev-utils";
-import DevModeBanner from "./DevModeBanner";
-import CategoryList from "./CategoryList";
 
 // Load Modal lazily on the client only when needed
 const Modal = dynamic(() => import("@/components/modal"), { ssr: false });

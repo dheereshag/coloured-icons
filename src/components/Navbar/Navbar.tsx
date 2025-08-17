@@ -3,10 +3,7 @@
 import { useState, useContext, useEffect } from "react";
 import { SearchContext } from "@/context/SearchContextProvider";
 import { usePathname } from "next/navigation";
-import Logo from "./Logo";
-import MobileMenu from "./MobileMenu";
-import DesktopMenu from "./DesktopMenu";
-import SearchButton from "./SearchButton";
+import { Logo, MobileMenu, DesktopMenu, SearchButton } from ".";
 
 interface NavbarProps {
   hideSearch?: boolean;

@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Grid3x3,
   Palette,

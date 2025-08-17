@@ -1,5 +1,5 @@
 import { Category } from "@/interfaces";
-import CategoryButton from "./CategoryButton";
+import { CategoryButton } from ".";
 
 interface Props {
   categories: Category[];

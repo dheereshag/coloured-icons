@@ -1,4 +1,4 @@
-import IconSection from "./IconSection";
+import { IconSection } from ".";
 import { socialIcons, techIcons } from "@/constants/about";
 
 export default function IconShowcase() {
