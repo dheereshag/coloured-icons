@@ -6,7 +6,7 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const filesDir = path.join(__dirname, "..", "public", "logos", "files");
+const filesDir = path.join(__dirname, "public", "logos", "files");
 
 
 function renameToBase(name) {

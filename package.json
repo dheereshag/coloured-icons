@@ -8,8 +8,8 @@
     "build": "node scripts/listFolders.js && next build",
     "start": "next start",
     "lint": "next lint",
-    "minify:logos": "cleancss -o src/app/logos.min.css src/app/logos.css",
-    "minify:ci": "cleancss -o src/app/ci.min.css src/app/ci.css",
+    "minify:logos": "cleancss -o app/logos.min.css app/logos.css",
+    "minify:ci": "cleancss -o app/ci.min.css app/ci.css",
     "minify": "pnpm run minify:logos && pnpm run minify:ci"
   },
   "dependencies": {
@@ -32,6 +32,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/postcss": "^4.1.12",
     "@types/node": "^24.2.1",

@@ -1,14 +1,16 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import logoAliases from "../src/constants/logoAliases.js";
-import logoMeta from "../src/constants/logoMeta.js";
+// Use relative imports for Node execution (alias @ isn't available outside Next/TS tooling)
+import logoAliases from "../constants/logoAliases.js";
+import logoMeta from "../constants/logoMeta.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const logosPath = path.join(__dirname, "..", "public", "logos");
-const cssPath = path.join(__dirname, "..", "src", "app", "logos.css");
+// Project stores CSS under root app/ not src/app/
+const cssPath = path.join(__dirname, "..", "app", "logos.css");
 
 let cssContent = "";
 
@@ -78,13 +80,13 @@ const processFolder = (folderPath, folderName, category) => {
 .ci-${folderName}-dark,
 .ci-${folderName}-wordmark,
 .ci-${folderName}-wordmark-dark {
-  content: url("../../public/logos/${category}/${folderName}/${variants.dark}");
+  content: url("/logos/${category}/${folderName}/${variants.dark}");
 }\n\n`;
       }
       if (variants.light) {
         cssContent += `.ci-${folderName}-light,
 .ci-${folderName}-wordmark-light {
-  content: url("../../public/logos/${category}/${folderName}/${variants.light}");
+  content: url("/logos/${category}/${folderName}/${variants.light}");
 }\n\n`;
       }
     } else {
@@ -123,15 +125,13 @@ const processFolder = (folderPath, folderName, category) => {
 .ci-${generateClassNames(baseClass + "vertical-dark")},
 .ci-${generateClassNames(baseClass + "stacked")},
 .ci-${generateClassNames(baseClass + "stacked-dark")} {
-  content: url("../../public/logos/${category}/${folderName}/${variants.dark}");
+  content: url("/logos/${category}/${folderName}/${variants.dark}");
 }\n\n`;
           cssContent += `.ci-${generateClassNames(
             baseClass + "vertical-light"
           )},
 .ci-${generateClassNames(baseClass + "stacked-light")} {
-  content: url("../../public/logos/${category}/${folderName}/${
-            variants.light
-          }");
+  content: url("/logos/${category}/${folderName}/${variants.light}");
 }\n\n`;
         }
         // For horizontal/inline variants
@@ -146,27 +146,23 @@ const processFolder = (folderPath, folderName, category) => {
 .ci-${generateClassNames(baseClass + "horizontal-dark")},
 .ci-${generateClassNames(baseClass + "inline")},
 .ci-${generateClassNames(baseClass + "inline-dark")} {
-  content: url("../../public/logos/${category}/${folderName}/${variants.dark}");
+  content: url("/logos/${category}/${folderName}/${variants.dark}");
 }\n\n`;
           cssContent += `.ci-${generateClassNames(
             baseClass + "horizontal-light"
           )},
 .ci-${generateClassNames(baseClass + "inline-light")} {
-  content: url("../../public/logos/${category}/${folderName}/${
-            variants.light
-          }");
+  content: url("/logos/${category}/${folderName}/${variants.light}");
 }\n\n`;
         }
         // Regular case
         else {
           cssContent += `.ci-${generateClassNames(className)},
 .ci-${generateClassNames(className + "-dark")} {
-  content: url("../../public/logos/${category}/${folderName}/${variants.dark}");
+  content: url("/logos/${category}/${folderName}/${variants.dark}");
 }\n\n`;
           cssContent += `.ci-${generateClassNames(className + "-light")} {
-  content: url("../../public/logos/${category}/${folderName}/${
-            variants.light
-          }");
+  content: url("/logos/${category}/${folderName}/${variants.light}");
 }\n\n`;
         }
       } else if (variants.dark) {
@@ -181,7 +177,7 @@ const processFolder = (folderPath, folderName, category) => {
 .ci-${generateClassNames(baseClass + "stacked")},
 .ci-${generateClassNames(baseClass + "stacked-dark")},
 .ci-${generateClassNames(baseClass + "stacked-light")} {
-  content: url("../../public/logos/${category}/${folderName}/${variants.dark}");
+  content: url("/logos/${category}/${folderName}/${variants.dark}");
 }\n\n`;
         }
         // For horizontal/inline variants
@@ -198,7 +194,7 @@ const processFolder = (folderPath, folderName, category) => {
 .ci-${generateClassNames(baseClass + "inline")},
 .ci-${generateClassNames(baseClass + "inline-dark")},
 .ci-${generateClassNames(baseClass + "inline-light")} {
-  content: url("../../public/logos/${category}/${folderName}/${variants.dark}");
+  content: url("/logos/${category}/${folderName}/${variants.dark}");
 }\n\n`;
         }
         // Regular case
@@ -206,7 +202,7 @@ const processFolder = (folderPath, folderName, category) => {
           cssContent += `.ci-${generateClassNames(className)},
 .ci-${generateClassNames(className + "-dark")},
 .ci-${generateClassNames(className + "-light")} {
-  content: url("../../public/logos/${category}/${folderName}/${variants.dark}");
+  content: url("/logos/${category}/${folderName}/${variants.dark}");
 }\n\n`;
         }
       }
@@ -326,7 +322,8 @@ fs.readdir(logosPath, (err, categories) => {
     }
   });
   // updated file path to icons.ts
-  const iconsPath = path.join(__dirname, "..", "src", "constants", "icons.ts");
+  // icons.ts lives under root constants/ not src/constants/
+  const iconsPath = path.join(__dirname, "..", "constants", "icons.ts");
 
   // Merge with existing icons.ts file's url values if exists
   if (fs.existsSync(iconsPath)) {
