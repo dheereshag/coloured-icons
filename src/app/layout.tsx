@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { SearchContextProvider } from "@/context/SearchContextProvider";
 import { outfit } from "@/lib/fonts";
-import Navbar from "@/components/navbar";
 import { SITE } from "@/constants/site";
+import Navbar from "@/components/navbar";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
