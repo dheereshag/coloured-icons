@@ -528,21 +528,17 @@
 
 .ci-rayban,
 .ci-rayban-dark,
-.ci-rayban-wordmark,
-.ci-rayban-wordmark-dark {
-  content: url("../../public/logos/clothing and apparel/rayban/rayban-wordmark.svg");
+.ci-rayban-light {
+  content: url("../../public/logos/clothing and apparel/rayban/rayban.svg");
 }
 
-.ci-zara-light,
-.ci-zara-wordmark-light {
-  content: url("../../public/logos/clothing and apparel/zara/zara-wordmark-light.svg");
+.ci-zara-light {
+  content: url("../../public/logos/clothing and apparel/zara/zara-light.svg");
 }
 
 .ci-zara,
-.ci-zara-dark,
-.ci-zara-wordmark,
-.ci-zara-wordmark-dark {
-  content: url("../../public/logos/clothing and apparel/zara/zara-wordmark.svg");
+.ci-zara-dark {
+  content: url("../../public/logos/clothing and apparel/zara/zara.svg");
 }
 
 .ci-orcid-wordmark,
@@ -724,9 +720,8 @@
 
 .ci-visa,
 .ci-visa-dark,
-.ci-visa-wordmark,
-.ci-visa-wordmark-dark {
-  content: url("../../public/logos/financial services/visa/visa-wordmark.svg");
+.ci-visa-light {
+  content: url("../../public/logos/financial services/visa/visa.svg");
 }
 
 .ci-burgerking,
@@ -992,9 +987,8 @@
 
 .ci-roche,
 .ci-roche-dark,
-.ci-roche-wordmark,
-.ci-roche-wordmark-dark {
-  content: url("../../public/logos/pharmaceuticals/roche/roche-wordmark.svg");
+.ci-roche-light {
+  content: url("../../public/logos/pharmaceuticals/roche/roche.svg");
 }
 
 .ci-sanofi-wordmark,
@@ -8943,21 +8937,20 @@
 
 .ci-ola,
 .ci-ola-dark,
-.ci-ola-wordmark,
-.ci-ola-wordmark-dark {
-  content: url("../../public/logos/travel and tourism/ola/ola-wordmark.svg");
+.ci-ola-light,
+.ci-olacabs,
+.ci-olacabs-dark,
+.ci-olacabs-light {
+  content: url("../../public/logos/travel and tourism/ola/ola.svg");
 }
 
-.ci-uber-light,
-.ci-uber-wordmark-light {
-  content: url("../../public/logos/travel and tourism/uber/uber-wordmark-light.svg");
+.ci-uber-light {
+  content: url("../../public/logos/travel and tourism/uber/uber-light.svg");
 }
 
 .ci-uber,
-.ci-uber-dark,
-.ci-uber-wordmark,
-.ci-uber-wordmark-dark {
-  content: url("../../public/logos/travel and tourism/uber/uber-wordmark.svg");
+.ci-uber-dark {
+  content: url("../../public/logos/travel and tourism/uber/uber.svg");
 }
 
 .ci-virgin,

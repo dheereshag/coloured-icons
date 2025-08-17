@@ -385,7 +385,7 @@ const icons = [
     "name": "Ray-Ban",
     "category": "clothing and apparel",
     "classes": [
-      "rayban-wordmark"
+      "rayban"
     ],
     "url": "rayban.com"
   },
@@ -393,8 +393,8 @@ const icons = [
     "name": "Zara",
     "category": "clothing and apparel",
     "classes": [
-      "zara-wordmark",
-      "zara-wordmark-light"
+      "zara",
+      "zara-light"
     ],
     "url": "zara.com"
   },
@@ -521,7 +521,7 @@ const icons = [
     "name": "Visa",
     "category": "financial services",
     "classes": [
-      "visa-wordmark"
+      "visa"
     ],
     "url": "visa.com"
   },
@@ -794,7 +794,7 @@ const icons = [
     "name": "Roche",
     "category": "pharmaceuticals",
     "classes": [
-      "roche-wordmark"
+      "roche"
     ],
     "url": "roche.com"
   },
@@ -6160,7 +6160,7 @@ const icons = [
     "name": "Ola",
     "category": "travel and tourism",
     "classes": [
-      "ola-wordmark"
+      "ola"
     ],
     "url": "ola.com"
   },
@@ -6168,8 +6168,8 @@ const icons = [
     "name": "Uber",
     "category": "travel and tourism",
     "classes": [
-      "uber-wordmark",
-      "uber-wordmark-light"
+      "uber",
+      "uber-light"
     ],
     "url": "uber.com"
   },
