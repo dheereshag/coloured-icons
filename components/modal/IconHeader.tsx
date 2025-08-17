@@ -8,7 +8,7 @@ interface IconHeaderProps {
   icon: Icon;
 }
 
-const IconHeader: React.FC<IconHeaderProps> = ({ icon }) => {
+export const IconHeader: React.FC<IconHeaderProps> = ({ icon }) => {
   return (
     <div className="flex items-center gap-8 mb-10">
       <div className="p-8 bg-linear-to-b from-slate-100 to-white rounded-2xl shadow-xs border border-slate-200">
@@ -31,5 +31,3 @@ const IconHeader: React.FC<IconHeaderProps> = ({ icon }) => {
     </div>
   );
 };
-
-export default IconHeader;

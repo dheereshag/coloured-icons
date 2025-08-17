@@ -7,7 +7,7 @@ interface IconCodeProps {
   iconClass: string;
 }
 
-const IconCode: React.FC<IconCodeProps> = ({ iconClass }) => {
+export const IconCode: React.FC<IconCodeProps> = ({ iconClass }) => {
   const { copied, handleCopy } = useCopy();
 
   return (
@@ -34,5 +34,3 @@ const IconCode: React.FC<IconCodeProps> = ({ iconClass }) => {
     </div>
   );
 };
-
-export default IconCode;

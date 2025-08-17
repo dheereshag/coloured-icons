@@ -15,7 +15,7 @@ interface CdnIncludeProps {
   url: string;
 }
 
-const CdnInclude: React.FC<CdnIncludeProps> = ({ text, url }) => {
+export const CdnInclude: React.FC<CdnIncludeProps> = ({ text, url }) => {
   const link = `<link rel="stylesheet" href="${url}" />`;
   const [value, setValue] = useState("cdn");
 
@@ -44,5 +44,3 @@ const CdnInclude: React.FC<CdnIncludeProps> = ({ text, url }) => {
     </>
   );
 };
-
-export default CdnInclude;

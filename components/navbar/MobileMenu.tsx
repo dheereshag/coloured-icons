@@ -9,7 +9,7 @@ import {
 import { menuItems } from "@/constants";
 import { MobileHamburger, MobileMenuItem } from ".";
 
-const MobileMenu = () => {
+export const MobileMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -53,5 +53,3 @@ const MobileMenu = () => {
     </div>
   );
 };
-
-export default MobileMenu;

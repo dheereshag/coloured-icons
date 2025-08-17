@@ -5,7 +5,7 @@ interface ModalTopBarProps {
   onClose: () => void;
 }
 
-const ModalTopBar: React.FC<ModalTopBarProps> = ({ onClose }) => {
+export const ModalTopBar: React.FC<ModalTopBarProps> = ({ onClose }) => {
   return (
     <div className="sticky top-0 right-0 z-10 bg-white/80 backdrop-blur-xl py-4 px-8">
       <Button
@@ -19,5 +19,3 @@ const ModalTopBar: React.FC<ModalTopBarProps> = ({ onClose }) => {
     </div>
   );
 };
-
-export default ModalTopBar;

@@ -7,7 +7,7 @@ interface IconCardProps {
   onClick?: () => void;
 }
 
-const IconCard: React.FC<IconCardProps> = ({ icon, onClick }) => {
+export const IconCard: React.FC<IconCardProps> = ({ icon, onClick }) => {
   return (
     <Card
       onClick={onClick}
@@ -32,5 +32,3 @@ const IconCard: React.FC<IconCardProps> = ({ icon, onClick }) => {
     </Card>
   );
 };
-
-export default IconCard;

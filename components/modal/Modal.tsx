@@ -8,7 +8,7 @@ interface ModalProps {
   onClose: () => void;
 }
 
-const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
+export const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
   const [zoomedIcon, setZoomedIcon] = useState<string | null>(null);
 
   return (
@@ -57,5 +57,3 @@ const Modal: React.FC<ModalProps> = ({ icon, onClose }) => {
     </>
   );
 };
-
-export default Modal;

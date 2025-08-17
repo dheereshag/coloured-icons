@@ -1,7 +1,7 @@
 import { CdnInclude } from ".";
 import { CI_CSS_URL_LATEST, CI_CSS_URL_VERSION } from "@/constants/about";
 
-export default function QuickStart() {
+export function QuickStart() {
   return (
     <section className="space-y-6">
       <h2 className="text-2xl font-semibold text-gray-900">Quick Start</h2>

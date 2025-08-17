@@ -1,7 +1,7 @@
 import { IconSection } from ".";
 import { socialIcons, techIcons } from "@/constants/about";
 
-export default function IconShowcase() {
+export function IconShowcase() {
   return (
     <section className="space-y-8">
       <h2 className="text-2xl font-semibold text-gray-900">

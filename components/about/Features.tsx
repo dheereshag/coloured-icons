@@ -1,6 +1,6 @@
 import { features } from "@/constants/about";
 
-export default function Features() {
+export function Features() {
   return (
     <section className="space-y-6">
       <h2 className="text-2xl font-semibold text-gray-900">Features</h2>

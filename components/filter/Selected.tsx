@@ -7,7 +7,11 @@ interface SelectedProps {
   category: { name: string };
 }
 
-const Selected: React.FC<SelectedProps> = ({ selected, active, category }) => {
+export const Selected: React.FC<SelectedProps> = ({
+  selected,
+  active,
+  category,
+}) => {
   return (
     <>
       <span
@@ -33,5 +37,3 @@ const Selected: React.FC<SelectedProps> = ({ selected, active, category }) => {
     </>
   );
 };
-
-export default Selected;

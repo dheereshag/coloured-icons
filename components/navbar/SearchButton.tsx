@@ -7,7 +7,7 @@ interface SearchButtonProps {
   onClick: (e: React.MouseEvent<HTMLAnchorElement>) => void;
 }
 
-const SearchButton: React.FC<SearchButtonProps> = ({ onClick }) => {
+export const SearchButton: React.FC<SearchButtonProps> = ({ onClick }) => {
   return (
     <Button
       asChild
@@ -22,5 +22,3 @@ const SearchButton: React.FC<SearchButtonProps> = ({ onClick }) => {
     </Button>
   );
 };
-
-export default SearchButton;

@@ -1,4 +1,4 @@
-export default function Project() {
+export function Project() {
   return (
     <section className="space-y-6">
       <h2 className="text-2xl font-semibold text-gray-900">The Project</h2>

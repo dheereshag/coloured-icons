@@ -1,2 +1,2 @@
-export { default } from "./Hero";
-export { default as StarUsOnGithubButton } from "./StarUsOnGithubButton";
+export { Hero } from "./Hero";
+export { StarUsOnGithubButton } from "./StarUsOnGithubButton";

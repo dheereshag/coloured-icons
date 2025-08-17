@@ -1,4 +1,4 @@
-export default function Hero() {
+export function Hero() {
   return (
     <div className="text-center space-y-8">
       <h1 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">

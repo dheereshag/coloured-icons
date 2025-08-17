@@ -1,6 +1,6 @@
-export { default } from "./Modal";
-export { default as ModalTopBar } from "./ModalTopBar";
-export { default as IconHeader } from "./IconHeader";
-export { default as UsageList } from "./UsageList";
-export { default as ZoomOverlay } from "./ZoomOverlay";
-export { default as IconCode } from "./IconCode";
+export { Modal } from "./Modal";
+export { ModalTopBar } from "./ModalTopBar";
+export { IconHeader } from "./IconHeader";
+export { UsageList } from "./UsageList";
+export { ZoomOverlay } from "./ZoomOverlay";
+export { IconCode } from "./IconCode";

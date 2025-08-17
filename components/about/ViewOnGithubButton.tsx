@@ -2,7 +2,7 @@ import { SiGithub } from "@icons-pack/react-simple-icons";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-const ViewOnGithubButton = () => {
+export const ViewOnGithubButton = () => {
   return (
     <Button asChild>
       <Link
@@ -17,5 +17,3 @@ const ViewOnGithubButton = () => {
     </Button>
   );
 };
-
-export default ViewOnGithubButton;

@@ -2,7 +2,7 @@ interface ZoomOverlayProps {
   zoomedIcon: string | null;
 }
 
-const ZoomOverlay: React.FC<ZoomOverlayProps> = ({ zoomedIcon }) => {
+export const ZoomOverlay: React.FC<ZoomOverlayProps> = ({ zoomedIcon }) => {
   if (!zoomedIcon) return null;
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50 pointer-events-none">
@@ -12,5 +12,3 @@ const ZoomOverlay: React.FC<ZoomOverlayProps> = ({ zoomedIcon }) => {
     </div>
   );
 };
-
-export default ZoomOverlay;

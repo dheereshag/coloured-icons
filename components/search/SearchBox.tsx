@@ -6,7 +6,7 @@ import { Search } from "lucide-react";
 import { ClearButton } from ".";
 import useSearchShortcuts from "@/hooks/useSearchShortcuts";
 
-function SearchBox() {
+export function SearchBox() {
   const ref = useRef<HTMLInputElement>(null);
 
   const { search, setSearch, focusTrigger } = useContext(SearchContext);
@@ -33,5 +33,3 @@ function SearchBox() {
     </div>
   );
 }
-
-export default SearchBox;

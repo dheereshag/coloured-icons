@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import Hero from "@/components/about/Hero";
-import Project from "@/components/about/Project";
-import IconShowcase from "@/components/about/IconShowcase";
-import Features from "@/components/about/Features";
-import QuickStart from "@/components/about/QuickStart";
-import Community from "@/components/about/Community";
+import { Hero } from "@/components/about/Hero";
+import { Project } from "@/components/about/Project";
+import { IconShowcase } from "@/components/about/IconShowcase";
+import { Features } from "@/components/about/Features";
+import { QuickStart } from "@/components/about/QuickStart";
+import { Community } from "@/components/about/Community";
 import { SITE } from "@/constants/site";
 
 export const metadata: Metadata = {

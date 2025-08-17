@@ -9,7 +9,7 @@ interface IconListProps {
   search: string;
 }
 
-const IconList: React.FC<IconListProps> = ({
+export const IconList: React.FC<IconListProps> = ({
   icons,
   selectedCategory,
   handleIconClick,
@@ -31,5 +31,3 @@ const IconList: React.FC<IconListProps> = ({
     </ul>
   );
 };
-
-export default IconList;

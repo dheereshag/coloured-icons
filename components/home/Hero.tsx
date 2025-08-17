@@ -1,7 +1,7 @@
 import { StarUsOnGithubButton } from ".";
 import { heroHeadingClass, heroSubheading } from "@/constants";
 
-const Hero = () => (
+export const Hero = () => (
   <section className="mx-auto py-8 max-w-5xl sm:py-14 lg:py-20 text-center">
     <h1 className={heroHeadingClass}>
       Zero downloads. Zero build steps.
@@ -14,5 +14,3 @@ const Hero = () => (
     <StarUsOnGithubButton />
   </section>
 );
-
-export default Hero;

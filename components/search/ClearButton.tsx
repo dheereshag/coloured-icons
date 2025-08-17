@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { X } from "lucide-react";
 
-const ClearButton: React.FC<{ onClick: () => void }> = ({ onClick }) => (
+export const ClearButton: React.FC<{ onClick: () => void }> = ({ onClick }) => (
   <Button
     variant="ghost"
     size="icon"
@@ -12,5 +12,3 @@ const ClearButton: React.FC<{ onClick: () => void }> = ({ onClick }) => (
     <X className="h-4 w-4" />
   </Button>
 );
-
-export default ClearButton;

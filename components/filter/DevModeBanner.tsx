@@ -1,6 +1,6 @@
 import { isDevelopmentMode } from "@/lib/dev-utils";
 
-const DevModeBanner = () => {
+export const DevModeBanner = () => {
   if (!isDevelopmentMode()) return null;
 
   return (
@@ -14,5 +14,3 @@ const DevModeBanner = () => {
     </div>
   );
 };
-
-export default DevModeBanner;

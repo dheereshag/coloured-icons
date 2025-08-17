@@ -2,7 +2,7 @@ import { Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-const StarUsOnGithubButton = () => {
+export const StarUsOnGithubButton = () => {
   return (
     <Button asChild variant="outline" className="rounded-full mt-6">
       <Link
@@ -16,5 +16,3 @@ const StarUsOnGithubButton = () => {
     </Button>
   );
 };
-
-export default StarUsOnGithubButton;

@@ -8,7 +8,7 @@ interface CategoryButtonProps {
   onClick: (category: Category) => void;
 }
 
-const CategoryButton: React.FC<CategoryButtonProps> = ({
+export const CategoryButton: React.FC<CategoryButtonProps> = ({
   category,
   isSelected,
   onClick,
@@ -29,5 +29,3 @@ const CategoryButton: React.FC<CategoryButtonProps> = ({
     </Button>
   );
 };
-
-export default CategoryButton;

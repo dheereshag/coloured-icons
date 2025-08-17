@@ -7,7 +7,7 @@ interface Props {
   onCategoryChange: (category: Category) => void;
 }
 
-const CategoryList: React.FC<Props> = ({
+export const CategoryList: React.FC<Props> = ({
   categories,
   selectedCategory,
   onCategoryChange,
@@ -25,5 +25,3 @@ const CategoryList: React.FC<Props> = ({
     </div>
   );
 };
-
-export default CategoryList;

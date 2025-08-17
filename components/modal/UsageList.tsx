@@ -7,7 +7,7 @@ interface UsageListProps {
   onHover: (iconClass: string | null) => void;
 }
 
-const UsageList: React.FC<UsageListProps> = ({ icon, onHover }) => {
+export const UsageList: React.FC<UsageListProps> = ({ icon, onHover }) => {
   return (
     <div className="space-y-4">
       {icon.classes.map((iconClass) => (
@@ -30,5 +30,3 @@ const UsageList: React.FC<UsageListProps> = ({ icon, onHover }) => {
     </div>
   );
 };
-
-export default UsageList;

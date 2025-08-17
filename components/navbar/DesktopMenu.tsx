@@ -9,7 +9,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { menuItems } from "@/constants";
 
-const DesktopMenu = () => {
+export const DesktopMenu = () => {
   const pathname = usePathname();
 
   return (
@@ -48,5 +48,3 @@ const DesktopMenu = () => {
     </div>
   );
 };
-
-export default DesktopMenu;

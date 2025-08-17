@@ -38,6 +38,5 @@ export const getCategoryIcon = (categoryName: string) => {
   return Icon ? <Icon className={margin} /> : null;
 };
 
-const CategoryIcon = ({ name }: { name: string }) => getCategoryIcon(name);
-
-export default CategoryIcon;
+export const CategoryIcon = ({ name }: { name: string }) =>
+  getCategoryIcon(name);

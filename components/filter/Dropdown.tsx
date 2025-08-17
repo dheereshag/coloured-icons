@@ -19,11 +19,11 @@ interface DropdownProps {
   onCategoryChange?: (category: Category) => void;
 }
 
-const Dropdown: React.FC<DropdownProps> = ({
+export const Dropdown: React.FC<DropdownProps> = ({
   categories,
   onCategoryChange,
 }) => {
-  const [value, setValue] = useState("");
+  const [, setValue] = useState("");
 
   const categoryData = categories.map((category) => ({
     value: category.name,
@@ -65,5 +65,3 @@ const Dropdown: React.FC<DropdownProps> = ({
     </Combobox>
   );
 };
-
-export default Dropdown;

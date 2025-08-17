@@ -1,12 +1,12 @@
-export { default as Hero } from "./Hero";
-export { default as Project } from "./Project";
-export { default as IconShowcase } from "./IconShowcase";
-export { default as Features } from "./Features";
-export { default as QuickStart } from "./QuickStart";
-export { default as Community } from "./Community";
+export { Hero } from "./Hero";
+export { Project } from "./Project";
+export { IconShowcase } from "./IconShowcase";
+export { Features } from "./Features";
+export { QuickStart } from "./QuickStart";
+export { Community } from "./Community";
 
 // Existing exports for convenience
-export { default as CdnInclude } from "./CdnInclude";
-export { default as IconSection } from "./IconSection";
-export { default as IconCard } from "./IconCard";
-export { default as ViewOnGithubButton } from "./ViewOnGithubButton";
+export { CdnInclude } from "./CdnInclude";
+export { IconSection } from "./IconSection";
+export { IconCard } from "./IconCard";
+export { ViewOnGithubButton } from "./ViewOnGithubButton";

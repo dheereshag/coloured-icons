@@ -1,5 +1,6 @@
 "use client";
 import dynamic from "next/dynamic";
+import type { ComponentType } from "react";
 import { Icon, Category } from "@/interfaces";
 import { useContext, useState } from "react";
 import { Dropdown, DevModeBanner, CategoryList, IconList } from ".";
@@ -7,10 +8,16 @@ import { icons, categories } from "@/constants";
 import { SearchContext } from "@/context/SearchContextProvider";
 import { isDevelopmentMode, limitIconsInDev } from "@/lib/dev-utils";
 
-// Load Modal lazily on the client only when needed
-const Modal = dynamic(() => import("@/components/modal"), { ssr: false });
+// Load Modal lazily on the client only when needed (named export from barrel)
+const Modal = dynamic(
+  () =>
+    import("@/components/modal").then((m) => m.Modal) as Promise<
+      ComponentType<{ icon: Icon; onClose: () => void }>
+    >,
+  { ssr: false }
+);
 
-const Filter = () => {
+export const Filter = () => {
   const [selectedCategory, setSelectedCategory] = useState<Category>(
     categories[0]
   );
@@ -65,5 +72,3 @@ const Filter = () => {
     </div>
   );
 };
-
-export default Filter;

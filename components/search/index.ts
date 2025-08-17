@@ -1,2 +1,2 @@
-export { default } from "./SearchBox";
-export { default as ClearButton } from "./ClearButton";
+export { SearchBox } from "./SearchBox";
+export { ClearButton } from "./ClearButton";

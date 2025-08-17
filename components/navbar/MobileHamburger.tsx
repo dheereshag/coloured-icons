@@ -1,6 +1,7 @@
-const MobileHamburger = ({ isOpen }: { isOpen: boolean }) => (
+export const MobileHamburger = ({ isOpen }: { isOpen: boolean }) => (
   <svg
     className="pointer-events-none"
+    data-open={isOpen ? "true" : "false"}
     width={16}
     height={16}
     viewBox="0 0 24 24"
@@ -26,5 +27,3 @@ const MobileHamburger = ({ isOpen }: { isOpen: boolean }) => (
     />
   </svg>
 );
-
-export default MobileHamburger;

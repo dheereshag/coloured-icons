@@ -9,7 +9,7 @@ interface NavbarProps {
   hideSearch?: boolean;
 }
 
-const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
+export const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
   const pathname = usePathname();
 
   const [pendingFocus, setPendingFocus] = useState(false);
@@ -56,7 +56,7 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
         <div className="flex items-center">
           {!hideSearch && (
             <SearchButton
-              onClick={(e) => {
+              onClick={(e: React.MouseEvent<HTMLAnchorElement>) => {
                 if (pathname === "/") {
                   e.preventDefault();
                   handleSearchClick();
@@ -71,5 +71,3 @@ const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
     </nav>
   );
 };
-
-export default Navbar;

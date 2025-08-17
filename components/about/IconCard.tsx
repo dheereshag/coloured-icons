@@ -3,7 +3,7 @@ interface IconCardProps {
   icon: Pick<BaseIcon, "name" | "classes">;
 }
 
-const IconCard = ({ icon }: IconCardProps) => {
+export const IconCard = ({ icon }: IconCardProps) => {
   return (
     <div
       key={icon.name}
@@ -14,5 +14,3 @@ const IconCard = ({ icon }: IconCardProps) => {
     </div>
   );
 };
-
-export default IconCard;

@@ -3,7 +3,7 @@ import "./globals.css";
 import { SearchContextProvider } from "@/context/SearchContextProvider";
 import { outfit } from "@/lib/fonts";
 import { SITE } from "@/constants/site";
-import Navbar from "@/components/navbar/Navbar";
+import { Navbar } from "@/components/navbar/Navbar";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -99,7 +99,6 @@ export default function RootLayout({
       <body className={`px-8 ${outfit.className} antialiased`}>
         <script
           type="application/ld+json"
-          // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
         <SearchContextProvider>

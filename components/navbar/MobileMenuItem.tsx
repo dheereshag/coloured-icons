@@ -16,7 +16,7 @@ interface Props {
 const baseClass =
   "block px-3 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors font-medium rounded-sm hover:bg-accent";
 
-const MobileMenuItem: React.FC<Props> = ({ item, onClick }) => {
+export const MobileMenuItem: React.FC<Props> = ({ item, onClick }) => {
   const pathname = usePathname();
 
   if (item.external) {
@@ -46,5 +46,3 @@ const MobileMenuItem: React.FC<Props> = ({ item, onClick }) => {
     </Link>
   );
 };
-
-export default MobileMenuItem;

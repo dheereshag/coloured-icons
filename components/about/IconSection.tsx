@@ -6,7 +6,7 @@ interface IconSectionProps {
   icons: Array<Pick<BaseIcon, "name" | "classes">>;
 }
 
-const IconSection: React.FC<IconSectionProps> = ({ title, icons }) => {
+export const IconSection: React.FC<IconSectionProps> = ({ title, icons }) => {
   return (
     <section>
       <h2 className="text-2xl font-bold mb-4">{title}</h2>
@@ -18,5 +18,3 @@ const IconSection: React.FC<IconSectionProps> = ({ title, icons }) => {
     </section>
   );
 };
-
-export default IconSection;
