@@ -3,7 +3,7 @@ import "./globals.css";
 import { SearchContextProvider } from "@/context/SearchContextProvider";
 import { outfit } from "@/lib/fonts";
 import { SITE } from "@/constants/site";
-import { Navbar } from "@/components/navbar/Navbar";
+import { Navbar } from "@/components/navbar";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
