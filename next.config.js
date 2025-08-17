@@ -10,24 +10,6 @@ const nextConfig = {
     // Enable the React Compiler for automatic memoization and performance optimizations
     reactCompiler: true,
   },
-  // Ensure TS "@" alias works at runtime (Webpack resolver)
-  webpack: (config) => {
-    config.resolve = config.resolve || {};
-    config.resolve.alias = {
-      ...(config.resolve.alias || {}),
-      "@": path.resolve(__dirname, "src"),
-    };
-    // Add common extensions just in case
-    config.resolve.extensions = config.resolve.extensions || [
-      ".js",
-      ".jsx",
-      ".ts",
-      ".tsx",
-      ".mjs",
-      ".json",
-    ];
-    return config;
-  },
 };
 
 export default nextConfig;
