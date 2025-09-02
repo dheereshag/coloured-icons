@@ -8,7 +8,7 @@ export const menuItems: MenuItem[] = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   {
-    href: "https://github.com/dheereshagrwal/coloured-icons/blob/master/README.md",
+    href: "https://github.com/dheereshag/coloured-icons/blob/master/README.md",
     label: "Docs",
     external: true,
   },

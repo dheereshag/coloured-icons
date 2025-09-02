@@ -6,7 +6,7 @@ export const StarUsOnGithubButton = () => {
   return (
     <Button asChild variant="outline" className="rounded-full mt-6">
       <Link
-        href="https://github.com/dheereshagrwal/coloured-icons"
+        href="https://github.com/dheereshag/coloured-icons"
         target="_blank"
         rel="noopener noreferrer"
       >

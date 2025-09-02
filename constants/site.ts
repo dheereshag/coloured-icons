@@ -10,7 +10,7 @@ export const SITE = {
     (typeof process !== "undefined" && process.env.NEXT_PUBLIC_SITE_URL) ||
     "https://coloured-icons.vercel.app",
   creator: "Dheeresh Agarwal",
-  twitter: "@dheereshagrwal",
+  twitter: "@dheereshag",
   keywords: [
     "icons",
     "colored icons",
@@ -24,7 +24,7 @@ export const SITE = {
     "fontawesome sizing",
   ],
   themeColor: "#111827", // gray-900
-  repoUrl: "https://github.com/dheereshagrwal/coloured-icons",
+  repoUrl: "https://github.com/dheereshag/coloured-icons",
 } as const;
 
 export type SiteConfig = typeof SITE;

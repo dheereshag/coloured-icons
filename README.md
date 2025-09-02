@@ -22,7 +22,7 @@ To use the Coloured Icons Library, simply add the following CDN link to your HTM
 ```
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@1.9.5/src/app/ci.min.css"
+  href="https://cdn.jsdelivr.net/gh/dheereshag/coloured-icons@1.9.5/src/app/ci.min.css"
 />
 ```
 
@@ -31,7 +31,7 @@ Use the below one for latest
 ```
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@master/src/app/ci.min.css"
+  href="https://cdn.jsdelivr.net/gh/dheereshag/coloured-icons@master/src/app/ci.min.css"
 />
 ```
 
@@ -174,4 +174,4 @@ The Coloured Icons Library is licensed under the MIT License. Please review the 
 
 ## Contact 👋🏻
 
-[Visit my personal website](https://dheereshagrwal.vercel.app)
+[Visit my personal website](https://dheereshag.vercel.app)

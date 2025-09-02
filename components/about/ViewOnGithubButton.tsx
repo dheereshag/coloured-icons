@@ -6,7 +6,7 @@ export const ViewOnGithubButton = () => {
   return (
     <Button asChild>
       <Link
-        href="https://github.com/dheereshagrwal/coloured-icons"
+        href="https://github.com/dheereshag/coloured-icons"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2"
