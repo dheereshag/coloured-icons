@@ -25,10 +25,10 @@ jobs:
         run: npm install -g clean-css-cli
 
       - name: Minify logos.css
-        run: cleancss -o src/app/logos.min.css src/app/logos.css
+        run: cleancss -o app/logos.min.css app/logos.css
 
       - name: Minify ci.css
-        run: cleancss -o src/app/ci.min.css src/app/ci.css
+        run: cleancss -o app/ci.min.css app/ci.css
 
       - name: Check for changes
         id: git-check
