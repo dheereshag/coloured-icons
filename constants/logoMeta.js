@@ -25,6 +25,7 @@ const logoMeta = {
   mui: { displayName: "MUI" },
   clickup: { displayName: "ClickUp" },
   hnm: { displayName: "H&M" },
+  zoom: { displayName: "Zoom" },
 };
 
 export default logoMeta;

@@ -6190,6 +6190,14 @@ const icons = [
     "url": "zod.com"
   },
   {
+    "name": "Zoom",
+    "category": "technology",
+    "classes": [
+      "zoom"
+    ],
+    "url": "zoom.com"
+  },
+  {
     "name": "Airbnb",
     "category": "travel and tourism",
     "classes": [

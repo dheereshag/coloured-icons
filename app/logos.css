@@ -8971,6 +8971,12 @@
   content: url("../public/logos/technology/zod/zod.svg");
 }
 
+.ci-zoom,
+.ci-zoom-dark,
+.ci-zoom-light {
+  content: url("../public/logos/technology/zoom/zoom.svg");
+}
+
 .ci-airbnb-circle,
 .ci-airbnb-circle-dark,
 .ci-airbnb-circle-light {
