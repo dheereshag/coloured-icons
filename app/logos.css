@@ -796,6 +796,12 @@
   content: url("../public/logos/food and beverage/wendys/wendys.svg");
 }
 
+.ci-freefire,
+.ci-freefire-dark,
+.ci-freefire-light {
+  content: url("../public/logos/games/freefire/freefire.svg");
+}
+
 .ci-accordion,
 .ci-accordion-dark,
 .ci-accordion-light {

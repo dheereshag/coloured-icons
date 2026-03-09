@@ -586,6 +586,14 @@ const icons = [
     "url": "wendys.com"
   },
   {
+    "name": "Freefire",
+    "category": "games",
+    "classes": [
+      "freefire"
+    ],
+    "url": "freefire.com"
+  },
+  {
     "name": "Accordion",
     "category": "instruments",
     "classes": [
