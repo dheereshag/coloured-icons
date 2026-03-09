@@ -439,6 +439,12 @@
   content: url("../public/logos/automobile/tesla/tesla.svg");
 }
 
+.ci-toyota,
+.ci-toyota-dark,
+.ci-toyota-light {
+  content: url("../public/logos/automobile/toyota/toyota.svg");
+}
+
 .ci-adidas-light {
   content: url("../public/logos/clothing and apparel/adidas/adidas-light.svg");
 }

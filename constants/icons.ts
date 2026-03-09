@@ -331,6 +331,14 @@ const icons = [
     "url": "tesla.com"
   },
   {
+    "name": "Toyota",
+    "category": "automobile",
+    "classes": [
+      "toyota"
+    ],
+    "url": "toyota.com"
+  },
+  {
     "name": "Adidas",
     "category": "clothing and apparel",
     "classes": [
