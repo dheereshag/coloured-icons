@@ -13,6 +13,7 @@ import {
   Music,
   Rabbit,
   Gamepad2,
+  School,
   type LucideIcon,
 } from "lucide-react";
 
@@ -33,6 +34,7 @@ const iconMap: Record<string, LucideIcon> = {
   instruments: Music,
   animals: Rabbit,
   games: Gamepad2,
+  universities: School,
 };
 
 export const getCategoryIcon = (categoryName: string) => {

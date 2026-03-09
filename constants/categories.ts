@@ -15,6 +15,7 @@ const categories: Category[] = [
   { name: "Instruments" },
   { name: "Animals" },
   { name: "Games" },
+  { name: "Universities" },
 ];
 
 export default categories;
