@@ -594,6 +594,14 @@ const icons = [
     "url": "https://ff.garena.com/en"
   },
   {
+    "name": "Sekiro: Shadows Die Twice",
+    "category": "games",
+    "classes": [
+      "sekiro"
+    ],
+    "url": "https://www.sekirothegame.com/home"
+  },
+  {
     "name": "Accordion",
     "category": "instruments",
     "classes": [

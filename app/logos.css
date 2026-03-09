@@ -802,6 +802,12 @@
   content: url("../public/logos/games/freefire/freefire.svg");
 }
 
+.ci-sekiro,
+.ci-sekiro-dark,
+.ci-sekiro-light {
+  content: url("../public/logos/games/sekiro/sekiro.svg");
+}
+
 .ci-accordion,
 .ci-accordion-dark,
 .ci-accordion-light {
