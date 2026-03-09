@@ -269,6 +269,14 @@ const icons = [
     "url": "spotify.com"
   },
   {
+  "name": "McLaren",
+  "category": "automobile",
+  "classes": [
+    "mclaren"
+  ],
+  "url": "mclaren.com"
+},
+  {
     "name": "Audi",
     "category": "automobile",
     "classes": [
