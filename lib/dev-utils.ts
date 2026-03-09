@@ -7,12 +7,8 @@ import { Icon } from "@/interfaces";
  * @returns Limited array of icons if in development mode, otherwise original array
  */
 const limitIconsInDev = (icons: Icon[], limit: number = 5): Icon[] => {
-  // Check if we're in development mode
-  const isDevelopment = process.env.NODE_ENV === "development";
+  return icons;
 
-  if (!isDevelopment) {
-    return icons;
-  }
 
   // Group icons by category
   const iconsByCategory: { [key: string]: Icon[] } = {};

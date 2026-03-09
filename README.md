@@ -22,7 +22,7 @@ To use the Coloured Icons Library, simply add the following CDN link to your HTM
 ```
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/dheereshag/coloured-icons@1.9.6/app/ci.min.css"
+  href="https://cdn.jsdelivr.net/gh/dheereshag/coloured-icons@1.9.7/app/ci.min.css"
 />
 ```
 
@@ -134,6 +134,13 @@ Some icons have a second version of them provided which is a darker shade of the
 The code is very lightweight and dead simple; there is nothing fancy going on.
 Please note that we use `pnpm` for faster builds.
 
+### Where to get icons
+
+You can source SVG icons from the following websites:
+
+- [worldvectorlogo.com](https://worldvectorlogo.com)
+- [brandfetch.com](https://brandfetch.com)
+
 ### Guidelines for naming
 
 `logo -> {company}.svg`
@@ -162,9 +169,7 @@ Toggle in `next.config.js`:
 
 ```
 export default {
-  experimental: {
-    reactCompiler: true, // set to false to disable if you hit any issues
-  },
+  reactCompiler: true, // set to false to disable if you hit any issues
 }
 ```
 

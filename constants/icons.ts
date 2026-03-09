@@ -586,6 +586,14 @@ const icons = [
     "url": "wendys.com"
   },
   {
+    "name": "FreeFire",
+    "category": "games",
+    "classes": [
+      "freefire"
+    ],
+    "url": "https://ff.garena.com/en"
+  },
+  {
     "name": "Accordion",
     "category": "instruments",
     "classes": [
@@ -1630,6 +1638,18 @@ const icons = [
     "url": "claude.com"
   },
   {
+    "name": "Clerk",
+    "category": "technology",
+    "classes": [
+      "clerk",
+      "clerk-circle",
+      "clerk-horizontal",
+      "clerk-horizontal-dark",
+      "clerk-square"
+    ],
+    "url": "clerk.com"
+  },
+  {
     "name": "Clickhouse",
     "category": "technology",
     "classes": [
@@ -2338,6 +2358,14 @@ const icons = [
     "url": "fastify.com"
   },
   {
+    "name": "Fastly",
+    "category": "technology",
+    "classes": [
+      "fastly"
+    ],
+    "url": "fastly.com"
+  },
+  {
     "name": "Faunadb",
     "category": "technology",
     "classes": [
@@ -2469,6 +2497,16 @@ const icons = [
       "framework7-horizontal"
     ],
     "url": "framework7.com"
+  },
+  {
+    "name": "Freshbooks",
+    "category": "technology",
+    "classes": [
+      "freshbooks",
+      "freshbooks-horizontal",
+      "freshbooks-vertical"
+    ],
+    "url": "freshbooks.com"
   },
   {
     "name": "Fsharp",
@@ -3276,6 +3314,14 @@ const icons = [
       "keras-horizontal"
     ],
     "url": "keras.com"
+  },
+  {
+    "name": "Keycloak",
+    "category": "technology",
+    "classes": [
+      "keycloak"
+    ],
+    "url": "keycloak.com"
   },
   {
     "name": "Kibana",
@@ -4644,6 +4690,14 @@ const icons = [
     "url": "quasar.com"
   },
   {
+    "name": "Quickbooks",
+    "category": "technology",
+    "classes": [
+      "quickbooks"
+    ],
+    "url": "quickbooks.com"
+  },
+  {
     "name": "Qwik",
     "category": "technology",
     "classes": [
@@ -4971,6 +5025,14 @@ const icons = [
       "safari-vertical"
     ],
     "url": "safari.com"
+  },
+  {
+    "name": "Sage",
+    "category": "technology",
+    "classes": [
+      "sage"
+    ],
+    "url": "sage.com"
   },
   {
     "name": "Salesforce",
@@ -5596,6 +5658,14 @@ const icons = [
     "url": "towergit.com"
   },
   {
+    "name": "Traefik",
+    "category": "technology",
+    "classes": [
+      "traefik"
+    ],
+    "url": "traefik.com"
+  },
+  {
     "name": "Traefikmesh",
     "category": "technology",
     "classes": [
@@ -6040,6 +6110,14 @@ const icons = [
       "xd"
     ],
     "url": "xd.com"
+  },
+  {
+    "name": "Xero",
+    "category": "technology",
+    "classes": [
+      "xero"
+    ],
+    "url": "xero.com"
   },
   {
     "name": "Xml",

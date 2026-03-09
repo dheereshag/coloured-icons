@@ -85,6 +85,7 @@ const logoAliases = {
   youtube: ["yt"],
   yugabytedb: ["yugabyte"],
   digitalocean: ["do"],
+  quickbooks: ["qb"],
 };
 
 export default logoAliases;
