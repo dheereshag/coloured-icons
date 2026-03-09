@@ -134,6 +134,13 @@ Some icons have a second version of them provided which is a darker shade of the
 The code is very lightweight and dead simple; there is nothing fancy going on.
 Please note that we use `pnpm` for faster builds.
 
+### Where to get icons
+
+You can source SVG icons from the following websites:
+
+- [worldvectorlogo.com](https://worldvectorlogo.com)
+- [brandfetch.com](https://brandfetch.com)
+
 ### Guidelines for naming
 
 `logo -> {company}.svg`
