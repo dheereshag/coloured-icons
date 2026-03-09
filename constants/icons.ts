@@ -226,14 +226,6 @@ const icons = [
     "url": "dribbble.com"
   },
   {
-    "name": "Legend",
-    "category": "art and music",
-    "classes": [
-      "legend"
-    ],
-    "url": "legend.com"
-  },
-  {
     "name": "Mixcloud",
     "category": "art and music",
     "classes": [
@@ -600,6 +592,14 @@ const icons = [
       "freefire"
     ],
     "url": "https://ff.garena.com/en"
+  },
+  {
+    "name": "Legend",
+    "category": "games",
+    "classes": [
+      "legend"
+    ],
+    "url": "legend.com"
   },
   {
     "name": "Accordion",

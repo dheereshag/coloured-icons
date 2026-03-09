@@ -265,12 +265,6 @@
   content: url("../public/logos/art and music/dribbble/dribbble2.svg");
 }
 
-.ci-legend,
-.ci-legend-dark,
-.ci-legend-light {
-  content: url("../public/logos/art and music/legend/legend.png");
-}
-
 .ci-mixcloud-light {
   content: url("../public/logos/art and music/mixcloud/mixcloud-light.png");
 }
@@ -806,6 +800,12 @@
 .ci-freefire-dark,
 .ci-freefire-light {
   content: url("../public/logos/games/freefire/freefire.svg");
+}
+
+.ci-legend,
+.ci-legend-dark,
+.ci-legend-light {
+  content: url("../public/logos/games/legend/legend.png");
 }
 
 .ci-accordion,
