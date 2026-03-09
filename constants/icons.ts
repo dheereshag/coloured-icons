@@ -589,8 +589,7 @@ const icons = [
     "name": "FreeFire",
     "category": "games",
     "classes": [
-      "freefire",
-      "freefire-"
+      "freefire"
     ],
     "url": "https://ff.garena.com/en"
   },

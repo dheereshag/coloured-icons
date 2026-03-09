@@ -45,6 +45,7 @@ const processFolder = (folderPath, folderName, category) => {
   const fileGroups = {};
 
   files.forEach((file) => {
+    if (file === ".DS_Store") return;
     const baseName = file.replace("-light.", ".").replace(/\.[^/.]+$/, ""); // Remove extension and -light
     if (!fileGroups[baseName]) {
       fileGroups[baseName] = { dark: null, light: null };
@@ -270,6 +271,7 @@ fs.readdir(logosPath, (err, categories) => {
             // Group files by base name (without "-light" & extension) and track dark/light
             const fileGroups = {};
             files.forEach((file) => {
+              if (file === ".DS_Store") return;
               const isLight = file.includes("-light");
               const baseName = file
                 .replace("-light", "")
