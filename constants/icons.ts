@@ -599,7 +599,7 @@ const icons = [
     "classes": [
       "freefire"
     ],
-    "url": "https://ff.garena.com/en"
+    "url": "ff.garena.com"
   },
   {
     "name": "Sekiro: Shadows Die Twice",
@@ -607,7 +607,7 @@ const icons = [
     "classes": [
       "sekiro"
     ],
-    "url": "https://www.sekirothegame.com/home"
+    "url": "sekirothegame.com"
   },
   {
     "name": "Accordion",

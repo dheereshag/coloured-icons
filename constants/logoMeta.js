@@ -25,10 +25,9 @@ const logoMeta = {
   mui: { displayName: "MUI" },
   clickup: { displayName: "ClickUp" },
   hnm: { displayName: "H&M" },
-  freefire: { displayName: "FreeFire", url: "https://ff.garena.com/en" },
+  freefire: { displayName: "FreeFire" },
   sekiro: {
     displayName: "Sekiro: Shadows Die Twice",
-    url: "https://www.sekirothegame.com/home",
   },
   "iit-bombay": { displayName: "IIT Bombay", url: "https://www.iitb.ac.in" },
   "iit-madras": { displayName: "IIT Madras", url: "https://www.iitm.ac.in" },
