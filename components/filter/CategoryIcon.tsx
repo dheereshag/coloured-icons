@@ -12,6 +12,7 @@ import {
   Plane,
   Music,
   Rabbit,
+  Gamepad2,
   type LucideIcon,
 } from "lucide-react";
 
@@ -31,6 +32,7 @@ const iconMap: Record<string, LucideIcon> = {
   "travel and tourism": Plane,
   instruments: Music,
   animals: Rabbit,
+  games: Gamepad2,
 };
 
 export const getCategoryIcon = (categoryName: string) => {
