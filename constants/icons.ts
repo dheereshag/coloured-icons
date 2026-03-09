@@ -6180,6 +6180,14 @@ const icons = [
       "virgin"
     ],
     "url": "virgin.com"
+  },
+  {
+    "name": "Iitb",
+    "category": "universities",
+    "classes": [
+      "iitb"
+    ],
+    "url": "iitb.com"
   }
 ];
 export default icons;
