@@ -25,10 +25,9 @@ const logoMeta = {
   mui: { displayName: "MUI" },
   clickup: { displayName: "ClickUp" },
   hnm: { displayName: "H&M" },
-  freefire: { displayName: "FreeFire", url: "ff.garena.com" },
+  freefire: { displayName: "FreeFire" },
   sekiro: {
     displayName: "Sekiro: Shadows Die Twice",
-    url: "sekirothegame.com",
   },
 };
 
