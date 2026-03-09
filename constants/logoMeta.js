@@ -26,6 +26,10 @@ const logoMeta = {
   clickup: { displayName: "ClickUp" },
   hnm: { displayName: "H&M" },
   freefire: { displayName: "FreeFire", url: "https://ff.garena.com/en" },
+  sekiro: {
+    displayName: "Sekiro: Shadows Die Twice",
+    url: "https://www.sekirothegame.com/home",
+  },
 };
 
 export default logoMeta;
