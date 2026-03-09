@@ -226,6 +226,14 @@ const icons = [
     "url": "dribbble.com"
   },
   {
+    "name": "Legend",
+    "category": "art and music",
+    "classes": [
+      "legend"
+    ],
+    "url": "legend.com"
+  },
+  {
     "name": "Mixcloud",
     "category": "art and music",
     "classes": [

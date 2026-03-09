@@ -265,6 +265,12 @@
   content: url("../public/logos/art and music/dribbble/dribbble2.svg");
 }
 
+.ci-legend,
+.ci-legend-dark,
+.ci-legend-light {
+  content: url("../public/logos/art and music/legend/legend.png");
+}
+
 .ci-mixcloud-light {
   content: url("../public/logos/art and music/mixcloud/mixcloud-light.png");
 }
