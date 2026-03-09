@@ -169,9 +169,7 @@ Toggle in `next.config.js`:
 
 ```
 export default {
-  experimental: {
-    reactCompiler: true, // set to false to disable if you hit any issues
-  },
+  reactCompiler: true, // set to false to disable if you hit any issues
 }
 ```
 

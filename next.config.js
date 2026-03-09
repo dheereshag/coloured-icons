@@ -6,10 +6,8 @@ const __dirname = path.dirname(__filename);
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    // Enable the React Compiler for automatic memoization and performance optimizations
-    reactCompiler: true,
-  },
+  // Enable the React Compiler for automatic memoization and performance optimizations
+  reactCompiler: true,
 };
 
 export default nextConfig;
