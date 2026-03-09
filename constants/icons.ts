@@ -602,6 +602,14 @@ const icons = [
     "url": "ff.garena.com"
   },
   {
+    "name": "Minecraft",
+    "category": "games",
+    "classes": [
+      "minecraft"
+    ],
+    "url": "minecraft.com"
+  },
+  {
     "name": "Sekiro: Shadows Die Twice",
     "category": "games",
     "classes": [
