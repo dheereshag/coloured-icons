@@ -6274,6 +6274,30 @@ const icons = [
       "virgin"
     ],
     "url": "virgin.com"
+  },
+  {
+    "name": "IIT Bombay",
+    "category": "universities",
+    "classes": [
+      "iit-bombay"
+    ],
+    "url": "https://www.iitb.ac.in"
+  },
+  {
+    "name": "Iit-kanpur",
+    "category": "universities",
+    "classes": [
+      "iit-kanpur"
+    ],
+    "url": "iit-kanpur.com"
+  },
+  {
+    "name": "IIT Madras",
+    "category": "universities",
+    "classes": [
+      "iit-madras"
+    ],
+    "url": "https://www.iitm.ac.in"
   }
 ];
 export default icons;
