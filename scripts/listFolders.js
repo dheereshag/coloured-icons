@@ -66,8 +66,8 @@ const processFolder = (folderPath, folderName, category) => {
   const defaultBase = hasBaseLogo
     ? folderName
     : hasWordmark
-    ? `${folderName}-wordmark`
-    : null;
+      ? `${folderName}-wordmark`
+      : null;
 
   if (!defaultBase) return; // Skip if neither base nor wordmark exists
 
@@ -307,6 +307,9 @@ fs.readdir(logosPath, (err, categories) => {
             if (logoMeta[folder]) {
               if (logoMeta[folder].displayName) {
                 displayName = logoMeta[folder].displayName;
+              }
+              if (logoMeta[folder].url) {
+                iconUrl = logoMeta[folder].url;
               }
             }
 

@@ -25,6 +25,7 @@ const logoMeta = {
   mui: { displayName: "MUI" },
   clickup: { displayName: "ClickUp" },
   hnm: { displayName: "H&M" },
+  freefire: { displayName: "FreeFire", url: "https://ff.garena.com/en" },
 };
 
 export default logoMeta;
