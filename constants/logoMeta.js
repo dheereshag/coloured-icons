@@ -29,6 +29,10 @@ const logoMeta = {
   sekiro: {
     displayName: "Sekiro: Shadows Die Twice",
   },
+  "iit-bombay": { displayName: "IIT Bombay", url: "https://www.iitb.ac.in" },
+  "iit-madras": { displayName: "IIT Madras", url: "https://www.iitm.ac.in" },
+  "iit-delhi": { displayName: "IIT Delhi", url: "https://home.iitd.ac.in" },
 };
+
 
 export default logoMeta;
