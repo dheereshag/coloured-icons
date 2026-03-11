@@ -6289,15 +6289,15 @@ const icons = [
     "classes": [
       "iit-bombay"
     ],
-    "url": "https://www.iitb.ac.in"
+    "url": "iitb.ac.in"
   },
   {
-    "name": "Iit-kanpur",
+    "name": "IIT Kanpur",
     "category": "universities",
     "classes": [
       "iit-kanpur"
     ],
-    "url": "iit-kanpur.com"
+    "url": "iitk.ac.in"
   },
   {
     "name": "IIT Madras",
@@ -6305,7 +6305,7 @@ const icons = [
     "classes": [
       "iit-madras"
     ],
-    "url": "https://www.iitm.ac.in"
+    "url": "iitm.ac.in"
   }
 ];
 export default icons;
