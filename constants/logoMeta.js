@@ -29,9 +29,9 @@ const logoMeta = {
   sekiro: {
     displayName: "Sekiro: Shadows Die Twice",
   },
-  "iit-bombay": { displayName: "IIT Bombay", url: "https://www.iitb.ac.in" },
-  "iit-madras": { displayName: "IIT Madras", url: "https://www.iitm.ac.in" },
-  "iit-delhi": { displayName: "IIT Delhi", url: "https://home.iitd.ac.in" },
+"iit-bombay": { displayName: "IIT Bombay", url: "https://iitb.ac.in" },
+"iit-madras": { displayName: "IIT Madras", url: "https://iitm.ac.in" },
+"iit-kanpur": { displayName: "IIT Kanpur", url: "https://iitk.ac.in" },
 };
 
 
