@@ -577,6 +577,14 @@ const icons = [
     "url": "nestle.com"
   },
   {
+    "name": "Redbull",
+    "category": "food and beverage",
+    "classes": [
+      "redbull"
+    ],
+    "url": "redbull.com"
+  },
+  {
     "name": "Starbucks",
     "category": "food and beverage",
     "classes": [

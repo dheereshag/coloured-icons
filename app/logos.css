@@ -784,6 +784,12 @@
   content: url("../public/logos/food and beverage/nestle/nestle.svg");
 }
 
+.ci-redbull,
+.ci-redbull-dark,
+.ci-redbull-light {
+  content: url("../public/logos/food and beverage/redbull/redbull.svg");
+}
+
 .ci-starbucks-wordmark,
 .ci-starbucks-wordmark-dark,
 .ci-starbucks-wordmark-light {
