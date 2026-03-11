@@ -388,6 +388,12 @@
   content: url("../public/logos/automobile/landrover/landrover.png");
 }
 
+.ci-mahindra,
+.ci-mahindra-dark,
+.ci-mahindra-light {
+  content: url("../public/logos/automobile/mahindra/mahindra.svg");
+}
+
 .ci-mercedes-stacked-light,
 .ci-mercedes-vertical-light {
   content: url("../public/logos/automobile/mercedes/mercedes-vertical-light.svg");
