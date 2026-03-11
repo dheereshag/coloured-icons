@@ -808,6 +808,12 @@
   content: url("../public/logos/games/freefire/freefire.svg");
 }
 
+.ci-minecraft,
+.ci-minecraft-dark,
+.ci-minecraft-light {
+  content: url("../public/logos/games/minecraft/minecraft.svg");
+}
+
 .ci-sekiro,
 .ci-sekiro-dark,
 .ci-sekiro-light {

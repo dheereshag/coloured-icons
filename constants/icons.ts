@@ -356,7 +356,7 @@ const icons = [
     "classes": [
       "hnm"
     ],
-    "url": "hm.com"
+    "url": "hnm.com"
   },
   {
     "name": "Louis Vuitton",
@@ -599,7 +599,15 @@ const icons = [
     "classes": [
       "freefire"
     ],
-    "url": "ff.garena.com"
+    "url": "freefire.com"
+  },
+  {
+    "name": "Minecraft",
+    "category": "games",
+    "classes": [
+      "minecraft"
+    ],
+    "url": "minecraft.com"
   },
   {
     "name": "Sekiro: Shadows Die Twice",
@@ -607,7 +615,7 @@ const icons = [
     "classes": [
       "sekiro"
     ],
-    "url": "sekirothegame.com"
+    "url": "sekiro.com"
   },
   {
     "name": "Accordion",
@@ -2946,7 +2954,7 @@ const icons = [
       "honeycomb-horizontal",
       "honeycomb-horizontal-light"
     ],
-    "url": "honeycomb.io"
+    "url": "honeycomb.com"
   },
   {
     "name": "Hotjar",
@@ -3959,7 +3967,7 @@ const icons = [
       "nixos",
       "nixos-horizontal"
     ],
-    "url": "nixos.org"
+    "url": "nixos.com"
   },
   {
     "name": "Nodejs",
@@ -4470,7 +4478,7 @@ const icons = [
     "classes": [
       "preact"
     ],
-    "url": "preactjs.com"
+    "url": "preact.com"
   },
   {
     "name": "Premierepro",
@@ -4799,7 +4807,7 @@ const icons = [
     "classes": [
       "react"
     ],
-    "url": "react.dev"
+    "url": "react.com"
   },
   {
     "name": "Reactbootstrap",
@@ -5074,7 +5082,7 @@ const icons = [
       "sass",
       "sass-wordmark"
     ],
-    "url": "sass-lang.com"
+    "url": "sass.com"
   },
   {
     "name": "Scala",
