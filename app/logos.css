@@ -9082,21 +9082,21 @@
   content: url("../public/logos/travel and tourism/virgin/virgin.svg");
 }
 
-.ci-iit-bombay,
-.ci-iit-bombay-dark,
-.ci-iit-bombay-light {
-  content: url("../public/logos/universities/iit-bombay/iit-bombay.svg");
+.ci-iitb,
+.ci-iitb-dark,
+.ci-iitb-light {
+  content: url("../public/logos/universities/iitb/iitb.svg");
 }
 
-.ci-iit-kanpur,
-.ci-iit-kanpur-dark,
-.ci-iit-kanpur-light {
-  content: url("../public/logos/universities/iit-kanpur/iit-kanpur.svg");
+.ci-iitk,
+.ci-iitk-dark,
+.ci-iitk-light {
+  content: url("../public/logos/universities/iitk/iitk.svg");
 }
 
-.ci-iit-madras,
-.ci-iit-madras-dark,
-.ci-iit-madras-light {
-  content: url("../public/logos/universities/iit-madras/iit-madras.svg");
+.ci-iitm,
+.ci-iitm-dark,
+.ci-iitm-light {
+  content: url("../public/logos/universities/iitm/iitm.svg");
 }
 

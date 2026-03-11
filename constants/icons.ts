@@ -6287,7 +6287,7 @@ const icons = [
     "name": "IIT Bombay",
     "category": "universities",
     "classes": [
-      "iit-bombay"
+      "iitb"
     ],
     "url": "iitb.ac.in"
   },
@@ -6295,7 +6295,7 @@ const icons = [
     "name": "IIT Kanpur",
     "category": "universities",
     "classes": [
-      "iit-kanpur"
+      "iitk"
     ],
     "url": "iitk.ac.in"
   },
@@ -6303,7 +6303,7 @@ const icons = [
     "name": "IIT Madras",
     "category": "universities",
     "classes": [
-      "iit-madras"
+      "iitm"
     ],
     "url": "iitm.ac.in"
   }
