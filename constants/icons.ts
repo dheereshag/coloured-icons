@@ -577,6 +577,14 @@ const icons = [
     "url": "nestle.com"
   },
   {
+    "name": "Redbull",
+    "category": "food and beverage",
+    "classes": [
+      "redbull"
+    ],
+    "url": "redbull.com"
+  },
+  {
     "name": "Starbucks",
     "category": "food and beverage",
     "classes": [
@@ -6287,25 +6295,25 @@ const icons = [
     "name": "IIT Bombay",
     "category": "universities",
     "classes": [
-      "iit-bombay"
+      "iitb"
     ],
-    "url": "https://www.iitb.ac.in"
+    "url": "iitb.ac.in"
   },
   {
-    "name": "Iit-kanpur",
+    "name": "IIT Kanpur",
     "category": "universities",
     "classes": [
-      "iit-kanpur"
+      "iitk"
     ],
-    "url": "iit-kanpur.com"
+    "url": "iitk.ac.in"
   },
   {
     "name": "IIT Madras",
     "category": "universities",
     "classes": [
-      "iit-madras"
+      "iitm"
     ],
-    "url": "https://www.iitm.ac.in"
+    "url": "iitm.ac.in"
   }
 ];
 export default icons;
