@@ -8,3 +8,8 @@ export interface Icon {
 export interface Category {
   name: string;
 }
+export interface Icon {
+  name: string;
+  classes: string[];
+  url: string;
+}
