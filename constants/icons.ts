@@ -339,6 +339,14 @@ const icons = [
     "url": "toyota.com"
   },
   {
+    "name": "Mitsubishi-motors",
+    "category": "brands",
+    "classes": [
+      "mitsubishi-motors-index"
+    ],
+    "url": "mitsubishi-motors.com"
+  },
+  {
     "name": "Adidas",
     "category": "clothing and apparel",
     "classes": [
@@ -6297,7 +6305,7 @@ const icons = [
     "classes": [
       "iitb"
     ],
-    "url": "iitb.ac.in"
+    "url": "https://iitb.ac.in"
   },
   {
     "name": "IIT Kanpur",
@@ -6305,7 +6313,7 @@ const icons = [
     "classes": [
       "iitk"
     ],
-    "url": "iitk.ac.in"
+    "url": "https://iitk.ac.in"
   },
   {
     "name": "IIT Madras",
@@ -6313,7 +6321,7 @@ const icons = [
     "classes": [
       "iitm"
     ],
-    "url": "iitm.ac.in"
+    "url": "https://iitm.ac.in"
   }
 ];
 export default icons;
