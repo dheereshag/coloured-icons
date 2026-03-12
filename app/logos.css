@@ -4447,6 +4447,15 @@
   content: url("../public/logos/technology/insomnia/insomnia.svg");
 }
 
+.ci-intel-light {
+  content: url("../public/logos/technology/intel/intel-light.svg");
+}
+
+.ci-intel,
+.ci-intel-dark {
+  content: url("../public/logos/technology/intel/intel.svg");
+}
+
 .ci-intellij,
 .ci-intellij-dark,
 .ci-intellij-light {

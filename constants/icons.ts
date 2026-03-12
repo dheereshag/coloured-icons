@@ -3069,6 +3069,15 @@ const icons = [
     "url": "insomnia.com"
   },
   {
+    "name": "Intel",
+    "category": "technology",
+    "classes": [
+      "intel",
+      "intel-light"
+    ],
+    "url": "intel.com"
+  },
+  {
     "name": "Intellij",
     "category": "technology",
     "classes": [
