@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#000000"/>
+  <rect x="40" y="180" width="432" height="150" 
+        fill="none" stroke="#f2a900" stroke-width="20"/>
+  <text x="256" y="275"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="80"
+        fill="#f2a900"
+        text-anchor="middle"
+        font-weight="bold">
+    PUBG
+  </text>
+</svg>
