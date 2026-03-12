@@ -618,6 +618,14 @@ const icons = [
     "url": "minecraft.com"
   },
   {
+  "name": "PUBG",
+  "category": "games",
+  "classes": [
+    "pubg"
+  ],
+  "url": "pubg.com"
+},
+  {
     "name": "Sekiro: Shadows Die Twice",
     "category": "games",
     "classes": [
