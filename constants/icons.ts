@@ -1108,6 +1108,14 @@ const icons = [
     "url": "amazon.com"
   },
   {
+    "name": "AMD",
+    "category": "technology",
+    "classes": [
+      "amd"
+    ],
+    "url": "amd.com"
+  },
+  {
     "name": "Anaconda",
     "category": "technology",
     "classes": [
