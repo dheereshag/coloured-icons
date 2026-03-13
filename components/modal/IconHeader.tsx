@@ -19,11 +19,16 @@ export const IconHeader: React.FC<IconHeaderProps> = ({ icon }) => {
           {icon.name}
         </DialogTitle>
         <Link
-          href={ensureProtocol(icon.url)}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-sm text-blue-500 hover:underline flex items-center gap-1"
-        >
+  href={
+    icon.url === "freefire.com"
+      ? "https://ff.garena.com"
+      : ensureProtocol(icon.url)
+  }
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-sm text-blue-500 hover:underline flex items-center gap-1"
+>
+        
           <span>{icon.url}</span>
           <ExternalLink className="text-gray-500 w-3 h-3" />
         </Link>
