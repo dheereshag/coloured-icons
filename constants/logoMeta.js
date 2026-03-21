@@ -1,6 +1,7 @@
 const logoMeta = {
   alan: { displayName: "Alan AI" },
   aws: { displayName: "AWS" },
+  amd: { displayName: "AMD" },
   cpp: { displayName: "C++" },
   csharp: { displayName: "C#" },
   css: { displayName: "CSS" },

@@ -8,7 +8,7 @@ export const DevModeBanner = () => {
       <div className="flex items-center gap-2">
         <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
         <span className="text-sm text-yellow-800 font-medium">
-          Development Mode: Showing 5 icons per category
+          Development Mode: Showing 10 icons per category
         </span>
       </div>
     </div>

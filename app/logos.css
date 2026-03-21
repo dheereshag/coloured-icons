@@ -1531,6 +1531,12 @@
   content: url("../public/logos/technology/amazon/amazon.svg");
 }
 
+.ci-amd,
+.ci-amd-dark,
+.ci-amd-light {
+  content: url("../public/logos/technology/amd/amd.svg");
+}
+
 .ci-anaconda-stacked,
 .ci-anaconda-stacked-dark,
 .ci-anaconda-stacked-light,
