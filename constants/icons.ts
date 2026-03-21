@@ -310,6 +310,14 @@ const icons = [
     "url": "landrover.com"
   },
   {
+    "name": "Mahindra",
+    "category": "automobile",
+    "classes": [
+      "mahindra"
+    ],
+    "url": "https://mahindra.com"
+  },
+  {
     "name": "Mercedes",
     "category": "automobile",
     "classes": [
