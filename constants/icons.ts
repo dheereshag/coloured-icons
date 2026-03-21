@@ -286,6 +286,14 @@ const icons = [
     "url": "bmw.com"
   },
   {
+    "name": "Ferrari",
+    "category": "automobile",
+    "classes": [
+      "ferrari"
+    ],
+    "url": "ferrari.com"
+  },
+  {
     "name": "Lamborghini",
     "category": "automobile",
     "classes": [
