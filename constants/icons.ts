@@ -286,6 +286,14 @@ const icons = [
     "url": "bmw.com"
   },
   {
+    "name": "Ferrari",
+    "category": "automobile",
+    "classes": [
+      "ferrari"
+    ],
+    "url": "ferrari.com"
+  },
+  {
     "name": "Lamborghini",
     "category": "automobile",
     "classes": [
@@ -300,6 +308,14 @@ const icons = [
       "landrover"
     ],
     "url": "landrover.com"
+  },
+  {
+    "name": "Mahindra",
+    "category": "automobile",
+    "classes": [
+      "mahindra"
+    ],
+    "url": "https://mahindra.com"
   },
   {
     "name": "Mercedes",
@@ -356,7 +372,7 @@ const icons = [
     "classes": [
       "hnm"
     ],
-    "url": "hm.com"
+    "url": "hnm.com"
   },
   {
     "name": "Louis Vuitton",
@@ -577,6 +593,14 @@ const icons = [
     "url": "nestle.com"
   },
   {
+    "name": "Redbull",
+    "category": "food and beverage",
+    "classes": [
+      "redbull"
+    ],
+    "url": "redbull.com"
+  },
+  {
     "name": "Starbucks",
     "category": "food and beverage",
     "classes": [
@@ -599,7 +623,15 @@ const icons = [
     "classes": [
       "freefire"
     ],
-    "url": "ff.garena.com"
+    "url": "freefire.com"
+  },
+  {
+    "name": "Minecraft",
+    "category": "games",
+    "classes": [
+      "minecraft"
+    ],
+    "url": "minecraft.com"
   },
   {
     "name": "Sekiro: Shadows Die Twice",
@@ -607,7 +639,7 @@ const icons = [
     "classes": [
       "sekiro"
     ],
-    "url": "sekirothegame.com"
+    "url": "sekiro.com"
   },
   {
     "name": "Accordion",
@@ -1090,6 +1122,14 @@ const icons = [
       "amazon-vertical-light"
     ],
     "url": "amazon.com"
+  },
+  {
+    "name": "AMD",
+    "category": "technology",
+    "classes": [
+      "amd"
+    ],
+    "url": "amd.com"
   },
   {
     "name": "Anaconda",
@@ -2946,7 +2986,7 @@ const icons = [
       "honeycomb-horizontal",
       "honeycomb-horizontal-light"
     ],
-    "url": "honeycomb.io"
+    "url": "honeycomb.com"
   },
   {
     "name": "Hotjar",
@@ -3051,6 +3091,15 @@ const icons = [
       "insomnia-horizontal"
     ],
     "url": "insomnia.com"
+  },
+  {
+    "name": "Intel",
+    "category": "technology",
+    "classes": [
+      "intel",
+      "intel-light"
+    ],
+    "url": "intel.com"
   },
   {
     "name": "Intellij",
@@ -3959,7 +4008,7 @@ const icons = [
       "nixos",
       "nixos-horizontal"
     ],
-    "url": "nixos.org"
+    "url": "nixos.com"
   },
   {
     "name": "Nodejs",
@@ -4470,7 +4519,7 @@ const icons = [
     "classes": [
       "preact"
     ],
-    "url": "preactjs.com"
+    "url": "preact.com"
   },
   {
     "name": "Premierepro",
@@ -4799,7 +4848,7 @@ const icons = [
     "classes": [
       "react"
     ],
-    "url": "react.dev"
+    "url": "react.com"
   },
   {
     "name": "Reactbootstrap",
@@ -5074,7 +5123,7 @@ const icons = [
       "sass",
       "sass-wordmark"
     ],
-    "url": "sass-lang.com"
+    "url": "sass.com"
   },
   {
     "name": "Scala",
@@ -6279,25 +6328,25 @@ const icons = [
     "name": "IIT Bombay",
     "category": "universities",
     "classes": [
-      "iit-bombay"
+      "iitb"
     ],
-    "url": "https://www.iitb.ac.in"
+    "url": "iitb.ac.in"
   },
   {
-    "name": "Iit-kanpur",
+    "name": "IIT Kanpur",
     "category": "universities",
     "classes": [
-      "iit-kanpur"
+      "iitk"
     ],
-    "url": "iit-kanpur.com"
+    "url": "iitk.ac.in"
   },
   {
     "name": "IIT Madras",
     "category": "universities",
     "classes": [
-      "iit-madras"
+      "iitm"
     ],
-    "url": "https://www.iitm.ac.in"
+    "url": "iitm.ac.in"
   }
 ];
 export default icons;

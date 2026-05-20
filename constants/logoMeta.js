@@ -1,6 +1,7 @@
 const logoMeta = {
   alan: { displayName: "Alan AI" },
   aws: { displayName: "AWS" },
+  amd: { displayName: "AMD" },
   cpp: { displayName: "C++" },
   csharp: { displayName: "C#" },
   css: { displayName: "CSS" },
@@ -29,9 +30,10 @@ const logoMeta = {
   sekiro: {
     displayName: "Sekiro: Shadows Die Twice",
   },
-  "iit-bombay": { displayName: "IIT Bombay", url: "https://www.iitb.ac.in" },
-  "iit-madras": { displayName: "IIT Madras", url: "https://www.iitm.ac.in" },
-  "iit-delhi": { displayName: "IIT Delhi", url: "https://home.iitd.ac.in" },
+  mahindra: { displayName: "Mahindra", url: "https://mahindra.com" },
+iitb: { displayName: "IIT Bombay", url: "https://iitb.ac.in" },
+iitm: { displayName: "IIT Madras", url: "https://iitm.ac.in" },
+iitk: { displayName: "IIT Kanpur", url: "https://iitk.ac.in" },
 };
 
 

@@ -3,11 +3,11 @@ import { Icon } from "@/interfaces";
 /**
  * Utility function to limit icons per category in development mode
  * @param icons - Array of all icons
- * @param limit - Number of icons to show per category (default: 5)
+ * @param limit - Number of icons to show per category (default: 10)
  * @returns Limited array of icons if in development mode, otherwise original array
  */
-const limitIconsInDev = (icons: Icon[], limit: number = 5): Icon[] => {
-  return icons;
+const limitIconsInDev = (icons: Icon[], limit: number = 10): Icon[] => {
+  // return icons;    # <-- Why ?
 
 
   // Group icons by category
