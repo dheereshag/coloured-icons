@@ -1,5 +1,5 @@
 "use client";
-import { createContext, useState, ReactNode } from "react";
+import { createContext, useState, ReactNode, useCallback, useMemo } from "react";
 
 interface SearchContextType {
   search: string;
@@ -28,19 +28,19 @@ export const SearchContextProvider = ({
   const [search, setSearch] = useState<string>("");
   const [focusTrigger, setFocusTrigger] = useState<number>(0);
 
-  const triggerFocus = () => {
+  const triggerFocus = useCallback(() => {
     setFocusTrigger((prev) => prev + 1);
-  };
+  }, []);
+
+  const contextValue = useMemo(() => ({
+    search,
+    setSearch,
+    focusTrigger,
+    triggerFocus,
+  }), [search, focusTrigger, triggerFocus]);
 
   return (
-    <SearchContext.Provider
-      value={{
-        search,
-        setSearch,
-        focusTrigger,
-        triggerFocus,
-      }}
-    >
+    <SearchContext.Provider value={contextValue}>
       {children}
     </SearchContext.Provider>
   );

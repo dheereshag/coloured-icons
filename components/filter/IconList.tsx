@@ -1,5 +1,6 @@
 "use client"
 
+import { useState } from "react";
 import { IconCard } from ".";
 import { Icon, Category } from "@/interfaces";
 import useFilteredIcons from "@/hooks/useFilteredIcons";
@@ -16,6 +17,8 @@ export const IconList: React.FC<IconListProps> = ({
   selectedCategory,
   search,
 }) => {
+  const [selectedIcon, setSelectedIcon] = useState<Icon | null>(null);
+
   const filteredIcons = useFilteredIcons({
     icons,
     search,
@@ -23,12 +26,24 @@ export const IconList: React.FC<IconListProps> = ({
   });
 
   return (
-    <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3">
-      {filteredIcons.map((icon) => (
-        <li key={icon.name}>
-          <Modal icon={icon} trigger={<IconCard icon={icon} />} />
-        </li>
-      ))}
-    </ul>
+    <>
+      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3">
+        {filteredIcons.map((icon) => (
+          <li key={icon.name}>
+            <IconCard icon={icon} onClick={() => setSelectedIcon(icon)} />
+          </li>
+        ))}
+      </ul>
+
+      {selectedIcon && (
+        <Modal
+          icon={selectedIcon}
+          open={!!selectedIcon}
+          onOpenChange={(open) => {
+            if (!open) setSelectedIcon(null);
+          }}
+        />
+      )}
+    </>
   );
 };

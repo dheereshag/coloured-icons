@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 
 /**
  * Copy-to-clipboard hook with SSR-safety and error handling.
@@ -15,7 +15,7 @@ const useCopy = () => {
     };
   }, []);
 
-  const handleCopy = async (text: string) => {
+  const handleCopy = useCallback(async (text: string) => {
     // SSR/unsupported environments
     if (typeof navigator === "undefined" || !navigator.clipboard?.writeText) {
       try {
@@ -56,7 +56,7 @@ const useCopy = () => {
 
     if (timeoutRef.current) window.clearTimeout(timeoutRef.current);
     timeoutRef.current = window.setTimeout(() => setCopied(false), 2000);
-  };
+  }, []);
 
   return { copied, handleCopy };
 };
