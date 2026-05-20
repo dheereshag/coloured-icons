@@ -4,6 +4,7 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Icon } from "@/interfaces";
 import { useState } from "react";
 import { IconHeader, ModalTopBar, UsageList, ZoomOverlay } from ".";
+import { UsageGuideHeader } from "./UsageGuideHeader";
 
 interface ModalProps {
   icon: Icon;
@@ -27,15 +28,7 @@ export const Modal: React.FC<ModalProps> = ({ icon, open, onOpenChange }) => {
           <IconHeader icon={icon} />
 
           {/* Usage header */}
-          <div className="space-y-2">
-            <h3 className="text-base font-semibold text-slate-900">
-              Usage Guide
-            </h3>
-            <p className="text-sm text-slate-400">
-              Copy and paste the following code into your HTML or JSX to use
-              this icon:
-            </p>
-          </div>
+          <UsageGuideHeader />
 
           {/* Divider above scroll area */}
           <hr className="my-4 border-slate-200" />

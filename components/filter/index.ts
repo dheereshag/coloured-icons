@@ -7,3 +7,6 @@ export { CategoryList } from "./CategoryList";
 export { CategoryIcon } from "./CategoryIcon";
 export { IconList } from "./IconList";
 export { IconCard } from "./IconCard";
+export { IconCardImage } from "./IconCardImage";
+export { IconCardMeta } from "./IconCardMeta";
+
