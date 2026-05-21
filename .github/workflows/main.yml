@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: "latest"
 
@@ -38,8 +38,8 @@ jobs:
       - name: Commit changes
         if: steps.git-check.outputs.changes == 'true'
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "da11@iitbbs.ac.in"
+          git config --local user.name "dheereshag"
           git add .
           git commit -m "Update generated files"
           git push
