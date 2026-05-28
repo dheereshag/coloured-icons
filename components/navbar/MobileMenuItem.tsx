@@ -1,15 +1,10 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
-interface Item {
-  href: string;
-  label: string;
-  external?: boolean;
-}
+import type { MenuItem } from "@/constants/nav";
 
 interface Props {
-  item: Item;
+  item: MenuItem;
   onClick: () => void;
 }
 

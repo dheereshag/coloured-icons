@@ -7,37 +7,24 @@ import { Icon } from "@/interfaces";
  * @returns Limited array of icons if in development mode, otherwise original array
  */
 const limitIconsInDev = (icons: Icon[], limit: number = 10): Icon[] => {
-  // return icons;    # <-- Why ?
-
-
-  // Group icons by category
-  const iconsByCategory: { [key: string]: Icon[] } = {};
-
-  icons.forEach((icon) => {
+  const iconsByCategory = icons.reduce<Record<string, Icon[]>>((acc, icon) => {
     const category = icon.category.toLowerCase();
-    if (!iconsByCategory[category]) {
-      iconsByCategory[category] = [];
-    }
-    iconsByCategory[category].push(icon);
-  });
+    (acc[category] ??= []).push(icon);
+    return acc;
+  }, {});
 
-  // Limit icons per category and flatten back to array
-  const limitedIcons: Icon[] = [];
-
-  Object.entries(iconsByCategory).forEach(([category, categoryIcons]) => {
-    const limitedCategoryIcons = categoryIcons.slice(0, limit);
-    limitedIcons.push(...limitedCategoryIcons);
-    // helpful debug when developing locally
-    if (typeof window !== "undefined") {
+  const limitedIcons = Object.entries(iconsByCategory).flatMap(
+    ([category, categoryIcons]) => {
+      const limited = categoryIcons.slice(0, limit);
+      // helpful debug when developing locally
       console.debug(
-        `${category}: ${limitedCategoryIcons.length}/${categoryIcons.length} icons`
+        `${category}: ${limited.length}/${categoryIcons.length} icons`,
       );
-    }
-  });
+      return limited;
+    },
+  );
 
-  if (typeof window !== "undefined") {
-    console.debug(`Total icons: ${limitedIcons.length}/${icons.length}`);
-  }
+  console.debug(`Total icons: ${limitedIcons.length}/${icons.length}`);
   return limitedIcons;
 };
 

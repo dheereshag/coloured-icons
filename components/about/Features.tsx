@@ -5,8 +5,8 @@ export function Features() {
     <section className="space-y-6">
       <h2 className="text-2xl font-semibold text-gray-900">Features</h2>
       <ul className="space-y-4 text-gray-600">
-        {features.map((feature, index) => (
-          <li key={index} className="flex gap-3">
+        {features.map((feature) => (
+          <li key={feature} className="flex gap-3">
             <span className="text-purple-600">•</span>
             <span>{feature}</span>
           </li>

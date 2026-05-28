@@ -28,7 +28,6 @@ export const Dropdown: React.FC<DropdownProps> = ({
   const categoryData = categories.map((category) => ({
     value: category.name,
     label: category.name,
-    category: category,
   }));
 
   const handleValueChange = (newValue: string) => {

@@ -13,12 +13,10 @@ export const UsageList: React.FC<UsageListProps> = ({ icon, onHover }) => {
       {icon.classes.map((iconClass) => (
         <div
           key={iconClass}
-          className={`bg-gray-300 px-2 rounded-xl flex items-center gap-4 shadow-xs h-20`}
+          className="bg-gray-300 px-2 rounded-xl flex items-center gap-4 shadow-xs h-20"
         >
           <i
-            className={`ci ci-${iconClass} ci-${computeIconSize(
-              icon
-            )}x mx-3 py-auto cursor-pointer transition-all duration-200`}
+            className={`ci ci-${iconClass} ci-${computeIconSize(icon)}x mx-3 cursor-pointer transition-all duration-200`}
             onMouseEnter={() => onHover(iconClass)}
             onMouseLeave={() => onHover(null)}
           />

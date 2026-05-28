@@ -38,7 +38,7 @@ export const IconList: React.FC<IconListProps> = ({
       {selectedIcon && (
         <Modal
           icon={selectedIcon}
-          open={!!selectedIcon}
+          open
           onOpenChange={(open) => {
             if (!open) setSelectedIcon(null);
           }}

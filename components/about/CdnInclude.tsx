@@ -30,14 +30,7 @@ export const CdnInclude: React.FC<CdnIncludeProps> = ({ text, url }) => {
               <span>CDN Link</span>
             </SnippetTabsTrigger>
           </SnippetTabsList>
-          <SnippetCopyButton
-            onCopy={() => console.log(`Copied "${link}" to clipboard`)}
-            onError={() =>
-              console.error(`Failed to copy "${link}" to clipboard`)
-            }
-            value={link}
-            className="cursor-pointer"
-          />
+          <SnippetCopyButton value={link} className="cursor-pointer" />
         </SnippetHeader>
         <SnippetTabsContent value="cdn">{link}</SnippetTabsContent>
       </Snippet>

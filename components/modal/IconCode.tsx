@@ -9,19 +9,18 @@ interface IconCodeProps {
 
 export const IconCode: React.FC<IconCodeProps> = ({ iconClass }) => {
   const { copied, handleCopy } = useCopy();
+  const snippet = `<i class="ci ci-${iconClass}"></i>`;
 
   return (
     <div className="flex items-center group">
       <pre className="flex-1 text-xs sm:text-sm whitespace-pre-wrap">
-        <code
-          className={rubik.className}
-        >{`<i class="ci ci-${iconClass}"></i>`}</code>
+        <code className={rubik.className}>{snippet}</code>
       </pre>
 
       <Button
         variant="ghost"
         size="sm"
-        onClick={() => handleCopy(`<i class="ci ci-${iconClass}"></i>`)}
+        onClick={() => handleCopy(snippet)}
         className="m-2 hover:bg-gray-300/50 transition-all h-auto p-2 cursor-pointer"
         title="Copy to clipboard"
       >

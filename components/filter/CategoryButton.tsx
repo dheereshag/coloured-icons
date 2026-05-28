@@ -15,7 +15,6 @@ export const CategoryButton: React.FC<CategoryButtonProps> = ({
 }) => {
   return (
     <Button
-      key={category.name}
       variant={isSelected ? "default" : "ghost"}
       onClick={() => onClick(category)}
       className={`inline-flex items-center whitespace-nowrap lg:justify-start transition-transform duration-150 active:scale-95 ${
