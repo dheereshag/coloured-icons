@@ -21,9 +21,9 @@ export function SearchBox() {
     <div className="relative animate-in fade-in slide-in-from-bottom-1">
       <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
       <Input
-        placeholder="Search"
+        placeholder="Search icons…"
         type="search"
-        className="pl-8 focus-visible:ring-purple-700 focus-visible:border-gray-200 transition-shadow"
+        className="pl-8 h-10 focus-visible:ring-purple-600 focus-visible:border-transparent transition-shadow"
         ref={ref}
         value={search}
         onChange={(e) => setSearch(e.target.value)}

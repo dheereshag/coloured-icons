@@ -13,7 +13,7 @@ export const UsageList: React.FC<UsageListProps> = ({ icon, onHover }) => {
       {icon.classes.map((iconClass) => (
         <div
           key={iconClass}
-          className="bg-gray-300 px-2 rounded-xl flex items-center gap-4 shadow-xs h-20"
+          className="bg-slate-50 border border-slate-200 px-3 rounded-xl flex items-center gap-4 h-20 hover:border-slate-300 hover:bg-white transition-colors"
         >
           <i
             className={`ci ci-${iconClass} ci-${computeIconSize(icon)}x mx-3 cursor-pointer transition-all duration-200`}

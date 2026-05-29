@@ -11,8 +11,16 @@ interface IconCardProps {
 export const IconCard: React.FC<IconCardProps> = ({ icon, onClick }) => {
   return (
     <Card
+      role="button"
+      tabIndex={0}
       onClick={onClick}
-      className="w-full text-left rounded-lg border-2 p-0 cursor-pointer hover:border-purple-400 hover:shadow-md transition-transform duration-200 hover:scale-[1.015]"
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          onClick?.();
+        }
+      }}
+      className="w-full text-left rounded-xl border border-slate-200 p-0 cursor-pointer hover:border-purple-300 hover:shadow-md hover:shadow-purple-50 transition-all duration-200 hover:scale-[1.012] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-500 focus-visible:ring-offset-1"
     >
       <CardContent className="flex gap-3 p-3 sm:p-4 items-center w-full">
         <IconCardImage icon={icon} />

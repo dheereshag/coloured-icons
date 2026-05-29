@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { SearchContextProvider } from "@/context/SearchContextProvider";
-import { outfit } from "@/lib/fonts";
+import { plusJakartaSans } from "@/lib/fonts";
 import { SITE } from "@/constants/site";
 import { Navbar } from "@/components/navbar";
 
@@ -95,16 +95,22 @@ export default function RootLayout({
     },
   };
   return (
-    <html lang="en" className="scroll-smooth overflow-y-scroll" data-scroll-behavior="smooth">
-      <body className={`px-8 ${outfit.className} antialiased`}>
+    <html
+      lang="en"
+      className="scroll-smooth overflow-y-scroll"
+      data-scroll-behavior="smooth"
+    >
+      <body className={`px-8 ${plusJakartaSans.className} antialiased`}>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
         <SearchContextProvider>
-          <section className="max-w-7xl mx-auto">
-            <Navbar />
-          </section>
+          <div className="sticky top-0 z-40 -mx-8 px-8 bg-white/90 backdrop-blur-md border-b border-slate-100/80">
+            <div className="max-w-7xl mx-auto">
+              <Navbar />
+            </div>
+          </div>
           {children}
         </SearchContextProvider>
       </body>

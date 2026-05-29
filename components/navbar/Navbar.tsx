@@ -39,7 +39,7 @@ export const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
   }, [pathname, handleSearchClick]);
 
   return (
-    <nav className="my-6" aria-label="Global">
+    <nav className="py-4" aria-label="Global">
       <div className="flex items-center justify-between gap-4">
         {/* Left side - Logo (and hamburger on mobile) */}
         <div className="flex items-center gap-4">
