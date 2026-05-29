@@ -95,7 +95,7 @@ export default function RootLayout({
     },
   };
   return (
-    <html lang="en" className="scroll-smooth overflow-y-scroll">
+    <html lang="en" className="scroll-smooth overflow-y-scroll" data-scroll-behavior="smooth">
       <body className={`px-8 ${outfit.className} antialiased`}>
         <script
           type="application/ld+json"
