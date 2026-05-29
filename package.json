@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": false,
   "type": "module",
+  "packageManager": "pnpm@11.5.0",
   "scripts": {
     "dev": "node scripts/listFolders.js && next dev",
     "build": "node scripts/listFolders.js && next build",
