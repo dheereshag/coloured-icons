@@ -8,7 +8,6 @@ import {
   SnippetTabsTrigger,
 } from "@/components/ui/kibo-ui/snippet";
 import { LinkIcon } from "lucide-react";
-import { useState } from "react";
 
 interface CdnIncludeProps {
   text: string;
@@ -17,12 +16,11 @@ interface CdnIncludeProps {
 
 export const CdnInclude: React.FC<CdnIncludeProps> = ({ text, url }) => {
   const link = `<link rel="stylesheet" href="${url}" />`;
-  const [value, setValue] = useState("cdn");
 
   return (
     <>
       <p className="text-gray-600 my-4">{text}</p>
-      <Snippet onValueChange={setValue} value={value}>
+      <Snippet value="cdn">
         <SnippetHeader>
           <SnippetTabsList>
             <SnippetTabsTrigger value="cdn">

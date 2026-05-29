@@ -40,12 +40,11 @@ export const MobileMenu = () => {
             aria-label="Main navigation"
           >
             {menuItems.map((item) => (
-              <div key={item.href}>
-                <MobileMenuItem
-                  item={item}
-                  onClick={() => setIsMenuOpen(false)}
-                />
-              </div>
+              <MobileMenuItem
+                key={item.href}
+                item={item}
+                onClick={() => setIsMenuOpen(false)}
+              />
             ))}
           </nav>
         </PopoverContent>

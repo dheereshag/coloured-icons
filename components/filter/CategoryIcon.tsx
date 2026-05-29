@@ -17,8 +17,6 @@ import {
   type LucideIcon,
 } from "lucide-react";
 
-const margin = "mr-2";
-
 const iconMap: Record<string, LucideIcon> = {
   all: Grid3x3,
   "art and music": Palette,
@@ -37,10 +35,7 @@ const iconMap: Record<string, LucideIcon> = {
   universities: School,
 };
 
-export const getCategoryIcon = (categoryName: string) => {
-  const Icon = iconMap[categoryName.toLowerCase()];
-  return Icon ? <Icon className={margin} /> : null;
+export const CategoryIcon = ({ name }: { name: string }) => {
+  const Icon = iconMap[name.toLowerCase()];
+  return Icon ? <Icon className="mr-2" /> : null;
 };
-
-export const CategoryIcon = ({ name }: { name: string }) =>
-  getCategoryIcon(name);

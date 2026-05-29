@@ -11,7 +11,6 @@ import {
   ComboboxTrigger,
 } from "@/components/ui/kibo-ui/combobox";
 import { Category } from "@/interfaces";
-import { useState } from "react";
 import { CategoryIcon } from ".";
 
 interface DropdownProps {
@@ -23,15 +22,12 @@ export const Dropdown: React.FC<DropdownProps> = ({
   categories,
   onCategoryChange,
 }) => {
-  const [, setValue] = useState("");
-
   const categoryData = categories.map((category) => ({
     value: category.name,
     label: category.name,
   }));
 
   const handleValueChange = (newValue: string) => {
-    setValue(newValue);
     const selectedCategory = categories.find((cat) => cat.name === newValue);
     if (selectedCategory && onCategoryChange) {
       onCategoryChange(selectedCategory);
