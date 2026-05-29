@@ -7,7 +7,7 @@
     "dev": "node scripts/listFolders.js && next dev",
     "build": "node scripts/listFolders.js && next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint",
     "minify:logos": "cleancss -o app/logos.min.css app/logos.css",
     "minify:ci": "cleancss -o app/ci.min.css app/ci.css",
     "minify": "pnpm run minify:logos && pnpm run minify:ci"
@@ -32,7 +32,6 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.5",
     "@tailwindcss/forms": "^0.5.11",
     "@tailwindcss/postcss": "^4.3.0",
     "@types/node": "^25.9.1",
@@ -40,7 +39,7 @@
     "@types/react-dom": "^19.2.3",
     "babel-plugin-react-compiler": "19.1.0-rc.2",
     "clean-css-cli": "^5.6.3",
-    "eslint": "^10.4.0",
+    "eslint": "^9.39.4",
     "eslint-config-next": "16.1.6",
     "postcss": "^8.5.15",
     "tailwindcss": "^4.3.0",
