@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useContext, useEffect, useCallback } from "react";
+import { useRef, useContext, useEffect, useCallback } from "react";
 import { SearchContext } from "@/context/SearchContextProvider";
 import { usePathname } from "next/navigation";
 import { Logo, MobileMenu, DesktopMenu, SearchButton } from ".";
@@ -12,7 +12,7 @@ interface NavbarProps {
 export const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
   const pathname = usePathname();
 
-  const [pendingFocus, setPendingFocus] = useState(false);
+  const pendingFocusRef = useRef(false);
   const { triggerFocus } = useContext(SearchContext);
 
   const handleSearchClick = useCallback(() => {
@@ -32,11 +32,11 @@ export const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
   }, [triggerFocus]);
 
   useEffect(() => {
-    if (pendingFocus && pathname === "/") {
+    if (pendingFocusRef.current && pathname === "/") {
+      pendingFocusRef.current = false;
       handleSearchClick();
-      setPendingFocus(false);
     }
-  }, [pathname, pendingFocus, handleSearchClick]);
+  }, [pathname, handleSearchClick]);
 
   return (
     <nav className="my-6" aria-label="Global">
@@ -61,7 +61,7 @@ export const Navbar: React.FC<NavbarProps> = ({ hideSearch = false }) => {
                   e.preventDefault();
                   handleSearchClick();
                 } else {
-                  setPendingFocus(true);
+                  pendingFocusRef.current = true;
                 }
               }}
             />
