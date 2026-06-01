@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { MenuItem } from "@/constants/nav";
+import { cn } from "@/lib/utils";
 
 interface Props {
   item: MenuItem;
@@ -32,9 +33,7 @@ export const MobileMenuItem: React.FC<Props> = ({ item, onClick }) => {
   return (
     <Link
       href={item.href}
-      className={`${baseClass} ${
-        active ? "text-foreground font-semibold bg-accent" : ""
-      }`}
+      className={cn(baseClass, active && "text-foreground font-semibold bg-accent")}
       onClick={onClick}
     >
       {item.label}

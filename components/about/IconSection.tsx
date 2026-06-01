@@ -9,7 +9,7 @@ interface IconSectionProps {
 export const IconSection: React.FC<IconSectionProps> = ({ title, icons }) => {
   return (
     <section>
-      <h2 className="text-2xl font-bold mb-4">{title}</h2>
+      <h3 className="text-xl font-bold mb-4">{title}</h3>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
         {icons.map((icon) => (
           <IconCard key={icon.name} icon={icon} />

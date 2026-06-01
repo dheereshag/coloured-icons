@@ -6,7 +6,7 @@ export const Hero = () => (
     <h1 className="mt-4 text-4xl sm:text-6xl text-gray-900 font-bold tracking-tight leading-tight">
       Zero downloads. Zero build steps.
       <br />
-      <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
+      <span className="bg-linear-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
         Just pure CDN magic.
       </span>
     </h1>

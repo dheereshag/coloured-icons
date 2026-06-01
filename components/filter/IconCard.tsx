@@ -1,3 +1,4 @@
+"use client";
 import { Icon } from "@/interfaces";
 import { Card, CardContent } from "@/components/ui/card";
 import { IconCardImage } from "./IconCardImage";

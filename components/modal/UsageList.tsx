@@ -1,3 +1,4 @@
+"use client";
 import { Icon } from "@/interfaces";
 import { IconCode } from ".";
 import { computeIconSize } from "@/lib/utils";

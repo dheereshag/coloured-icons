@@ -8,6 +8,7 @@ import {
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { menuItems } from "@/constants";
+import { cn } from "@/lib/utils";
 
 export const DesktopMenu = () => {
   const pathname = usePathname();
@@ -33,9 +34,10 @@ export const DesktopMenu = () => {
                 <NavigationMenuLink asChild>
                   <Link
                     href={item.href}
-                    className={`text-muted-foreground hover:text-foreground transition-colors font-semibold ${
-                      pathname === item.href ? "text-foreground" : ""
-                    }`}
+                    className={cn(
+                      "text-muted-foreground hover:text-foreground transition-colors font-semibold",
+                      pathname === item.href && "text-foreground",
+                    )}
                   >
                     {item.label}
                   </Link>

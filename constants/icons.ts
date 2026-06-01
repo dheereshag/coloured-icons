@@ -1,4 +1,6 @@
-const icons = [
+import type { Icon } from "@/interfaces";
+
+const icons: Icon[] = [
   {
     "name": "Bear",
     "category": "animals",

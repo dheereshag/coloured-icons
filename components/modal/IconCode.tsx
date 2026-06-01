@@ -1,3 +1,4 @@
+"use client";
 import { Clipboard, ClipboardCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import useCopy from "@/hooks/useCopy";

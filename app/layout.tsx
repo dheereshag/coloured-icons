@@ -4,6 +4,7 @@ import { SearchContextProvider } from "@/context/SearchContextProvider";
 import { plusJakartaSans } from "@/lib/fonts";
 import { SITE } from "@/constants/site";
 import { Navbar } from "@/components/navbar";
+import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -77,33 +78,33 @@ export const viewport: Viewport = {
   themeColor: SITE.themeColor,
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE.name,
+  url: SITE.url,
+  description: SITE.description,
+  sameAs: [SITE.repoUrl, `https://x.com/${SITE.twitter.replace("@", "")}`],
+  author: {
+    "@type": "Person",
+    name: SITE.creator,
+  },
+};
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: SITE.name,
-    url: SITE.url,
-    description: SITE.description,
-    sameAs: [SITE.repoUrl, `https://x.com/${SITE.twitter.replace("@", "")}`],
-    author: {
-      "@type": "Person",
-      name: SITE.creator,
-    },
-  };
   return (
     <html
       lang="en"
       className="scroll-smooth overflow-y-scroll"
-      data-scroll-behavior="smooth"
     >
-      <body className={`px-8 ${plusJakartaSans.className} antialiased`}>
+      <body className={cn(plusJakartaSans.className, "px-8 antialiased")}>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <SearchContextProvider>
           <div className="sticky top-0 z-40 -mx-8 px-8 bg-white/90 backdrop-blur-md border-b border-slate-100/80">
