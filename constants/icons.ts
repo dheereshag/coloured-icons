@@ -1,6 +1,4 @@
-import type { Icon } from "@/interfaces";
-
-const icons: Icon[] = [
+const icons = [
   {
     "name": "Bear",
     "category": "animals",
@@ -6332,7 +6330,7 @@ const icons: Icon[] = [
     "classes": [
       "iitb"
     ],
-    "url": "iitb.ac.in"
+    "url": "https://iitb.ac.in"
   },
   {
     "name": "IIT Kanpur",
@@ -6340,7 +6338,7 @@ const icons: Icon[] = [
     "classes": [
       "iitk"
     ],
-    "url": "iitk.ac.in"
+    "url": "https://iitk.ac.in"
   },
   {
     "name": "IIT Madras",
@@ -6348,7 +6346,7 @@ const icons: Icon[] = [
     "classes": [
       "iitm"
     ],
-    "url": "iitm.ac.in"
+    "url": "https://iitm.ac.in"
   }
 ];
 export default icons;
